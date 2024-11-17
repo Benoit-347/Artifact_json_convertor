@@ -80,10 +80,10 @@ def update_stat_values(a, b):  #'EmblemOfSeveredFate'  "ScrollOfTheHeroOfCinderC
         CR=0.99
         ER=0
         ATK_=0
-        HP_=0.24
+        HP_=0.71
         EM=em
         Atk=0
-        Hp=0.71
+        Hp=0.24
         DEF_=0
         Def=0
 
@@ -127,12 +127,9 @@ def get_roll(a):
 
 #the main program to get each artifact's details and put substats into newlines 
 def change_values():
-    j = 0
     for dict1 in list_of_dicts:
         get_roll(dict1['substats'])
         dict1['substats'] = get_roll(dict1['substats'])
-        j += 1
-        print(f"{j}st iteration of get values")
     else:
         print(f"\nDone analysis and change of substat values\n")
 
@@ -217,33 +214,33 @@ def combine_write_to_csv(artifact_name, rolls_1, level_1, rolls_2, level_2, sans
         writer.writerow(get_keys())
         final = [[]]
         print(f"\n--*--Starting 1st data import--*--\n\n")
-        final.extend(change_to_list(get_artifact(artifact_name, "flower", ['hp'], rolls_1+0.5, level_1)))
+        final.extend(change_to_list(get_artifact(artifact_name, "flower", ['hp'], rolls_1, level_1)))
         final.append([])
-        final.extend(change_to_list(get_artifact(artifact_name, "flower", ['hp'] ,rolls_2+1, level_2)))
+        final.extend(change_to_list(get_artifact(artifact_name, "flower", ['hp'] ,rolls_2, level_2)))
         final.extend([[],[]])
 
         print(f"\n--*--Starting 2st data import--*--\n\n")
-        final.extend(change_to_list(get_artifact(artifact_name, "plume", ['atk'], rolls_1+0.5, level_1)))
+        final.extend(change_to_list(get_artifact(artifact_name, "plume", ['atk'], rolls_1, level_1)))
         final.append([])
-        final.extend(change_to_list(get_artifact(artifact_name, "plume", ['atk'], rolls_2+1, level_2)))
+        final.extend(change_to_list(get_artifact(artifact_name, "plume", ['atk'], rolls_2, level_2)))
         final.extend([[],[]])
         
         print(f"\n--*--Starting 3st data import--*--\n\n")
-        final.extend(change_to_list(get_artifact(artifact_name, "sands", sans, rolls_1, level_1)))
+        final.extend(change_to_list(get_artifact(artifact_name, "sands", sans, rolls_1-0.72, level_1)))
         final.append([])
-        final.extend(change_to_list(get_artifact(artifact_name, "sands", sans, rolls_2-0.5, level_2)))
+        final.extend(change_to_list(get_artifact(artifact_name, "sands", sans, 4, level_2)))
         final.extend([[],[]])
 
         print(f"\n--*--Starting 4st data import--*--\n\n")
-        final.extend(change_to_list(get_artifact(artifact_name, "goblet", goblet, rolls_1-0.5, level_1)))
+        final.extend(change_to_list(get_artifact(artifact_name, "goblet", goblet, 4, level_1)))
         final.append([])
         final.extend(change_to_list(get_artifact(artifact_name, "goblet", goblet, rolls_2-1, level_2)))
         final.extend([[],[]])
 
         print(f"\n--*--Starting 5st data import--*--\n\n")
-        final.extend(change_to_list(get_artifact(artifact_name, "circlet", circlet, rolls_1-0.5, level_1))) 
+        final.extend(change_to_list(get_artifact(artifact_name, "circlet", circlet, 4, level_1))) 
         final.append([])
-        final.extend(change_to_list(get_artifact(artifact_name, "circlet", circlet, rolls_2-1, level_2)))
+        final.extend(change_to_list(get_artifact(artifact_name, "circlet", circlet, 4, level_2)))
         final.extend([[],[]])
 
         print(f"\n--*--Starting write operation--*--\n")
@@ -253,16 +250,16 @@ def combine_write_to_csv(artifact_name, rolls_1, level_1, rolls_2, level_2, sans
     os.startfile(file_name)
 
 def main():
-    artifact_name = "ObsidianCodex"   #'EmblemOfSeveredFate'  "ScrollOfTheHeroOfCinderCity"   "ObsidianCodex"  "GoldenTroupe"
+    artifact_name = 'EmblemOfSeveredFate'   #'EmblemOfSeveredFate'  "ScrollOfTheHeroOfCinderCity"   "ObsidianCodex"  "GoldenTroupe"
     rolls_1 = 1.5
     level_1 = 7
     rolls_2 = 6
     level_2 = 20
-    EM = 1
+    EM = 0
 
     update_stat_values(artifact_name, EM)
     change_values()
-    combine_write_to_csv(artifact_name, rolls_1, level_1, rolls_2, level_2,['hp_', 'eleMas'], ['hydro_dmg_', 'hp_'], ['critDMG_'], EM, 0)   #sans: hp_  atk_  enerRech_  eleMas
+    combine_write_to_csv(artifact_name, rolls_1, level_1, rolls_2, level_2,['atk_',  'enerRech_', 'eleMas'], ['hydro_dmg_', 'electro_dmg_',  'pyro_dmg_'], ['critDMG_', 'critRate_'] , EM, 0)   #sans: hp_  atk_  enerRech_  eleMas
                                                                 #obsidian:  ['hp_', 'eleMas'], ['hydro_dmg_', 'hp_'], ['critDMG_']         #gob: electro_dmg_  hydro_dmg_,  pyro_dmg_  
                                                                 #EmblemOfSeveredFate:   ['atk_',  'enerRech_', 'eleMas'], ['hydro_dmg_', 'electro_dmg_',  'pyro_dmg_'], ['critDMG_', 'critRate_']  #circlet: critDMG_  critRate_
 

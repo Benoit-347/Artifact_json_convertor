@@ -46,23 +46,26 @@ EmblemOfSeveredFate,sands,5,eleMas,0,,True,618,1.63
 EmblemOfSeveredFate,sands,5,eleMas,4,,False,291,1.18
 
 EmblemOfSeveredFate,sands,5,atk_,20,Xingqiu,True,71,6.58
+EmblemOfSeveredFate,sands,5,enerRech_,20,RaidenShogun,True,68,5.44
+EmblemOfSeveredFate,sands,5,eleMas,20,Charlotte,True,70,4.81
+EmblemOfSeveredFate,sands,5,atk_,20,KujouSara,True,72,4.75
+EmblemOfSeveredFate,sands,5,enerRech_,20,Xiangling,True,67,4.54
+EmblemOfSeveredFate,sands,5,enerRech_,20,,False,77,4.48
+EmblemOfSeveredFate,sands,5,enerRech_,20,ShikanoinHeizou,True,76,4.45
+EmblemOfSeveredFate,sands,5,atk_,20,Diluc,False,69,4.26
 
 
-EmblemOfSeveredFate,goblet,5,electro_dmg_,4,,False,295,1.32
-EmblemOfSeveredFate,goblet,5,pyro_dmg_,4,,False,296,0.96
+EmblemOfSeveredFate,goblet,,,,,,,
 
 EmblemOfSeveredFate,goblet,5,electro_dmg_,20,RaidenShogun,True,88,5.67
 
 
-EmblemOfSeveredFate,circlet,5,critDMG_,4,,False,300,1.51
-EmblemOfSeveredFate,circlet,5,critRate_,4,,False,298,1.41
-EmblemOfSeveredFate,circlet,5,critRate_,6,,False,247,1.35
-EmblemOfSeveredFate,circlet,5,critDMG_,0,,True,624,1.33
-EmblemOfSeveredFate,circlet,5,critDMG_,0,,True,627,1.28
-EmblemOfSeveredFate,circlet,5,critRate_,4,,False,297,1.26
-EmblemOfSeveredFate,circlet,5,critRate_,0,,False,626,1.06
-EmblemOfSeveredFate,circlet,5,critRate_,4,,False,305,1.05
+EmblemOfSeveredFate,circlet,,,,,,,
 
 EmblemOfSeveredFate,circlet,5,critDMG_,20,Beidou,True,89,5.37
+EmblemOfSeveredFate,circlet,5,critRate_,20,Xiangling,True,91,4.07
+EmblemOfSeveredFate,circlet,5,critRate_,20,,True,90,4.05
+EmblemOfSeveredFate,circlet,5,critRate_,20,RaidenShogun,True,94,4.04
+EmblemOfSeveredFate,circlet,5,critRate_,20,,True,97,4.01
 
 

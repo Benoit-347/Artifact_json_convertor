@@ -1,5 +1,13 @@
 setKey,slotKey,rarity,mainStatKey,level,location,lock,id
-ObsidianCodex,flower,5,hp,20,Chongyun,True,0
+ObsidianCodex,flower,5,hp,20,,True,0
+
+key,value
+critRate_,3.9
+hp_,21.6
+def,16.0
+eleMas,44.0
+
+ObsidianCodex,flower,5,hp,20,Chongyun,True,1
 
 key,value
 enerRech_,11.0
@@ -7,7 +15,23 @@ hp_,8.7
 critDMG_,19.4
 critRate_,7.4
 
-ObsidianCodex,goblet,5,def_,20,Xilonen,True,1
+ObsidianCodex,flower,5,hp,20,,True,2
+
+key,value
+critRate_,10.1
+enerRech_,11.0
+hp_,4.1
+critDMG_,10.9
+
+ObsidianCodex,plume,5,atk,20,Chongyun,True,3
+
+key,value
+def_,10.2
+critRate_,9.7
+critDMG_,21.0
+eleMas,23.0
+
+ObsidianCodex,goblet,5,def_,20,Xilonen,True,4
 
 key,value
 atk,29.0
@@ -15,7 +39,7 @@ critRate_,7.0
 critDMG_,14.8
 enerRech_,12.3
 
-ObsidianCodex,circlet,5,critDMG_,20,Chongyun,True,2
+ObsidianCodex,circlet,5,critDMG_,20,Chongyun,True,5
 
 key,value
 eleMas,56.0
@@ -23,7 +47,7 @@ atk_,5.8
 critRate_,12.1
 enerRech_,4.5
 
-ScrollOfTheHeroOfCinderCity,flower,5,hp,20,Xilonen,True,3
+ScrollOfTheHeroOfCinderCity,flower,5,hp,20,Xilonen,True,6
 
 key,value
 critDMG_,19.4
@@ -31,7 +55,7 @@ critRate_,2.7
 enerRech_,10.4
 hp_,9.3
 
-ScrollOfTheHeroOfCinderCity,plume,5,atk,20,Xilonen,True,4
+ScrollOfTheHeroOfCinderCity,plume,5,atk,20,Xilonen,True,7
 
 key,value
 enerRech_,20.1
@@ -39,7 +63,7 @@ critDMG_,14.0
 hp,269.0
 def_,10.2
 
-ScrollOfTheHeroOfCinderCity,sands,5,def_,20,Xilonen,True,5
+ScrollOfTheHeroOfCinderCity,sands,5,def_,20,Xilonen,True,8
 
 key,value
 critRate_,2.7
@@ -47,7 +71,7 @@ def,53.0
 enerRech_,12.3
 eleMas,40.0
 
-ScrollOfTheHeroOfCinderCity,circlet,5,heal_,20,Xilonen,True,6
+ScrollOfTheHeroOfCinderCity,circlet,5,heal_,20,Xilonen,True,9
 
 key,value
 def,44.0
@@ -55,7 +79,7 @@ critRate_,9.3
 def_,10.2
 eleMas,44.0
 
-GoldenTroupe,flower,5,hp,20,Furina,True,7
+GoldenTroupe,flower,5,hp,20,Furina,True,10
 
 key,value
 critRate_,7.0
@@ -63,7 +87,7 @@ eleMas,23.0
 hp_,8.7
 critDMG_,30.3
 
-GoldenTroupe,flower,5,hp,20,Gorou,True,8
+GoldenTroupe,flower,5,hp,20,Gorou,True,11
 
 key,value
 critDMG_,20.2
@@ -71,7 +95,7 @@ hp_,11.7
 critRate_,6.6
 atk_,10.5
 
-GoldenTroupe,flower,5,hp,20,Thoma,True,9
+GoldenTroupe,flower,5,hp,20,Thoma,True,12
 
 key,value
 atk_,8.7
@@ -79,7 +103,7 @@ critDMG_,13.2
 eleMas,42.0
 hp_,15.2
 
-GoldenTroupe,plume,5,atk,20,Furina,True,10
+GoldenTroupe,plume,5,atk,20,Furina,True,13
 
 key,value
 atk_,4.1
@@ -87,7 +111,7 @@ hp_,4.7
 critRate_,14.0
 critDMG_,21.0
 
-GoldenTroupe,plume,5,atk,20,Fischl,True,11
+GoldenTroupe,plume,5,atk,20,Fischl,True,14
 
 key,value
 eleMas,42.0
@@ -95,7 +119,7 @@ critRate_,11.3
 hp,239.0
 critDMG_,14.0
 
-GoldenTroupe,plume,5,atk,20,Traveler,True,12
+GoldenTroupe,plume,5,atk,20,Traveler,True,15
 
 key,value
 critRate_,6.6
@@ -103,7 +127,7 @@ critDMG_,21.0
 hp,448.0
 hp_,4.7
 
-GoldenTroupe,sands,5,hp_,20,Gorou,True,13
+GoldenTroupe,sands,5,hp_,20,Gorou,True,16
 
 key,value
 eleMas,42.0
@@ -111,7 +135,7 @@ atk,19.0
 def,56.0
 critDMG_,18.7
 
-GoldenTroupe,sands,5,atk_,20,Traveler,True,14
+GoldenTroupe,sands,5,atk_,20,Traveler,True,17
 
 key,value
 hp,478.0
@@ -119,7 +143,7 @@ critRate_,7.4
 def,56.0
 critDMG_,7.8
 
-GoldenTroupe,goblet,5,hydro_dmg_,20,Furina,True,15
+GoldenTroupe,goblet,5,hydro_dmg_,20,Furina,True,18
 
 key,value
 atk,16.0
@@ -127,7 +151,7 @@ critDMG_,18.7
 critRate_,6.2
 hp_,10.5
 
-GoldenTroupe,circlet,5,critDMG_,20,Furina,True,16
+GoldenTroupe,circlet,5,critDMG_,20,Furina,True,19
 
 key,value
 hp_,10.5
@@ -135,7 +159,7 @@ atk_,4.7
 critRate_,10.5
 atk,31.0
 
-GoldenTroupe,circlet,5,critRate_,20,Fischl,True,17
+GoldenTroupe,circlet,5,critRate_,20,Fischl,True,20
 
 key,value
 critDMG_,13.2
@@ -143,7 +167,15 @@ atk,53.0
 atk_,9.3
 hp,209.0
 
-FlowerOfParadiseLost,flower,5,hp,20,Barbara,True,18
+FlowerOfParadiseLost,flower,5,hp,20,Yaoyao,True,22
+
+key,value
+def,60.0
+eleMas,16.0
+hp_,4.1
+enerRech_,23.3
+
+FlowerOfParadiseLost,flower,5,hp,20,Barbara,True,21
 
 key,value
 def,35.0
@@ -151,15 +183,7 @@ enerRech_,5.8
 eleMas,56.0
 hp_,15.7
 
-FlowerOfParadiseLost,flower,5,hp,20,Yaoyao,True,19
-
-key,value
-def,60.0
-eleMas,16.0
-hp_,4.1
-enerRech_,23.3
-
-FlowerOfParadiseLost,flower,5,hp,20,,True,20
+FlowerOfParadiseLost,flower,5,hp,20,,True,23
 
 key,value
 enerRech_,4.5
@@ -167,7 +191,7 @@ hp_,5.8
 eleMas,98.0
 critDMG_,5.4
 
-FlowerOfParadiseLost,plume,5,atk,20,,True,21
+FlowerOfParadiseLost,plume,5,atk,20,,True,24
 
 key,value
 eleMas,65.0
@@ -175,7 +199,7 @@ hp,299.0
 enerRech_,18.8
 critDMG_,7.8
 
-FlowerOfParadiseLost,sands,5,eleMas,20,,True,22
+FlowerOfParadiseLost,sands,5,eleMas,20,,True,25
 
 key,value
 critDMG_,21.0
@@ -183,7 +207,7 @@ critRate_,3.9
 atk_,11.1
 hp,508.0
 
-FlowerOfParadiseLost,circlet,5,eleMas,20,,True,23
+FlowerOfParadiseLost,circlet,5,eleMas,20,,True,26
 
 key,value
 atk_,12.8
@@ -191,7 +215,7 @@ critRate_,7.0
 def,37.0
 atk,19.0
 
-GildedDreams,flower,5,hp,20,YunJin,True,24
+GildedDreams,flower,5,hp,20,YunJin,True,27
 
 key,value
 enerRech_,10.4
@@ -199,7 +223,7 @@ atk_,15.2
 critDMG_,7.8
 critRate_,5.8
 
-GildedDreams,flower,5,hp,20,Keqing,True,25
+GildedDreams,flower,5,hp,20,Keqing,True,28
 
 key,value
 enerRech_,12.3
@@ -207,7 +231,7 @@ eleMas,37.0
 critDMG_,21.0
 atk_,5.3
 
-GildedDreams,flower,5,hp,20,,True,26
+GildedDreams,flower,5,hp,20,,True,29
 
 key,value
 critRate_,7.4
@@ -215,7 +239,7 @@ eleMas,82.0
 atk,19.0
 atk_,4.1
 
-GildedDreams,plume,5,atk,20,Keqing,True,27
+GildedDreams,plume,5,atk,20,Keqing,True,30
 
 key,value
 hp,478.0
@@ -223,7 +247,7 @@ atk_,5.3
 critDMG_,14.0
 critRate_,13.6
 
-GildedDreams,plume,5,atk,20,Thoma,True,28
+GildedDreams,plume,5,atk,20,Thoma,True,31
 
 key,value
 hp_,11.1
@@ -231,7 +255,7 @@ critDMG_,13.2
 eleMas,16.0
 hp,837.0
 
-GildedDreams,plume,5,atk,20,YunJin,True,29
+GildedDreams,plume,5,atk,20,YunJin,True,32
 
 key,value
 eleMas,54.0
@@ -239,7 +263,7 @@ atk_,8.2
 def,21.0
 critDMG_,14.8
 
-GildedDreams,sands,5,hp_,20,YunJin,True,30
+GildedDreams,sands,5,hp_,20,YunJin,True,33
 
 key,value
 critDMG_,7.8
@@ -247,7 +271,7 @@ def_,10.2
 hp,747.0
 enerRech_,11.7
 
-GildedDreams,sands,5,eleMas,20,,True,31
+GildedDreams,sands,5,eleMas,20,,True,34
 
 key,value
 def,19.0
@@ -255,7 +279,7 @@ hp,1076.0
 enerRech_,9.7
 critRate_,3.1
 
-GildedDreams,sands,5,hp_,20,Nilou,True,32
+GildedDreams,sands,5,hp_,20,Nilou,True,35
 
 key,value
 eleMas,65.0
@@ -263,7 +287,7 @@ enerRech_,15.5
 critDMG_,7.8
 def_,5.8
 
-GildedDreams,goblet,5,dendro_dmg_,20,Tighnari,True,33
+GildedDreams,goblet,5,dendro_dmg_,20,Tighnari,True,36
 
 key,value
 atk_,5.8
@@ -271,7 +295,7 @@ critRate_,11.7
 eleMas,44.0
 hp,508.0
 
-GildedDreams,goblet,5,eleMas,20,,True,34
+GildedDreams,goblet,5,eleMas,20,,True,37
 
 key,value
 enerRech_,11.0
@@ -279,7 +303,7 @@ atk_,9.3
 atk,29.0
 hp_,11.1
 
-GildedDreams,circlet,5,hp_,20,Nilou,True,35
+GildedDreams,circlet,5,hp_,20,Nilou,True,38
 
 key,value
 hp,508.0
@@ -287,7 +311,7 @@ eleMas,33.0
 critDMG_,14.0
 def_,13.1
 
-GildedDreams,circlet,5,critRate_,20,Tighnari,True,36
+GildedDreams,circlet,5,critRate_,20,Tighnari,True,39
 
 key,value
 atk_,8.7
@@ -295,7 +319,7 @@ critDMG_,6.2
 eleMas,63.0
 def,37.0
 
-DeepwoodMemories,flower,5,hp,20,Mika,True,37
+DeepwoodMemories,flower,5,hp,20,Mika,True,40
 
 key,value
 atk,18.0
@@ -303,7 +327,7 @@ hp_,10.5
 def,39.0
 eleMas,89.0
 
-DeepwoodMemories,flower,5,hp,20,Collei,True,38
+DeepwoodMemories,flower,5,hp,20,Collei,True,41
 
 key,value
 atk_,15.2
@@ -311,7 +335,7 @@ critRate_,6.2
 enerRech_,12.3
 critDMG_,11.7
 
-DeepwoodMemories,flower,5,hp,20,Nahida,True,39
+DeepwoodMemories,flower,5,hp,20,Nahida,True,42
 
 key,value
 critDMG_,19.4
@@ -319,7 +343,7 @@ critRate_,2.7
 eleMas,70.0
 enerRech_,6.5
 
-DeepwoodMemories,plume,5,atk,20,Gorou,True,40
+DeepwoodMemories,plume,5,atk,20,Gorou,True,43
 
 key,value
 atk_,9.3
@@ -327,7 +351,7 @@ critDMG_,13.2
 enerRech_,12.3
 eleMas,44.0
 
-DeepwoodMemories,sands,5,eleMas,20,Nahida,True,41
+DeepwoodMemories,sands,5,eleMas,20,Nahida,True,44
 
 key,value
 def_,13.9
@@ -335,7 +359,7 @@ critRate_,9.7
 hp_,8.7
 enerRech_,13.0
 
-DeepwoodMemories,sands,5,enerRech_,20,Beidou,True,42
+DeepwoodMemories,sands,5,enerRech_,20,Beidou,True,45
 
 key,value
 critDMG_,11.7
@@ -343,7 +367,7 @@ eleMas,16.0
 def,42.0
 hp,717.0
 
-DeepwoodMemories,goblet,5,eleMas,20,Nahida,True,43
+DeepwoodMemories,goblet,5,eleMas,20,Nahida,True,46
 
 key,value
 def,42.0
@@ -351,7 +375,7 @@ hp_,5.8
 critDMG_,28.0
 critRate_,3.5
 
-DeepwoodMemories,circlet,5,eleMas,20,Nahida,True,44
+DeepwoodMemories,circlet,5,eleMas,20,Nahida,True,47
 
 key,value
 critRate_,6.2
@@ -359,7 +383,7 @@ hp,239.0
 def_,5.1
 critDMG_,24.9
 
-DeepwoodMemories,circlet,5,critRate_,20,Collei,True,45
+DeepwoodMemories,circlet,5,critRate_,20,Collei,True,48
 
 key,value
 hp_,5.8
@@ -367,7 +391,7 @@ eleMas,40.0
 atk_,4.1
 hp,926.0
 
-EmblemOfSeveredFate,flower,5,hp,20,,True,46
+EmblemOfSeveredFate,flower,5,hp,20,,True,49
 
 key,value
 enerRech_,23.3
@@ -375,7 +399,7 @@ atk_,4.1
 critRate_,3.1
 eleMas,58.0
 
-EmblemOfSeveredFate,flower,5,hp,20,,False,47
+EmblemOfSeveredFate,flower,5,hp,20,,False,50
 
 key,value
 critRate_,9.3
@@ -383,15 +407,7 @@ enerRech_,14.9
 hp_,10.5
 atk_,4.7
 
-EmblemOfSeveredFate,flower,5,hp,20,,False,48
-
-key,value
-atk,16.0
-critDMG_,19.4
-hp_,4.1
-eleMas,75.0
-
-EmblemOfSeveredFate,flower,5,hp,20,KujouSara,False,49
+EmblemOfSeveredFate,flower,5,hp,20,KujouSara,False,51
 
 key,value
 eleMas,23.0
@@ -399,15 +415,7 @@ atk_,12.8
 atk,37.0
 critDMG_,20.2
 
-EmblemOfSeveredFate,flower,5,hp,20,,False,50
-
-key,value
-critRate_,10.9
-hp_,9.9
-eleMas,40.0
-enerRech_,6.5
-
-EmblemOfSeveredFate,flower,5,hp,20,RaidenShogun,True,51
+EmblemOfSeveredFate,flower,5,hp,20,RaidenShogun,False,52
 
 key,value
 atk_,8.2
@@ -415,7 +423,7 @@ critDMG_,5.4
 critRate_,14.8
 def,19.0
 
-EmblemOfSeveredFate,flower,5,hp,20,Faruzan,True,52
+EmblemOfSeveredFate,flower,5,hp,20,Faruzan,True,53
 
 key,value
 atk,18.0
@@ -423,7 +431,7 @@ enerRech_,16.2
 critDMG_,11.7
 atk_,8.2
 
-EmblemOfSeveredFate,flower,5,hp,20,Dehya,True,53
+EmblemOfSeveredFate,flower,5,hp,20,Dehya,True,54
 
 key,value
 critDMG_,14.8
@@ -431,7 +439,7 @@ atk,35.0
 atk_,11.1
 enerRech_,10.4
 
-EmblemOfSeveredFate,flower,5,hp,20,Beidou,True,54
+EmblemOfSeveredFate,flower,5,hp,20,Beidou,True,55
 
 key,value
 critDMG_,7.8
@@ -439,7 +447,7 @@ critRate_,9.7
 atk_,14.6
 enerRech_,5.8
 
-EmblemOfSeveredFate,flower,5,hp,20,,True,55
+EmblemOfSeveredFate,flower,5,hp,20,,True,56
 
 key,value
 critRate_,6.2
@@ -447,7 +455,7 @@ critDMG_,13.2
 atk_,11.7
 def,44.0
 
-EmblemOfSeveredFate,plume,5,atk,20,Xiangling,True,56
+EmblemOfSeveredFate,plume,5,atk,20,Xiangling,True,57
 
 key,value
 critRate_,5.4
@@ -455,7 +463,7 @@ atk_,9.9
 enerRech_,17.5
 critDMG_,10.9
 
-EmblemOfSeveredFate,plume,5,atk,20,Xingqiu,True,57
+EmblemOfSeveredFate,plume,5,atk,20,Xingqiu,True,58
 
 key,value
 critDMG_,15.5
@@ -463,7 +471,7 @@ eleMas,16.0
 critRate_,6.2
 atk_,22.2
 
-EmblemOfSeveredFate,plume,5,atk,20,Yanfei,True,58
+EmblemOfSeveredFate,plume,5,atk,20,Yanfei,True,59
 
 key,value
 def,46.0
@@ -471,7 +479,7 @@ atk_,11.1
 critDMG_,18.7
 critRate_,7.8
 
-EmblemOfSeveredFate,plume,5,atk,20,Lisa,True,59
+EmblemOfSeveredFate,plume,5,atk,20,Lisa,True,60
 
 key,value
 critDMG_,12.4
@@ -479,7 +487,7 @@ critRate_,9.3
 atk_,9.9
 eleMas,23.0
 
-EmblemOfSeveredFate,plume,5,atk,20,,True,60
+EmblemOfSeveredFate,plume,5,atk,20,,True,61
 
 key,value
 critRate_,6.6
@@ -487,7 +495,7 @@ def,44.0
 critDMG_,19.4
 atk_,5.3
 
-EmblemOfSeveredFate,plume,5,atk,20,Mona,False,61
+EmblemOfSeveredFate,plume,5,atk,20,Mona,False,62
 
 key,value
 atk_,5.3
@@ -495,7 +503,7 @@ eleMas,42.0
 critRate_,10.5
 enerRech_,11.0
 
-EmblemOfSeveredFate,plume,5,atk,20,Faruzan,False,62
+EmblemOfSeveredFate,plume,5,atk,20,Faruzan,False,63
 
 key,value
 eleMas,21.0
@@ -503,7 +511,7 @@ critRate_,6.6
 enerRech_,16.8
 hp,538.0
 
-EmblemOfSeveredFate,plume,5,atk,20,Kirara,False,63
+EmblemOfSeveredFate,plume,5,atk,20,Kirara,False,64
 
 key,value
 critRate_,7.4
@@ -511,7 +519,7 @@ eleMas,37.0
 atk_,9.3
 hp_,11.7
 
-EmblemOfSeveredFate,plume,5,atk,20,Candace,False,64
+EmblemOfSeveredFate,plume,5,atk,20,Candace,False,65
 
 key,value
 critDMG_,7.8
@@ -519,7 +527,7 @@ enerRech_,24.0
 atk_,5.8
 def,39.0
 
-EmblemOfSeveredFate,sands,5,hp_,20,Furina,True,65
+EmblemOfSeveredFate,sands,5,hp_,20,Furina,True,66
 
 key,value
 critRate_,12.4
@@ -527,7 +535,7 @@ atk_,5.3
 eleMas,16.0
 critDMG_,20.2
 
-EmblemOfSeveredFate,sands,5,enerRech_,20,Xiangling,True,66
+EmblemOfSeveredFate,sands,5,enerRech_,20,Xiangling,True,67
 
 key,value
 atk_,5.8
@@ -535,7 +543,7 @@ def,19.0
 hp_,14.0
 critDMG_,26.4
 
-EmblemOfSeveredFate,sands,5,enerRech_,20,RaidenShogun,True,67
+EmblemOfSeveredFate,sands,5,enerRech_,20,RaidenShogun,True,68
 
 key,value
 atk_,14.0
@@ -543,7 +551,7 @@ def,21.0
 critRate_,7.0
 critDMG_,13.2
 
-EmblemOfSeveredFate,sands,5,atk_,20,Diluc,False,68
+EmblemOfSeveredFate,sands,5,atk_,20,Diluc,False,69
 
 key,value
 critRate_,5.4
@@ -551,7 +559,7 @@ enerRech_,4.5
 hp,777.0
 critDMG_,13.2
 
-EmblemOfSeveredFate,sands,5,eleMas,20,Charlotte,True,69
+EmblemOfSeveredFate,sands,5,eleMas,20,Charlotte,True,70
 
 key,value
 critDMG_,10.9
@@ -559,7 +567,7 @@ atk_,14.6
 atk,14.0
 enerRech_,11.7
 
-EmblemOfSeveredFate,sands,5,atk_,20,Xingqiu,True,70
+EmblemOfSeveredFate,sands,5,atk_,20,Xingqiu,True,71
 
 key,value
 critDMG_,28.7
@@ -567,7 +575,7 @@ critRate_,7.4
 hp,299.0
 def_,5.8
 
-EmblemOfSeveredFate,sands,5,atk_,20,KujouSara,True,71
+EmblemOfSeveredFate,sands,5,atk_,20,KujouSara,True,72
 
 key,value
 atk,18.0
@@ -575,7 +583,7 @@ hp,508.0
 critRate_,5.4
 critDMG_,19.4
 
-EmblemOfSeveredFate,sands,5,enerRech_,20,Thoma,False,72
+EmblemOfSeveredFate,sands,5,enerRech_,20,Thoma,False,73
 
 key,value
 critRate_,6.6
@@ -583,7 +591,7 @@ eleMas,23.0
 atk_,11.7
 def,60.0
 
-EmblemOfSeveredFate,sands,5,atk_,20,Gaming,False,73
+EmblemOfSeveredFate,sands,5,atk_,20,Gaming,False,74
 
 key,value
 hp_,4.1
@@ -591,7 +599,7 @@ enerRech_,6.5
 critDMG_,14.0
 eleMas,77.0
 
-EmblemOfSeveredFate,sands,5,atk_,20,Sayu,True,74
+EmblemOfSeveredFate,sands,5,atk_,20,Sayu,True,75
 
 key,value
 critRate_,6.2
@@ -599,7 +607,7 @@ hp_,9.3
 critDMG_,12.4
 def_,13.1
 
-EmblemOfSeveredFate,sands,5,enerRech_,20,ShikanoinHeizou,True,75
+EmblemOfSeveredFate,sands,5,enerRech_,20,ShikanoinHeizou,True,76
 
 key,value
 atk,53.0
@@ -607,7 +615,7 @@ atk_,4.1
 critDMG_,23.3
 def_,6.6
 
-EmblemOfSeveredFate,sands,5,enerRech_,20,,False,76
+EmblemOfSeveredFate,sands,5,enerRech_,20,,False,77
 
 key,value
 atk,35.0
@@ -615,7 +623,7 @@ critDMG_,11.7
 critRate_,7.8
 hp,508.0
 
-EmblemOfSeveredFate,sands,5,atk_,20,,False,77
+EmblemOfSeveredFate,sands,5,atk_,20,,True,78
 
 key,value
 eleMas,47.0
@@ -623,7 +631,7 @@ def_,11.7
 enerRech_,4.5
 critDMG_,19.4
 
-EmblemOfSeveredFate,goblet,5,hydro_dmg_,20,Xingqiu,True,78
+EmblemOfSeveredFate,goblet,5,hydro_dmg_,20,Xingqiu,True,79
 
 key,value
 atk_,15.2
@@ -631,7 +639,7 @@ def_,12.4
 critDMG_,19.4
 hp,269.0
 
-EmblemOfSeveredFate,goblet,5,electro_dmg_,20,Keqing,True,79
+EmblemOfSeveredFate,goblet,5,electro_dmg_,20,Keqing,True,80
 
 key,value
 hp,717.0
@@ -639,7 +647,7 @@ atk,33.0
 critRate_,10.1
 critDMG_,5.4
 
-EmblemOfSeveredFate,goblet,5,hp_,20,Nilou,True,80
+EmblemOfSeveredFate,goblet,5,hp_,20,Nilou,True,81
 
 key,value
 eleMas,65.0
@@ -647,7 +655,7 @@ def,42.0
 enerRech_,12.3
 hp,508.0
 
-EmblemOfSeveredFate,goblet,5,hydro_dmg_,20,Faruzan,True,81
+EmblemOfSeveredFate,goblet,5,hydro_dmg_,20,Faruzan,True,82
 
 key,value
 atk_,12.8
@@ -655,7 +663,7 @@ critRate_,3.1
 def,37.0
 enerRech_,17.5
 
-EmblemOfSeveredFate,goblet,5,pyro_dmg_,20,Diluc,True,82
+EmblemOfSeveredFate,goblet,5,pyro_dmg_,20,Diluc,True,83
 
 key,value
 enerRech_,16.2
@@ -663,7 +671,7 @@ eleMas,40.0
 critRate_,3.1
 atk_,11.1
 
-EmblemOfSeveredFate,goblet,5,atk_,20,Traveler,True,83
+EmblemOfSeveredFate,goblet,5,atk_,20,Traveler,True,84
 
 key,value
 hp_,9.9
@@ -671,7 +679,7 @@ enerRech_,5.2
 critDMG_,14.0
 hp,777.0
 
-EmblemOfSeveredFate,goblet,5,electro_dmg_,20,Fischl,True,84
+EmblemOfSeveredFate,goblet,5,electro_dmg_,20,Fischl,True,85
 
 key,value
 atk_,21.6
@@ -679,7 +687,7 @@ enerRech_,4.5
 eleMas,33.0
 critDMG_,6.2
 
-EmblemOfSeveredFate,goblet,5,eleMas,20,KaedeharaKazuha,True,85
+EmblemOfSeveredFate,goblet,5,eleMas,20,KaedeharaKazuha,True,86
 
 key,value
 enerRech_,28.5
@@ -687,7 +695,7 @@ critRate_,3.1
 def_,6.6
 critDMG_,6.2
 
-EmblemOfSeveredFate,goblet,5,cryo_dmg_,20,Rosaria,True,86
+EmblemOfSeveredFate,goblet,5,cryo_dmg_,20,Rosaria,True,87
 
 key,value
 atk,16.0
@@ -695,7 +703,7 @@ critDMG_,23.3
 hp,418.0
 critRate_,6.6
 
-EmblemOfSeveredFate,goblet,5,electro_dmg_,20,RaidenShogun,True,87
+EmblemOfSeveredFate,goblet,5,electro_dmg_,20,RaidenShogun,True,88
 
 key,value
 critDMG_,21.0
@@ -703,7 +711,7 @@ atk,14.0
 atk_,15.2
 enerRech_,6.5
 
-EmblemOfSeveredFate,circlet,5,critDMG_,20,Beidou,True,88
+EmblemOfSeveredFate,circlet,5,critDMG_,20,Beidou,True,89
 
 key,value
 def,16.0
@@ -711,15 +719,7 @@ critRate_,11.3
 atk_,16.9
 atk,35.0
 
-EmblemOfSeveredFate,circlet,5,critRate_,20,,True,89
-
-key,value
-critDMG_,14.8
-enerRech_,10.4
-atk,35.0
-hp,717.0
-
-EmblemOfSeveredFate,circlet,5,critRate_,20,Xiangling,True,90
+EmblemOfSeveredFate,circlet,5,critRate_,20,Xiangling,True,91
 
 key,value
 def,60.0
@@ -727,7 +727,15 @@ critDMG_,15.5
 hp,538.0
 enerRech_,12.3
 
-EmblemOfSeveredFate,circlet,5,critDMG_,20,,True,91
+EmblemOfSeveredFate,circlet,5,critRate_,20,,True,90
+
+key,value
+critDMG_,14.8
+enerRech_,10.4
+atk,35.0
+hp,717.0
+
+EmblemOfSeveredFate,circlet,5,critDMG_,20,,True,92
 
 key,value
 atk_,21.6
@@ -735,7 +743,7 @@ eleMas,16.0
 hp_,8.7
 enerRech_,9.1
 
-EmblemOfSeveredFate,circlet,5,critRate_,20,Xingqiu,True,92
+EmblemOfSeveredFate,circlet,5,critRate_,20,Xingqiu,True,93
 
 key,value
 atk_,15.7
@@ -743,7 +751,7 @@ critDMG_,11.7
 def,42.0
 atk,31.0
 
-EmblemOfSeveredFate,circlet,5,critRate_,20,RaidenShogun,True,93
+EmblemOfSeveredFate,circlet,5,critRate_,20,RaidenShogun,True,94
 
 key,value
 enerRech_,10.4
@@ -751,21 +759,13 @@ hp_,9.9
 eleMas,21.0
 critDMG_,17.1
 
-EmblemOfSeveredFate,circlet,5,critRate_,20,YunJin,True,94
+EmblemOfSeveredFate,circlet,5,critRate_,20,YunJin,True,95
 
 key,value
 hp,478.0
 eleMas,37.0
 critDMG_,14.0
 enerRech_,9.7
-
-EmblemOfSeveredFate,circlet,5,critRate_,20,,True,95
-
-key,value
-enerRech_,9.7
-atk_,4.7
-def,44.0
-eleMas,61.0
 
 EmblemOfSeveredFate,circlet,5,eleMas,20,,True,96
 
@@ -799,14 +799,6 @@ critDMG_,13.2
 eleMas,19.0
 atk_,16.9
 
-ShimenawasReminiscence,plume,5,atk,20,Diluc,True,101
-
-key,value
-critDMG_,14.0
-hp_,4.1
-critRate_,9.7
-atk_,11.1
-
 ShimenawasReminiscence,flower,5,hp,20,Tighnari,True,100
 
 key,value
@@ -814,6 +806,14 @@ enerRech_,5.2
 eleMas,19.0
 critRate_,7.8
 critDMG_,26.4
+
+ShimenawasReminiscence,plume,5,atk,20,Diluc,True,101
+
+key,value
+critDMG_,14.0
+hp_,4.1
+critRate_,9.7
+atk_,11.1
 
 ShimenawasReminiscence,plume,5,atk,20,Gaming,True,102
 
@@ -1079,14 +1079,6 @@ critRate_,3.1
 atk_,10.5
 atk,51.0
 
-NoblesseOblige,sands,5,atk_,20,,True,135
-
-key,value
-eleMas,44.0
-critRate_,10.1
-atk,19.0
-enerRech_,11.0
-
 NoblesseOblige,sands,5,enerRech_,20,Bennett,True,136
 
 key,value
@@ -1094,6 +1086,14 @@ def_,6.6
 hp_,4.7
 eleMas,79.0
 critRate_,6.2
+
+NoblesseOblige,sands,5,atk_,20,,True,135
+
+key,value
+eleMas,44.0
+critRate_,10.1
+atk,19.0
+enerRech_,11.0
 
 NoblesseOblige,goblet,5,pyro_dmg_,20,Gaming,True,137
 
@@ -1127,14 +1127,6 @@ enerRech_,6.5
 critRate_,6.6
 hp,508.0
 
-NoblesseOblige,circlet,5,hp_,20,Bennett,True,141
-
-key,value
-atk,49.0
-def,19.0
-eleMas,16.0
-enerRech_,18.1
-
 WanderersTroupe,flower,5,hp,20,,True,142
 
 key,value
@@ -1142,6 +1134,14 @@ eleMas,21.0
 critRate_,11.7
 critDMG_,14.0
 def,16.0
+
+NoblesseOblige,circlet,5,hp_,20,Bennett,True,141
+
+key,value
+atk,49.0
+def,19.0
+eleMas,16.0
+enerRech_,18.1
 
 WanderersTroupe,flower,5,hp,20,,True,143
 
@@ -1519,7 +1519,23 @@ critRate_,10.1
 hp,239.0
 enerRech_,11.0
 
-MarechausseeHunter,flower,5,hp,16,,True,190
+EmblemOfSeveredFate,goblet,5,pyro_dmg_,17,,False,190
+
+key,value
+enerRech_,4.5
+critDMG_,13.2
+atk_,5.8
+def,53.0
+
+ObsidianCodex,sands,5,hp_,16,Chongyun,True,191
+
+key,value
+atk_,9.9
+critRate_,12.4
+hp,269.0
+eleMas,19.0
+
+MarechausseeHunter,flower,5,hp,16,,True,192
 
 key,value
 hp_,4.1
@@ -1527,7 +1543,7 @@ critRate_,7.0
 critDMG_,14.0
 atk,29.0
 
-FlowerOfParadiseLost,plume,5,atk,16,,True,191
+FlowerOfParadiseLost,plume,5,atk,16,,True,193
 
 key,value
 critRate_,3.1
@@ -1535,7 +1551,7 @@ eleMas,40.0
 enerRech_,16.2
 def,19.0
 
-EmblemOfSeveredFate,flower,5,hp,16,Xiangling,False,192
+EmblemOfSeveredFate,flower,5,hp,16,Xiangling,False,194
 
 key,value
 atk,27.0
@@ -1543,7 +1559,7 @@ critDMG_,7.0
 enerRech_,17.5
 eleMas,21.0
 
-ShimenawasReminiscence,goblet,5,cryo_dmg_,16,Mika,True,193
+ShimenawasReminiscence,goblet,5,cryo_dmg_,16,Mika,False,195
 
 key,value
 critDMG_,18.7
@@ -1551,7 +1567,7 @@ hp_,9.9
 enerRech_,11.0
 def,16.0
 
-HeartOfDepth,sands,5,atk_,16,,True,194
+HeartOfDepth,sands,5,atk_,16,,True,196
 
 key,value
 enerRech_,11.0
@@ -1559,7 +1575,7 @@ critRate_,2.7
 critDMG_,14.8
 hp,568.0
 
-NoblesseOblige,sands,5,enerRech_,16,,True,195
+NoblesseOblige,sands,5,enerRech_,16,,True,197
 
 key,value
 critRate_,2.7
@@ -1567,7 +1583,7 @@ def_,32.8
 def,21.0
 atk,19.0
 
-NoblesseOblige,sands,5,enerRech_,16,,True,196
+NoblesseOblige,sands,5,enerRech_,16,,True,198
 
 key,value
 def,21.0
@@ -1575,7 +1591,7 @@ hp,717.0
 atk,47.0
 critRate_,2.7
 
-NoblesseOblige,sands,5,eleMas,16,,True,197
+NoblesseOblige,sands,5,eleMas,16,,True,199
 
 key,value
 hp_,4.1
@@ -1583,7 +1599,7 @@ def,44.0
 critDMG_,13.2
 critRate_,7.4
 
-WanderersTroupe,goblet,5,cryo_dmg_,16,,True,198
+WanderersTroupe,goblet,5,cryo_dmg_,16,,True,200
 
 key,value
 atk_,9.9
@@ -1591,7 +1607,7 @@ def,39.0
 def_,19.7
 critDMG_,6.2
 
-ViridescentVenerer,goblet,5,atk_,16,Jean,True,199
+ViridescentVenerer,goblet,5,atk_,16,Jean,True,201
 
 key,value
 atk,27.0
@@ -1599,7 +1615,7 @@ enerRech_,9.1
 def_,6.6
 critDMG_,15.5
 
-GladiatorsFinale,plume,5,atk,16,Tighnari,True,200
+GladiatorsFinale,plume,5,atk,16,Tighnari,True,202
 
 key,value
 critRate_,6.2
@@ -1607,7 +1623,7 @@ critDMG_,15.5
 atk_,4.7
 enerRech_,11.7
 
-GladiatorsFinale,circlet,5,critDMG_,16,Diluc,True,201
+GladiatorsFinale,circlet,5,critDMG_,16,Diluc,True,203
 
 key,value
 def,19.0
@@ -1615,7 +1631,7 @@ atk_,4.7
 def_,19.0
 critRate_,6.6
 
-BlizzardStrayer,sands,5,atk_,16,,True,202
+BlizzardStrayer,sands,5,atk_,16,,True,204
 
 key,value
 def,21.0
@@ -1623,7 +1639,7 @@ critDMG_,13.2
 critRate_,6.2
 atk,37.0
 
-Instructor,flower,4,hp,16,Candace,True,203
+Instructor,flower,4,hp,16,Candace,True,205
 
 key,value
 critRate_,5.0
@@ -1631,7 +1647,7 @@ enerRech_,4.1
 eleMas,15.0
 hp_,6.5
 
-Instructor,flower,4,hp,16,,True,204
+Instructor,flower,4,hp,16,,True,206
 
 key,value
 hp_,6.5
@@ -1639,7 +1655,7 @@ enerRech_,3.6
 critRate_,2.2
 atk,26.0
 
-Instructor,flower,4,hp,16,Kaveh,True,205
+Instructor,flower,4,hp,16,Kaveh,True,207
 
 key,value
 def,19.0
@@ -1647,7 +1663,7 @@ critRate_,6.2
 atk,26.0
 eleMas,15.0
 
-Instructor,plume,4,atk,16,,True,206
+Instructor,plume,4,atk,16,,True,208
 
 key,value
 eleMas,17.0
@@ -1655,7 +1671,7 @@ hp,598.0
 critRate_,5.6
 hp_,4.7
 
-Instructor,sands,4,hp_,16,,True,207
+Instructor,sands,4,hp_,16,,True,209
 
 key,value
 critRate_,5.9
@@ -1663,7 +1679,7 @@ eleMas,15.0
 hp,669.0
 def_,5.3
 
-Instructor,sands,4,enerRech_,16,Candace,True,208
+Instructor,sands,4,enerRech_,16,Candace,True,210
 
 key,value
 hp_,12.1
@@ -1671,7 +1687,7 @@ atk,11.0
 eleMas,13.0
 hp,335.0
 
-Instructor,goblet,4,hp_,16,,True,209
+Instructor,goblet,4,hp_,16,,True,211
 
 key,value
 atk,26.0
@@ -1679,7 +1695,7 @@ hp,215.0
 enerRech_,3.6
 eleMas,48.0
 
-Instructor,goblet,4,hp_,16,Candace,True,210
+Instructor,goblet,4,hp_,16,Candace,True,212
 
 key,value
 enerRech_,7.8
@@ -1687,7 +1703,7 @@ atk,16.0
 def,30.0
 hp,167.0
 
-Instructor,goblet,4,electro_dmg_,16,Lisa,True,211
+Instructor,goblet,4,electro_dmg_,16,Lisa,True,213
 
 key,value
 enerRech_,3.6
@@ -1695,7 +1711,7 @@ critRate_,5.6
 eleMas,17.0
 atk_,7.9
 
-Instructor,circlet,4,critRate_,16,,True,212
+Instructor,circlet,4,critRate_,16,,True,214
 
 key,value
 hp_,4.2
@@ -1703,7 +1719,7 @@ atk_,3.7
 critDMG_,5.0
 eleMas,52.0
 
-Instructor,circlet,4,critRate_,16,Candace,True,213
+Instructor,circlet,4,critRate_,16,Candace,True,215
 
 key,value
 def,15.0
@@ -1711,15 +1727,15 @@ atk,28.0
 hp_,7.0
 def_,5.3
 
-Instructor,circlet,4,hp_,14,Kaveh,False,215
+ObsidianCodex,flower,5,hp,14,,False,216
 
 key,value
-atk_,7.5
-hp,215.0
+critDMG_,5.4
+hp_,9.3
+atk,58.0
 eleMas,19.0
-atk,11.0
 
-MarechausseeHunter,plume,5,atk,14,KukiShinobu,True,214
+MarechausseeHunter,plume,5,atk,14,KukiShinobu,True,217
 
 key,value
 enerRech_,6.5
@@ -1727,7 +1743,15 @@ critDMG_,5.4
 critRate_,3.5
 atk_,14.6
 
-GoldenTroupe,circlet,5,critDMG_,12,,False,216
+Instructor,circlet,4,hp_,14,Kaveh,False,218
+
+key,value
+atk_,7.5
+hp,215.0
+eleMas,19.0
+atk,11.0
+
+GoldenTroupe,circlet,5,critDMG_,12,,False,219
 
 key,value
 def_,5.1
@@ -1735,7 +1759,7 @@ enerRech_,12.3
 critRate_,3.9
 hp,508.0
 
-FlowerOfParadiseLost,flower,5,hp,12,,True,217
+FlowerOfParadiseLost,flower,5,hp,12,,True,220
 
 key,value
 enerRech_,4.5
@@ -1743,7 +1767,7 @@ eleMas,42.0
 hp_,4.7
 atk,35.0
 
-FlowerOfParadiseLost,plume,5,atk,12,,True,218
+FlowerOfParadiseLost,plume,5,atk,12,,True,221
 
 key,value
 critDMG_,7.8
@@ -1751,7 +1775,7 @@ enerRech_,16.8
 eleMas,16.0
 critRate_,3.5
 
-FlowerOfParadiseLost,plume,5,atk,12,,True,219
+FlowerOfParadiseLost,plume,5,atk,12,,True,222
 
 key,value
 eleMas,40.0
@@ -1759,7 +1783,7 @@ critRate_,3.9
 def,16.0
 hp_,10.5
 
-ShimenawasReminiscence,plume,5,atk,12,,True,220
+ShimenawasReminiscence,plume,5,atk,12,,True,223
 
 key,value
 critDMG_,6.2
@@ -1767,7 +1791,7 @@ enerRech_,6.5
 atk_,9.9
 critRate_,6.2
 
-TenacityOfTheMillelith,goblet,5,pyro_dmg_,12,Dehya,True,221
+TenacityOfTheMillelith,goblet,5,pyro_dmg_,12,Dehya,True,224
 
 key,value
 enerRech_,4.5
@@ -1775,7 +1799,7 @@ hp_,8.7
 atk,33.0
 critRate_,7.4
 
-HeartOfDepth,plume,5,atk,12,,True,222
+HeartOfDepth,plume,5,atk,12,,True,225
 
 key,value
 critRate_,3.5
@@ -1783,7 +1807,7 @@ eleMas,35.0
 critDMG_,14.8
 def_,11.7
 
-HeartOfDepth,plume,5,atk,12,,True,223
+HeartOfDepth,plume,5,atk,12,,True,226
 
 key,value
 def,37.0
@@ -1791,7 +1815,7 @@ critDMG_,6.2
 critRate_,7.0
 eleMas,19.0
 
-NoblesseOblige,plume,5,atk,12,,True,224
+NoblesseOblige,plume,5,atk,12,,True,227
 
 key,value
 def,23.0
@@ -1799,7 +1823,7 @@ eleMas,42.0
 critRate_,3.5
 critDMG_,14.8
 
-BlizzardStrayer,flower,5,hp,12,,True,225
+BlizzardStrayer,flower,5,hp,12,,True,228
 
 key,value
 atk_,4.1
@@ -1807,7 +1831,7 @@ atk,19.0
 critDMG_,14.8
 enerRech_,11.7
 
-MarechausseeHunter,sands,5,atk_,9,,True,226
+MarechausseeHunter,sands,5,atk_,9,,True,229
 
 key,value
 def_,12.4
@@ -1815,7 +1839,7 @@ critDMG_,6.2
 critRate_,2.7
 atk,16.0
 
-WanderersTroupe,goblet,5,eleMas,9,KujouSara,True,227
+WanderersTroupe,goblet,5,eleMas,9,KujouSara,True,230
 
 key,value
 enerRech_,10.4
@@ -1823,7 +1847,7 @@ critDMG_,6.2
 hp_,4.1
 def,23.0
 
-ScrollOfTheHeroOfCinderCity,plume,5,atk,8,,True,228
+ScrollOfTheHeroOfCinderCity,plume,5,atk,8,,True,231
 
 key,value
 def,44.0
@@ -1831,7 +1855,7 @@ atk_,8.2
 def_,6.6
 enerRech_,4.5
 
-FlowerOfParadiseLost,plume,5,atk,8,,True,229
+FlowerOfParadiseLost,plume,5,atk,8,,True,232
 
 key,value
 atk_,4.1
@@ -1839,23 +1863,7 @@ hp_,5.3
 eleMas,23.0
 enerRech_,11.0
 
-EmblemOfSeveredFate,flower,5,hp,8,,False,230
-
-key,value
-critRate_,3.9
-def_,14.6
-critDMG_,12.4
-hp_,4.1
-
-EmblemOfSeveredFate,flower,5,hp,8,,False,231
-
-key,value
-atk,14.0
-critDMG_,7.0
-critRate_,3.9
-def,37.0
-
-EmblemOfSeveredFate,sands,5,enerRech_,8,,False,232
+EmblemOfSeveredFate,sands,5,enerRech_,8,,False,233
 
 key,value
 critDMG_,11.7
@@ -1863,7 +1871,7 @@ atk_,5.8
 hp,299.0
 def,39.0
 
-TenacityOfTheMillelith,circlet,5,critDMG_,8,,False,233
+TenacityOfTheMillelith,circlet,5,critDMG_,8,,False,234
 
 key,value
 atk,18.0
@@ -1871,7 +1879,7 @@ critRate_,3.1
 enerRech_,6.5
 eleMas,40.0
 
-NoblesseOblige,sands,5,atk_,8,,True,234
+NoblesseOblige,sands,5,atk_,8,,True,235
 
 key,value
 atk,16.0
@@ -1879,7 +1887,7 @@ critRate_,5.8
 critDMG_,7.8
 def,46.0
 
-WanderersTroupe,circlet,5,critRate_,8,,True,235
+WanderersTroupe,circlet,5,critRate_,8,,True,236
 
 key,value
 hp,299.0
@@ -1887,7 +1895,7 @@ atk_,5.3
 eleMas,40.0
 def,16.0
 
-Instructor,plume,4,atk,8,KujouSara,True,236
+Instructor,plume,4,atk,8,KujouSara,True,237
 
 key,value
 enerRech_,4.7
@@ -1895,7 +1903,7 @@ eleMas,15.0
 hp_,4.7
 hp,215.0
 
-GoldenTroupe,flower,5,hp,7,,False,237
+GoldenTroupe,flower,5,hp,7,,False,238
 
 key,value
 critDMG_,7.0
@@ -1903,7 +1911,7 @@ hp_,4.1
 def,19.0
 eleMas,16.0
 
-GoldenTroupe,flower,5,hp,7,,False,238
+GoldenTroupe,flower,5,hp,7,,False,239
 
 key,value
 enerRech_,5.2
@@ -1911,7 +1919,7 @@ critRate_,3.1
 critDMG_,7.8
 atk,14.0
 
-GoldenTroupe,plume,5,atk,7,,False,239
+GoldenTroupe,plume,5,atk,7,,False,240
 
 key,value
 hp,209.0
@@ -1919,7 +1927,7 @@ critDMG_,5.4
 enerRech_,11.7
 hp_,4.1
 
-ViridescentVenerer,sands,5,atk_,7,,False,240
+ViridescentVenerer,sands,5,atk_,7,,True,241
 
 key,value
 def,19.0
@@ -1927,7 +1935,15 @@ critRate_,3.1
 hp,269.0
 critDMG_,7.0
 
-ObsidianCodex,sands,5,eleMas,6,,False,241
+ObsidianCodex,flower,5,hp,6,,True,242
+
+key,value
+critRate_,2.7
+hp_,4.7
+eleMas,21.0
+def_,5.1
+
+ObsidianCodex,sands,5,eleMas,6,,False,243
 
 key,value
 atk_,4.7
@@ -1935,15 +1951,7 @@ hp_,4.1
 critRate_,3.9
 def,16.0
 
-ObsidianCodex,sands,5,hp_,6,Chongyun,False,242
-
-key,value
-hp,239.0
-critRate_,3.9
-critDMG_,7.8
-atk,18.0
-
-MarechausseeHunter,flower,5,hp,6,,True,243
+MarechausseeHunter,flower,5,hp,6,,False,244
 
 key,value
 atk,14.0
@@ -1951,7 +1959,7 @@ critDMG_,5.4
 critRate_,2.7
 def,19.0
 
-EmblemOfSeveredFate,flower,5,hp,6,,True,244
+EmblemOfSeveredFate,flower,5,hp,6,,True,245
 
 key,value
 atk,16.0
@@ -1959,21 +1967,13 @@ critRate_,2.7
 critDMG_,6.2
 eleMas,21.0
 
-EmblemOfSeveredFate,sands,5,eleMas,6,,False,245
+EmblemOfSeveredFate,sands,5,eleMas,6,,False,246
 
 key,value
 critRate_,3.5
 def_,6.6
 atk_,4.7
 atk,33.0
-
-EmblemOfSeveredFate,goblet,5,electro_dmg_,6,,False,246
-
-key,value
-enerRech_,4.5
-def_,5.1
-critDMG_,7.8
-def,16.0
 
 EmblemOfSeveredFate,circlet,5,critRate_,6,,False,247
 
@@ -2015,14 +2015,6 @@ eleMas,19.0
 critDMG_,6.2
 atk_,4.7
 
-ViridescentVenerer,goblet,5,eleMas,5,,False,253
-
-key,value
-critRate_,3.9
-hp_,4.1
-def,16.0
-atk,14.0
-
 GoldenTroupe,plume,5,atk,5,,False,252
 
 key,value
@@ -2031,7 +2023,119 @@ hp_,5.8
 critRate_,3.1
 hp,239.0
 
-ObsidianCodex,plume,5,atk,4,,True,254
+ViridescentVenerer,goblet,5,eleMas,5,,False,253
+
+key,value
+critRate_,3.9
+hp_,4.1
+def,16.0
+atk,14.0
+
+ObsidianCodex,flower,5,hp,4,,False,254
+
+key,value
+hp_,5.8
+critRate_,2.7
+def_,6.6
+eleMas,23.0
+
+ObsidianCodex,flower,5,hp,4,,False,255
+
+key,value
+eleMas,23.0
+critDMG_,6.2
+def,21.0
+def_,5.1
+
+ObsidianCodex,flower,5,hp,4,,False,256
+
+key,value
+eleMas,23.0
+critRate_,2.7
+def_,6.6
+atk,14.0
+
+ObsidianCodex,flower,5,hp,4,,False,257
+
+key,value
+critRate_,2.7
+def_,5.1
+critDMG_,6.2
+atk_,4.7
+
+ObsidianCodex,flower,5,hp,4,,False,258
+
+key,value
+def_,5.8
+hp_,4.7
+critRate_,2.7
+atk,14.0
+
+ObsidianCodex,flower,5,hp,4,,False,259
+
+key,value
+atk,18.0
+critDMG_,7.0
+hp_,5.8
+eleMas,23.0
+
+ObsidianCodex,flower,5,hp,4,,False,260
+
+key,value
+critRate_,2.7
+def,19.0
+eleMas,16.0
+def_,5.8
+
+ObsidianCodex,flower,5,hp,4,,False,261
+
+key,value
+def_,7.3
+hp_,5.3
+critRate_,3.9
+def,21.0
+
+ObsidianCodex,flower,5,hp,4,,False,262
+
+key,value
+critRate_,3.9
+critDMG_,6.2
+def,16.0
+def_,5.8
+
+ObsidianCodex,flower,5,hp,4,,True,263
+
+key,value
+def,16.0
+critDMG_,6.2
+eleMas,21.0
+hp_,5.3
+
+ObsidianCodex,flower,5,hp,4,,False,264
+
+key,value
+def_,7.3
+hp_,5.3
+critRate_,3.9
+atk,16.0
+
+ObsidianCodex,flower,5,hp,4,,False,265
+
+key,value
+critRate_,2.7
+hp_,5.8
+enerRech_,5.2
+def,21.0
+
+ObsidianCodex,plume,5,atk,4,,False,266
+
+key,value
+critDMG_,7.0
+atk_,5.3
+eleMas,21.0
+def,16.0
+
+ObsidianCodex,plume,5,atk,4,,False,267
 
 key,value
 critRate_,3.1
@@ -2039,7 +2143,7 @@ critDMG_,5.4
 hp,269.0
 atk_,4.1
 
-ObsidianCodex,plume,5,atk,4,,True,255
+ObsidianCodex,plume,5,atk,4,,False,268
 
 key,value
 hp_,4.1
@@ -2047,7 +2151,7 @@ critDMG_,7.8
 def_,5.8
 def,16.0
 
-ObsidianCodex,plume,5,atk,4,,True,256
+ObsidianCodex,plume,5,atk,4,,False,269
 
 key,value
 hp_,5.8
@@ -2055,7 +2159,7 @@ critDMG_,5.4
 eleMas,21.0
 def,19.0
 
-ObsidianCodex,plume,5,atk,4,Chongyun,True,257
+ObsidianCodex,plume,5,atk,4,,False,270
 
 key,value
 critRate_,3.5
@@ -2063,7 +2167,7 @@ critDMG_,7.8
 def_,5.1
 hp_,4.7
 
-ObsidianCodex,plume,5,atk,4,,True,258
+ObsidianCodex,plume,5,atk,4,,False,271
 
 key,value
 hp,239.0
@@ -2071,7 +2175,7 @@ critDMG_,5.4
 eleMas,16.0
 def,16.0
 
-ObsidianCodex,plume,5,atk,4,,True,259
+ObsidianCodex,plume,5,atk,4,,False,272
 
 key,value
 critRate_,3.1
@@ -2079,7 +2183,7 @@ enerRech_,4.5
 critDMG_,6.2
 hp,209.0
 
-ObsidianCodex,plume,5,atk,4,,True,260
+ObsidianCodex,plume,5,atk,4,,False,273
 
 key,value
 enerRech_,5.8
@@ -2087,15 +2191,7 @@ hp_,5.3
 critDMG_,7.0
 atk_,4.7
 
-ObsidianCodex,sands,5,hp_,4,,True,261
-
-key,value
-critDMG_,7.8
-def,23.0
-eleMas,19.0
-hp,299.0
-
-ObsidianCodex,sands,5,eleMas,4,,True,262
+ObsidianCodex,sands,5,eleMas,4,,False,274
 
 key,value
 hp_,5.3
@@ -2103,15 +2199,15 @@ critRate_,3.5
 def_,6.6
 hp,269.0
 
-ObsidianCodex,sands,5,hp_,4,,True,263
+ObsidianCodex,sands,5,hp_,4,,False,275
 
 key,value
-eleMas,21.0
-atk,19.0
-critDMG_,5.4
-hp,269.0
+critDMG_,6.2
+atk_,5.3
+enerRech_,5.2
+atk,16.0
 
-ObsidianCodex,goblet,5,hp_,4,,True,264
+ObsidianCodex,goblet,5,hp_,4,,True,276
 
 key,value
 atk_,5.3
@@ -2119,7 +2215,7 @@ eleMas,23.0
 critDMG_,7.8
 enerRech_,5.8
 
-ObsidianCodex,goblet,5,hydro_dmg_,4,Chongyun,True,265
+ObsidianCodex,goblet,5,hydro_dmg_,4,Chongyun,True,277
 
 key,value
 eleMas,16.0
@@ -2127,7 +2223,7 @@ atk_,4.7
 hp,239.0
 hp_,5.3
 
-ScrollOfTheHeroOfCinderCity,sands,5,def_,4,,True,266
+ScrollOfTheHeroOfCinderCity,sands,5,def_,4,,True,278
 
 key,value
 critRate_,3.5
@@ -2135,7 +2231,7 @@ hp_,5.3
 enerRech_,5.8
 eleMas,19.0
 
-ScrollOfTheHeroOfCinderCity,goblet,5,def_,4,YunJin,True,267
+ScrollOfTheHeroOfCinderCity,goblet,5,def_,4,YunJin,True,279
 
 key,value
 atk_,5.3
@@ -2143,7 +2239,7 @@ hp,209.0
 critDMG_,7.0
 def,19.0
 
-GoldenTroupe,sands,5,hp_,4,,True,268
+GoldenTroupe,sands,5,hp_,4,,True,280
 
 key,value
 def_,6.6
@@ -2151,7 +2247,7 @@ atk,16.0
 critDMG_,7.0
 hp,209.0
 
-MarechausseeHunter,flower,5,hp,4,,True,269
+MarechausseeHunter,flower,5,hp,4,,True,281
 
 key,value
 eleMas,16.0
@@ -2159,7 +2255,7 @@ atk_,4.1
 critDMG_,6.2
 critRate_,3.1
 
-MarechausseeHunter,sands,5,hp_,4,,True,270
+MarechausseeHunter,sands,5,hp_,4,,True,282
 
 key,value
 critDMG_,7.0
@@ -2167,7 +2263,7 @@ def,21.0
 def_,5.1
 hp,269.0
 
-MarechausseeHunter,sands,5,atk_,4,KukiShinobu,True,271
+MarechausseeHunter,sands,5,atk_,4,KukiShinobu,True,283
 
 key,value
 atk,19.0
@@ -2175,7 +2271,7 @@ critRate_,3.9
 critDMG_,7.0
 hp,269.0
 
-MarechausseeHunter,sands,5,hp_,4,,True,272
+MarechausseeHunter,sands,5,hp_,4,,True,284
 
 key,value
 atk_,5.8
@@ -2183,7 +2279,7 @@ critRate_,3.1
 def_,5.1
 hp,239.0
 
-MarechausseeHunter,circlet,5,critDMG_,4,Barbara,True,273
+MarechausseeHunter,circlet,5,critDMG_,4,Barbara,True,285
 
 key,value
 atk_,4.1
@@ -2191,7 +2287,7 @@ hp,239.0
 atk,16.0
 enerRech_,5.8
 
-VourukashasGlow,flower,5,hp,4,,True,274
+VourukashasGlow,flower,5,hp,4,,True,286
 
 key,value
 atk,16.0
@@ -2199,7 +2295,7 @@ hp_,5.3
 enerRech_,6.5
 def,23.0
 
-NymphsDream,plume,5,atk,4,,True,275
+NymphsDream,plume,5,atk,4,,True,287
 
 key,value
 critDMG_,7.8
@@ -2207,7 +2303,7 @@ hp,209.0
 atk_,4.1
 hp_,5.8
 
-DeepwoodMemories,circlet,5,critDMG_,4,,True,276
+DeepwoodMemories,circlet,5,critDMG_,4,,True,288
 
 key,value
 atk_,4.1
@@ -2215,7 +2311,15 @@ atk,18.0
 hp,209.0
 critRate_,2.7
 
-EmblemOfSeveredFate,plume,5,atk,4,,True,277
+EmblemOfSeveredFate,plume,5,atk,4,,False,289
+
+key,value
+enerRech_,4.5
+critDMG_,6.2
+eleMas,23.0
+def,16.0
+
+EmblemOfSeveredFate,plume,5,atk,4,,False,290
 
 key,value
 atk_,4.7
@@ -2223,7 +2327,7 @@ critRate_,3.5
 enerRech_,5.8
 def,16.0
 
-EmblemOfSeveredFate,sands,5,eleMas,4,,False,278
+EmblemOfSeveredFate,sands,5,eleMas,4,,False,291
 
 key,value
 critDMG_,7.8
@@ -2231,7 +2335,7 @@ def_,6.6
 hp,209.0
 hp_,5.8
 
-EmblemOfSeveredFate,sands,5,enerRech_,4,,False,279
+EmblemOfSeveredFate,sands,5,enerRech_,4,,False,292
 
 key,value
 hp,209.0
@@ -2239,7 +2343,7 @@ atk_,5.3
 eleMas,19.0
 def_,6.6
 
-EmblemOfSeveredFate,sands,5,enerRech_,4,,False,280
+EmblemOfSeveredFate,sands,5,enerRech_,4,,False,293
 
 key,value
 eleMas,21.0
@@ -2247,7 +2351,15 @@ hp,209.0
 def,23.0
 atk_,4.1
 
-EmblemOfSeveredFate,goblet,5,electro_dmg_,4,,False,281
+EmblemOfSeveredFate,sands,5,hp_,4,,False,294
+
+key,value
+eleMas,21.0
+critRate_,3.1
+critDMG_,6.2
+atk,16.0
+
+EmblemOfSeveredFate,goblet,5,electro_dmg_,4,,False,295
 
 key,value
 hp,299.0
@@ -2255,7 +2367,7 @@ critRate_,3.9
 hp_,5.8
 atk,14.0
 
-EmblemOfSeveredFate,goblet,5,pyro_dmg_,4,,False,282
+EmblemOfSeveredFate,goblet,5,pyro_dmg_,4,,False,296
 
 key,value
 critDMG_,5.4
@@ -2263,7 +2375,7 @@ hp,269.0
 def_,5.8
 atk,14.0
 
-EmblemOfSeveredFate,circlet,5,critRate_,4,,False,283
+EmblemOfSeveredFate,circlet,5,critRate_,4,,False,297
 
 key,value
 hp,299.0
@@ -2271,7 +2383,7 @@ eleMas,21.0
 enerRech_,5.8
 atk_,4.7
 
-EmblemOfSeveredFate,circlet,5,critRate_,4,,False,284
+EmblemOfSeveredFate,circlet,5,critRate_,4,,False,298
 
 key,value
 enerRech_,6.5
@@ -2279,7 +2391,7 @@ def,21.0
 def_,6.6
 atk_,5.3
 
-EmblemOfSeveredFate,circlet,5,critRate_,4,,False,285
+EmblemOfSeveredFate,circlet,5,critRate_,4,,False,299
 
 key,value
 hp_,4.1
@@ -2287,7 +2399,7 @@ atk_,4.7
 def_,7.3
 atk,16.0
 
-EmblemOfSeveredFate,circlet,5,critDMG_,4,,False,286
+EmblemOfSeveredFate,circlet,5,critDMG_,4,,False,300
 
 key,value
 def,23.0
@@ -2295,7 +2407,7 @@ atk_,5.3
 enerRech_,5.8
 atk,19.0
 
-EmblemOfSeveredFate,circlet,5,critRate_,4,,False,287
+EmblemOfSeveredFate,circlet,5,critRate_,4,,False,301
 
 key,value
 def,23.0
@@ -2303,7 +2415,7 @@ def_,5.8
 hp_,5.8
 enerRech_,5.8
 
-EmblemOfSeveredFate,circlet,5,critRate_,4,,False,288
+EmblemOfSeveredFate,circlet,5,critRate_,4,,False,302
 
 key,value
 hp,239.0
@@ -2311,7 +2423,7 @@ def,23.0
 def_,6.6
 atk_,4.1
 
-EmblemOfSeveredFate,circlet,5,critRate_,4,,False,289
+EmblemOfSeveredFate,circlet,5,critRate_,4,,False,303
 
 key,value
 atk,18.0
@@ -2319,7 +2431,7 @@ atk_,5.8
 def,23.0
 def_,5.1
 
-EmblemOfSeveredFate,circlet,5,critDMG_,4,,False,290
+EmblemOfSeveredFate,circlet,5,critDMG_,4,,False,304
 
 key,value
 hp_,5.8
@@ -2327,15 +2439,7 @@ atk,14.0
 enerRech_,5.8
 eleMas,23.0
 
-EmblemOfSeveredFate,circlet,5,heal_,4,Kirara,False,292
-
-key,value
-atk_,4.7
-hp,269.0
-hp_,4.7
-def_,5.1
-
-EmblemOfSeveredFate,circlet,5,critRate_,4,,False,291
+EmblemOfSeveredFate,circlet,5,critRate_,4,,False,305
 
 key,value
 enerRech_,6.5
@@ -2343,7 +2447,15 @@ atk,14.0
 hp_,4.7
 def_,5.8
 
-EmblemOfSeveredFate,circlet,5,heal_,4,,False,293
+EmblemOfSeveredFate,circlet,5,heal_,4,Kirara,False,306
+
+key,value
+atk_,4.7
+hp,269.0
+hp_,4.7
+def_,5.1
+
+EmblemOfSeveredFate,circlet,5,heal_,4,,False,307
 
 key,value
 enerRech_,6.5
@@ -2351,7 +2463,7 @@ def_,6.6
 critRate_,3.9
 atk_,4.1
 
-ShimenawasReminiscence,plume,5,atk,4,,False,294
+ShimenawasReminiscence,plume,5,atk,4,,False,308
 
 key,value
 hp,269.0
@@ -2359,7 +2471,7 @@ critRate_,3.5
 critDMG_,6.2
 enerRech_,4.5
 
-ShimenawasReminiscence,plume,5,atk,4,,True,295
+ShimenawasReminiscence,plume,5,atk,4,,True,309
 
 key,value
 eleMas,16.0
@@ -2367,7 +2479,7 @@ critDMG_,5.4
 critRate_,3.1
 hp_,5.3
 
-ShimenawasReminiscence,plume,5,atk,4,,True,296
+ShimenawasReminiscence,plume,5,atk,4,,True,310
 
 key,value
 critRate_,3.5
@@ -2375,7 +2487,7 @@ hp_,5.8
 critDMG_,6.2
 def_,6.6
 
-ShimenawasReminiscence,plume,5,atk,4,,True,297
+ShimenawasReminiscence,plume,5,atk,4,,True,311
 
 key,value
 hp,209.0
@@ -2383,7 +2495,7 @@ critRate_,2.7
 critDMG_,7.0
 hp_,5.3
 
-ShimenawasReminiscence,plume,5,atk,4,,True,298
+ShimenawasReminiscence,plume,5,atk,4,,True,312
 
 key,value
 def,23.0
@@ -2391,7 +2503,7 @@ critRate_,3.5
 critDMG_,6.2
 hp,239.0
 
-ShimenawasReminiscence,circlet,5,critRate_,4,,False,299
+ShimenawasReminiscence,circlet,5,critRate_,4,,False,313
 
 key,value
 hp_,5.8
@@ -2399,7 +2511,7 @@ eleMas,21.0
 hp,239.0
 atk,18.0
 
-TenacityOfTheMillelith,plume,5,atk,4,,False,300
+TenacityOfTheMillelith,plume,5,atk,4,,False,314
 
 key,value
 atk_,4.7
@@ -2407,7 +2519,7 @@ eleMas,23.0
 critRate_,3.5
 hp_,5.8
 
-NoblesseOblige,flower,5,hp,4,,True,301
+NoblesseOblige,flower,5,hp,4,,True,315
 
 key,value
 hp_,5.8
@@ -2415,7 +2527,7 @@ critDMG_,6.2
 atk_,4.1
 enerRech_,11.7
 
-NoblesseOblige,flower,5,hp,4,,True,302
+NoblesseOblige,flower,5,hp,4,,True,316
 
 key,value
 enerRech_,5.2
@@ -2423,7 +2535,7 @@ critDMG_,7.0
 atk_,5.8
 eleMas,21.0
 
-NoblesseOblige,plume,5,atk,4,,False,303
+NoblesseOblige,plume,5,atk,4,,False,317
 
 key,value
 critRate_,3.1
@@ -2431,7 +2543,7 @@ def,19.0
 critDMG_,7.0
 hp,478.0
 
-NoblesseOblige,sands,5,enerRech_,4,,True,304
+NoblesseOblige,sands,5,enerRech_,4,,True,318
 
 key,value
 critDMG_,6.2
@@ -2439,7 +2551,7 @@ eleMas,21.0
 def_,7.3
 def,19.0
 
-NoblesseOblige,circlet,5,critRate_,4,,False,305
+NoblesseOblige,circlet,5,critRate_,4,,False,319
 
 key,value
 def,16.0
@@ -2447,7 +2559,7 @@ eleMas,16.0
 atk_,4.1
 hp,269.0
 
-WanderersTroupe,flower,5,hp,4,,False,306
+WanderersTroupe,flower,5,hp,4,,False,320
 
 key,value
 eleMas,23.0
@@ -2455,7 +2567,7 @@ critRate_,2.7
 atk,14.0
 def_,5.1
 
-WanderersTroupe,plume,5,atk,4,,True,307
+WanderersTroupe,plume,5,atk,4,,True,321
 
 key,value
 critDMG_,5.4
@@ -2463,7 +2575,7 @@ hp_,4.1
 eleMas,16.0
 enerRech_,5.2
 
-Instructor,flower,4,hp,4,Kirara,True,308
+Instructor,flower,4,hp,4,Kirara,True,322
 
 key,value
 eleMas,13.0
@@ -2471,7 +2583,7 @@ def,17.0
 def_,5.3
 atk_,3.7
 
-Instructor,plume,4,atk,4,,True,309
+Instructor,plume,4,atk,4,,True,323
 
 key,value
 def,13.0
@@ -2479,7 +2591,7 @@ critRate_,2.2
 atk_,3.3
 critDMG_,5.0
 
-Instructor,plume,4,atk,4,,True,310
+Instructor,plume,4,atk,4,,True,324
 
 key,value
 hp,215.0
@@ -2487,7 +2599,7 @@ atk_,4.7
 critRate_,2.5
 eleMas,17.0
 
-ShimenawasReminiscence,plume,5,atk,3,,True,311
+ShimenawasReminiscence,plume,5,atk,3,,True,325
 
 key,value
 critDMG_,7.8
@@ -2495,7 +2607,7 @@ hp_,5.3
 critRate_,3.5
 eleMas,19.0
 
-ObsidianCodex,flower,5,hp,0,,True,312
+ObsidianCodex,flower,5,hp,0,,True,326
 
 key,value
 atk_,4.1
@@ -2503,517 +2615,38 @@ enerRech_,6.5
 critRate_,3.9
 critDMG_,7.8
 
-ObsidianCodex,flower,5,hp,0,,True,313
+ObsidianCodex,flower,5,hp,0,,True,327
 
 key,value
 enerRech_,5.8
 hp_,5.3
 atk,18.0
 critDMG_,7.8
-
-ObsidianCodex,flower,5,hp,0,,False,314
-
-key,value
-critDMG_,5.4
-atk_,5.3
-atk,18.0
-def,21.0
-
-ObsidianCodex,flower,5,hp,0,,True,315
-
-key,value
-critDMG_,7.8
-def,19.0
-atk,18.0
-hp_,4.7
-
-ObsidianCodex,flower,5,hp,0,,False,316
-
-key,value
-def,23.0
-enerRech_,5.8
-atk,19.0
-def_,6.6
-
-ObsidianCodex,flower,5,hp,0,,False,317
-
-key,value
-critRate_,3.9
-hp_,4.1
-def,16.0
-eleMas,21.0
-
-ObsidianCodex,flower,5,hp,0,,True,318
-
-key,value
-critDMG_,5.4
-hp_,4.1
-atk,19.0
-eleMas,19.0
-
-ObsidianCodex,flower,5,hp,0,,False,319
-
-key,value
-eleMas,16.0
-atk_,4.7
-enerRech_,6.5
-def,23.0
-
-ObsidianCodex,flower,5,hp,0,,False,320
-
-key,value
-def,23.0
-enerRech_,5.8
-atk,18.0
-hp_,4.7
-
-ObsidianCodex,flower,5,hp,0,,False,321
-
-key,value
-enerRech_,5.2
-atk,19.0
-def_,7.3
-def,19.0
-
-ObsidianCodex,flower,5,hp,0,,False,322
-
-key,value
-critRate_,3.5
-critDMG_,7.0
-atk,14.0
-def,21.0
-
-ObsidianCodex,flower,5,hp,0,,False,323
-
-key,value
-hp_,4.1
-atk_,5.3
-atk,16.0
-eleMas,23.0
-
-ObsidianCodex,flower,5,hp,0,,False,324
-
-key,value
-def,23.0
-atk,14.0
-eleMas,23.0
-enerRech_,6.5
-
-ObsidianCodex,flower,5,hp,0,,False,325
-
-key,value
-hp_,5.8
-critRate_,2.7
-def_,6.6
-
-ObsidianCodex,flower,5,hp,0,,False,326
-
-key,value
-atk_,5.8
-enerRech_,6.5
-def_,5.8
-
-ObsidianCodex,flower,5,hp,0,,False,327
-
-key,value
-eleMas,23.0
-hp_,4.7
-def,16.0
 
 ObsidianCodex,flower,5,hp,0,,True,328
 
 key,value
-critRate_,3.9
-enerRech_,5.8
-hp_,4.1
-
-ObsidianCodex,flower,5,hp,0,,False,329
-
-key,value
+critDMG_,7.8
 def,19.0
-hp_,4.7
 atk,18.0
+hp_,4.7
 
-ObsidianCodex,flower,5,hp,0,,False,330
-
-key,value
-atk,14.0
-def_,6.6
-enerRech_,5.8
-
-ObsidianCodex,flower,5,hp,0,,False,331
-
-key,value
-critDMG_,7.0
-def_,5.8
-atk,16.0
-
-ObsidianCodex,flower,5,hp,0,,False,332
-
-key,value
-def,16.0
-eleMas,21.0
-atk,14.0
-
-ObsidianCodex,flower,5,hp,0,,False,333
+ObsidianCodex,flower,5,hp,0,,True,329
 
 key,value
 critRate_,3.5
-def,21.0
-hp_,4.7
-
-ObsidianCodex,flower,5,hp,0,,False,334
-
-key,value
-atk,16.0
-atk_,5.8
-def,19.0
-
-ObsidianCodex,flower,5,hp,0,,False,335
-
-key,value
-atk_,4.1
-atk,19.0
-eleMas,21.0
-
-ObsidianCodex,flower,5,hp,0,,False,336
-
-key,value
+critDMG_,7.0
 atk,14.0
-enerRech_,4.5
-def_,6.6
-
-ObsidianCodex,flower,5,hp,0,,True,337
-
-key,value
-eleMas,23.0
-critDMG_,6.2
 def,21.0
 
-ObsidianCodex,flower,5,hp,0,,True,338
-
-key,value
-enerRech_,4.5
-atk,19.0
-critDMG_,6.2
-
-ObsidianCodex,flower,5,hp,0,,False,339
-
-key,value
-hp_,5.8
-def_,7.3
-def,19.0
-
-ObsidianCodex,flower,5,hp,0,,False,340
-
-key,value
-def_,6.6
-eleMas,19.0
-enerRech_,6.5
-
-ObsidianCodex,flower,5,hp,0,,False,341
-
-key,value
-eleMas,23.0
-critRate_,2.7
-def_,6.6
-
-ObsidianCodex,flower,5,hp,0,,False,342
-
-key,value
-eleMas,21.0
-enerRech_,4.5
-def_,5.8
-
-ObsidianCodex,flower,5,hp,0,,False,343
-
-key,value
-critRate_,2.7
-def_,5.1
-critDMG_,6.2
-
-ObsidianCodex,flower,5,hp,0,,False,344
-
-key,value
-eleMas,23.0
-def,16.0
-def_,7.3
-
-ObsidianCodex,flower,5,hp,0,,True,345
-
-key,value
-critRate_,2.7
-hp_,4.7
-eleMas,21.0
-
-ObsidianCodex,flower,5,hp,0,,True,346
+ObsidianCodex,flower,5,hp,0,,True,330
 
 key,value
 critDMG_,7.8
 atk_,4.7
 atk,19.0
 
-ObsidianCodex,flower,5,hp,0,,True,347
-
-key,value
-def_,5.8
-hp_,4.7
-critRate_,2.7
-
-ObsidianCodex,flower,5,hp,0,,True,348
-
-key,value
-atk,18.0
-critDMG_,7.0
-hp_,5.8
-
-ObsidianCodex,flower,5,hp,0,,True,349
-
-key,value
-critRate_,2.7
-def,19.0
-eleMas,16.0
-
-ObsidianCodex,flower,5,hp,0,,False,350
-
-key,value
-critRate_,3.5
-atk,16.0
-def_,5.8
-
-ObsidianCodex,flower,5,hp,0,,False,351
-
-key,value
-def,16.0
-critRate_,3.1
-atk_,5.8
-
-ObsidianCodex,flower,5,hp,0,,False,352
-
-key,value
-atk,16.0
-enerRech_,4.5
-atk_,4.7
-
-ObsidianCodex,flower,5,hp,0,,False,353
-
-key,value
-atk_,5.3
-enerRech_,6.5
-def,19.0
-
-ObsidianCodex,flower,5,hp,0,,False,354
-
-key,value
-def_,7.3
-hp_,5.3
-critRate_,3.9
-
-ObsidianCodex,flower,5,hp,0,,True,355
-
-key,value
-critRate_,3.9
-critDMG_,6.2
-def,16.0
-
-ObsidianCodex,flower,5,hp,0,,False,356
-
-key,value
-eleMas,19.0
-atk,14.0
-def,21.0
-
-ObsidianCodex,flower,5,hp,0,,False,357
-
-key,value
-def,21.0
-enerRech_,5.2
-critDMG_,6.2
-
-ObsidianCodex,flower,5,hp,0,,False,358
-
-key,value
-def_,6.6
-atk,16.0
-eleMas,19.0
-
-ObsidianCodex,flower,5,hp,0,,False,359
-
-key,value
-def,23.0
-def_,5.8
-hp_,4.1
-
-ObsidianCodex,flower,5,hp,0,,False,360
-
-key,value
-critRate_,3.5
-atk_,5.8
-atk,16.0
-
-ObsidianCodex,flower,5,hp,0,,False,361
-
-key,value
-atk,16.0
-def,19.0
-critDMG_,6.2
-
-ObsidianCodex,flower,5,hp,0,,False,362
-
-key,value
-atk,14.0
-eleMas,21.0
-def,23.0
-
-ObsidianCodex,flower,5,hp,0,,False,363
-
-key,value
-atk,18.0
-def,23.0
-atk_,4.7
-
-ObsidianCodex,flower,5,hp,0,,False,364
-
-key,value
-enerRech_,5.8
-atk,18.0
-atk_,5.8
-
-ObsidianCodex,flower,5,hp,0,,False,365
-
-key,value
-def,16.0
-critDMG_,6.2
-eleMas,21.0
-
-ObsidianCodex,flower,5,hp,0,,True,366
-
-key,value
-def_,5.8
-atk_,5.8
-critDMG_,7.0
-
-ObsidianCodex,flower,5,hp,0,,False,367
-
-key,value
-critDMG_,7.0
-def_,6.6
-def,21.0
-
-ObsidianCodex,flower,5,hp,0,,False,368
-
-key,value
-atk,18.0
-hp_,5.8
-eleMas,19.0
-
-ObsidianCodex,flower,5,hp,0,,True,369
-
-key,value
-def_,7.3
-hp_,5.3
-critRate_,3.9
-
-ObsidianCodex,flower,5,hp,0,,False,370
-
-key,value
-def,21.0
-eleMas,21.0
-def_,5.8
-
-ObsidianCodex,flower,5,hp,0,,True,371
-
-key,value
-critRate_,2.7
-hp_,5.8
-enerRech_,5.2
-
-ObsidianCodex,flower,5,hp,0,,False,372
-
-key,value
-atk,18.0
-eleMas,16.0
-atk_,5.8
-
-ObsidianCodex,flower,5,hp,0,,False,373
-
-key,value
-eleMas,16.0
-atk,14.0
-def,16.0
-
-ObsidianCodex,plume,5,atk,0,,False,375
-
-key,value
-hp_,4.7
-hp,209.0
-def_,7.3
-critRate_,3.5
-
-ObsidianCodex,flower,5,hp,0,,False,374
-
-key,value
-atk,18.0
-enerRech_,5.8
-def,23.0
-
-ObsidianCodex,plume,5,atk,0,,False,376
-
-key,value
-def_,5.1
-critRate_,3.1
-critDMG_,7.8
-eleMas,23.0
-
-ObsidianCodex,plume,5,atk,0,,False,377
-
-key,value
-def,23.0
-eleMas,21.0
-atk_,4.7
-hp_,5.3
-
-ObsidianCodex,plume,5,atk,0,,False,378
-
-key,value
-atk_,4.7
-def,23.0
-hp_,5.3
-eleMas,16.0
-
-ObsidianCodex,plume,5,atk,0,,False,379
-
-key,value
-hp_,5.3
-enerRech_,5.2
-hp,209.0
-eleMas,16.0
-
-ObsidianCodex,plume,5,atk,0,,False,380
-
-key,value
-def_,5.8
-def,16.0
-eleMas,19.0
-hp_,5.3
-
-ObsidianCodex,plume,5,atk,0,,False,381
-
-key,value
-def_,5.1
-critDMG_,5.4
-atk_,4.7
-hp,239.0
-
-ObsidianCodex,plume,5,atk,0,,False,382
-
-key,value
-hp,299.0
-def_,6.6
-def,16.0
-atk_,5.8
-
-ObsidianCodex,plume,5,atk,0,,True,383
+ObsidianCodex,plume,5,atk,0,,True,331
 
 key,value
 atk_,5.3
@@ -3021,15 +2654,7 @@ enerRech_,6.5
 critDMG_,7.0
 hp_,5.3
 
-ObsidianCodex,plume,5,atk,0,,False,384
-
-key,value
-hp,269.0
-hp_,5.8
-def_,6.6
-eleMas,19.0
-
-ObsidianCodex,plume,5,atk,0,,False,385
+ObsidianCodex,plume,5,atk,0,,True,332
 
 key,value
 critRate_,2.7
@@ -3037,15 +2662,7 @@ hp_,4.1
 eleMas,19.0
 atk_,5.8
 
-ObsidianCodex,plume,5,atk,0,,False,386
-
-key,value
-atk_,4.1
-eleMas,23.0
-hp,269.0
-hp_,5.8
-
-ObsidianCodex,plume,5,atk,0,,False,387
+ObsidianCodex,plume,5,atk,0,,True,333
 
 key,value
 def,19.0
@@ -3053,7 +2670,7 @@ critRate_,2.7
 hp_,5.3
 enerRech_,5.2
 
-ObsidianCodex,plume,5,atk,0,,True,388
+ObsidianCodex,plume,5,atk,0,,True,334
 
 key,value
 hp_,5.3
@@ -3061,273 +2678,77 @@ critRate_,3.1
 atk_,5.3
 def_,5.8
 
-ObsidianCodex,plume,5,atk,0,,False,389
-
-key,value
-hp_,4.7
-atk_,4.1
-def,21.0
-
-ObsidianCodex,plume,5,atk,0,,False,390
+ObsidianCodex,plume,5,atk,0,,True,335
 
 key,value
 critRate_,3.1
 atk_,4.7
 eleMas,21.0
 
-ObsidianCodex,plume,5,atk,0,,False,391
-
-key,value
-hp,209.0
-def,21.0
-critDMG_,7.0
-
-ObsidianCodex,plume,5,atk,0,,False,392
-
-key,value
-critDMG_,7.0
-atk_,5.3
-eleMas,21.0
-
-ObsidianCodex,plume,5,atk,0,,False,393
-
-key,value
-def,16.0
-critDMG_,7.0
-hp,269.0
-
-ObsidianCodex,plume,5,atk,0,,False,394
-
-key,value
-hp,239.0
-eleMas,21.0
-def_,5.1
-
-ObsidianCodex,plume,5,atk,0,,True,395
+ObsidianCodex,plume,5,atk,0,,True,336
 
 key,value
 critDMG_,6.2
 def_,6.6
 atk_,5.8
 
-ObsidianCodex,plume,5,atk,0,,False,396
-
-key,value
-hp,299.0
-critRate_,3.5
-atk_,5.3
-
-ObsidianCodex,plume,5,atk,0,,False,397
-
-key,value
-def_,6.6
-atk_,5.8
-def,19.0
-
-ObsidianCodex,plume,5,atk,0,,False,398
-
-key,value
-hp_,4.7
-hp,239.0
-enerRech_,6.5
-
-ObsidianCodex,plume,5,atk,0,,False,399
+ObsidianCodex,plume,5,atk,0,,True,337
 
 key,value
 critRate_,3.9
 atk_,5.3
 eleMas,21.0
 
-ObsidianCodex,plume,5,atk,0,,False,400
-
-key,value
-hp_,4.1
-def,23.0
-def_,5.8
-
-ObsidianCodex,plume,5,atk,0,,False,401
-
-key,value
-def,19.0
-hp,269.0
-critRate_,3.5
-
-ObsidianCodex,plume,5,atk,0,,False,402
+ObsidianCodex,plume,5,atk,0,,True,338
 
 key,value
 eleMas,23.0
 hp_,5.8
 def,23.0
 
-ObsidianCodex,plume,5,atk,0,,True,403
+ObsidianCodex,plume,5,atk,0,,True,339
 
 key,value
 def,16.0
 enerRech_,5.8
 hp_,5.3
 
-ObsidianCodex,plume,5,atk,0,,False,404
-
-key,value
-hp_,5.8
-eleMas,23.0
-atk_,5.3
-
-ObsidianCodex,plume,5,atk,0,,False,406
-
-key,value
-hp,239.0
-atk_,5.3
-def,16.0
-
-ObsidianCodex,plume,5,atk,0,,False,405
-
-key,value
-enerRech_,5.8
-def,23.0
-atk_,4.1
-
-ObsidianCodex,plume,5,atk,0,,False,407
-
-key,value
-hp,269.0
-def,23.0
-critDMG_,7.0
-
-ObsidianCodex,plume,5,atk,0,,False,408
-
-key,value
-def_,6.6
-def,21.0
-critRate_,3.1
-
-ObsidianCodex,plume,5,atk,0,,True,409
+ObsidianCodex,plume,5,atk,0,,True,340
 
 key,value
 hp,269.0
 critRate_,3.5
 hp_,5.3
 
-ObsidianCodex,plume,5,atk,0,,False,410
-
-key,value
-eleMas,21.0
-enerRech_,4.5
-def,23.0
-
-ObsidianCodex,plume,5,atk,0,,False,411
-
-key,value
-critRate_,3.1
-def_,5.1
-def,23.0
-
-ObsidianCodex,plume,5,atk,0,,False,412
-
-key,value
-hp,299.0
-def_,5.1
-def,21.0
-
-ObsidianCodex,plume,5,atk,0,,False,413
-
-key,value
-def,21.0
-atk_,5.3
-def_,7.3
-
-ObsidianCodex,plume,5,atk,0,,False,414
-
-key,value
-def,21.0
-hp,299.0
-hp_,5.3
-
-ObsidianCodex,plume,5,atk,0,,False,415
-
-key,value
-critDMG_,5.4
-enerRech_,5.2
-def_,7.3
-
-ObsidianCodex,plume,5,atk,0,,False,416
-
-key,value
-hp,269.0
-eleMas,23.0
-def_,5.1
-
-ObsidianCodex,plume,5,atk,0,,False,417
-
-key,value
-def_,5.8
-hp,299.0
-enerRech_,6.5
-
-ObsidianCodex,plume,5,atk,0,,True,418
+ObsidianCodex,plume,5,atk,0,,True,341
 
 key,value
 eleMas,19.0
 def_,5.8
 critDMG_,7.0
 
-ObsidianCodex,plume,5,atk,0,,True,419
+ObsidianCodex,plume,5,atk,0,,True,342
 
 key,value
 enerRech_,4.5
 eleMas,16.0
 critRate_,3.1
 
-ObsidianCodex,plume,5,atk,0,,False,420
-
-key,value
-def_,5.1
-hp_,5.8
-enerRech_,5.8
-
-ObsidianCodex,plume,5,atk,0,,False,421
-
-key,value
-enerRech_,4.5
-hp,299.0
-def_,7.3
-
-ObsidianCodex,plume,5,atk,0,,False,422
-
-key,value
-critRate_,3.1
-def,19.0
-def_,6.6
-
-ObsidianCodex,plume,5,atk,0,,False,423
-
-key,value
-def,23.0
-enerRech_,5.8
-critDMG_,7.0
-
-ObsidianCodex,plume,5,atk,0,,False,424
-
-key,value
-eleMas,19.0
-enerRech_,4.5
-hp,299.0
-
-ObsidianCodex,plume,5,atk,0,,True,425
+ObsidianCodex,plume,5,atk,0,,True,343
 
 key,value
 critRate_,3.9
 enerRech_,5.8
 eleMas,23.0
 
-ObsidianCodex,plume,5,atk,0,,True,426
+ObsidianCodex,plume,5,atk,0,,True,344
 
 key,value
 critDMG_,7.8
 atk_,4.7
 def,21.0
 
-ObsidianCodex,sands,5,atk_,0,,True,427
+ObsidianCodex,sands,5,atk_,0,,True,345
 
 key,value
 hp_,4.7
@@ -3335,39 +2756,7 @@ enerRech_,5.2
 critRate_,3.9
 hp,269.0
 
-ObsidianCodex,sands,5,hp_,0,,False,428
-
-key,value
-eleMas,23.0
-enerRech_,6.5
-atk_,4.7
-def_,5.8
-
-ObsidianCodex,sands,5,atk_,0,,False,429
-
-key,value
-def,21.0
-hp,209.0
-enerRech_,5.2
-eleMas,21.0
-
-ObsidianCodex,sands,5,def_,0,,False,430
-
-key,value
-critDMG_,7.8
-def,16.0
-eleMas,16.0
-enerRech_,6.5
-
-ObsidianCodex,sands,5,hp_,0,,False,431
-
-key,value
-def_,6.6
-hp,209.0
-critDMG_,7.8
-enerRech_,6.5
-
-ObsidianCodex,sands,5,atk_,0,,False,432
+ObsidianCodex,sands,5,atk_,0,,True,346
 
 key,value
 critDMG_,7.0
@@ -3375,15 +2764,7 @@ eleMas,19.0
 enerRech_,5.8
 critRate_,3.1
 
-ObsidianCodex,sands,5,def_,0,,False,433
-
-key,value
-atk_,4.1
-enerRech_,4.5
-eleMas,19.0
-hp,209.0
-
-ObsidianCodex,sands,5,atk_,0,,True,434
+ObsidianCodex,sands,5,atk_,0,,True,347
 
 key,value
 def,23.0
@@ -3391,344 +2772,63 @@ atk,14.0
 enerRech_,6.5
 critRate_,3.1
 
-ObsidianCodex,sands,5,def_,0,,False,436
-
-key,value
-atk,16.0
-def,23.0
-hp,209.0
-
-ObsidianCodex,sands,5,hp_,0,,True,435
-
-key,value
-atk_,5.3
-critRate_,3.5
-hp,269.0
-eleMas,19.0
-
-ObsidianCodex,sands,5,atk_,0,,True,437
+ObsidianCodex,sands,5,atk_,0,,True,348
 
 key,value
 hp,239.0
 eleMas,16.0
 critRate_,2.7
 
-ObsidianCodex,sands,5,def_,0,,False,438
-
-key,value
-eleMas,21.0
-hp_,4.7
-atk,16.0
-
-ObsidianCodex,sands,5,eleMas,0,,False,439
+ObsidianCodex,sands,5,eleMas,0,,True,349
 
 key,value
 critRate_,2.7
 def,16.0
 atk_,4.1
 
-ObsidianCodex,sands,5,atk_,0,,False,440
-
-key,value
-hp_,4.1
-enerRech_,4.5
-def,23.0
-
-ObsidianCodex,sands,5,def_,0,,False,441
-
-key,value
-eleMas,19.0
-def,21.0
-hp_,5.8
-
-ObsidianCodex,sands,5,enerRech_,0,,False,442
-
-key,value
-def,21.0
-atk_,4.7
-hp,239.0
-
-ObsidianCodex,sands,5,atk_,0,,True,443
-
-key,value
-hp,299.0
-hp_,5.3
-critDMG_,7.0
-
-ObsidianCodex,sands,5,hp_,0,,False,444
-
-key,value
-atk,14.0
-critRate_,3.5
-def_,6.6
-
-ObsidianCodex,sands,5,atk_,0,,True,445
+ObsidianCodex,sands,5,atk_,0,,True,350
 
 key,value
 def_,7.3
 enerRech_,5.2
 critDMG_,6.2
 
-ObsidianCodex,sands,5,atk_,0,,False,446
-
-key,value
-hp,239.0
-hp_,4.1
-atk,18.0
-
-ObsidianCodex,sands,5,def_,0,,False,447
-
-key,value
-hp,239.0
-atk,16.0
-eleMas,16.0
-
-ObsidianCodex,sands,5,atk_,0,,False,448
-
-key,value
-hp,239.0
-def,19.0
-atk,16.0
-
-ObsidianCodex,sands,5,def_,0,,False,449
-
-key,value
-atk_,4.1
-enerRech_,5.8
-eleMas,21.0
-
-ObsidianCodex,sands,5,atk_,0,,False,450
+ObsidianCodex,sands,5,atk_,0,,True,351
 
 key,value
 enerRech_,4.5
 critRate_,3.1
 def_,7.3
 
-ObsidianCodex,sands,5,atk_,0,,False,451
-
-key,value
-def,19.0
-critDMG_,5.4
-hp_,5.3
-
-ObsidianCodex,sands,5,def_,0,,False,452
-
-key,value
-atk,14.0
-def,21.0
-enerRech_,5.2
-
-ObsidianCodex,sands,5,def_,0,,False,453
-
-key,value
-hp,299.0
-def,23.0
-hp_,4.1
-
-ObsidianCodex,sands,5,def_,0,,False,454
-
-key,value
-hp,269.0
-enerRech_,4.5
-atk,16.0
-
-ObsidianCodex,sands,5,atk_,0,,True,455
+ObsidianCodex,sands,5,atk_,0,,True,352
 
 key,value
 hp_,5.8
 eleMas,19.0
 critRate_,2.7
 
-ObsidianCodex,sands,5,hp_,0,,False,456
-
-key,value
-def,23.0
-atk_,5.3
-enerRech_,6.5
-
-ObsidianCodex,sands,5,def_,0,,False,457
-
-key,value
-hp,269.0
-atk_,4.7
-critDMG_,5.4
-
-ObsidianCodex,sands,5,enerRech_,0,,False,458
-
-key,value
-def,23.0
-hp,239.0
-atk_,5.3
-
-ObsidianCodex,sands,5,hp_,0,,False,459
-
-key,value
-atk,14.0
-eleMas,16.0
-hp,269.0
-
-ObsidianCodex,sands,5,atk_,0,,False,460
-
-key,value
-hp,209.0
-eleMas,23.0
-def,23.0
-
-ObsidianCodex,sands,5,eleMas,0,,True,461
+ObsidianCodex,sands,5,eleMas,0,,True,353
 
 key,value
 atk_,5.8
 enerRech_,6.5
 atk,19.0
 
-ObsidianCodex,sands,5,def_,0,,False,463
-
-key,value
-critDMG_,6.2
-enerRech_,6.5
-atk,16.0
-
-ObsidianCodex,sands,5,hp_,0,,False,462
-
-key,value
-def,19.0
-hp,209.0
-atk,16.0
-
-ObsidianCodex,sands,5,def_,0,,False,465
-
-key,value
-atk,19.0
-hp,209.0
-critDMG_,5.4
-
-ObsidianCodex,sands,5,eleMas,0,,False,464
-
-key,value
-enerRech_,4.5
-hp,209.0
-def,23.0
-
-ObsidianCodex,sands,5,hp_,0,,False,466
-
-key,value
-enerRech_,4.5
-def,23.0
-atk,19.0
-
-ObsidianCodex,sands,5,atk_,0,,False,468
-
-key,value
-def,19.0
-atk,19.0
-hp,269.0
-
-ObsidianCodex,sands,5,eleMas,0,,False,467
-
-key,value
-atk_,4.1
-atk,19.0
-def_,7.3
-
-ObsidianCodex,sands,5,eleMas,0,,True,469
-
-key,value
-atk_,5.3
-atk,18.0
-def,21.0
-
-ObsidianCodex,sands,5,def_,0,,False,471
-
-key,value
-enerRech_,6.5
-hp,209.0
-critDMG_,7.0
-
-ObsidianCodex,sands,5,hp_,0,,True,470
-
-key,value
-critDMG_,6.2
-atk_,5.3
-enerRech_,5.2
-
-ObsidianCodex,sands,5,enerRech_,0,,True,472
+ObsidianCodex,sands,5,enerRech_,0,,True,354
 
 key,value
 atk,18.0
 critRate_,3.9
 def,16.0
 
-ObsidianCodex,sands,5,def_,0,,False,474
-
-key,value
-atk,14.0
-hp,299.0
-eleMas,16.0
-
-ObsidianCodex,sands,5,atk_,0,,True,473
+ObsidianCodex,sands,5,atk_,0,,True,355
 
 key,value
 enerRech_,6.5
 critRate_,3.1
 hp,209.0
 
-ObsidianCodex,goblet,5,atk_,0,,False,475
-
-key,value
-def,21.0
-atk,16.0
-eleMas,16.0
-hp,299.0
-
-ObsidianCodex,goblet,5,def_,0,,False,476
-
-key,value
-eleMas,21.0
-critRate_,3.9
-def,19.0
-atk,14.0
-
-ObsidianCodex,goblet,5,def_,0,,False,477
-
-key,value
-critDMG_,7.8
-eleMas,19.0
-atk_,4.7
-def,21.0
-
-ObsidianCodex,goblet,5,physical_dmg_,0,,False,478
-
-key,value
-critDMG_,7.8
-enerRech_,4.5
-eleMas,19.0
-def_,5.8
-
-ObsidianCodex,goblet,5,physical_dmg_,0,,False,479
-
-key,value
-hp_,4.7
-def_,7.3
-eleMas,21.0
-hp,209.0
-
-ObsidianCodex,goblet,5,hp_,0,,False,480
-
-key,value
-eleMas,23.0
-enerRech_,4.5
-atk_,5.8
-atk,16.0
-
-ObsidianCodex,goblet,5,atk_,0,,True,481
-
-key,value
-eleMas,16.0
-def,21.0
-critRate_,3.9
-hp_,5.8
-
-ObsidianCodex,goblet,5,pyro_dmg_,0,,True,482
+ObsidianCodex,goblet,5,pyro_dmg_,0,,True,356
 
 key,value
 def_,5.8
@@ -3736,62 +2836,7 @@ def,23.0
 atk_,4.1
 critDMG_,6.2
 
-ObsidianCodex,goblet,5,atk_,0,,False,483
-
-key,value
-atk,16.0
-eleMas,23.0
-hp,239.0
-hp_,5.8
-
-ObsidianCodex,goblet,5,dendro_dmg_,0,,False,484
-
-key,value
-hp,239.0
-def,21.0
-atk,19.0
-enerRech_,4.5
-
-ObsidianCodex,goblet,5,hp_,0,,False,485
-
-key,value
-def,23.0
-critDMG_,5.4
-def_,6.6
-hp,269.0
-
-ObsidianCodex,goblet,5,geo_dmg_,0,,False,487
-
-key,value
-atk,18.0
-hp,269.0
-atk_,5.8
-def,23.0
-
-ObsidianCodex,goblet,5,dendro_dmg_,0,,False,486
-
-key,value
-atk_,4.7
-enerRech_,4.5
-atk,16.0
-critDMG_,6.2
-
-ObsidianCodex,goblet,5,atk_,0,,False,488
-
-key,value
-critDMG_,7.8
-def_,6.6
-eleMas,23.0
-hp,239.0
-
-ObsidianCodex,goblet,5,hp_,0,,False,490
-
-key,value
-atk,18.0
-critRate_,3.5
-hp,239.0
-
-ObsidianCodex,goblet,5,electro_dmg_,0,,False,489
+ObsidianCodex,goblet,5,electro_dmg_,0,,True,357
 
 key,value
 hp,269.0
@@ -3799,597 +2844,56 @@ def_,5.8
 critRate_,2.7
 atk_,5.8
 
-ObsidianCodex,goblet,5,hp_,0,,False,493
-
-key,value
-def,21.0
-atk_,5.8
-atk,16.0
-
-ObsidianCodex,goblet,5,eleMas,0,,False,492
-
-key,value
-enerRech_,4.5
-def_,5.1
-def,19.0
-
-ObsidianCodex,goblet,5,def_,0,,False,491
-
-key,value
-hp,209.0
-critRate_,3.5
-hp_,4.7
-
-ObsidianCodex,goblet,5,electro_dmg_,0,,False,494
+ObsidianCodex,goblet,5,electro_dmg_,0,,True,358
 
 key,value
 atk,16.0
 critRate_,3.1
 hp_,5.3
 
-ObsidianCodex,goblet,5,atk_,0,,False,495
-
-key,value
-critDMG_,7.0
-def,19.0
-atk,16.0
-
-ObsidianCodex,goblet,5,def_,0,,False,496
-
-key,value
-atk,14.0
-hp,209.0
-atk_,4.1
-
-ObsidianCodex,goblet,5,def_,0,,False,498
-
-key,value
-eleMas,23.0
-atk,19.0
-critRate_,3.1
-
-ObsidianCodex,goblet,5,hp_,0,,False,497
-
-key,value
-atk,14.0
-def,19.0
-eleMas,23.0
-
-ObsidianCodex,goblet,5,cryo_dmg_,0,,False,499
+ObsidianCodex,goblet,5,cryo_dmg_,0,,True,359
 
 key,value
 critRate_,3.9
 atk_,4.1
 hp_,4.7
 
-ObsidianCodex,goblet,5,dendro_dmg_,0,,False,500
-
-key,value
-critDMG_,6.2
-hp,209.0
-atk_,5.3
-
-ObsidianCodex,goblet,5,hp_,0,,False,501
-
-key,value
-eleMas,23.0
-atk,19.0
-enerRech_,5.2
-
-ObsidianCodex,goblet,5,dendro_dmg_,0,,False,502
-
-key,value
-critDMG_,7.0
-def,16.0
-atk,16.0
-
-ObsidianCodex,goblet,5,atk_,0,,False,503
-
-key,value
-enerRech_,6.5
-critRate_,3.5
-def_,5.8
-
-ObsidianCodex,goblet,5,pyro_dmg_,0,,False,504
+ObsidianCodex,goblet,5,pyro_dmg_,0,,True,360
 
 key,value
 critDMG_,7.8
 hp_,5.3
 critRate_,3.9
 
-ObsidianCodex,goblet,5,cryo_dmg_,0,,False,505
-
-key,value
-hp_,5.3
-hp,299.0
-atk_,4.1
-
-ObsidianCodex,goblet,5,atk_,0,,False,506
-
-key,value
-hp,209.0
-enerRech_,4.5
-hp_,5.8
-
-ObsidianCodex,goblet,5,hp_,0,,False,507
-
-key,value
-eleMas,21.0
-def,16.0
-def_,6.6
-
-ObsidianCodex,goblet,5,hydro_dmg_,0,,False,508
-
-key,value
-atk_,5.3
-atk,14.0
-def_,5.1
-
-ObsidianCodex,goblet,5,pyro_dmg_,0,,False,510
-
-key,value
-hp_,4.1
-hp,299.0
-def,16.0
-
-ObsidianCodex,goblet,5,atk_,0,,False,509
-
-key,value
-enerRech_,5.2
-critDMG_,7.0
-hp,209.0
-
-ObsidianCodex,goblet,5,geo_dmg_,0,,False,511
-
-key,value
-hp_,4.7
-atk_,4.7
-enerRech_,6.5
-
-ObsidianCodex,goblet,5,def_,0,,False,512
-
-key,value
-def,21.0
-eleMas,19.0
-hp_,4.1
-
-ObsidianCodex,goblet,5,atk_,0,,False,513
-
-key,value
-def_,6.6
-eleMas,21.0
-hp,299.0
-
-ObsidianCodex,goblet,5,anemo_dmg_,0,,False,514
-
-key,value
-def,19.0
-critDMG_,7.8
-hp,239.0
-
-ObsidianCodex,goblet,5,atk_,0,,False,515
-
-key,value
-atk,14.0
-critDMG_,7.0
-hp_,4.1
-
-ObsidianCodex,goblet,5,atk_,0,,False,516
-
-key,value
-enerRech_,4.5
-atk,19.0
-critRate_,3.9
-
-ObsidianCodex,goblet,5,atk_,0,,False,517
-
-key,value
-atk,16.0
-eleMas,21.0
-def_,5.1
-
-ObsidianCodex,goblet,5,hp_,0,,False,518
-
-key,value
-atk,16.0
-atk_,4.1
-eleMas,21.0
-
-ObsidianCodex,goblet,5,hp_,0,,False,519
-
-key,value
-hp,299.0
-def_,7.3
-eleMas,21.0
-
-ObsidianCodex,goblet,5,cryo_dmg_,0,,False,520
-
-key,value
-def,16.0
-atk,19.0
-eleMas,19.0
-
-ObsidianCodex,goblet,5,atk_,0,,False,522
-
-key,value
-atk,16.0
-enerRech_,5.2
-hp,239.0
-
-ObsidianCodex,goblet,5,atk_,0,,False,521
-
-key,value
-def,21.0
-hp_,5.3
-critRate_,3.9
-
-ObsidianCodex,goblet,5,def_,0,,False,524
-
-key,value
-hp,269.0
-def,19.0
-atk_,4.7
-
-ObsidianCodex,goblet,5,electro_dmg_,0,,False,523
-
-key,value
-atk,14.0
-eleMas,23.0
-def,19.0
-
-ObsidianCodex,goblet,5,atk_,0,,False,525
-
-key,value
-atk,16.0
-def,19.0
-hp,299.0
-
-ObsidianCodex,goblet,5,def_,0,Noelle,True,526
+ObsidianCodex,goblet,5,def_,0,Noelle,True,361
 
 key,value
 critDMG_,7.0
 hp_,5.3
 critRate_,3.1
 
-ObsidianCodex,goblet,5,pyro_dmg_,0,,True,527
-
-key,value
-atk_,4.1
-atk,19.0
-enerRech_,5.2
-
-ObsidianCodex,goblet,5,hp_,0,,False,528
-
-key,value
-def,23.0
-enerRech_,5.2
-hp,209.0
-
-ObsidianCodex,circlet,5,critDMG_,0,,False,529
-
-key,value
-def_,5.8
-atk,18.0
-atk_,5.8
-hp,269.0
-
-ObsidianCodex,circlet,5,critRate_,0,,False,530
-
-key,value
-atk,16.0
-hp,269.0
-def,23.0
-atk_,4.7
-
-ObsidianCodex,circlet,5,critRate_,0,,False,531
-
-key,value
-def_,5.1
-atk,19.0
-hp,299.0
-enerRech_,4.5
-
-ObsidianCodex,circlet,5,def_,0,,False,532
-
-key,value
-critDMG_,7.8
-enerRech_,5.2
-eleMas,19.0
-hp_,5.8
-
-ObsidianCodex,circlet,5,atk_,0,,False,533
-
-key,value
-eleMas,19.0
-atk,14.0
-hp_,5.8
-def,19.0
-
-ObsidianCodex,circlet,5,critRate_,0,,False,534
-
-key,value
-atk,16.0
-def,23.0
-eleMas,19.0
-atk_,5.8
-
-ObsidianCodex,circlet,5,hp_,0,,False,535
-
-key,value
-atk,18.0
-def,19.0
-atk_,5.3
-eleMas,21.0
-
-ObsidianCodex,circlet,5,eleMas,0,,False,536
-
-key,value
-hp,269.0
-def_,6.6
-critDMG_,6.2
-atk,14.0
-
-ObsidianCodex,circlet,5,hp_,0,,False,537
-
-key,value
-eleMas,19.0
-atk,14.0
-hp,269.0
-def,16.0
-
-ObsidianCodex,circlet,5,hp_,0,,False,538
-
-key,value
-enerRech_,5.8
-eleMas,19.0
-atk,16.0
-
-ObsidianCodex,circlet,5,def_,0,,False,539
-
-key,value
-critDMG_,7.8
-critRate_,3.1
-enerRech_,5.8
-
-ObsidianCodex,circlet,5,atk_,0,,False,540
-
-key,value
-eleMas,16.0
-hp_,4.7
-hp,269.0
-
-ObsidianCodex,circlet,5,atk_,0,,False,541
-
-key,value
-def,21.0
-hp,299.0
-def_,7.3
-
-ObsidianCodex,circlet,5,eleMas,0,,False,542
-
-key,value
-hp_,4.1
-critDMG_,5.4
-critRate_,3.9
-
-ObsidianCodex,circlet,5,hp_,0,,False,543
-
-key,value
-eleMas,23.0
-def,19.0
-enerRech_,4.5
-
-ObsidianCodex,circlet,5,def_,0,,False,544
-
-key,value
-atk,16.0
-eleMas,16.0
-hp,299.0
-
-ObsidianCodex,circlet,5,atk_,0,,False,545
-
-key,value
-enerRech_,5.2
-hp,209.0
-critRate_,3.5
-
-ObsidianCodex,circlet,5,atk_,0,,False,546
-
-key,value
-critRate_,3.1
-atk,18.0
-def,16.0
-
-ObsidianCodex,circlet,5,hp_,0,,False,547
-
-key,value
-hp,209.0
-atk,14.0
-eleMas,16.0
-
-ObsidianCodex,circlet,5,heal_,0,,False,548
-
-key,value
-hp,269.0
-def,19.0
-def_,5.1
-
-ObsidianCodex,circlet,5,critDMG_,0,,False,549
+ObsidianCodex,circlet,5,critDMG_,0,,True,362
 
 key,value
 atk_,4.7
 hp_,4.7
 atk,14.0
 
-ObsidianCodex,circlet,5,hp_,0,,False,550
-
-key,value
-def_,6.6
-atk_,4.1
-def,21.0
-
-ObsidianCodex,circlet,5,heal_,0,,False,551
-
-key,value
-hp,299.0
-critDMG_,7.0
-enerRech_,5.2
-
-ObsidianCodex,circlet,5,critDMG_,0,,False,552
-
-key,value
-def_,5.8
-hp,299.0
-def,21.0
-
-ObsidianCodex,circlet,5,atk_,0,,False,553
-
-key,value
-eleMas,23.0
-def,16.0
-hp_,4.7
-
-ObsidianCodex,circlet,5,hp_,0,,False,554
-
-key,value
-eleMas,23.0
-critDMG_,7.8
-atk_,4.1
-
-ObsidianCodex,circlet,5,critDMG_,0,,False,555
-
-key,value
-atk,19.0
-def_,6.6
-atk_,4.1
-
-ObsidianCodex,circlet,5,critRate_,0,,False,556
-
-key,value
-def,16.0
-eleMas,16.0
-def_,6.6
-
-ObsidianCodex,circlet,5,hp_,0,,False,557
-
-key,value
-atk,14.0
-critDMG_,7.8
-eleMas,23.0
-
-ObsidianCodex,circlet,5,heal_,0,,False,558
-
-key,value
-hp,269.0
-atk_,5.3
-def_,5.8
-
-ObsidianCodex,circlet,5,critDMG_,0,,False,559
+ObsidianCodex,circlet,5,critDMG_,0,,True,363
 
 key,value
 critRate_,3.9
 atk_,4.1
 atk,19.0
 
-ObsidianCodex,circlet,5,def_,0,,False,560
-
-key,value
-atk,18.0
-hp_,5.3
-def,19.0
-
-ObsidianCodex,circlet,5,atk_,0,,False,561
-
-key,value
-def,21.0
-def_,7.3
-eleMas,16.0
-
-ObsidianCodex,circlet,5,heal_,0,,False,562
-
-key,value
-hp,239.0
-def_,5.1
-atk,18.0
-
-ObsidianCodex,circlet,5,atk_,0,,False,563
-
-key,value
-hp_,5.3
-eleMas,19.0
-enerRech_,6.5
-
-ObsidianCodex,circlet,5,critRate_,0,,False,564
-
-key,value
-def,19.0
-hp_,4.7
-def_,6.6
-
-ObsidianCodex,circlet,5,hp_,0,,False,565
-
-key,value
-def,16.0
-hp,299.0
-critDMG_,6.2
-
-ObsidianCodex,circlet,5,def_,0,,False,566
-
-key,value
-atk,19.0
-hp_,5.8
-eleMas,19.0
-
-ObsidianCodex,circlet,5,heal_,0,,False,567
-
-key,value
-enerRech_,4.5
-atk,18.0
-eleMas,19.0
-
-ObsidianCodex,circlet,5,def_,0,,False,568
-
-key,value
-atk,18.0
-critRate_,3.9
-enerRech_,5.8
-
-ObsidianCodex,circlet,5,atk_,0,,False,569
-
-key,value
-atk,18.0
-critDMG_,7.8
-def,21.0
-
-ObsidianCodex,circlet,5,critRate_,0,,True,570
+ObsidianCodex,circlet,5,critRate_,0,,True,364
 
 key,value
 critDMG_,7.0
 def_,7.3
 atk,14.0
 
-ObsidianCodex,circlet,5,hp_,0,,False,571
-
-key,value
-enerRech_,5.8
-eleMas,16.0
-hp,239.0
-
-ObsidianCodex,circlet,5,hp_,0,,False,572
-
-key,value
-hp,299.0
-def_,7.3
-atk,14.0
-
-ObsidianCodex,circlet,5,eleMas,0,,False,573
-
-key,value
-atk,14.0
-atk_,5.3
-def_,6.6
-
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,False,574
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,365
 
 key,value
 enerRech_,5.8
@@ -4397,7 +2901,7 @@ atk_,4.7
 hp_,5.3
 def,21.0
 
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,575
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,366
 
 key,value
 enerRech_,5.2
@@ -4405,7 +2909,7 @@ def,21.0
 critRate_,2.7
 atk_,5.3
 
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,576
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,367
 
 key,value
 eleMas,21.0
@@ -4413,7 +2917,7 @@ def,19.0
 enerRech_,4.5
 atk_,4.7
 
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,577
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,368
 
 key,value
 eleMas,16.0
@@ -4421,7 +2925,7 @@ atk,19.0
 hp_,4.7
 critDMG_,7.8
 
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,578
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,369
 
 key,value
 atk,18.0
@@ -4429,7 +2933,7 @@ enerRech_,4.5
 atk_,5.3
 eleMas,16.0
 
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,579
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,370
 
 key,value
 critRate_,3.1
@@ -4437,7 +2941,7 @@ atk,19.0
 hp_,5.3
 def,23.0
 
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,580
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,371
 
 key,value
 def_,6.6
@@ -4445,308 +2949,168 @@ critRate_,3.9
 eleMas,21.0
 atk_,5.8
 
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,581
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,372
 
 key,value
 critRate_,3.5
 atk,18.0
 critDMG_,7.0
 
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,582
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,373
 
 key,value
 enerRech_,6.5
 atk_,4.7
 atk,14.0
 
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,False,583
-
-key,value
-eleMas,19.0
-def,19.0
-hp_,4.7
-
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,False,584
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,374
 
 key,value
 critDMG_,5.4
 eleMas,23.0
 hp_,4.1
 
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,False,585
-
-key,value
-def,16.0
-atk,16.0
-eleMas,23.0
-
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,False,586
-
-key,value
-atk,18.0
-def_,5.8
-hp_,5.8
-
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,False,587
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,375
 
 key,value
 critDMG_,6.2
 critRate_,3.5
 def,16.0
 
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,False,588
-
-key,value
-def,16.0
-atk_,5.3
-eleMas,23.0
-
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,False,589
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,376
 
 key,value
 critRate_,3.5
 atk,16.0
 atk_,5.8
 
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,590
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,377
 
 key,value
 critDMG_,5.4
 hp_,5.8
 atk,19.0
 
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,False,591
-
-key,value
-def,23.0
-def_,7.3
-hp_,4.7
-
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,False,592
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,378
 
 key,value
 eleMas,23.0
 hp_,5.8
 critRate_,3.5
 
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,593
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,379
 
 key,value
 enerRech_,5.8
 def,23.0
 hp_,5.3
 
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,False,594
-
-key,value
-enerRech_,6.5
-def,21.0
-atk,16.0
-
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,False,595
-
-key,value
-def_,5.8
-def,16.0
-eleMas,23.0
-
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,False,597
-
-key,value
-critDMG_,7.8
-atk,14.0
-def,16.0
-
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,596
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,380
 
 key,value
 atk_,4.7
 eleMas,21.0
 critRate_,3.9
 
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,False,598
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,381
 
 key,value
 hp_,4.7
 critDMG_,6.2
 atk_,4.1
 
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,False,599
-
-key,value
-def_,7.3
-eleMas,19.0
-atk,14.0
-
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,False,600
-
-key,value
-hp_,5.3
-def,19.0
-atk_,5.3
-
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,601
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,382
 
 key,value
 eleMas,21.0
 def,16.0
 atk_,5.3
 
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,False,602
-
-key,value
-eleMas,21.0
-def_,5.8
-atk,19.0
-
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,False,603
-
-key,value
-atk,16.0
-hp_,5.8
-def,16.0
-
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,False,604
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,383
 
 key,value
 hp_,5.8
 enerRech_,4.5
 eleMas,19.0
 
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,False,605
-
-key,value
-atk,14.0
-def,21.0
-eleMas,23.0
-
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,False,606
-
-key,value
-def_,6.6
-hp_,5.3
-def,16.0
-
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,False,607
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,384
 
 key,value
 critDMG_,6.2
 atk,16.0
 def_,6.6
 
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,False,608
-
-key,value
-hp_,4.7
-def,19.0
-atk_,4.7
-
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,False,609
-
-key,value
-hp_,4.1
-atk_,4.7
-def,19.0
-
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,False,610
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,385
 
 key,value
 atk_,4.7
 critDMG_,6.2
 eleMas,21.0
 
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,611
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,386
 
 key,value
 hp_,4.7
 def,16.0
 critDMG_,6.2
 
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,612
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,387
 
 key,value
 critRate_,3.1
 enerRech_,6.5
 hp_,5.3
 
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,False,613
-
-key,value
-hp_,4.1
-def,23.0
-eleMas,16.0
-
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,False,614
-
-key,value
-eleMas,21.0
-def,23.0
-atk_,5.3
-
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,False,615
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,388
 
 key,value
 hp_,5.8
 enerRech_,5.8
 atk,18.0
 
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,616
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,389
 
 key,value
 def,16.0
 critDMG_,6.2
 enerRech_,6.5
 
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,617
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,390
 
 key,value
 critDMG_,7.8
 atk,19.0
 atk_,5.8
 
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,618
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,391
 
 key,value
 critDMG_,5.4
 atk,14.0
 atk_,4.7
 
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,False,619
-
-key,value
-atk_,5.8
-eleMas,16.0
-def,23.0
-
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,False,620
-
-key,value
-atk_,4.7
-def,21.0
-hp_,5.3
-
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,False,621
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,392
 
 key,value
 def_,5.8
 critDMG_,7.8
 atk_,5.3
 
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,622
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,393
 
 key,value
 critDMG_,7.8
 def,19.0
 eleMas,21.0
 
-ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,623
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,394
 
 key,value
 atk_,4.1
 hp_,5.3
 critDMG_,6.2
 
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,624
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,395
 
 key,value
 hp_,5.8
@@ -4754,7 +3118,7 @@ def,21.0
 enerRech_,5.2
 hp,299.0
 
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,625
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,396
 
 key,value
 enerRech_,5.2
@@ -4762,7 +3126,7 @@ eleMas,19.0
 hp_,4.7
 atk_,4.1
 
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,626
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,397
 
 key,value
 hp,299.0
@@ -4770,15 +3134,7 @@ critDMG_,7.8
 critRate_,3.1
 def_,6.6
 
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,False,627
-
-key,value
-atk_,5.3
-def,16.0
-hp,209.0
-def_,7.3
-
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,False,628
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,398
 
 key,value
 def_,5.1
@@ -4786,7 +3142,7 @@ enerRech_,5.8
 atk_,5.3
 def,16.0
 
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,629
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,399
 
 key,value
 def,21.0
@@ -4794,7 +3150,7 @@ atk_,4.1
 critRate_,3.9
 hp_,5.8
 
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,630
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,400
 
 key,value
 def,16.0
@@ -4802,7 +3158,7 @@ critDMG_,7.8
 enerRech_,4.5
 hp_,5.3
 
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,631
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,401
 
 key,value
 critRate_,3.5
@@ -4810,7 +3166,7 @@ def_,6.6
 hp,209.0
 enerRech_,6.5
 
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,632
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,402
 
 key,value
 def_,6.6
@@ -4818,15 +3174,7 @@ atk_,5.8
 def,16.0
 eleMas,19.0
 
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,False,633
-
-key,value
-eleMas,19.0
-def,23.0
-def_,5.1
-hp,209.0
-
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,False,634
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,403
 
 key,value
 hp_,5.8
@@ -4834,7 +3182,7 @@ def_,5.8
 critRate_,3.5
 atk_,4.7
 
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,635
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,404
 
 key,value
 hp_,4.1
@@ -4842,231 +3190,133 @@ critDMG_,5.4
 atk_,4.1
 critRate_,3.1
 
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,636
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,405
 
 key,value
 eleMas,19.0
 critDMG_,7.0
 def_,7.3
 
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,False,637
-
-key,value
-def_,6.6
-hp,269.0
-atk_,5.3
-
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,False,638
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,406
 
 key,value
 eleMas,16.0
 critRate_,3.9
 atk_,4.1
 
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,639
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,407
 
 key,value
 atk_,4.7
 eleMas,19.0
 def_,7.3
 
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,640
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,408
 
 key,value
 hp,209.0
 critDMG_,7.8
 enerRech_,5.2
 
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,False,641
-
-key,value
-enerRech_,5.2
-def_,5.1
-def,23.0
-
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,False,642
-
-key,value
-hp_,5.8
-def_,5.8
-def,23.0
-
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,False,643
-
-key,value
-def_,5.8
-hp_,4.1
-hp,209.0
-
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,False,644
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,409
 
 key,value
 def,23.0
 critRate_,3.5
 hp_,5.3
 
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,False,645
-
-key,value
-hp,239.0
-eleMas,21.0
-def_,7.3
-
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,False,646
-
-key,value
-def_,6.6
-hp_,5.3
-hp,239.0
-
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,False,647
-
-key,value
-eleMas,19.0
-hp,239.0
-def,19.0
-
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,False,648
-
-key,value
-def_,5.1
-hp,299.0
-hp_,5.8
-
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,False,649
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,410
 
 key,value
 atk_,5.3
 def_,6.6
 hp_,5.3
 
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,650
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,411
 
 key,value
 hp,299.0
 atk_,4.7
 critRate_,3.1
 
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,False,651
-
-key,value
-atk_,4.1
-def,16.0
-hp,209.0
-
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,False,652
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,412
 
 key,value
 hp,209.0
 atk_,5.3
 enerRech_,4.5
 
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,653
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,413
 
 key,value
 enerRech_,6.5
 def,23.0
 critDMG_,7.8
 
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,False,654
-
-key,value
-atk_,4.1
-def,23.0
-eleMas,19.0
-
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,False,655
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,414
 
 key,value
 hp_,4.7
 atk_,5.8
 eleMas,16.0
 
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,False,656
-
-key,value
-eleMas,23.0
-atk_,4.7
-def,16.0
-
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,False,657
-
-key,value
-hp,299.0
-critRate_,3.1
-def,19.0
-
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,False,658
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,415
 
 key,value
 enerRech_,6.5
 hp_,4.7
 hp,299.0
 
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,659
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,416
 
 key,value
 critDMG_,7.8
 hp_,4.7
 atk_,5.8
 
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,660
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,417
 
 key,value
 critDMG_,5.4
 enerRech_,5.2
 eleMas,19.0
 
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,661
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,418
 
 key,value
 critRate_,3.1
 def_,6.6
 eleMas,16.0
 
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,662
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,419
 
 key,value
 hp_,5.3
 enerRech_,4.5
 hp,209.0
 
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,663
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,420
 
 key,value
 critRate_,3.9
 def,21.0
 critDMG_,7.8
 
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,False,664
-
-key,value
-def,19.0
-atk_,4.1
-hp,299.0
-
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,False,665
-
-key,value
-hp,299.0
-hp_,4.1
-def_,6.6
-
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,False,666
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,421
 
 key,value
 def,16.0
 enerRech_,6.5
 hp_,5.8
 
-ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,667
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,422
 
 key,value
 critRate_,3.1
 hp_,4.7
 def,19.0
 
-ScrollOfTheHeroOfCinderCity,sands,5,hp_,0,,True,668
+ScrollOfTheHeroOfCinderCity,sands,5,hp_,0,,True,423
 
 key,value
 eleMas,16.0
@@ -5074,23 +3324,7 @@ atk_,5.3
 hp,239.0
 def,19.0
 
-ScrollOfTheHeroOfCinderCity,sands,5,atk_,0,,False,669
-
-key,value
-hp,209.0
-def_,5.8
-atk,18.0
-critDMG_,7.8
-
-ScrollOfTheHeroOfCinderCity,sands,5,hp_,0,,False,670
-
-key,value
-def,16.0
-def_,7.3
-critDMG_,6.2
-atk,18.0
-
-ScrollOfTheHeroOfCinderCity,sands,5,hp_,0,,False,671
+ScrollOfTheHeroOfCinderCity,sands,5,hp_,0,,True,424
 
 key,value
 def_,6.6
@@ -5098,7 +3332,7 @@ def,23.0
 enerRech_,4.5
 atk_,4.7
 
-ScrollOfTheHeroOfCinderCity,sands,5,hp_,0,,True,672
+ScrollOfTheHeroOfCinderCity,sands,5,hp_,0,,True,425
 
 key,value
 atk,16.0
@@ -5106,7 +3340,7 @@ critDMG_,7.8
 def,21.0
 atk_,5.8
 
-ScrollOfTheHeroOfCinderCity,sands,5,enerRech_,0,,True,673
+ScrollOfTheHeroOfCinderCity,sands,5,enerRech_,0,,True,426
 
 key,value
 atk_,4.1
@@ -5114,23 +3348,7 @@ def_,5.8
 hp_,4.1
 critRate_,3.9
 
-ScrollOfTheHeroOfCinderCity,sands,5,atk_,0,,False,674
-
-key,value
-def,21.0
-critRate_,3.9
-atk,14.0
-hp,239.0
-
-ScrollOfTheHeroOfCinderCity,sands,5,hp_,0,,False,675
-
-key,value
-def,21.0
-atk,19.0
-critDMG_,7.8
-hp,269.0
-
-ScrollOfTheHeroOfCinderCity,sands,5,enerRech_,0,,False,676
+ScrollOfTheHeroOfCinderCity,sands,5,enerRech_,0,,True,427
 
 key,value
 critRate_,3.1
@@ -5138,7 +3356,7 @@ hp,209.0
 def,23.0
 critDMG_,5.4
 
-ScrollOfTheHeroOfCinderCity,sands,5,enerRech_,0,,True,677
+ScrollOfTheHeroOfCinderCity,sands,5,enerRech_,0,,True,428
 
 key,value
 atk_,5.8
@@ -5146,7 +3364,7 @@ hp_,5.3
 critDMG_,6.2
 critRate_,2.7
 
-ScrollOfTheHeroOfCinderCity,sands,5,hp_,0,,True,678
+ScrollOfTheHeroOfCinderCity,sands,5,hp_,0,,True,429
 
 key,value
 enerRech_,5.8
@@ -5154,7 +3372,7 @@ atk_,4.7
 hp,299.0
 def,16.0
 
-ScrollOfTheHeroOfCinderCity,sands,5,hp_,0,,True,679
+ScrollOfTheHeroOfCinderCity,sands,5,hp_,0,,True,430
 
 key,value
 atk,18.0
@@ -5162,294 +3380,126 @@ atk_,5.3
 enerRech_,5.2
 eleMas,19.0
 
-ScrollOfTheHeroOfCinderCity,sands,5,enerRech_,0,,False,680
-
-key,value
-hp_,4.7
-hp,299.0
-atk,18.0
-
-ScrollOfTheHeroOfCinderCity,sands,5,hp_,0,,False,681
-
-key,value
-def,19.0
-critRate_,3.9
-hp,269.0
-
-ScrollOfTheHeroOfCinderCity,sands,5,def_,0,,False,682
-
-key,value
-atk,19.0
-def,23.0
-hp,209.0
-
-ScrollOfTheHeroOfCinderCity,sands,5,atk_,0,,False,683
-
-key,value
-hp,239.0
-eleMas,21.0
-hp_,4.1
-
-ScrollOfTheHeroOfCinderCity,sands,5,eleMas,0,,False,684
+ScrollOfTheHeroOfCinderCity,sands,5,eleMas,0,,True,431
 
 key,value
 hp_,5.3
 critDMG_,5.4
 critRate_,3.5
 
-ScrollOfTheHeroOfCinderCity,sands,5,atk_,0,,False,685
-
-key,value
-atk,16.0
-def,16.0
-enerRech_,5.2
-
-ScrollOfTheHeroOfCinderCity,sands,5,def_,0,,False,686
+ScrollOfTheHeroOfCinderCity,sands,5,def_,0,,True,432
 
 key,value
 critDMG_,5.4
 hp_,4.7
 atk,18.0
 
-ScrollOfTheHeroOfCinderCity,sands,5,eleMas,0,,False,687
-
-key,value
-hp,299.0
-atk,19.0
-atk_,4.1
-
-ScrollOfTheHeroOfCinderCity,sands,5,atk_,0,,False,688
-
-key,value
-hp_,5.3
-atk,14.0
-def_,6.6
-
-ScrollOfTheHeroOfCinderCity,sands,5,hp_,0,,False,689
-
-key,value
-hp,299.0
-atk,19.0
-eleMas,23.0
-
-ScrollOfTheHeroOfCinderCity,sands,5,def_,0,,False,690
+ScrollOfTheHeroOfCinderCity,sands,5,def_,0,,True,433
 
 key,value
 hp_,5.8
 enerRech_,6.5
 critDMG_,7.8
 
-ScrollOfTheHeroOfCinderCity,sands,5,atk_,0,,False,691
-
-key,value
-def_,5.8
-hp_,5.3
-def,21.0
-
-ScrollOfTheHeroOfCinderCity,sands,5,atk_,0,,False,692
-
-key,value
-hp_,4.1
-def_,7.3
-atk,19.0
-
-ScrollOfTheHeroOfCinderCity,sands,5,def_,0,,False,693
-
-key,value
-atk,19.0
-hp,209.0
-eleMas,21.0
-
-ScrollOfTheHeroOfCinderCity,sands,5,eleMas,0,,False,694
+ScrollOfTheHeroOfCinderCity,sands,5,eleMas,0,,True,434
 
 key,value
 def,23.0
 enerRech_,6.5
 atk,19.0
 
-ScrollOfTheHeroOfCinderCity,sands,5,def_,0,,False,695
-
-key,value
-hp,239.0
-enerRech_,5.2
-atk,14.0
-
-ScrollOfTheHeroOfCinderCity,sands,5,hp_,0,,False,696
-
-key,value
-hp,239.0
-eleMas,21.0
-def,23.0
-
-ScrollOfTheHeroOfCinderCity,sands,5,enerRech_,0,,False,697
+ScrollOfTheHeroOfCinderCity,sands,5,enerRech_,0,,True,435
 
 key,value
 atk,19.0
 critDMG_,7.0
 critRate_,3.1
 
-ScrollOfTheHeroOfCinderCity,sands,5,hp_,0,,True,698
+ScrollOfTheHeroOfCinderCity,sands,5,hp_,0,,True,436
 
 key,value
 atk_,4.7
 enerRech_,5.8
 critDMG_,7.8
 
-ScrollOfTheHeroOfCinderCity,sands,5,def_,0,,False,699
-
-key,value
-hp,239.0
-hp_,5.8
-def,16.0
-
-ScrollOfTheHeroOfCinderCity,sands,5,atk_,0,,True,700
+ScrollOfTheHeroOfCinderCity,sands,5,atk_,0,,True,437
 
 key,value
 enerRech_,6.5
 atk,16.0
 critRate_,2.7
 
-ScrollOfTheHeroOfCinderCity,sands,5,atk_,0,,True,701
+ScrollOfTheHeroOfCinderCity,sands,5,atk_,0,,True,438
 
 key,value
 eleMas,16.0
 hp_,5.3
 enerRech_,5.2
 
-ScrollOfTheHeroOfCinderCity,sands,5,def_,0,,False,702
-
-key,value
-enerRech_,5.8
-hp,299.0
-atk,16.0
-
-ScrollOfTheHeroOfCinderCity,sands,5,atk_,0,,False,703
-
-key,value
-enerRech_,5.8
-atk,16.0
-hp,239.0
-
-ScrollOfTheHeroOfCinderCity,sands,5,hp_,0,,False,704
-
-key,value
-atk,14.0
-def,16.0
-hp,209.0
-
-ScrollOfTheHeroOfCinderCity,sands,5,def_,0,,False,705
+ScrollOfTheHeroOfCinderCity,sands,5,def_,0,,True,439
 
 key,value
 atk_,5.8
 critRate_,3.5
 def,21.0
 
-ScrollOfTheHeroOfCinderCity,sands,5,hp_,0,,True,706
+ScrollOfTheHeroOfCinderCity,sands,5,hp_,0,,True,440
 
 key,value
 critDMG_,5.4
 eleMas,19.0
 def_,6.6
 
-ScrollOfTheHeroOfCinderCity,sands,5,atk_,0,,False,707
-
-key,value
-hp,299.0
-def_,5.8
-def,19.0
-
-ScrollOfTheHeroOfCinderCity,sands,5,def_,0,,True,708
+ScrollOfTheHeroOfCinderCity,sands,5,def_,0,,True,441
 
 key,value
 hp,209.0
 atk_,5.8
 hp_,5.3
 
-ScrollOfTheHeroOfCinderCity,sands,5,eleMas,0,,False,709
-
-key,value
-hp_,5.8
-def,19.0
-def_,5.1
-
-ScrollOfTheHeroOfCinderCity,sands,5,def_,0,,False,710
+ScrollOfTheHeroOfCinderCity,sands,5,def_,0,,True,442
 
 key,value
 def,21.0
 enerRech_,5.8
 atk,14.0
 
-ScrollOfTheHeroOfCinderCity,sands,5,hp_,0,,True,711
+ScrollOfTheHeroOfCinderCity,sands,5,hp_,0,,True,443
 
 key,value
 atk_,4.7
 critRate_,3.5
 def,21.0
 
-ScrollOfTheHeroOfCinderCity,sands,5,atk_,0,,False,712
-
-key,value
-atk,18.0
-hp_,4.1
-def,19.0
-
-ScrollOfTheHeroOfCinderCity,sands,5,eleMas,0,,False,713
-
-key,value
-hp,269.0
-def,21.0
-hp_,5.3
-
-ScrollOfTheHeroOfCinderCity,sands,5,enerRech_,0,,True,714
+ScrollOfTheHeroOfCinderCity,sands,5,enerRech_,0,,True,444
 
 key,value
 hp,209.0
 atk_,5.8
 critDMG_,7.8
 
-ScrollOfTheHeroOfCinderCity,sands,5,enerRech_,0,,True,715
+ScrollOfTheHeroOfCinderCity,sands,5,enerRech_,0,,True,445
 
 key,value
 def_,7.3
 critRate_,3.5
 eleMas,19.0
 
-ScrollOfTheHeroOfCinderCity,sands,5,def_,0,,False,716
-
-key,value
-hp,269.0
-atk,19.0
-eleMas,19.0
-
-ScrollOfTheHeroOfCinderCity,sands,5,atk_,0,,False,717
-
-key,value
-def_,5.8
-enerRech_,6.5
-hp,299.0
-
-ScrollOfTheHeroOfCinderCity,sands,5,hp_,0,,False,718
+ScrollOfTheHeroOfCinderCity,sands,5,hp_,0,,True,446
 
 key,value
 eleMas,21.0
 atk_,4.1
 atk,16.0
 
-ScrollOfTheHeroOfCinderCity,sands,5,atk_,0,,True,719
+ScrollOfTheHeroOfCinderCity,sands,5,atk_,0,,True,447
 
 key,value
 critRate_,2.7
 atk,16.0
 eleMas,19.0
 
-ScrollOfTheHeroOfCinderCity,sands,5,atk_,0,,False,720
-
-key,value
-def,16.0
-atk,18.0
-hp_,5.3
-
-ScrollOfTheHeroOfCinderCity,goblet,5,electro_dmg_,0,,False,721
+ScrollOfTheHeroOfCinderCity,goblet,5,electro_dmg_,0,,True,448
 
 key,value
 def,21.0
@@ -5457,7 +3507,7 @@ atk_,5.8
 critDMG_,6.2
 critRate_,3.5
 
-ScrollOfTheHeroOfCinderCity,goblet,5,dendro_dmg_,0,,True,722
+ScrollOfTheHeroOfCinderCity,goblet,5,dendro_dmg_,0,,True,449
 
 key,value
 atk_,4.1
@@ -5465,15 +3515,7 @@ critDMG_,7.0
 eleMas,16.0
 hp_,5.3
 
-ScrollOfTheHeroOfCinderCity,goblet,5,hp_,0,,False,724
-
-key,value
-enerRech_,5.2
-critDMG_,5.4
-atk,14.0
-def,21.0
-
-ScrollOfTheHeroOfCinderCity,goblet,5,electro_dmg_,0,,True,723
+ScrollOfTheHeroOfCinderCity,goblet,5,electro_dmg_,0,,True,450
 
 key,value
 def,21.0
@@ -5481,15 +3523,7 @@ atk,18.0
 atk_,5.3
 enerRech_,5.8
 
-ScrollOfTheHeroOfCinderCity,goblet,5,atk_,0,,False,725
-
-key,value
-def_,7.3
-critRate_,3.5
-enerRech_,4.5
-eleMas,19.0
-
-ScrollOfTheHeroOfCinderCity,goblet,5,hydro_dmg_,0,,False,726
+ScrollOfTheHeroOfCinderCity,goblet,5,hydro_dmg_,0,,True,451
 
 key,value
 def_,5.8
@@ -5497,7 +3531,7 @@ critRate_,3.1
 hp,209.0
 atk_,5.8
 
-ScrollOfTheHeroOfCinderCity,goblet,5,geo_dmg_,0,,True,727
+ScrollOfTheHeroOfCinderCity,goblet,5,geo_dmg_,0,,True,452
 
 key,value
 def,19.0
@@ -5505,15 +3539,7 @@ enerRech_,5.8
 critRate_,2.7
 critDMG_,7.0
 
-ScrollOfTheHeroOfCinderCity,goblet,5,atk_,0,,False,728
-
-key,value
-hp,209.0
-enerRech_,5.8
-hp_,5.8
-eleMas,23.0
-
-ScrollOfTheHeroOfCinderCity,goblet,5,geo_dmg_,0,,True,729
+ScrollOfTheHeroOfCinderCity,goblet,5,geo_dmg_,0,,True,453
 
 key,value
 def_,5.1
@@ -5521,15 +3547,7 @@ hp,209.0
 critDMG_,7.8
 enerRech_,4.5
 
-ScrollOfTheHeroOfCinderCity,goblet,5,hp_,0,,False,730
-
-key,value
-eleMas,23.0
-enerRech_,5.2
-atk,16.0
-critDMG_,7.8
-
-ScrollOfTheHeroOfCinderCity,goblet,5,anemo_dmg_,0,,False,731
+ScrollOfTheHeroOfCinderCity,goblet,5,anemo_dmg_,0,,True,454
 
 key,value
 hp,209.0
@@ -5537,7 +3555,7 @@ critRate_,3.5
 critDMG_,5.4
 atk,16.0
 
-ScrollOfTheHeroOfCinderCity,goblet,5,cryo_dmg_,0,,True,732
+ScrollOfTheHeroOfCinderCity,goblet,5,cryo_dmg_,0,,True,455
 
 key,value
 atk_,4.7
@@ -5545,225 +3563,84 @@ hp,209.0
 def_,5.1
 critDMG_,7.0
 
-ScrollOfTheHeroOfCinderCity,goblet,5,def_,0,,False,733
-
-key,value
-atk,19.0
-eleMas,16.0
-critDMG_,7.0
-
-ScrollOfTheHeroOfCinderCity,goblet,5,hp_,0,,False,734
-
-key,value
-def_,5.8
-critRate_,3.1
-atk,14.0
-
-ScrollOfTheHeroOfCinderCity,goblet,5,def_,0,,False,735
-
-key,value
-enerRech_,5.8
-atk_,4.1
-atk,14.0
-
-ScrollOfTheHeroOfCinderCity,goblet,5,physical_dmg_,0,,False,736
-
-key,value
-critRate_,3.9
-eleMas,19.0
-critDMG_,6.2
-
-ScrollOfTheHeroOfCinderCity,goblet,5,electro_dmg_,0,,False,737
+ScrollOfTheHeroOfCinderCity,goblet,5,electro_dmg_,0,,True,456
 
 key,value
 hp,239.0
 hp_,4.7
 atk_,5.3
 
-ScrollOfTheHeroOfCinderCity,goblet,5,atk_,0,,False,738
-
-key,value
-hp_,4.7
-atk,16.0
-critDMG_,7.0
-
-ScrollOfTheHeroOfCinderCity,goblet,5,hydro_dmg_,0,,False,739
+ScrollOfTheHeroOfCinderCity,goblet,5,hydro_dmg_,0,,True,457
 
 key,value
 atk,19.0
 hp_,5.8
 critRate_,2.7
 
-ScrollOfTheHeroOfCinderCity,goblet,5,anemo_dmg_,0,,False,740
-
-key,value
-atk,18.0
-atk_,4.1
-def_,6.6
-
-ScrollOfTheHeroOfCinderCity,goblet,5,def_,0,,False,741
-
-key,value
-def,19.0
-atk_,5.8
-critRate_,3.1
-
-ScrollOfTheHeroOfCinderCity,goblet,5,atk_,0,,False,742
-
-key,value
-hp,299.0
-def,16.0
-critDMG_,7.0
-
-ScrollOfTheHeroOfCinderCity,goblet,5,anemo_dmg_,0,,False,743
-
-key,value
-hp,299.0
-def,16.0
-def_,5.1
-
-ScrollOfTheHeroOfCinderCity,goblet,5,hp_,0,,False,744
-
-key,value
-atk_,5.8
-def,16.0
-critDMG_,6.2
-
-ScrollOfTheHeroOfCinderCity,goblet,5,hydro_dmg_,0,,False,745
+ScrollOfTheHeroOfCinderCity,goblet,5,hydro_dmg_,0,,True,458
 
 key,value
 eleMas,16.0
 critDMG_,6.2
 def,19.0
 
-ScrollOfTheHeroOfCinderCity,goblet,5,def_,0,,True,746
+ScrollOfTheHeroOfCinderCity,goblet,5,def_,0,,True,459
 
 key,value
 hp_,5.3
 atk,16.0
 enerRech_,6.5
 
-ScrollOfTheHeroOfCinderCity,goblet,5,atk_,0,,False,747
-
-key,value
-hp,269.0
-enerRech_,5.2
-def_,5.1
-
-ScrollOfTheHeroOfCinderCity,goblet,5,hp_,0,,False,748
-
-key,value
-def,23.0
-atk,16.0
-critRate_,3.5
-
-ScrollOfTheHeroOfCinderCity,goblet,5,pyro_dmg_,0,,False,749
+ScrollOfTheHeroOfCinderCity,goblet,5,pyro_dmg_,0,,True,460
 
 key,value
 atk_,4.1
 eleMas,21.0
 enerRech_,5.2
 
-ScrollOfTheHeroOfCinderCity,goblet,5,def_,0,,True,750
+ScrollOfTheHeroOfCinderCity,goblet,5,def_,0,,True,461
 
 key,value
 atk,14.0
 atk_,5.8
 enerRech_,5.8
 
-ScrollOfTheHeroOfCinderCity,goblet,5,cryo_dmg_,0,,True,751
+ScrollOfTheHeroOfCinderCity,goblet,5,cryo_dmg_,0,,True,462
 
 key,value
 eleMas,19.0
 atk_,4.1
 critRate_,3.5
 
-ScrollOfTheHeroOfCinderCity,goblet,5,hp_,0,,False,752
-
-key,value
-critDMG_,6.2
-def,23.0
-enerRech_,5.2
-
-ScrollOfTheHeroOfCinderCity,goblet,5,pyro_dmg_,0,,False,753
-
-key,value
-hp,299.0
-def_,5.1
-def,16.0
-
-ScrollOfTheHeroOfCinderCity,goblet,5,anemo_dmg_,0,,True,754
+ScrollOfTheHeroOfCinderCity,goblet,5,anemo_dmg_,0,,True,463
 
 key,value
 hp_,4.1
 atk,18.0
 atk_,5.8
 
-ScrollOfTheHeroOfCinderCity,goblet,5,dendro_dmg_,0,,False,755
-
-key,value
-def,23.0
-eleMas,19.0
-atk,19.0
-
-ScrollOfTheHeroOfCinderCity,goblet,5,atk_,0,,False,756
-
-key,value
-enerRech_,5.2
-def,19.0
-hp,209.0
-
-ScrollOfTheHeroOfCinderCity,goblet,5,anemo_dmg_,0,,False,757
+ScrollOfTheHeroOfCinderCity,goblet,5,anemo_dmg_,0,,True,464
 
 key,value
 critRate_,2.7
 atk,14.0
 eleMas,19.0
 
-ScrollOfTheHeroOfCinderCity,goblet,5,hydro_dmg_,0,,True,758
+ScrollOfTheHeroOfCinderCity,goblet,5,hydro_dmg_,0,,True,465
 
 key,value
 def_,5.8
 atk,18.0
 critRate_,3.1
 
-ScrollOfTheHeroOfCinderCity,goblet,5,atk_,0,,False,759
-
-key,value
-eleMas,21.0
-def,19.0
-critDMG_,7.0
-
-ScrollOfTheHeroOfCinderCity,goblet,5,hp_,0,,False,760
-
-key,value
-enerRech_,5.2
-critRate_,3.9
-eleMas,19.0
-
-ScrollOfTheHeroOfCinderCity,goblet,5,def_,0,,False,761
-
-key,value
-eleMas,16.0
-hp,209.0
-atk_,5.8
-
-ScrollOfTheHeroOfCinderCity,goblet,5,electro_dmg_,0,,False,762
+ScrollOfTheHeroOfCinderCity,goblet,5,electro_dmg_,0,,True,466
 
 key,value
 atk,16.0
 critDMG_,7.0
 critRate_,3.9
 
-ScrollOfTheHeroOfCinderCity,circlet,5,atk_,0,,False,763
-
-key,value
-def_,5.1
-hp,269.0
-eleMas,21.0
-hp_,4.7
-
-ScrollOfTheHeroOfCinderCity,circlet,5,def_,0,,False,764
+ScrollOfTheHeroOfCinderCity,circlet,5,def_,0,,True,467
 
 key,value
 hp_,5.8
@@ -5771,55 +3648,7 @@ atk,18.0
 def,16.0
 enerRech_,5.8
 
-ScrollOfTheHeroOfCinderCity,circlet,5,atk_,0,,False,765
-
-key,value
-enerRech_,4.5
-def,21.0
-atk,19.0
-hp,239.0
-
-ScrollOfTheHeroOfCinderCity,circlet,5,def_,0,,False,766
-
-key,value
-eleMas,23.0
-hp,299.0
-atk,19.0
-def,16.0
-
-ScrollOfTheHeroOfCinderCity,circlet,5,atk_,0,,False,767
-
-key,value
-atk,19.0
-eleMas,21.0
-hp,269.0
-def,23.0
-
-ScrollOfTheHeroOfCinderCity,circlet,5,critRate_,0,,False,768
-
-key,value
-atk,19.0
-def,19.0
-hp,209.0
-critDMG_,6.2
-
-ScrollOfTheHeroOfCinderCity,circlet,5,atk_,0,,False,769
-
-key,value
-critDMG_,6.2
-eleMas,16.0
-def_,6.6
-def,16.0
-
-ScrollOfTheHeroOfCinderCity,circlet,5,heal_,0,,False,770
-
-key,value
-def_,6.6
-critRate_,3.9
-def,16.0
-critDMG_,6.2
-
-ScrollOfTheHeroOfCinderCity,circlet,5,def_,0,Gorou,False,771
+ScrollOfTheHeroOfCinderCity,circlet,5,def_,0,Gorou,True,468
 
 key,value
 hp_,4.7
@@ -5827,15 +3656,7 @@ enerRech_,5.8
 atk,14.0
 def,21.0
 
-ScrollOfTheHeroOfCinderCity,circlet,5,hp_,0,,False,772
-
-key,value
-atk_,5.3
-eleMas,16.0
-atk,14.0
-def_,5.8
-
-ScrollOfTheHeroOfCinderCity,circlet,5,critDMG_,0,,True,773
+ScrollOfTheHeroOfCinderCity,circlet,5,critDMG_,0,,True,469
 
 key,value
 critRate_,3.9
@@ -5843,7 +3664,7 @@ hp_,4.7
 hp,209.0
 eleMas,21.0
 
-ScrollOfTheHeroOfCinderCity,circlet,5,atk_,0,,True,774
+ScrollOfTheHeroOfCinderCity,circlet,5,atk_,0,,True,470
 
 key,value
 eleMas,23.0
@@ -5851,394 +3672,154 @@ critDMG_,5.4
 hp_,5.8
 def,21.0
 
-ScrollOfTheHeroOfCinderCity,circlet,5,hp_,0,,False,775
-
-key,value
-def_,5.8
-def,16.0
-enerRech_,6.5
-atk_,4.1
-
-ScrollOfTheHeroOfCinderCity,circlet,5,hp_,0,,False,776
-
-key,value
-hp,209.0
-atk,14.0
-enerRech_,5.8
-
-ScrollOfTheHeroOfCinderCity,circlet,5,def_,0,,False,777
-
-key,value
-hp,299.0
-atk,16.0
-eleMas,23.0
-
-ScrollOfTheHeroOfCinderCity,circlet,5,hp_,0,,False,778
-
-key,value
-hp,299.0
-atk_,5.8
-critDMG_,7.0
-
-ScrollOfTheHeroOfCinderCity,circlet,5,critDMG_,0,,False,779
-
-key,value
-eleMas,23.0
-hp,269.0
-def,19.0
-
-ScrollOfTheHeroOfCinderCity,circlet,5,def_,0,,False,780
+ScrollOfTheHeroOfCinderCity,circlet,5,def_,0,,True,471
 
 key,value
 atk_,4.1
 enerRech_,5.2
 hp,209.0
 
-ScrollOfTheHeroOfCinderCity,circlet,5,def_,0,,False,781
-
-key,value
-hp,209.0
-atk,18.0
-critRate_,2.7
-
-ScrollOfTheHeroOfCinderCity,circlet,5,hp_,0,,False,782
-
-key,value
-atk,18.0
-atk_,4.1
-def,23.0
-
-ScrollOfTheHeroOfCinderCity,circlet,5,atk_,0,,False,783
-
-key,value
-hp,239.0
-atk,18.0
-def,21.0
-
-ScrollOfTheHeroOfCinderCity,circlet,5,hp_,0,,False,784
-
-key,value
-hp,239.0
-atk_,4.7
-atk,16.0
-
-ScrollOfTheHeroOfCinderCity,circlet,5,def_,0,,False,785
-
-key,value
-def,23.0
-atk,14.0
-hp,209.0
-
-ScrollOfTheHeroOfCinderCity,circlet,5,hp_,0,,False,786
-
-key,value
-critRate_,2.7
-def_,5.1
-critDMG_,7.8
-
-ScrollOfTheHeroOfCinderCity,circlet,5,heal_,0,,False,787
-
-key,value
-enerRech_,4.5
-def_,5.1
-critRate_,3.1
-
-ScrollOfTheHeroOfCinderCity,circlet,5,atk_,0,,False,788
-
-key,value
-hp_,4.7
-def_,5.8
-def,19.0
-
-ScrollOfTheHeroOfCinderCity,circlet,5,hp_,0,,False,790
-
-key,value
-critRate_,3.1
-eleMas,16.0
-def_,5.1
-
-ScrollOfTheHeroOfCinderCity,circlet,5,critRate_,0,,True,789
+ScrollOfTheHeroOfCinderCity,circlet,5,critRate_,0,,True,472
 
 key,value
 critDMG_,7.0
 enerRech_,4.5
 hp,209.0
 
-ScrollOfTheHeroOfCinderCity,circlet,5,def_,0,,True,791
+ScrollOfTheHeroOfCinderCity,circlet,5,def_,0,,True,473
 
 key,value
 critRate_,2.7
 hp,239.0
 hp_,5.3
 
-ScrollOfTheHeroOfCinderCity,circlet,5,critDMG_,0,,False,792
-
-key,value
-atk,18.0
-def,23.0
-hp_,5.8
-
-ScrollOfTheHeroOfCinderCity,circlet,5,hp_,0,,False,793
-
-key,value
-def,21.0
-atk_,5.8
-critRate_,3.9
-
-ScrollOfTheHeroOfCinderCity,circlet,5,atk_,0,,False,794
-
-key,value
-critRate_,2.7
-enerRech_,5.8
-atk,18.0
-
-ScrollOfTheHeroOfCinderCity,circlet,5,atk_,0,,False,795
-
-key,value
-critRate_,2.7
-atk,18.0
-hp,209.0
-
-ScrollOfTheHeroOfCinderCity,circlet,5,critDMG_,0,,False,797
-
-key,value
-def,19.0
-atk,16.0
-hp_,5.3
-
-ScrollOfTheHeroOfCinderCity,circlet,5,hp_,0,,False,796
-
-key,value
-def_,5.8
-critDMG_,7.0
-atk,14.0
-
-ScrollOfTheHeroOfCinderCity,circlet,5,heal_,0,,True,798
+ScrollOfTheHeroOfCinderCity,circlet,5,heal_,0,,True,474
 
 key,value
 def_,5.1
 atk_,5.8
 def,21.0
 
-ScrollOfTheHeroOfCinderCity,circlet,5,def_,0,,False,799
-
-key,value
-hp_,4.1
-def,23.0
-hp,239.0
-
-ScrollOfTheHeroOfCinderCity,circlet,5,hp_,0,,False,800
-
-key,value
-hp,299.0
-eleMas,23.0
-enerRech_,5.8
-
-ScrollOfTheHeroOfCinderCity,circlet,5,def_,0,,True,801
+ScrollOfTheHeroOfCinderCity,circlet,5,def_,0,,True,475
 
 key,value
 enerRech_,5.8
 atk,19.0
 critDMG_,5.4
 
-ScrollOfTheHeroOfCinderCity,circlet,5,heal_,0,,True,802
+ScrollOfTheHeroOfCinderCity,circlet,5,heal_,0,,True,476
 
 key,value
 critDMG_,6.2
 def_,5.8
 atk_,5.8
 
-ScrollOfTheHeroOfCinderCity,circlet,5,atk_,0,,False,803
-
-key,value
-def_,5.1
-enerRech_,5.8
-def,16.0
-
-ScrollOfTheHeroOfCinderCity,circlet,5,critDMG_,0,,False,804
+ScrollOfTheHeroOfCinderCity,circlet,5,critDMG_,0,,True,477
 
 key,value
 def,23.0
 hp,209.0
 critRate_,2.7
 
-ScrollOfTheHeroOfCinderCity,circlet,5,critRate_,0,,True,805
+ScrollOfTheHeroOfCinderCity,circlet,5,critRate_,0,,True,478
 
 key,value
 def,19.0
 hp,299.0
 enerRech_,6.5
 
-ScrollOfTheHeroOfCinderCity,circlet,5,critRate_,0,,True,806
+ScrollOfTheHeroOfCinderCity,circlet,5,critRate_,0,,True,479
 
 key,value
 def,23.0
 hp,299.0
 critDMG_,6.2
 
-ScrollOfTheHeroOfCinderCity,circlet,5,heal_,0,,False,807
-
-key,value
-eleMas,19.0
-critDMG_,7.8
-atk,18.0
-
-ScrollOfTheHeroOfCinderCity,circlet,5,eleMas,0,,False,808
-
-key,value
-def,16.0
-def_,7.3
-hp,209.0
-
-ScrollOfTheHeroOfCinderCity,circlet,5,critDMG_,0,,False,810
-
-key,value
-hp_,4.7
-def_,7.3
-def,16.0
-
-ScrollOfTheHeroOfCinderCity,circlet,5,atk_,0,,False,809
-
-key,value
-enerRech_,5.2
-critRate_,3.5
-def,23.0
-
-ScrollOfTheHeroOfCinderCity,circlet,5,def_,0,,False,811
+ScrollOfTheHeroOfCinderCity,circlet,5,def_,0,,True,480
 
 key,value
 atk,18.0
 atk_,5.3
 critRate_,3.9
 
-ScrollOfTheHeroOfCinderCity,circlet,5,atk_,0,,True,812
+ScrollOfTheHeroOfCinderCity,circlet,5,atk_,0,,True,481
 
 key,value
 critDMG_,6.2
 critRate_,3.9
 hp,239.0
 
-ScrollOfTheHeroOfCinderCity,circlet,5,critDMG_,0,,True,813
+ScrollOfTheHeroOfCinderCity,circlet,5,critDMG_,0,,True,482
 
 key,value
 atk_,4.1
 eleMas,21.0
 critRate_,3.1
 
-ScrollOfTheHeroOfCinderCity,circlet,5,critDMG_,0,,True,814
+ScrollOfTheHeroOfCinderCity,circlet,5,critDMG_,0,,True,483
 
 key,value
 def,19.0
 hp,209.0
 enerRech_,5.2
 
-ScrollOfTheHeroOfCinderCity,circlet,5,heal_,0,,True,815
+ScrollOfTheHeroOfCinderCity,circlet,5,heal_,0,,True,484
 
 key,value
 enerRech_,6.5
 atk,19.0
 atk_,5.8
 
-ScrollOfTheHeroOfCinderCity,circlet,5,hp_,0,,False,816
-
-key,value
-def_,6.6
-enerRech_,5.2
-eleMas,16.0
-
-ScrollOfTheHeroOfCinderCity,circlet,5,atk_,0,,False,817
+ScrollOfTheHeroOfCinderCity,circlet,5,atk_,0,,True,485
 
 key,value
 critDMG_,5.4
 def,23.0
 enerRech_,6.5
 
-ScrollOfTheHeroOfCinderCity,circlet,5,critDMG_,0,,True,818
+ScrollOfTheHeroOfCinderCity,circlet,5,critDMG_,0,,True,486
 
 key,value
 def_,6.6
 hp,269.0
 hp_,4.1
 
-ScrollOfTheHeroOfCinderCity,circlet,5,hp_,0,,False,819
-
-key,value
-atk_,5.8
-atk,14.0
-hp,209.0
-
-ScrollOfTheHeroOfCinderCity,circlet,5,hp_,0,,False,820
-
-key,value
-atk,19.0
-hp,269.0
-def,21.0
-
-ScrollOfTheHeroOfCinderCity,circlet,5,def_,0,,True,821
+ScrollOfTheHeroOfCinderCity,circlet,5,def_,0,,True,487
 
 key,value
 critDMG_,7.0
 hp_,5.8
 eleMas,19.0
 
-ScrollOfTheHeroOfCinderCity,circlet,5,hp_,0,,True,822
+ScrollOfTheHeroOfCinderCity,circlet,5,hp_,0,,True,488
 
 key,value
 critDMG_,6.2
 def,23.0
 hp,209.0
 
-ScrollOfTheHeroOfCinderCity,circlet,5,atk_,0,,False,823
-
-key,value
-hp,209.0
-def_,5.1
-def,23.0
-
-ScrollOfTheHeroOfCinderCity,circlet,5,critRate_,0,,True,824
+ScrollOfTheHeroOfCinderCity,circlet,5,critRate_,0,,True,489
 
 key,value
 critDMG_,7.8
 atk,19.0
 def_,6.6
 
-ScrollOfTheHeroOfCinderCity,circlet,5,atk_,0,,False,825
-
-key,value
-atk,16.0
-enerRech_,5.8
-def_,5.1
-
-ScrollOfTheHeroOfCinderCity,circlet,5,def_,0,,False,826
+ScrollOfTheHeroOfCinderCity,circlet,5,def_,0,,True,490
 
 key,value
 enerRech_,5.8
 def,23.0
 atk_,5.8
 
-ScrollOfTheHeroOfCinderCity,circlet,5,heal_,0,,True,827
+ScrollOfTheHeroOfCinderCity,circlet,5,heal_,0,,True,491
 
 key,value
 atk,18.0
 critRate_,3.1
 atk_,4.1
 
-SongOfDaysPast,flower,5,hp,0,,False,828
-
-key,value
-atk,19.0
-enerRech_,4.5
-def,19.0
-
-GoldenTroupe,flower,5,hp,0,,False,829
-
-key,value
-critDMG_,5.4
-def_,5.8
-enerRech_,4.5
-atk,19.0
-
-GoldenTroupe,flower,5,hp,0,,True,830
+GoldenTroupe,flower,5,hp,0,,True,492
 
 key,value
 atk,14.0
@@ -6246,126 +3827,77 @@ def,16.0
 critRate_,3.9
 critDMG_,6.2
 
-GoldenTroupe,flower,5,hp,0,,False,831
-
-key,value
-critRate_,3.1
-atk,14.0
-def_,5.1
-
-GoldenTroupe,flower,5,hp,0,,False,832
-
-key,value
-eleMas,21.0
-def_,7.3
-atk_,4.7
-
-GoldenTroupe,flower,5,hp,0,,False,833
+GoldenTroupe,flower,5,hp,0,,True,493
 
 key,value
 critDMG_,7.8
 hp_,5.3
 eleMas,23.0
 
-GoldenTroupe,flower,5,hp,0,,True,834
+GoldenTroupe,flower,5,hp,0,,True,494
 
 key,value
 hp_,5.8
 critDMG_,6.2
 def_,7.3
 
-GoldenTroupe,plume,5,atk,0,,True,835
+GoldenTroupe,plume,5,atk,0,,True,495
 
 key,value
 critRate_,3.5
 atk_,4.1
 enerRech_,6.5
 
-GoldenTroupe,sands,5,atk_,0,,False,836
-
-key,value
-critRate_,3.9
-hp,209.0
-atk,18.0
-
-GoldenTroupe,goblet,5,atk_,0,,False,837
+GoldenTroupe,goblet,5,atk_,0,,True,496
 
 key,value
 hp,299.0
 critRate_,3.1
 enerRech_,5.2
 
-GoldenTroupe,circlet,5,def_,0,,False,838
-
-key,value
-def,19.0
-hp,299.0
-atk,14.0
-
-MarechausseeHunter,flower,5,hp,0,,True,839
+MarechausseeHunter,flower,5,hp,0,,True,497
 
 key,value
 hp_,4.7
 eleMas,21.0
 critDMG_,7.8
 
-MarechausseeHunter,plume,5,atk,0,,True,840
+MarechausseeHunter,plume,5,atk,0,,True,498
 
 key,value
 def_,5.8
 critRate_,3.9
 enerRech_,4.5
 
-MarechausseeHunter,plume,5,atk,0,,False,841
-
-key,value
-def_,5.1
-def,23.0
-eleMas,16.0
-
-MarechausseeHunter,plume,5,atk,0,,True,842
+MarechausseeHunter,plume,5,atk,0,,True,499
 
 key,value
 critRate_,2.7
 hp_,4.1
 def_,5.8
 
-MarechausseeHunter,plume,5,atk,0,,True,843
+MarechausseeHunter,plume,5,atk,0,,True,500
 
 key,value
 critRate_,2.7
 critDMG_,7.8
 hp,239.0
 
-MarechausseeHunter,sands,5,atk_,0,,False,844
-
-key,value
-def,16.0
-critRate_,3.1
-def_,7.3
-
-MarechausseeHunter,sands,5,hp_,0,,False,845
+MarechausseeHunter,sands,5,hp_,0,,True,501
 
 key,value
 critDMG_,5.4
 def,21.0
 enerRech_,4.5
 
-MarechausseeHunter,sands,5,eleMas,0,,True,846
+MarechausseeHunter,sands,5,eleMas,0,,True,502
 
 key,value
 hp,269.0
 def_,5.8
 critDMG_,7.0
 
-MarechausseeHunter,circlet,5,hp_,0,,False,847
-
-key,value
-def_,5.8
-atk,14.0
-eleMas,19.0
-
-VourukashasGlow,flower,5,hp,0,,True,848
+VourukashasGlow,flower,5,hp,0,,True,503
 
 key,value
 enerRech_,5.8
@@ -6373,7 +3905,7 @@ critDMG_,6.2
 hp_,4.1
 atk,14.0
 
-VourukashasGlow,flower,5,hp,0,,True,849
+VourukashasGlow,flower,5,hp,0,,True,504
 
 key,value
 critRate_,3.1
@@ -6381,14 +3913,14 @@ def,19.0
 hp_,5.3
 atk_,5.8
 
-VourukashasGlow,flower,5,hp,0,,True,850
+VourukashasGlow,flower,5,hp,0,,True,505
 
 key,value
 atk_,5.3
 critRate_,3.9
 def,16.0
 
-VourukashasGlow,plume,5,atk,0,,True,851
+VourukashasGlow,plume,5,atk,0,,True,506
 
 key,value
 def,16.0
@@ -6396,7 +3928,7 @@ hp_,4.7
 enerRech_,4.5
 atk_,5.8
 
-VourukashasGlow,sands,5,hp_,0,,True,852
+VourukashasGlow,sands,5,hp_,0,,True,507
 
 key,value
 hp,299.0
@@ -6404,21 +3936,21 @@ def,16.0
 enerRech_,4.5
 def_,7.3
 
-VourukashasGlow,sands,5,enerRech_,0,,True,853
+VourukashasGlow,sands,5,enerRech_,0,,True,508
 
 key,value
 hp,299.0
 atk,18.0
 def_,6.6
 
-VourukashasGlow,goblet,5,hp_,0,,True,854
+VourukashasGlow,goblet,5,hp_,0,,True,509
 
 key,value
 atk,14.0
 def,19.0
 critDMG_,6.2
 
-NymphsDream,sands,5,atk_,0,,True,855
+NymphsDream,sands,5,atk_,0,,True,510
 
 key,value
 enerRech_,5.8
@@ -6426,14 +3958,14 @@ hp_,5.3
 def,16.0
 critDMG_,7.0
 
-NymphsDream,sands,5,hp_,0,,True,856
+NymphsDream,sands,5,hp_,0,,True,511
 
 key,value
 hp,239.0
 critRate_,3.5
 critDMG_,7.8
 
-FlowerOfParadiseLost,flower,5,hp,0,,True,857
+FlowerOfParadiseLost,flower,5,hp,0,,True,512
 
 key,value
 critDMG_,5.4
@@ -6441,42 +3973,42 @@ def,19.0
 atk,18.0
 eleMas,19.0
 
-FlowerOfParadiseLost,flower,5,hp,0,,True,858
+FlowerOfParadiseLost,flower,5,hp,0,,True,513
 
 key,value
 hp_,4.1
 enerRech_,4.5
 def_,7.3
 
-FlowerOfParadiseLost,flower,5,hp,0,,True,859
+FlowerOfParadiseLost,flower,5,hp,0,,True,514
 
 key,value
 critRate_,3.1
 atk_,5.3
 eleMas,19.0
 
-FlowerOfParadiseLost,flower,5,hp,0,,True,860
+FlowerOfParadiseLost,flower,5,hp,0,,True,515
 
 key,value
 atk,18.0
 eleMas,19.0
 critRate_,3.1
 
-FlowerOfParadiseLost,flower,5,hp,0,,True,861
+FlowerOfParadiseLost,flower,5,hp,0,,True,516
 
 key,value
 def_,6.6
 atk,18.0
 eleMas,23.0
 
-FlowerOfParadiseLost,flower,5,hp,0,,True,862
+FlowerOfParadiseLost,flower,5,hp,0,,True,517
 
 key,value
 hp_,5.3
 atk,16.0
 eleMas,16.0
 
-FlowerOfParadiseLost,plume,5,atk,0,,True,863
+FlowerOfParadiseLost,plume,5,atk,0,,True,518
 
 key,value
 critDMG_,5.4
@@ -6484,56 +4016,49 @@ hp_,5.8
 atk_,5.8
 enerRech_,4.5
 
-FlowerOfParadiseLost,plume,5,atk,0,,True,864
+FlowerOfParadiseLost,plume,5,atk,0,,True,519
 
 key,value
 eleMas,19.0
 hp,209.0
 def,16.0
 
-FlowerOfParadiseLost,plume,5,atk,0,,True,865
+FlowerOfParadiseLost,plume,5,atk,0,,True,520
 
 key,value
 eleMas,16.0
 atk_,5.8
 hp,209.0
 
-FlowerOfParadiseLost,plume,5,atk,0,,True,866
+FlowerOfParadiseLost,plume,5,atk,0,,True,521
 
 key,value
 critRate_,2.7
 eleMas,21.0
 def,16.0
 
-FlowerOfParadiseLost,plume,5,atk,0,,True,867
+FlowerOfParadiseLost,plume,5,atk,0,,True,522
 
 key,value
 def,23.0
 critDMG_,5.4
 critRate_,2.7
 
-FlowerOfParadiseLost,plume,5,atk,0,,True,868
+FlowerOfParadiseLost,plume,5,atk,0,,True,523
 
 key,value
 hp,209.0
 eleMas,23.0
 def_,5.8
 
-FlowerOfParadiseLost,sands,5,enerRech_,0,,True,869
+FlowerOfParadiseLost,sands,5,enerRech_,0,,True,524
 
 key,value
 atk_,5.8
 critRate_,3.1
 hp,239.0
 
-FlowerOfParadiseLost,goblet,5,hydro_dmg_,0,,False,870
-
-key,value
-atk,19.0
-def_,5.1
-critRate_,3.9
-
-FlowerOfParadiseLost,circlet,5,hp_,0,,False,872
+FlowerOfParadiseLost,circlet,5,hp_,0,,True,525
 
 key,value
 def,16.0
@@ -6541,35 +4066,28 @@ atk_,5.8
 critDMG_,5.4
 eleMas,19.0
 
-FlowerOfParadiseLost,goblet,5,dendro_dmg_,0,,False,871
-
-key,value
-critDMG_,7.0
-atk,14.0
-atk_,4.7
-
-FlowerOfParadiseLost,circlet,5,critRate_,0,,True,873
+FlowerOfParadiseLost,circlet,5,critRate_,0,,True,526
 
 key,value
 hp,269.0
 enerRech_,5.2
 def_,6.6
 
-FlowerOfParadiseLost,circlet,5,critRate_,0,,True,874
+FlowerOfParadiseLost,circlet,5,critRate_,0,,True,527
 
 key,value
 hp,299.0
 hp_,4.1
 def_,6.6
 
-FlowerOfParadiseLost,circlet,5,hp_,0,,True,875
+FlowerOfParadiseLost,circlet,5,hp_,0,,True,528
 
 key,value
 enerRech_,5.2
 hp,209.0
 atk,14.0
 
-DesertPavilionChronicle,flower,5,hp,0,,True,876
+DesertPavilionChronicle,flower,5,hp,0,,True,529
 
 key,value
 eleMas,23.0
@@ -6577,49 +4095,49 @@ atk,16.0
 critDMG_,7.0
 atk_,5.8
 
-DesertPavilionChronicle,flower,5,hp,0,,True,877
+DesertPavilionChronicle,flower,5,hp,0,,True,530
 
 key,value
 def,19.0
 critRate_,3.9
 critDMG_,6.2
 
-DesertPavilionChronicle,flower,5,hp,0,,True,878
+DesertPavilionChronicle,flower,5,hp,0,,True,531
 
 key,value
 def,19.0
 eleMas,21.0
 critRate_,2.7
 
-DesertPavilionChronicle,flower,5,hp,0,,True,879
+DesertPavilionChronicle,flower,5,hp,0,,True,532
 
 key,value
 critDMG_,6.2
 def_,6.6
 enerRech_,4.5
 
-DesertPavilionChronicle,flower,5,hp,0,,True,880
+DesertPavilionChronicle,flower,5,hp,0,,True,533
 
 key,value
 critDMG_,6.2
 def,21.0
 enerRech_,4.5
 
-DesertPavilionChronicle,plume,5,atk,0,,True,881
+DesertPavilionChronicle,plume,5,atk,0,,True,534
 
 key,value
 critDMG_,7.0
 critRate_,3.1
 hp_,5.3
 
-DesertPavilionChronicle,plume,5,atk,0,,True,882
+DesertPavilionChronicle,plume,5,atk,0,,True,535
 
 key,value
 enerRech_,5.2
 critDMG_,5.4
 hp_,4.7
 
-DesertPavilionChronicle,sands,5,atk_,0,,True,883
+DesertPavilionChronicle,sands,5,atk_,0,,True,536
 
 key,value
 atk,14.0
@@ -6627,7 +4145,7 @@ critRate_,3.5
 critDMG_,7.8
 hp,269.0
 
-DesertPavilionChronicle,sands,5,enerRech_,0,,True,884
+DesertPavilionChronicle,sands,5,enerRech_,0,,True,537
 
 key,value
 eleMas,21.0
@@ -6635,28 +4153,28 @@ critRate_,3.1
 def,16.0
 atk_,4.7
 
-DesertPavilionChronicle,sands,5,enerRech_,0,,True,885
+DesertPavilionChronicle,sands,5,enerRech_,0,,True,538
 
 key,value
 critRate_,3.9
 eleMas,19.0
 atk_,4.7
 
-DesertPavilionChronicle,circlet,5,critDMG_,0,,True,886
+DesertPavilionChronicle,circlet,5,critDMG_,0,,True,539
 
 key,value
 eleMas,23.0
 def,21.0
 critRate_,3.5
 
-DesertPavilionChronicle,circlet,5,critRate_,0,,True,887
+DesertPavilionChronicle,circlet,5,critRate_,0,,True,540
 
 key,value
 def,19.0
 atk_,5.8
 eleMas,19.0
 
-GildedDreams,plume,5,atk,0,,True,888
+GildedDreams,plume,5,atk,0,,True,541
 
 key,value
 hp_,4.1
@@ -6664,7 +4182,7 @@ atk_,5.3
 enerRech_,5.8
 critRate_,2.7
 
-GildedDreams,plume,5,atk,0,,True,889
+GildedDreams,plume,5,atk,0,,True,542
 
 key,value
 atk_,5.8
@@ -6672,21 +4190,21 @@ hp,269.0
 critRate_,2.7
 def_,5.8
 
-GildedDreams,plume,5,atk,0,,True,890
+GildedDreams,plume,5,atk,0,,True,543
 
 key,value
 def,23.0
 hp,209.0
 critRate_,3.9
 
-GildedDreams,plume,5,atk,0,,True,891
+GildedDreams,plume,5,atk,0,,True,544
 
 key,value
 atk_,5.8
 enerRech_,5.8
 hp,299.0
 
-GildedDreams,sands,5,enerRech_,0,,True,892
+GildedDreams,sands,5,enerRech_,0,,True,545
 
 key,value
 eleMas,19.0
@@ -6694,7 +4212,7 @@ def,19.0
 atk,16.0
 atk_,4.7
 
-GildedDreams,sands,5,atk_,0,,True,893
+GildedDreams,sands,5,atk_,0,,True,546
 
 key,value
 def_,7.3
@@ -6702,42 +4220,42 @@ hp,209.0
 critRate_,3.1
 eleMas,21.0
 
-GildedDreams,sands,5,enerRech_,0,,True,894
+GildedDreams,sands,5,enerRech_,0,,True,547
 
 key,value
 eleMas,19.0
 atk,14.0
 def_,7.3
 
-GildedDreams,sands,5,atk_,0,,True,895
+GildedDreams,sands,5,atk_,0,,True,548
 
 key,value
 atk,18.0
 hp_,4.7
 eleMas,23.0
 
-GildedDreams,sands,5,eleMas,0,,True,896
+GildedDreams,sands,5,eleMas,0,,True,549
 
 key,value
 hp,239.0
 def,21.0
 hp_,4.1
 
-GildedDreams,goblet,5,hydro_dmg_,0,,True,897
+GildedDreams,goblet,5,hydro_dmg_,0,,True,550
 
 key,value
 eleMas,23.0
 def_,7.3
 critDMG_,5.4
 
-GildedDreams,goblet,5,pyro_dmg_,0,,True,898
+GildedDreams,goblet,5,pyro_dmg_,0,,True,551
 
 key,value
 hp,239.0
 atk_,4.1
 eleMas,23.0
 
-GildedDreams,circlet,5,heal_,0,,True,899
+GildedDreams,circlet,5,heal_,0,,True,552
 
 key,value
 atk_,5.8
@@ -6745,7 +4263,7 @@ critDMG_,6.2
 critRate_,3.5
 atk,19.0
 
-GildedDreams,circlet,5,critRate_,0,,True,900
+GildedDreams,circlet,5,critRate_,0,,True,553
 
 key,value
 def,21.0
@@ -6753,42 +4271,42 @@ def_,5.8
 eleMas,23.0
 atk_,4.7
 
-GildedDreams,circlet,5,critRate_,0,,True,901
+GildedDreams,circlet,5,critRate_,0,,True,554
 
 key,value
 atk_,4.7
 hp,299.0
 hp_,5.8
 
-GildedDreams,circlet,5,heal_,0,,True,902
+GildedDreams,circlet,5,heal_,0,,True,555
 
 key,value
 critRate_,3.1
 atk_,4.1
 atk,14.0
 
-GildedDreams,circlet,5,critRate_,0,,True,903
+GildedDreams,circlet,5,critRate_,0,,True,556
 
 key,value
 atk_,4.1
 def_,5.1
 hp,209.0
 
-GildedDreams,circlet,5,critDMG_,0,,True,904
+GildedDreams,circlet,5,critDMG_,0,,True,557
 
 key,value
 hp,209.0
 enerRech_,5.8
 atk,14.0
 
-GildedDreams,circlet,5,critRate_,0,,True,905
+GildedDreams,circlet,5,critRate_,0,,True,558
 
 key,value
 hp,269.0
 def,19.0
 eleMas,19.0
 
-DeepwoodMemories,flower,5,hp,0,,True,906
+DeepwoodMemories,flower,5,hp,0,,True,559
 
 key,value
 critRate_,2.7
@@ -6796,7 +4314,7 @@ hp_,4.1
 critDMG_,7.8
 atk_,5.3
 
-DeepwoodMemories,flower,5,hp,0,,True,907
+DeepwoodMemories,flower,5,hp,0,,True,560
 
 key,value
 critRate_,3.1
@@ -6804,49 +4322,49 @@ def_,6.6
 enerRech_,5.2
 atk_,4.7
 
-DeepwoodMemories,flower,5,hp,0,,True,908
+DeepwoodMemories,flower,5,hp,0,,True,561
 
 key,value
 atk_,5.3
 hp_,5.8
 eleMas,23.0
 
-DeepwoodMemories,flower,5,hp,0,,True,909
+DeepwoodMemories,flower,5,hp,0,,True,562
 
 key,value
 def,16.0
 enerRech_,5.2
 eleMas,21.0
 
-DeepwoodMemories,flower,5,hp,0,,True,910
+DeepwoodMemories,flower,5,hp,0,,True,563
 
 key,value
 enerRech_,5.8
 eleMas,23.0
 def,21.0
 
-DeepwoodMemories,flower,5,hp,0,,True,911
+DeepwoodMemories,flower,5,hp,0,,True,564
 
 key,value
 hp_,5.3
 eleMas,16.0
 critDMG_,6.2
 
-DeepwoodMemories,flower,5,hp,0,,True,912
+DeepwoodMemories,flower,5,hp,0,,True,565
 
 key,value
 critRate_,3.1
 hp_,5.8
 enerRech_,5.2
 
-DeepwoodMemories,flower,5,hp,0,,True,913
+DeepwoodMemories,flower,5,hp,0,,True,566
 
 key,value
 atk_,4.1
 critDMG_,7.0
 def_,6.6
 
-DeepwoodMemories,plume,5,atk,0,,True,914
+DeepwoodMemories,plume,5,atk,0,,True,567
 
 key,value
 eleMas,21.0
@@ -6854,7 +4372,7 @@ def_,6.6
 hp_,5.3
 atk_,4.7
 
-DeepwoodMemories,plume,5,atk,0,,True,915
+DeepwoodMemories,plume,5,atk,0,,True,568
 
 key,value
 critDMG_,6.2
@@ -6862,7 +4380,7 @@ atk_,4.1
 hp_,4.1
 def,16.0
 
-DeepwoodMemories,plume,5,atk,0,Collei,True,916
+DeepwoodMemories,plume,5,atk,0,Collei,True,569
 
 key,value
 critDMG_,6.2
@@ -6870,70 +4388,70 @@ atk_,4.7
 hp,209.0
 def,19.0
 
-DeepwoodMemories,plume,5,atk,0,,True,917
+DeepwoodMemories,plume,5,atk,0,,True,570
 
 key,value
 eleMas,21.0
 atk_,5.3
 hp,239.0
 
-DeepwoodMemories,plume,5,atk,0,,True,918
+DeepwoodMemories,plume,5,atk,0,,True,571
 
 key,value
 hp,299.0
 atk_,4.1
 eleMas,21.0
 
-DeepwoodMemories,sands,5,hp_,0,,True,919
+DeepwoodMemories,sands,5,hp_,0,,True,572
 
 key,value
 def,19.0
 atk,14.0
 critRate_,2.7
 
-DeepwoodMemories,sands,5,atk_,0,,True,920
+DeepwoodMemories,sands,5,atk_,0,,True,573
 
 key,value
 hp,239.0
 critDMG_,6.2
 eleMas,16.0
 
-DeepwoodMemories,sands,5,hp_,0,,True,921
+DeepwoodMemories,sands,5,hp_,0,,True,574
 
 key,value
 atk,14.0
 enerRech_,5.8
 atk_,4.7
 
-DeepwoodMemories,sands,5,atk_,0,Collei,True,922
+DeepwoodMemories,sands,5,atk_,0,Collei,True,575
 
 key,value
 critDMG_,7.0
 enerRech_,5.2
 hp,299.0
 
-DeepwoodMemories,sands,5,enerRech_,0,,True,923
+DeepwoodMemories,sands,5,enerRech_,0,,True,576
 
 key,value
 atk,16.0
 critDMG_,7.0
 def_,6.6
 
-DeepwoodMemories,sands,5,atk_,0,,True,924
+DeepwoodMemories,sands,5,atk_,0,,True,577
 
 key,value
 def,23.0
 atk,18.0
 critRate_,2.7
 
-DeepwoodMemories,sands,5,hp_,0,,True,925
+DeepwoodMemories,sands,5,hp_,0,,True,578
 
 key,value
 hp,209.0
 enerRech_,6.5
 critDMG_,7.0
 
-DeepwoodMemories,goblet,5,hp_,0,Yanfei,True,926
+DeepwoodMemories,goblet,5,hp_,0,Yanfei,True,579
 
 key,value
 def,23.0
@@ -6941,14 +4459,14 @@ eleMas,21.0
 hp,299.0
 critDMG_,7.0
 
-DeepwoodMemories,goblet,5,hydro_dmg_,0,Thoma,True,927
+DeepwoodMemories,goblet,5,hydro_dmg_,0,Thoma,True,580
 
 key,value
 atk,16.0
 hp_,5.3
 critRate_,3.5
 
-DeepwoodMemories,circlet,5,hp_,0,Yanfei,True,928
+DeepwoodMemories,circlet,5,hp_,0,Yanfei,True,581
 
 key,value
 atk_,4.7
@@ -6956,261 +4474,281 @@ def,21.0
 hp,269.0
 enerRech_,5.2
 
-DeepwoodMemories,circlet,5,hp_,0,,True,929
+DeepwoodMemories,circlet,5,hp_,0,,True,582
 
 key,value
 def,19.0
 atk,19.0
 critRate_,3.5
 
-DeepwoodMemories,circlet,5,heal_,0,,True,930
+DeepwoodMemories,circlet,5,heal_,0,,True,583
 
 key,value
 def,21.0
 atk,18.0
 enerRech_,6.5
 
-EchoesOfAnOffering,flower,5,hp,0,,True,931
+EchoesOfAnOffering,flower,5,hp,0,,True,584
 
 key,value
 enerRech_,5.2
 critDMG_,6.2
 def_,5.8
 
-EchoesOfAnOffering,sands,5,atk_,0,,True,932
+EchoesOfAnOffering,sands,5,atk_,0,,True,585
 
 key,value
 critDMG_,5.4
 hp_,5.8
 critRate_,3.1
 
-EmblemOfSeveredFate,flower,5,hp,0,,False,933
-
-key,value
-def,23.0
-atk,14.0
-def_,5.1
-critDMG_,5.4
-
-EmblemOfSeveredFate,flower,5,hp,0,,False,934
-
-key,value
-enerRech_,5.8
-atk,18.0
-def_,6.6
-def,16.0
-
-EmblemOfSeveredFate,flower,5,hp,0,,False,935
-
-key,value
-def,21.0
-critRate_,3.9
-enerRech_,5.8
-
-EmblemOfSeveredFate,flower,5,hp,0,,False,936
-
-key,value
-atk,16.0
-eleMas,21.0
-enerRech_,4.5
-
-EmblemOfSeveredFate,flower,5,hp,0,,False,938
-
-key,value
-def_,7.3
-eleMas,23.0
-atk,18.0
-
-EmblemOfSeveredFate,flower,5,hp,0,,False,937
-
-key,value
-def_,6.6
-critDMG_,7.8
-eleMas,19.0
-
-EmblemOfSeveredFate,flower,5,hp,0,,False,939
-
-key,value
-hp_,5.3
-def,16.0
-eleMas,19.0
-
-EmblemOfSeveredFate,flower,5,hp,0,,False,940
-
-key,value
-critRate_,3.9
-atk,16.0
-eleMas,19.0
-
-EmblemOfSeveredFate,flower,5,hp,0,,False,941
-
-key,value
-hp_,5.3
-atk_,5.8
-atk,16.0
-
-EmblemOfSeveredFate,flower,5,hp,0,,True,942
-
-key,value
-enerRech_,5.2
-critRate_,2.7
-atk,19.0
-
-EmblemOfSeveredFate,flower,5,hp,0,,True,943
-
-key,value
-atk_,5.3
-atk,19.0
-enerRech_,4.5
-
-EmblemOfSeveredFate,flower,5,hp,0,,True,944
-
-key,value
-atk_,5.8
-atk,18.0
-critDMG_,5.4
-
-EmblemOfSeveredFate,flower,5,hp,0,,True,945
-
-key,value
-def,19.0
-critDMG_,7.0
-atk_,5.3
-
-EmblemOfSeveredFate,flower,5,hp,0,,True,946
-
-key,value
-critRate_,3.9
-def,23.0
-atk_,5.3
-
-EmblemOfSeveredFate,flower,5,hp,0,,True,947
-
-key,value
-def,16.0
-enerRech_,5.2
-critRate_,3.1
-
-EmblemOfSeveredFate,plume,5,atk,0,,False,948
+EmblemOfSeveredFate,flower,5,hp,0,,True,586
 
 key,value
 critDMG_,6.2
-hp_,5.3
-hp,239.0
-atk_,4.7
-
-EmblemOfSeveredFate,plume,5,atk,0,,False,949
-
-key,value
+critRate_,3.5
 hp_,5.8
-critRate_,3.9
-atk_,5.3
-eleMas,23.0
+def,23.0
 
-EmblemOfSeveredFate,plume,5,atk,0,,True,950
-
-key,value
-critDMG_,7.0
-eleMas,16.0
-hp,239.0
-critRate_,3.9
-
-EmblemOfSeveredFate,plume,5,atk,0,,True,951
-
-key,value
-atk_,4.7
-def_,5.1
-critDMG_,7.8
-enerRech_,5.8
-
-EmblemOfSeveredFate,plume,5,atk,0,,False,952
-
-key,value
-atk_,5.8
-hp,269.0
-def,16.0
-
-EmblemOfSeveredFate,plume,5,atk,0,,False,953
-
-key,value
-hp,239.0
-atk_,4.7
-hp_,5.3
-
-EmblemOfSeveredFate,plume,5,atk,0,,False,954
-
-key,value
-enerRech_,5.8
-eleMas,21.0
-hp_,4.1
-
-EmblemOfSeveredFate,plume,5,atk,0,,False,955
+EmblemOfSeveredFate,flower,5,hp,0,,True,587
 
 key,value
 critRate_,3.1
-hp,209.0
-atk_,5.8
+atk,18.0
+enerRech_,5.2
+atk_,4.7
 
-EmblemOfSeveredFate,plume,5,atk,0,,False,956
-
-key,value
-hp,269.0
-def_,5.8
-atk_,5.3
-
-EmblemOfSeveredFate,plume,5,atk,0,,False,957
-
-key,value
-critDMG_,7.0
-enerRech_,5.8
-def,16.0
-
-EmblemOfSeveredFate,plume,5,atk,0,,True,958
+EmblemOfSeveredFate,flower,5,hp,0,,True,588
 
 key,value
 enerRech_,4.5
-critDMG_,6.2
+atk_,5.3
+critRate_,3.5
+
+EmblemOfSeveredFate,flower,5,hp,0,,False,589
+
+key,value
+enerRech_,5.8
+atk,16.0
 eleMas,23.0
 
-EmblemOfSeveredFate,plume,5,atk,0,,True,959
+EmblemOfSeveredFate,flower,5,hp,0,,False,590
 
 key,value
-def,23.0
+atk,18.0
+atk_,4.7
+enerRech_,6.5
+
+EmblemOfSeveredFate,flower,5,hp,0,,True,591
+
+key,value
+atk,18.0
+critDMG_,6.2
+critRate_,3.5
+
+EmblemOfSeveredFate,flower,5,hp,0,,True,592
+
+key,value
+def_,7.3
+atk_,4.7
+critRate_,3.5
+
+EmblemOfSeveredFate,flower,5,hp,0,,True,593
+
+key,value
+critDMG_,6.2
+def,19.0
+enerRech_,4.5
+
+EmblemOfSeveredFate,flower,5,hp,0,,True,594
+
+key,value
 atk_,4.1
+def_,6.6
 critDMG_,6.2
 
-EmblemOfSeveredFate,plume,5,atk,0,,True,960
+EmblemOfSeveredFate,flower,5,hp,0,,True,595
 
 key,value
+enerRech_,6.5
+critRate_,2.7
+atk,18.0
+
+EmblemOfSeveredFate,flower,5,hp,0,,True,596
+
+key,value
+def,21.0
 critRate_,3.5
-atk_,5.8
-hp,299.0
+enerRech_,5.2
 
-EmblemOfSeveredFate,sands,5,atk_,0,,False,961
+EmblemOfSeveredFate,flower,5,hp,0,,True,597
 
 key,value
-def,16.0
-def_,5.8
+critDMG_,5.4
+atk_,5.8
+hp_,5.8
+
+EmblemOfSeveredFate,flower,5,hp,0,,True,598
+
+key,value
+def,21.0
+critRate_,3.9
+enerRech_,5.8
+
+EmblemOfSeveredFate,flower,5,hp,0,,True,599
+
+key,value
+enerRech_,5.2
+critRate_,2.7
+atk,19.0
+
+EmblemOfSeveredFate,flower,5,hp,0,,True,600
+
+key,value
+atk_,5.8
 atk,18.0
 critDMG_,5.4
 
-EmblemOfSeveredFate,sands,5,atk_,0,,False,962
+EmblemOfSeveredFate,flower,5,hp,0,,True,601
 
 key,value
-hp_,5.3
-def,21.0
-eleMas,21.0
-hp,239.0
+def,19.0
+critDMG_,7.0
+atk_,5.3
 
-EmblemOfSeveredFate,sands,5,def_,0,,False,963
+EmblemOfSeveredFate,flower,5,hp,0,,True,602
 
 key,value
-def,21.0
-atk,18.0
-enerRech_,6.5
+critRate_,3.9
+def,23.0
+atk_,5.3
+
+EmblemOfSeveredFate,flower,5,hp,0,,True,603
+
+key,value
+def,16.0
+enerRech_,5.2
+critRate_,3.1
+
+EmblemOfSeveredFate,plume,5,atk,0,,False,604
+
+key,value
+critRate_,3.9
+atk_,4.7
+hp,269.0
 eleMas,19.0
 
-EmblemOfSeveredFate,sands,5,hp_,0,,False,964
+EmblemOfSeveredFate,plume,5,atk,0,,True,605
+
+key,value
+eleMas,23.0
+critRate_,2.7
+atk_,5.3
+hp_,5.3
+
+EmblemOfSeveredFate,plume,5,atk,0,,True,606
+
+key,value
+critDMG_,7.0
+hp,209.0
+critRate_,3.5
+def_,6.6
+
+EmblemOfSeveredFate,plume,5,atk,0,,True,607
+
+key,value
+critDMG_,7.8
+hp,239.0
+atk_,5.3
+
+EmblemOfSeveredFate,plume,5,atk,0,,True,608
+
+key,value
+critDMG_,7.0
+enerRech_,5.2
+def_,5.1
+
+EmblemOfSeveredFate,plume,5,atk,0,,True,609
+
+key,value
+critDMG_,7.0
+enerRech_,5.2
+def,19.0
+
+EmblemOfSeveredFate,plume,5,atk,0,,True,610
+
+key,value
+eleMas,16.0
+critDMG_,6.2
+enerRech_,4.5
+
+EmblemOfSeveredFate,plume,5,atk,0,,True,611
+
+key,value
+atk_,5.8
+def,21.0
+critRate_,3.1
+
+EmblemOfSeveredFate,plume,5,atk,0,,True,612
+
+key,value
+hp,239.0
+enerRech_,5.2
+critDMG_,7.0
+
+EmblemOfSeveredFate,plume,5,atk,0,,True,614
+
+key,value
+def,16.0
+critRate_,3.1
+atk_,4.1
+
+EmblemOfSeveredFate,plume,5,atk,0,,True,613
+
+key,value
+hp_,4.1
+enerRech_,5.2
+critDMG_,7.0
+
+EmblemOfSeveredFate,plume,5,atk,0,,True,615
+
+key,value
+critDMG_,5.4
+hp,239.0
+atk_,5.3
+
+EmblemOfSeveredFate,plume,5,atk,0,,True,616
+
+key,value
+def,19.0
+enerRech_,6.5
+critRate_,3.9
+
+EmblemOfSeveredFate,sands,5,eleMas,0,,True,617
+
+key,value
+hp,269.0
+def,23.0
+critDMG_,7.8
+atk_,4.7
+
+EmblemOfSeveredFate,sands,5,eleMas,0,,True,618
+
+key,value
+hp_,4.1
+atk_,4.7
+hp,239.0
+critRate_,3.9
+
+EmblemOfSeveredFate,sands,5,atk_,0,,True,619
+
+key,value
+critRate_,3.1
+eleMas,21.0
+critDMG_,7.0
+def_,5.1
+
+EmblemOfSeveredFate,sands,5,hp_,0,,True,620
 
 key,value
 atk,14.0
@@ -7218,59 +4756,21 @@ eleMas,16.0
 critRate_,2.7
 critDMG_,6.2
 
-EmblemOfSeveredFate,sands,5,def_,0,,False,965
-
-key,value
-enerRech_,5.8
-atk,16.0
-hp_,5.8
-
-EmblemOfSeveredFate,sands,5,atk_,0,,False,966
+EmblemOfSeveredFate,sands,5,atk_,0,,True,621
 
 key,value
 def_,5.8
-critDMG_,7.0
-atk,16.0
+critDMG_,5.4
+critRate_,3.5
 
-EmblemOfSeveredFate,sands,5,hp_,0,,False,967
+EmblemOfSeveredFate,sands,5,atk_,0,,True,622
 
 key,value
-atk,18.0
-eleMas,19.0
 critRate_,3.9
+enerRech_,5.8
+hp,239.0
 
-EmblemOfSeveredFate,sands,5,hp_,0,,True,968
-
-key,value
-eleMas,21.0
-critRate_,3.1
-critDMG_,6.2
-
-EmblemOfSeveredFate,goblet,5,electro_dmg_,0,,False,969
-
-key,value
-atk,19.0
-atk_,4.1
-def_,5.8
-def,19.0
-
-EmblemOfSeveredFate,goblet,5,atk_,0,,False,970
-
-key,value
-hp,269.0
-atk,14.0
-def,16.0
-critDMG_,7.0
-
-EmblemOfSeveredFate,goblet,5,cryo_dmg_,0,,True,971
-
-key,value
-eleMas,19.0
-atk,16.0
-critRate_,3.1
-atk_,5.3
-
-EmblemOfSeveredFate,goblet,5,anemo_dmg_,0,,True,972
+EmblemOfSeveredFate,goblet,5,anemo_dmg_,0,,True,623
 
 key,value
 critRate_,3.9
@@ -7278,98 +4778,43 @@ hp,209.0
 critDMG_,7.8
 atk_,5.8
 
-EmblemOfSeveredFate,goblet,5,def_,0,,False,973
+EmblemOfSeveredFate,circlet,5,critDMG_,0,,True,624
 
 key,value
+hp,239.0
+def_,5.1
 critRate_,3.1
-atk,16.0
-eleMas,21.0
+atk_,4.1
 
-EmblemOfSeveredFate,goblet,5,atk_,0,,False,974
-
-key,value
-critDMG_,7.0
-hp_,5.8
-def_,5.8
-
-EmblemOfSeveredFate,goblet,5,hp_,0,,False,975
-
-key,value
-critRate_,3.1
-hp,269.0
-def,19.0
-
-EmblemOfSeveredFate,goblet,5,def_,0,,False,976
-
-key,value
-enerRech_,6.5
-critDMG_,6.2
-eleMas,23.0
-
-EmblemOfSeveredFate,goblet,5,anemo_dmg_,0,,False,977
-
-key,value
-def,16.0
-eleMas,19.0
-atk,19.0
-
-EmblemOfSeveredFate,goblet,5,atk_,0,,False,978
-
-key,value
-atk,14.0
-hp,299.0
-def,21.0
-
-EmblemOfSeveredFate,goblet,5,atk_,0,,False,979
+EmblemOfSeveredFate,circlet,5,atk_,0,,False,625
 
 key,value
 critDMG_,7.8
+eleMas,23.0
 def_,5.1
-def,23.0
 
-EmblemOfSeveredFate,goblet,5,dendro_dmg_,0,,False,980
-
-key,value
-eleMas,16.0
-def,23.0
-atk,18.0
-
-EmblemOfSeveredFate,circlet,5,atk_,0,,False,981
+EmblemOfSeveredFate,circlet,5,critRate_,0,,False,626
 
 key,value
-def,16.0
-atk,14.0
-critRate_,3.5
+def_,5.1
+hp_,5.3
+critDMG_,7.0
 
-EmblemOfSeveredFate,circlet,5,atk_,0,,False,982
-
-key,value
-critRate_,3.5
-hp_,5.8
-atk,16.0
-
-EmblemOfSeveredFate,circlet,5,atk_,0,,False,983
+EmblemOfSeveredFate,circlet,5,critDMG_,0,,True,627
 
 key,value
-atk,16.0
-enerRech_,5.8
-hp,299.0
+def,21.0
+enerRech_,5.2
+atk_,5.8
 
-EmblemOfSeveredFate,circlet,5,hp_,0,,True,984
+EmblemOfSeveredFate,circlet,5,hp_,0,,True,628
 
 key,value
 enerRech_,5.8
 critRate_,2.7
 critDMG_,7.0
 
-EmblemOfSeveredFate,circlet,5,hp_,0,,True,985
-
-key,value
-atk,19.0
-critDMG_,7.8
-critRate_,3.1
-
-ShimenawasReminiscence,flower,5,hp,0,,True,986
+ShimenawasReminiscence,flower,5,hp,0,,True,629
 
 key,value
 atk_,4.1
@@ -7377,7 +4822,7 @@ critDMG_,6.2
 def,19.0
 eleMas,19.0
 
-ShimenawasReminiscence,flower,5,hp,0,,True,987
+ShimenawasReminiscence,flower,5,hp,0,,True,630
 
 key,value
 atk_,5.8
@@ -7385,7 +4830,7 @@ critRate_,3.5
 def_,7.3
 hp_,5.8
 
-ShimenawasReminiscence,flower,5,hp,0,,True,988
+ShimenawasReminiscence,flower,5,hp,0,,True,631
 
 key,value
 eleMas,23.0
@@ -7393,7 +4838,7 @@ critDMG_,6.2
 def_,6.6
 enerRech_,6.5
 
-ShimenawasReminiscence,flower,5,hp,0,,True,989
+ShimenawasReminiscence,flower,5,hp,0,,True,632
 
 key,value
 def,21.0
@@ -7401,7 +4846,7 @@ critRate_,2.7
 eleMas,23.0
 atk_,4.1
 
-ShimenawasReminiscence,flower,5,hp,0,,True,990
+ShimenawasReminiscence,flower,5,hp,0,,True,633
 
 key,value
 atk_,4.1
@@ -7409,7 +4854,7 @@ critRate_,3.5
 atk,16.0
 eleMas,16.0
 
-ShimenawasReminiscence,flower,5,hp,0,,True,991
+ShimenawasReminiscence,flower,5,hp,0,,True,634
 
 key,value
 critRate_,3.1
@@ -7417,197 +4862,154 @@ atk_,4.1
 atk,19.0
 eleMas,21.0
 
-ShimenawasReminiscence,flower,5,hp,0,,False,992
-
-key,value
-enerRech_,5.2
-hp_,4.1
-atk,19.0
-
-ShimenawasReminiscence,flower,5,hp,0,,False,993
+ShimenawasReminiscence,flower,5,hp,0,,True,635
 
 key,value
 def,21.0
 atk_,5.8
 critRate_,3.9
 
-ShimenawasReminiscence,flower,5,hp,0,,False,994
-
-key,value
-atk_,4.1
-def,19.0
-enerRech_,4.5
-
-ShimenawasReminiscence,flower,5,hp,0,,False,995
-
-key,value
-atk,16.0
-atk_,5.8
-hp_,5.3
-
-ShimenawasReminiscence,flower,5,hp,0,,False,997
-
-key,value
-def_,5.8
-def,23.0
-hp_,4.7
-
-ShimenawasReminiscence,flower,5,hp,0,,False,996
-
-key,value
-critRate_,3.9
-hp_,4.7
-def_,5.8
-
-ShimenawasReminiscence,flower,5,hp,0,,False,998
+ShimenawasReminiscence,flower,5,hp,0,,True,636
 
 key,value
 atk,18.0
 critRate_,2.7
 critDMG_,7.0
 
-ShimenawasReminiscence,flower,5,hp,0,,True,999
+ShimenawasReminiscence,flower,5,hp,0,,True,637
 
 key,value
 atk,14.0
 atk_,5.3
 critRate_,3.9
 
-ShimenawasReminiscence,flower,5,hp,0,,True,1000
+ShimenawasReminiscence,flower,5,hp,0,,True,638
 
 key,value
 critDMG_,6.2
 enerRech_,5.8
 atk,19.0
 
-ShimenawasReminiscence,flower,5,hp,0,,True,1001
+ShimenawasReminiscence,flower,5,hp,0,,True,639
 
 key,value
 def,23.0
 critRate_,2.7
 atk_,5.8
 
-ShimenawasReminiscence,flower,5,hp,0,,True,1002
+ShimenawasReminiscence,flower,5,hp,0,,True,640
 
 key,value
 enerRech_,5.2
 def_,5.1
 critDMG_,7.0
 
-ShimenawasReminiscence,flower,5,hp,0,,True,1003
+ShimenawasReminiscence,flower,5,hp,0,,True,641
 
 key,value
 atk,19.0
 critDMG_,7.8
 eleMas,23.0
 
-ShimenawasReminiscence,flower,5,hp,0,,True,1004
+ShimenawasReminiscence,flower,5,hp,0,,True,642
 
 key,value
 critDMG_,7.8
 atk_,4.7
 atk,16.0
 
-ShimenawasReminiscence,flower,5,hp,0,,True,1005
+ShimenawasReminiscence,flower,5,hp,0,,True,643
 
 key,value
 atk,18.0
 critDMG_,6.2
 atk_,4.1
 
-ShimenawasReminiscence,flower,5,hp,0,,True,1006
+ShimenawasReminiscence,flower,5,hp,0,,True,644
 
 key,value
 eleMas,21.0
 def_,7.3
 critDMG_,7.0
 
-ShimenawasReminiscence,flower,5,hp,0,,True,1007
+ShimenawasReminiscence,flower,5,hp,0,,True,645
 
 key,value
 atk_,4.7
 critDMG_,5.4
 hp_,5.3
 
-ShimenawasReminiscence,flower,5,hp,0,,True,1008
+ShimenawasReminiscence,flower,5,hp,0,,True,646
 
 key,value
 atk_,5.3
 critRate_,3.5
 hp_,4.7
 
-ShimenawasReminiscence,flower,5,hp,0,,True,1009
+ShimenawasReminiscence,flower,5,hp,0,,True,647
 
 key,value
 atk,18.0
 critDMG_,7.0
 enerRech_,5.2
 
-ShimenawasReminiscence,flower,5,hp,0,,True,1010
+ShimenawasReminiscence,flower,5,hp,0,,True,648
 
 key,value
 critRate_,3.1
 atk_,5.8
 critDMG_,5.4
 
-ShimenawasReminiscence,flower,5,hp,0,,True,1011
+ShimenawasReminiscence,flower,5,hp,0,,True,649
 
 key,value
 critDMG_,7.8
 critRate_,3.9
 hp_,5.3
 
-ShimenawasReminiscence,flower,5,hp,0,,True,1012
+ShimenawasReminiscence,flower,5,hp,0,,True,650
 
 key,value
 atk_,5.3
 def,21.0
 critDMG_,7.0
 
-ShimenawasReminiscence,flower,5,hp,0,,True,1013
+ShimenawasReminiscence,flower,5,hp,0,,True,651
 
 key,value
 critRate_,3.1
 def_,5.1
 eleMas,23.0
 
-ShimenawasReminiscence,flower,5,hp,0,,True,1014
+ShimenawasReminiscence,flower,5,hp,0,,True,652
 
 key,value
 eleMas,23.0
 critDMG_,7.8
 atk,16.0
 
-ShimenawasReminiscence,flower,5,hp,0,,True,1015
+ShimenawasReminiscence,flower,5,hp,0,,True,653
 
 key,value
 critDMG_,5.4
 hp_,5.3
 eleMas,16.0
 
-ShimenawasReminiscence,flower,5,hp,0,,True,1016
+ShimenawasReminiscence,flower,5,hp,0,,True,654
 
 key,value
 def_,5.8
 critRate_,3.5
 critDMG_,7.8
 
-ShimenawasReminiscence,plume,5,atk,0,,False,1018
-
-key,value
-critDMG_,7.8
-hp,239.0
-def_,7.3
-hp_,4.7
-
-ShimenawasReminiscence,flower,5,hp,0,,True,1017
+ShimenawasReminiscence,flower,5,hp,0,,True,655
 
 key,value
 critDMG_,7.8
 eleMas,21.0
 enerRech_,6.5
 
-ShimenawasReminiscence,plume,5,atk,0,,False,1019
+ShimenawasReminiscence,plume,5,atk,0,,True,656
 
 key,value
 atk_,4.1
@@ -7615,7 +5017,7 @@ def,21.0
 hp_,5.3
 critDMG_,7.8
 
-ShimenawasReminiscence,plume,5,atk,0,,True,1020
+ShimenawasReminiscence,plume,5,atk,0,,True,657
 
 key,value
 hp_,5.8
@@ -7623,7 +5025,7 @@ critDMG_,6.2
 critRate_,2.7
 def,23.0
 
-ShimenawasReminiscence,plume,5,atk,0,,True,1021
+ShimenawasReminiscence,plume,5,atk,0,,True,658
 
 key,value
 enerRech_,4.5
@@ -7631,7 +5033,7 @@ critRate_,3.9
 def,21.0
 critDMG_,7.8
 
-ShimenawasReminiscence,plume,5,atk,0,,True,1022
+ShimenawasReminiscence,plume,5,atk,0,,True,659
 
 key,value
 atk_,5.8
@@ -7639,168 +5041,119 @@ def,19.0
 critDMG_,6.2
 def_,6.6
 
-ShimenawasReminiscence,plume,5,atk,0,,False,1023
-
-key,value
-eleMas,21.0
-hp,269.0
-hp_,4.1
-
-ShimenawasReminiscence,plume,5,atk,0,,False,1024
-
-key,value
-def_,7.3
-enerRech_,5.2
-hp_,4.7
-
-ShimenawasReminiscence,plume,5,atk,0,,False,1025
-
-key,value
-hp_,4.1
-eleMas,21.0
-def,19.0
-
-ShimenawasReminiscence,plume,5,atk,0,,False,1026
-
-key,value
-critDMG_,7.8
-def,16.0
-eleMas,21.0
-
-ShimenawasReminiscence,plume,5,atk,0,,False,1027
-
-key,value
-enerRech_,5.8
-hp_,4.7
-critRate_,3.5
-
-ShimenawasReminiscence,plume,5,atk,0,,False,1028
-
-key,value
-atk_,4.1
-hp_,4.1
-def,21.0
-
-ShimenawasReminiscence,plume,5,atk,0,,False,1029
-
-key,value
-eleMas,21.0
-hp,299.0
-atk_,4.7
-
-ShimenawasReminiscence,plume,5,atk,0,,True,1030
+ShimenawasReminiscence,plume,5,atk,0,,True,660
 
 key,value
 eleMas,19.0
 atk_,4.7
 critRate_,2.7
 
-ShimenawasReminiscence,plume,5,atk,0,,True,1031
+ShimenawasReminiscence,plume,5,atk,0,,True,661
 
 key,value
 critDMG_,7.8
 critRate_,2.7
 enerRech_,6.5
 
-ShimenawasReminiscence,plume,5,atk,0,,True,1032
+ShimenawasReminiscence,plume,5,atk,0,,True,662
 
 key,value
 critRate_,3.9
 critDMG_,6.2
 atk_,4.7
 
-ShimenawasReminiscence,plume,5,atk,0,,True,1033
+ShimenawasReminiscence,plume,5,atk,0,,True,663
 
 key,value
 hp,299.0
 atk_,4.7
 critDMG_,7.8
 
-ShimenawasReminiscence,plume,5,atk,0,,True,1034
+ShimenawasReminiscence,plume,5,atk,0,,True,664
 
 key,value
 critDMG_,6.2
 def,16.0
 atk_,5.8
 
-ShimenawasReminiscence,plume,5,atk,0,,True,1035
+ShimenawasReminiscence,plume,5,atk,0,,True,665
 
 key,value
 critRate_,3.9
 def,21.0
 critDMG_,6.2
 
-ShimenawasReminiscence,plume,5,atk,0,,True,1036
+ShimenawasReminiscence,plume,5,atk,0,,True,666
 
 key,value
 atk_,4.7
 def_,5.8
 critRate_,3.5
 
-ShimenawasReminiscence,plume,5,atk,0,,True,1037
+ShimenawasReminiscence,plume,5,atk,0,,True,667
 
 key,value
 critDMG_,5.4
 def_,5.8
 critRate_,3.1
 
-ShimenawasReminiscence,plume,5,atk,0,,True,1038
+ShimenawasReminiscence,plume,5,atk,0,,True,668
 
 key,value
 critRate_,3.1
 hp,299.0
 eleMas,19.0
 
-ShimenawasReminiscence,plume,5,atk,0,,True,1039
+ShimenawasReminiscence,plume,5,atk,0,,True,669
 
 key,value
 hp,299.0
 critDMG_,5.4
 eleMas,19.0
 
-ShimenawasReminiscence,plume,5,atk,0,,True,1040
+ShimenawasReminiscence,plume,5,atk,0,,True,670
 
 key,value
 critDMG_,5.4
 atk_,5.8
 def_,5.1
 
-ShimenawasReminiscence,plume,5,atk,0,,True,1041
+ShimenawasReminiscence,plume,5,atk,0,,True,671
 
 key,value
 def,23.0
 atk_,4.1
 critDMG_,6.2
 
-ShimenawasReminiscence,plume,5,atk,0,,True,1042
+ShimenawasReminiscence,plume,5,atk,0,,True,672
 
 key,value
 critRate_,2.7
 enerRech_,5.8
 hp,239.0
 
-ShimenawasReminiscence,plume,5,atk,0,,True,1043
+ShimenawasReminiscence,plume,5,atk,0,,True,673
 
 key,value
 enerRech_,5.8
 critDMG_,7.8
 eleMas,23.0
 
-ShimenawasReminiscence,plume,5,atk,0,,True,1044
+ShimenawasReminiscence,plume,5,atk,0,,True,674
 
 key,value
 atk_,4.1
 def,21.0
 critDMG_,7.8
 
-ShimenawasReminiscence,plume,5,atk,0,,True,1045
+ShimenawasReminiscence,plume,5,atk,0,,True,675
 
 key,value
 eleMas,16.0
 critDMG_,7.8
 atk_,5.8
 
-ShimenawasReminiscence,sands,5,eleMas,0,,True,1046
+ShimenawasReminiscence,sands,5,eleMas,0,,True,676
 
 key,value
 def_,6.6
@@ -7808,7 +5161,7 @@ critDMG_,7.8
 atk_,5.3
 hp,269.0
 
-ShimenawasReminiscence,sands,5,enerRech_,0,,True,1047
+ShimenawasReminiscence,sands,5,enerRech_,0,,True,677
 
 key,value
 def,19.0
@@ -7816,7 +5169,7 @@ critDMG_,7.8
 def_,6.6
 critRate_,2.7
 
-ShimenawasReminiscence,sands,5,eleMas,0,,True,1048
+ShimenawasReminiscence,sands,5,eleMas,0,,True,678
 
 key,value
 critDMG_,5.4
@@ -7824,7 +5177,7 @@ enerRech_,6.5
 atk,19.0
 def,21.0
 
-ShimenawasReminiscence,sands,5,hp_,0,,True,1049
+ShimenawasReminiscence,sands,5,hp_,0,,True,679
 
 key,value
 critRate_,3.5
@@ -7832,7 +5185,7 @@ eleMas,19.0
 critDMG_,5.4
 def,16.0
 
-ShimenawasReminiscence,sands,5,enerRech_,0,,True,1050
+ShimenawasReminiscence,sands,5,enerRech_,0,,True,680
 
 key,value
 atk_,5.8
@@ -7840,162 +5193,140 @@ critDMG_,5.4
 def,23.0
 hp_,5.3
 
-ShimenawasReminiscence,sands,5,def_,0,,False,1051
-
-key,value
-critRate_,3.9
-hp,299.0
-def,23.0
-
-ShimenawasReminiscence,sands,5,hp_,0,,False,1052
-
-key,value
-def,21.0
-atk,14.0
-def_,5.1
-
-ShimenawasReminiscence,sands,5,atk_,0,,False,1053
+ShimenawasReminiscence,sands,5,atk_,0,,True,681
 
 key,value
 atk,14.0
 critDMG_,7.0
 def,19.0
 
-ShimenawasReminiscence,sands,5,atk_,0,,True,1054
+ShimenawasReminiscence,sands,5,atk_,0,,True,682
 
 key,value
 hp_,4.7
 def_,6.6
 critRate_,2.7
 
-ShimenawasReminiscence,sands,5,enerRech_,0,,True,1055
+ShimenawasReminiscence,sands,5,enerRech_,0,,True,683
 
 key,value
 hp_,4.1
 critDMG_,7.8
 def,19.0
 
-ShimenawasReminiscence,sands,5,eleMas,0,,True,1056
+ShimenawasReminiscence,sands,5,eleMas,0,,True,684
 
 key,value
 critDMG_,7.0
 atk_,5.8
 enerRech_,6.5
 
-ShimenawasReminiscence,sands,5,atk_,0,,True,1057
+ShimenawasReminiscence,sands,5,atk_,0,,True,685
 
 key,value
 critDMG_,7.8
 eleMas,16.0
 hp,269.0
 
-ShimenawasReminiscence,sands,5,atk_,0,,True,1058
+ShimenawasReminiscence,sands,5,atk_,0,,True,686
 
 key,value
 critRate_,3.1
 critDMG_,5.4
 def,19.0
 
-ShimenawasReminiscence,sands,5,enerRech_,0,,True,1059
+ShimenawasReminiscence,sands,5,enerRech_,0,,True,687
 
 key,value
 critRate_,3.1
 atk,16.0
 hp_,4.7
 
-ShimenawasReminiscence,sands,5,eleMas,0,,True,1060
+ShimenawasReminiscence,sands,5,eleMas,0,,True,688
 
 key,value
 hp,299.0
 atk_,4.7
 critRate_,3.9
 
-ShimenawasReminiscence,sands,5,atk_,0,,True,1061
+ShimenawasReminiscence,sands,5,atk_,0,,True,689
 
 key,value
 def_,7.3
 def,21.0
 critDMG_,7.0
 
-ShimenawasReminiscence,sands,5,atk_,0,,True,1062
+ShimenawasReminiscence,sands,5,atk_,0,,True,690
 
 key,value
 def,19.0
 def_,6.6
 critDMG_,5.4
 
-ShimenawasReminiscence,sands,5,enerRech_,0,,True,1063
+ShimenawasReminiscence,sands,5,enerRech_,0,,True,691
 
 key,value
 eleMas,23.0
 critRate_,3.5
 hp,269.0
 
-ShimenawasReminiscence,sands,5,atk_,0,,True,1064
+ShimenawasReminiscence,sands,5,atk_,0,,True,692
 
 key,value
 atk,18.0
 critRate_,3.5
 eleMas,21.0
 
-ShimenawasReminiscence,sands,5,eleMas,0,,True,1065
+ShimenawasReminiscence,sands,5,eleMas,0,,True,693
 
 key,value
 enerRech_,6.5
 atk,14.0
 critRate_,2.7
 
-ShimenawasReminiscence,sands,5,hp_,0,,True,1066
+ShimenawasReminiscence,sands,5,hp_,0,,True,694
 
 key,value
 def_,7.3
 critDMG_,6.2
 hp,299.0
 
-ShimenawasReminiscence,sands,5,atk_,0,,True,1067
+ShimenawasReminiscence,sands,5,atk_,0,,True,695
 
 key,value
 atk,18.0
 critDMG_,7.8
 def_,6.6
 
-ShimenawasReminiscence,sands,5,atk_,0,,True,1068
+ShimenawasReminiscence,sands,5,atk_,0,,True,696
 
 key,value
 hp_,4.7
 critDMG_,6.2
 enerRech_,5.8
 
-ShimenawasReminiscence,sands,5,enerRech_,0,,True,1069
+ShimenawasReminiscence,sands,5,enerRech_,0,,True,697
 
 key,value
 def,16.0
 atk_,5.8
 critRate_,2.7
 
-ShimenawasReminiscence,sands,5,atk_,0,,True,1070
+ShimenawasReminiscence,sands,5,atk_,0,,True,698
 
 key,value
 def_,5.1
 critRate_,3.5
 hp_,4.7
 
-ShimenawasReminiscence,sands,5,enerRech_,0,,True,1071
+ShimenawasReminiscence,sands,5,enerRech_,0,,True,699
 
 key,value
 eleMas,21.0
 atk,19.0
 critRate_,3.5
 
-ShimenawasReminiscence,goblet,5,hydro_dmg_,0,,False,1072
-
-key,value
-atk,14.0
-enerRech_,6.5
-def,23.0
-def_,5.8
-
-ShimenawasReminiscence,goblet,5,cryo_dmg_,0,,False,1073
+ShimenawasReminiscence,goblet,5,cryo_dmg_,0,,True,700
 
 key,value
 atk_,4.7
@@ -8003,7 +5334,7 @@ hp,269.0
 critRate_,3.5
 def,21.0
 
-ShimenawasReminiscence,goblet,5,cryo_dmg_,0,,True,1074
+ShimenawasReminiscence,goblet,5,cryo_dmg_,0,,True,701
 
 key,value
 atk_,5.3
@@ -8011,7 +5342,7 @@ hp_,5.8
 critRate_,3.1
 hp,209.0
 
-ShimenawasReminiscence,goblet,5,physical_dmg_,0,,True,1075
+ShimenawasReminiscence,goblet,5,physical_dmg_,0,,True,702
 
 key,value
 def_,6.6
@@ -8019,105 +5350,56 @@ hp_,5.3
 atk_,5.3
 critDMG_,6.2
 
-ShimenawasReminiscence,goblet,5,hp_,0,,False,1076
-
-key,value
-def_,5.1
-atk,16.0
-def,19.0
-
-ShimenawasReminiscence,goblet,5,physical_dmg_,0,,False,1077
-
-key,value
-def,21.0
-critDMG_,5.4
-def_,6.6
-
-ShimenawasReminiscence,goblet,5,physical_dmg_,0,,False,1078
-
-key,value
-def_,5.1
-enerRech_,6.5
-hp,269.0
-
-ShimenawasReminiscence,goblet,5,def_,0,,False,1079
-
-key,value
-atk,16.0
-hp_,4.1
-enerRech_,5.2
-
-ShimenawasReminiscence,goblet,5,atk_,0,,False,1080
-
-key,value
-def_,6.6
-critDMG_,7.8
-atk,18.0
-
-ShimenawasReminiscence,goblet,5,electro_dmg_,0,,False,1081
-
-key,value
-atk,16.0
-hp,209.0
-atk_,4.1
-
-ShimenawasReminiscence,goblet,5,atk_,0,,False,1082
-
-key,value
-atk,16.0
-hp_,4.1
-hp,269.0
-
-ShimenawasReminiscence,goblet,5,hp_,0,,False,1083
+ShimenawasReminiscence,goblet,5,hp_,0,,True,703
 
 key,value
 hp,299.0
 critRate_,3.1
 critDMG_,5.4
 
-ShimenawasReminiscence,goblet,5,anemo_dmg_,0,,True,1084
+ShimenawasReminiscence,goblet,5,anemo_dmg_,0,,True,704
 
 key,value
 enerRech_,4.5
 critDMG_,5.4
 atk,18.0
 
-ShimenawasReminiscence,goblet,5,eleMas,0,,True,1085
+ShimenawasReminiscence,goblet,5,eleMas,0,,True,705
 
 key,value
 critRate_,3.9
 atk_,4.1
 enerRech_,4.5
 
-ShimenawasReminiscence,goblet,5,electro_dmg_,0,,True,1086
+ShimenawasReminiscence,goblet,5,electro_dmg_,0,,True,706
 
 key,value
 critRate_,2.7
 def_,5.1
 hp,239.0
 
-ShimenawasReminiscence,goblet,5,electro_dmg_,0,,True,1087
+ShimenawasReminiscence,goblet,5,electro_dmg_,0,,True,707
 
 key,value
 enerRech_,6.5
 def,21.0
 critDMG_,6.2
 
-ShimenawasReminiscence,goblet,5,electro_dmg_,0,,True,1088
+ShimenawasReminiscence,goblet,5,electro_dmg_,0,,True,708
 
 key,value
 enerRech_,4.5
 atk_,5.8
 critDMG_,5.4
 
-ShimenawasReminiscence,goblet,5,hydro_dmg_,0,,True,1089
+ShimenawasReminiscence,goblet,5,hydro_dmg_,0,,True,709
 
 key,value
 def_,5.8
 hp,239.0
 critRate_,3.1
 
-ShimenawasReminiscence,circlet,5,eleMas,0,,True,1090
+ShimenawasReminiscence,circlet,5,eleMas,0,,True,710
 
 key,value
 hp,299.0
@@ -8125,140 +5407,98 @@ atk_,4.1
 critRate_,3.5
 critDMG_,7.8
 
-ShimenawasReminiscence,circlet,5,atk_,0,,False,1091
-
-key,value
-eleMas,16.0
-def,21.0
-hp_,5.8
-
-ShimenawasReminiscence,circlet,5,atk_,0,,False,1092
-
-key,value
-critDMG_,7.8
-hp,269.0
-def_,7.3
-
-ShimenawasReminiscence,circlet,5,critRate_,0,,False,1093
-
-key,value
-enerRech_,5.8
-eleMas,23.0
-hp,299.0
-
-ShimenawasReminiscence,circlet,5,critRate_,0,,False,1094
-
-key,value
-critDMG_,7.0
-eleMas,21.0
-def,19.0
-
-ShimenawasReminiscence,circlet,5,eleMas,0,,False,1095
-
-key,value
-def,23.0
-hp,299.0
-atk,18.0
-
-ShimenawasReminiscence,circlet,5,atk_,0,,False,1096
-
-key,value
-def_,5.1
-atk,14.0
-def,16.0
-
-ShimenawasReminiscence,circlet,5,critDMG_,0,,False,1097
+ShimenawasReminiscence,circlet,5,critDMG_,0,,True,711
 
 key,value
 hp,209.0
 critRate_,3.1
 def,19.0
 
-ShimenawasReminiscence,circlet,5,heal_,0,,True,1098
+ShimenawasReminiscence,circlet,5,heal_,0,,True,712
 
 key,value
 critDMG_,7.0
 enerRech_,5.2
 critRate_,3.9
 
-ShimenawasReminiscence,circlet,5,hp_,0,,True,1099
+ShimenawasReminiscence,circlet,5,hp_,0,,True,713
 
 key,value
 critRate_,2.7
 atk_,5.8
 critDMG_,7.8
 
-ShimenawasReminiscence,circlet,5,atk_,0,,True,1100
+ShimenawasReminiscence,circlet,5,atk_,0,,True,714
 
 key,value
 critDMG_,7.8
 critRate_,3.1
 def_,6.6
 
-ShimenawasReminiscence,circlet,5,critDMG_,0,,True,1101
+ShimenawasReminiscence,circlet,5,critDMG_,0,,True,715
 
 key,value
 def_,5.8
 hp_,5.8
 atk_,5.8
 
-PaleFlame,flower,5,hp,0,,True,1102
+PaleFlame,flower,5,hp,0,,True,716
 
 key,value
 critDMG_,5.4
 critRate_,3.1
 def,23.0
 
-PaleFlame,flower,5,hp,0,,True,1103
+PaleFlame,flower,5,hp,0,,True,717
 
 key,value
 critDMG_,5.4
 atk,19.0
 critRate_,2.7
 
-PaleFlame,flower,5,hp,0,,True,1104
+PaleFlame,flower,5,hp,0,,True,718
 
 key,value
 critDMG_,6.2
 def,19.0
 atk_,5.3
 
-PaleFlame,flower,5,hp,0,,True,1105
+PaleFlame,flower,5,hp,0,,True,719
 
 key,value
 atk_,5.8
 eleMas,21.0
 critDMG_,6.2
 
-PaleFlame,plume,5,atk,0,,True,1106
+PaleFlame,plume,5,atk,0,,True,720
 
 key,value
 critDMG_,6.2
 atk_,5.8
 hp,299.0
 
-PaleFlame,sands,5,atk_,0,,True,1107
+PaleFlame,sands,5,atk_,0,,True,721
 
 key,value
 hp,299.0
 atk,16.0
 critDMG_,7.8
 
-PaleFlame,sands,5,def_,0,,True,1108
+PaleFlame,sands,5,def_,0,,True,722
 
 key,value
 atk_,4.1
 atk,14.0
 critRate_,3.9
 
-PaleFlame,sands,5,atk_,0,,True,1109
+PaleFlame,sands,5,atk_,0,,True,723
 
 key,value
 critDMG_,7.8
 def,23.0
 hp,299.0
 
-PaleFlame,goblet,5,atk_,0,,True,1110
+PaleFlame,goblet,5,atk_,0,,True,724
 
 key,value
 critRate_,2.7
@@ -8266,21 +5506,21 @@ hp,269.0
 critDMG_,7.0
 atk,14.0
 
-PaleFlame,goblet,5,physical_dmg_,0,,True,1111
+PaleFlame,goblet,5,physical_dmg_,0,,True,725
 
 key,value
 hp,209.0
 hp_,4.7
 critDMG_,6.2
 
-PaleFlame,goblet,5,physical_dmg_,0,,True,1112
+PaleFlame,goblet,5,physical_dmg_,0,,True,726
 
 key,value
 hp,269.0
 critDMG_,6.2
 def_,5.8
 
-TenacityOfTheMillelith,sands,5,hp_,0,,True,1113
+TenacityOfTheMillelith,sands,5,hp_,0,,True,727
 
 key,value
 atk_,5.8
@@ -8288,7 +5528,7 @@ critRate_,3.9
 eleMas,16.0
 def_,7.3
 
-TenacityOfTheMillelith,sands,5,eleMas,0,Jean,True,1114
+TenacityOfTheMillelith,sands,5,eleMas,0,Jean,True,728
 
 key,value
 critRate_,3.9
@@ -8296,42 +5536,42 @@ atk,14.0
 enerRech_,4.5
 hp,299.0
 
-TenacityOfTheMillelith,sands,5,atk_,0,,True,1115
+TenacityOfTheMillelith,sands,5,atk_,0,,True,729
 
 key,value
 enerRech_,5.2
 atk,16.0
 critDMG_,7.0
 
-TenacityOfTheMillelith,sands,5,hp_,0,,True,1116
+TenacityOfTheMillelith,sands,5,hp_,0,,True,730
 
 key,value
 atk,16.0
 def_,7.3
 eleMas,19.0
 
-TenacityOfTheMillelith,sands,5,atk_,0,,True,1117
+TenacityOfTheMillelith,sands,5,atk_,0,,True,731
 
 key,value
 eleMas,16.0
 enerRech_,5.8
 def,19.0
 
-TenacityOfTheMillelith,sands,5,eleMas,0,,True,1118
+TenacityOfTheMillelith,sands,5,eleMas,0,,True,732
 
 key,value
 critDMG_,6.2
 def,19.0
 enerRech_,5.2
 
-TenacityOfTheMillelith,sands,5,atk_,0,,True,1119
+TenacityOfTheMillelith,sands,5,atk_,0,,True,733
 
 key,value
 enerRech_,5.2
 def,23.0
 atk,14.0
 
-TenacityOfTheMillelith,circlet,5,hp_,0,,True,1120
+TenacityOfTheMillelith,circlet,5,hp_,0,,True,734
 
 key,value
 enerRech_,5.2
@@ -8339,7 +5579,7 @@ def,19.0
 eleMas,19.0
 def_,6.6
 
-TenacityOfTheMillelith,circlet,5,atk_,0,,True,1121
+TenacityOfTheMillelith,circlet,5,atk_,0,,True,735
 
 key,value
 def_,6.6
@@ -8347,7 +5587,7 @@ def,21.0
 critRate_,3.5
 critDMG_,6.2
 
-TenacityOfTheMillelith,circlet,5,heal_,0,,True,1122
+TenacityOfTheMillelith,circlet,5,heal_,0,,True,736
 
 key,value
 eleMas,16.0
@@ -8355,14 +5595,14 @@ atk,18.0
 def_,6.6
 hp_,4.1
 
-TenacityOfTheMillelith,circlet,5,atk_,0,,True,1123
+TenacityOfTheMillelith,circlet,5,atk_,0,,True,737
 
 key,value
 def,16.0
 eleMas,19.0
 enerRech_,6.5
 
-HeartOfDepth,flower,5,hp,0,,True,1124
+HeartOfDepth,flower,5,hp,0,,True,738
 
 key,value
 def,23.0
@@ -8370,7 +5610,14 @@ enerRech_,4.5
 atk_,5.8
 critRate_,3.5
 
-HeartOfDepth,flower,5,hp,0,,True,1125
+HeartOfDepth,flower,5,hp,0,,True,741
+
+key,value
+eleMas,16.0
+atk_,4.1
+critRate_,3.1
+
+HeartOfDepth,flower,5,hp,0,,True,739
 
 key,value
 critDMG_,5.4
@@ -8378,7 +5625,7 @@ def,23.0
 enerRech_,6.5
 hp_,5.8
 
-HeartOfDepth,flower,5,hp,0,,True,1126
+HeartOfDepth,flower,5,hp,0,,True,740
 
 key,value
 hp_,4.7
@@ -8386,14 +5633,15 @@ def,21.0
 critDMG_,6.2
 enerRech_,5.2
 
-HeartOfDepth,flower,5,hp,0,,True,1127
+HeartOfDepth,plume,5,atk,0,,True,743
 
 key,value
-eleMas,16.0
-atk_,4.1
-critRate_,3.1
+atk_,4.7
+eleMas,19.0
+hp,269.0
+critRate_,2.7
 
-HeartOfDepth,plume,5,atk,0,,True,1128
+HeartOfDepth,plume,5,atk,0,,True,742
 
 key,value
 enerRech_,6.5
@@ -8401,15 +5649,7 @@ critDMG_,7.8
 def,19.0
 atk_,5.3
 
-HeartOfDepth,plume,5,atk,0,,True,1129
-
-key,value
-atk_,4.7
-eleMas,19.0
-hp,269.0
-critRate_,2.7
-
-HeartOfDepth,plume,5,atk,0,,True,1130
+HeartOfDepth,plume,5,atk,0,,True,744
 
 key,value
 eleMas,23.0
@@ -8417,63 +5657,63 @@ critRate_,3.1
 def_,7.3
 enerRech_,5.8
 
-HeartOfDepth,plume,5,atk,0,,True,1131
-
-key,value
-critDMG_,7.8
-enerRech_,4.5
-eleMas,16.0
-
-HeartOfDepth,plume,5,atk,0,,True,1132
+HeartOfDepth,plume,5,atk,0,,True,746
 
 key,value
 enerRech_,5.2
 critDMG_,6.2
 atk_,4.7
 
-HeartOfDepth,plume,5,atk,0,,True,1133
+HeartOfDepth,plume,5,atk,0,,True,745
+
+key,value
+critDMG_,7.8
+enerRech_,4.5
+eleMas,16.0
+
+HeartOfDepth,plume,5,atk,0,,True,747
 
 key,value
 critDMG_,6.2
 atk_,4.7
 eleMas,16.0
 
-HeartOfDepth,sands,5,hp_,0,,True,1134
+HeartOfDepth,sands,5,hp_,0,,True,748
 
 key,value
 atk_,4.1
 hp,239.0
 critRate_,3.9
 
-HeartOfDepth,sands,5,enerRech_,0,,True,1135
+HeartOfDepth,sands,5,enerRech_,0,,True,749
 
 key,value
 critDMG_,7.0
 eleMas,16.0
 atk,18.0
 
-HeartOfDepth,circlet,5,critDMG_,0,,True,1136
+HeartOfDepth,circlet,5,critDMG_,0,,True,750
 
 key,value
 hp,209.0
 eleMas,19.0
 critRate_,3.1
 
-BloodstainedChivalry,plume,5,atk,0,,True,1137
+BloodstainedChivalry,plume,5,atk,0,,True,751
 
 key,value
 critDMG_,6.2
 eleMas,19.0
 atk_,5.3
 
-BloodstainedChivalry,plume,5,atk,0,,True,1138
+BloodstainedChivalry,plume,5,atk,0,,True,752
 
 key,value
 critRate_,3.1
 atk_,4.1
 def,23.0
 
-NoblesseOblige,flower,5,hp,0,,True,1139
+NoblesseOblige,flower,5,hp,0,,True,753
 
 key,value
 critRate_,2.7
@@ -8481,7 +5721,7 @@ atk_,4.7
 hp_,5.3
 atk,19.0
 
-NoblesseOblige,flower,5,hp,0,,True,1140
+NoblesseOblige,flower,5,hp,0,,True,754
 
 key,value
 eleMas,16.0
@@ -8489,77 +5729,77 @@ critRate_,3.9
 def,16.0
 atk_,4.1
 
-NoblesseOblige,flower,5,hp,0,,True,1141
+NoblesseOblige,flower,5,hp,0,,True,755
 
 key,value
 def,21.0
 atk,19.0
 critRate_,3.1
 
-NoblesseOblige,flower,5,hp,0,,True,1142
+NoblesseOblige,flower,5,hp,0,,True,756
 
 key,value
 critDMG_,5.4
 atk_,4.1
 def,19.0
 
-NoblesseOblige,flower,5,hp,0,,True,1143
+NoblesseOblige,flower,5,hp,0,,True,757
 
 key,value
 atk,19.0
 enerRech_,5.8
 def_,7.3
 
-NoblesseOblige,flower,5,hp,0,,True,1144
+NoblesseOblige,flower,5,hp,0,,True,758
 
 key,value
 atk_,5.8
 eleMas,21.0
 critRate_,2.7
 
-NoblesseOblige,flower,5,hp,0,,True,1145
+NoblesseOblige,flower,5,hp,0,,True,759
 
 key,value
 def_,5.1
 eleMas,21.0
 critDMG_,6.2
 
-NoblesseOblige,flower,5,hp,0,,True,1146
+NoblesseOblige,flower,5,hp,0,,True,760
 
 key,value
 atk_,5.3
 critRate_,2.7
 atk,18.0
 
-NoblesseOblige,flower,5,hp,0,,True,1147
+NoblesseOblige,flower,5,hp,0,,True,761
 
 key,value
 def_,5.8
 eleMas,21.0
 critDMG_,6.2
 
-NoblesseOblige,flower,5,hp,0,,True,1148
+NoblesseOblige,flower,5,hp,0,,True,762
 
 key,value
 atk,18.0
 critDMG_,7.0
 atk_,4.1
 
-NoblesseOblige,flower,5,hp,0,,True,1149
+NoblesseOblige,flower,5,hp,0,,True,763
 
 key,value
 def,19.0
 critDMG_,6.2
 eleMas,19.0
 
-NoblesseOblige,flower,5,hp,0,,True,1150
+NoblesseOblige,flower,5,hp,0,,True,764
 
 key,value
 def,19.0
 critDMG_,6.2
 eleMas,23.0
 
-NoblesseOblige,sands,5,hp_,0,,True,1151
+NoblesseOblige,sands,5,hp_,0,,True,765
 
 key,value
 eleMas,19.0
@@ -8567,7 +5807,7 @@ atk,16.0
 enerRech_,5.8
 def,19.0
 
-NoblesseOblige,sands,5,hp_,0,,True,1152
+NoblesseOblige,sands,5,hp_,0,,True,766
 
 key,value
 critRate_,2.7
@@ -8575,42 +5815,49 @@ def,21.0
 critDMG_,7.0
 eleMas,19.0
 
-NoblesseOblige,sands,5,eleMas,0,,True,1153
+NoblesseOblige,sands,5,eleMas,0,,True,767
 
 key,value
 critRate_,3.1
 hp,209.0
 critDMG_,7.0
 
-NoblesseOblige,sands,5,eleMas,0,,True,1154
+NoblesseOblige,sands,5,eleMas,0,,True,768
 
 key,value
 atk_,4.7
 critRate_,3.9
 hp,269.0
 
-NoblesseOblige,goblet,5,cryo_dmg_,0,,True,1155
+NoblesseOblige,goblet,5,cryo_dmg_,0,,True,769
 
 key,value
 hp_,5.3
 critDMG_,5.4
 hp,299.0
 
-NoblesseOblige,goblet,5,dendro_dmg_,0,,True,1156
+NoblesseOblige,goblet,5,dendro_dmg_,0,,True,770
 
 key,value
 hp_,5.3
 atk,14.0
 eleMas,19.0
 
-NoblesseOblige,goblet,5,cryo_dmg_,0,,True,1157
+NoblesseOblige,goblet,5,cryo_dmg_,0,,True,771
 
 key,value
 hp,209.0
 def_,5.1
 critDMG_,6.2
 
-NoblesseOblige,circlet,5,critDMG_,0,,True,1159
+NoblesseOblige,goblet,5,cryo_dmg_,0,,True,772
+
+key,value
+eleMas,23.0
+critDMG_,5.4
+hp_,5.3
+
+NoblesseOblige,circlet,5,critDMG_,0,,True,773
 
 key,value
 hp_,4.7
@@ -8618,14 +5865,7 @@ critRate_,3.1
 def_,6.6
 atk_,4.7
 
-NoblesseOblige,goblet,5,cryo_dmg_,0,,True,1158
-
-key,value
-eleMas,23.0
-critDMG_,5.4
-hp_,5.3
-
-NoblesseOblige,circlet,5,heal_,0,,True,1160
+NoblesseOblige,circlet,5,heal_,0,,True,774
 
 key,value
 hp_,4.7
@@ -8633,101 +5873,56 @@ def_,5.1
 enerRech_,5.8
 atk,19.0
 
-NoblesseOblige,circlet,5,heal_,0,,True,1161
+NoblesseOblige,circlet,5,heal_,0,,True,775
 
 key,value
 atk,14.0
 eleMas,23.0
 enerRech_,4.5
 
-NoblesseOblige,circlet,5,critDMG_,0,,True,1162
+NoblesseOblige,circlet,5,critDMG_,0,,True,776
 
 key,value
 eleMas,23.0
 atk_,5.8
 def_,5.1
 
-NoblesseOblige,circlet,5,heal_,0,,True,1163
+NoblesseOblige,circlet,5,heal_,0,,True,777
 
 key,value
 eleMas,19.0
 def,19.0
 critRate_,2.7
 
-NoblesseOblige,circlet,5,heal_,0,,True,1164
+NoblesseOblige,circlet,5,heal_,0,,True,778
 
 key,value
 hp_,4.1
 def,16.0
 critRate_,3.5
 
-WanderersTroupe,flower,5,hp,0,,False,1165
-
-key,value
-atk,16.0
-critRate_,3.5
-hp_,5.8
-
-WanderersTroupe,flower,5,hp,0,,False,1166
-
-key,value
-atk_,4.7
-hp_,5.8
-def_,5.8
-
-WanderersTroupe,flower,5,hp,0,,False,1167
-
-key,value
-def,21.0
-atk,18.0
-atk_,5.8
-
-WanderersTroupe,flower,5,hp,0,,True,1168
+WanderersTroupe,flower,5,hp,0,,True,779
 
 key,value
 enerRech_,5.2
 critDMG_,7.8
 atk_,4.7
 
-WanderersTroupe,flower,5,hp,0,,True,1169
+WanderersTroupe,flower,5,hp,0,,True,780
 
 key,value
 critDMG_,5.4
 hp_,5.3
 atk_,5.3
 
-WanderersTroupe,flower,5,hp,0,,True,1170
+WanderersTroupe,flower,5,hp,0,,True,781
 
 key,value
 atk_,4.7
 atk,16.0
 critRate_,3.1
 
-WanderersTroupe,plume,5,atk,0,,False,1171
-
-key,value
-def,21.0
-hp_,5.3
-eleMas,16.0
-atk_,4.7
-
-WanderersTroupe,plume,5,atk,0,,False,1172
-
-key,value
-def_,6.6
-enerRech_,5.8
-critDMG_,5.4
-def,21.0
-
-WanderersTroupe,plume,5,atk,0,,False,1173
-
-key,value
-def_,5.1
-hp,239.0
-hp_,4.1
-critRate_,3.5
-
-WanderersTroupe,plume,5,atk,0,,True,1174
+WanderersTroupe,plume,5,atk,0,,True,782
 
 key,value
 atk_,5.8
@@ -8735,78 +5930,49 @@ hp_,5.3
 critDMG_,7.8
 hp,299.0
 
-WanderersTroupe,plume,5,atk,0,,True,1175
+WanderersTroupe,plume,5,atk,0,,True,783
 
 key,value
 def_,7.3
 critDMG_,7.0
 atk_,5.8
 
-WanderersTroupe,plume,5,atk,0,,False,1176
-
-key,value
-def,21.0
-def_,5.1
-hp,269.0
-
-WanderersTroupe,plume,5,atk,0,,False,1177
-
-key,value
-hp,209.0
-def,16.0
-enerRech_,5.8
-
-WanderersTroupe,plume,5,atk,0,,False,1178
-
-key,value
-enerRech_,6.5
-def,21.0
-eleMas,16.0
-
-WanderersTroupe,plume,5,atk,0,,True,1179
+WanderersTroupe,plume,5,atk,0,,True,784
 
 key,value
 critRate_,3.9
 def,16.0
 hp_,4.7
 
-WanderersTroupe,plume,5,atk,0,,True,1180
+WanderersTroupe,plume,5,atk,0,,True,785
 
 key,value
 enerRech_,5.8
 hp,299.0
 critDMG_,7.8
 
-WanderersTroupe,plume,5,atk,0,,True,1181
+WanderersTroupe,plume,5,atk,0,,True,786
 
 key,value
 atk_,5.3
 enerRech_,5.8
 eleMas,21.0
 
-WanderersTroupe,plume,5,atk,0,,True,1182
+WanderersTroupe,plume,5,atk,0,,True,787
 
 key,value
 atk_,4.7
 critRate_,2.7
 def,19.0
 
-WanderersTroupe,plume,5,atk,0,,True,1183
+WanderersTroupe,plume,5,atk,0,,True,788
 
 key,value
 def_,5.8
 critRate_,3.1
 atk_,4.7
 
-WanderersTroupe,sands,5,atk_,0,,False,1184
-
-key,value
-def,16.0
-def_,5.1
-hp,299.0
-critRate_,2.7
-
-WanderersTroupe,sands,5,def_,0,Noelle,False,1185
+WanderersTroupe,sands,5,def_,0,Noelle,False,789
 
 key,value
 enerRech_,6.5
@@ -8814,65 +5980,14 @@ critRate_,2.7
 atk_,5.3
 critDMG_,7.0
 
-WanderersTroupe,sands,5,atk_,0,,False,1186
-
-key,value
-critRate_,3.1
-def_,7.3
-hp_,5.8
-enerRech_,4.5
-
-WanderersTroupe,sands,5,def_,0,,False,1187
-
-key,value
-atk_,5.3
-enerRech_,5.8
-eleMas,19.0
-
-WanderersTroupe,sands,5,atk_,0,,False,1188
-
-key,value
-atk,18.0
-critRate_,3.9
-def,23.0
-
-WanderersTroupe,sands,5,hp_,0,,False,1189
-
-key,value
-hp,299.0
-critRate_,3.5
-atk,19.0
-
-WanderersTroupe,sands,5,def_,0,,False,1190
-
-key,value
-eleMas,16.0
-atk,19.0
-hp,209.0
-
-WanderersTroupe,sands,5,enerRech_,0,,False,1191
-
-key,value
-def,19.0
-hp_,4.7
-critRate_,3.1
-
-WanderersTroupe,sands,5,enerRech_,0,,False,1192
+WanderersTroupe,sands,5,enerRech_,0,,False,790
 
 key,value
 atk_,5.3
 critDMG_,5.4
 critRate_,3.9
 
-WanderersTroupe,goblet,5,anemo_dmg_,0,,False,1193
-
-key,value
-hp,239.0
-eleMas,21.0
-def,21.0
-hp_,5.8
-
-WanderersTroupe,goblet,5,dendro_dmg_,0,Collei,False,1194
+WanderersTroupe,goblet,5,dendro_dmg_,0,Collei,True,791
 
 key,value
 critDMG_,5.4
@@ -8880,7 +5995,7 @@ atk,19.0
 hp_,4.7
 critRate_,3.5
 
-WanderersTroupe,goblet,5,hydro_dmg_,0,,True,1195
+WanderersTroupe,goblet,5,hydro_dmg_,0,,True,792
 
 key,value
 atk,19.0
@@ -8888,7 +6003,7 @@ critRate_,2.7
 hp,209.0
 critDMG_,5.4
 
-WanderersTroupe,goblet,5,hydro_dmg_,0,,True,1196
+WanderersTroupe,goblet,5,hydro_dmg_,0,,True,793
 
 key,value
 critRate_,3.5
@@ -8896,7 +6011,7 @@ enerRech_,5.8
 critDMG_,7.0
 hp_,5.8
 
-WanderersTroupe,goblet,5,geo_dmg_,0,,True,1197
+WanderersTroupe,goblet,5,geo_dmg_,0,,True,794
 
 key,value
 critRate_,3.1
@@ -8904,49 +6019,21 @@ critDMG_,5.4
 hp,239.0
 enerRech_,6.5
 
-WanderersTroupe,goblet,5,def_,0,,False,1198
-
-key,value
-hp,269.0
-critRate_,2.7
-def,16.0
-
-WanderersTroupe,goblet,5,geo_dmg_,0,,False,1199
-
-key,value
-hp,299.0
-def,21.0
-def_,6.6
-
-WanderersTroupe,goblet,5,atk_,0,,False,1200
-
-key,value
-def_,7.3
-def,16.0
-atk,14.0
-
-WanderersTroupe,goblet,5,physical_dmg_,0,,False,1201
-
-key,value
-hp_,5.8
-eleMas,21.0
-critDMG_,6.2
-
-WanderersTroupe,goblet,5,electro_dmg_,0,,True,1202
+WanderersTroupe,goblet,5,electro_dmg_,0,,True,795
 
 key,value
 critDMG_,5.4
 def,21.0
 atk,18.0
 
-WanderersTroupe,goblet,5,cryo_dmg_,0,,True,1203
+WanderersTroupe,goblet,5,cryo_dmg_,0,,True,796
 
 key,value
 critDMG_,7.0
 atk,19.0
 atk_,4.7
 
-WanderersTroupe,circlet,5,critDMG_,0,,True,1204
+WanderersTroupe,circlet,5,critDMG_,0,,True,797
 
 key,value
 enerRech_,5.8
@@ -8954,64 +6041,35 @@ def_,7.3
 atk_,4.7
 critRate_,3.5
 
-WanderersTroupe,circlet,5,hp_,0,,False,1205
-
-key,value
-critRate_,3.5
-def,23.0
-eleMas,23.0
-enerRech_,4.5
-
-WanderersTroupe,circlet,5,critRate_,0,,False,1206
+WanderersTroupe,circlet,5,critRate_,0,,True,798
 
 key,value
 def_,5.1
 atk_,4.7
 eleMas,23.0
 
-WanderersTroupe,circlet,5,critRate_,0,,True,1207
+WanderersTroupe,circlet,5,critRate_,0,,True,799
 
 key,value
 critDMG_,7.0
 def_,7.3
 hp_,4.1
 
-WanderersTroupe,circlet,5,def_,0,,False,1208
-
-key,value
-def,21.0
-hp,269.0
-critRate_,3.1
-
-WanderersTroupe,circlet,5,atk_,0,,False,1209
-
-key,value
-hp,209.0
-def,21.0
-critDMG_,6.2
-
-WanderersTroupe,circlet,5,def_,0,,False,1210
-
-key,value
-critRate_,3.5
-def,16.0
-enerRech_,5.8
-
-WanderersTroupe,circlet,5,critRate_,0,,False,1211
+WanderersTroupe,circlet,5,critRate_,0,,True,800
 
 key,value
 hp_,4.1
 eleMas,23.0
 atk,16.0
 
-WanderersTroupe,circlet,5,hp_,0,,True,1212
+WanderersTroupe,circlet,5,hp_,0,,True,801
 
 key,value
 def,21.0
 critDMG_,7.0
 critRate_,3.9
 
-ViridescentVenerer,sands,5,enerRech_,0,,True,1213
+ViridescentVenerer,sands,5,enerRech_,0,,True,802
 
 key,value
 critRate_,2.7
@@ -9019,36 +6077,28 @@ eleMas,23.0
 def_,5.8
 hp_,4.1
 
-ViridescentVenerer,sands,5,atk_,0,,True,1214
+ViridescentVenerer,sands,5,atk_,0,,True,803
 
 key,value
 enerRech_,5.2
 eleMas,21.0
 critDMG_,7.0
 
-ViridescentVenerer,circlet,5,critDMG_,0,,True,1215
+ViridescentVenerer,circlet,5,critDMG_,0,,True,804
 
 key,value
 hp,269.0
 eleMas,16.0
 critRate_,3.1
 
-ViridescentVenerer,circlet,5,heal_,0,Jean,True,1216
+ViridescentVenerer,circlet,5,heal_,0,Jean,True,805
 
 key,value
 enerRech_,4.5
 def_,6.6
 def,16.0
 
-GladiatorsFinale,flower,5,hp,0,,False,1217
-
-key,value
-hp_,5.8
-atk,14.0
-def_,5.8
-critDMG_,7.0
-
-GladiatorsFinale,flower,5,hp,0,,False,1218
+GladiatorsFinale,flower,5,hp,0,,True,806
 
 key,value
 def,21.0
@@ -9056,49 +6106,14 @@ enerRech_,5.8
 critDMG_,6.2
 critRate_,3.1
 
-GladiatorsFinale,flower,5,hp,0,,False,1219
-
-key,value
-hp_,4.7
-enerRech_,5.8
-def,16.0
-
-GladiatorsFinale,flower,5,hp,0,,False,1220
-
-key,value
-hp_,4.7
-eleMas,21.0
-critRate_,3.1
-
-GladiatorsFinale,flower,5,hp,0,,False,1221
-
-key,value
-atk_,4.1
-atk,19.0
-eleMas,23.0
-
-GladiatorsFinale,flower,5,hp,0,,False,1222
-
-key,value
-def_,5.1
-eleMas,16.0
-def,19.0
-
-GladiatorsFinale,flower,5,hp,0,,False,1223
-
-key,value
-eleMas,16.0
-critRate_,3.9
-atk,19.0
-
-GladiatorsFinale,flower,5,hp,0,,False,1224
+GladiatorsFinale,flower,5,hp,0,,True,807
 
 key,value
 hp_,4.1
 atk_,5.8
 critDMG_,7.0
 
-GladiatorsFinale,plume,5,atk,0,,True,1225
+GladiatorsFinale,plume,5,atk,0,,True,808
 
 key,value
 critDMG_,5.4
@@ -9106,15 +6121,7 @@ eleMas,23.0
 hp_,5.8
 atk_,4.1
 
-GladiatorsFinale,plume,5,atk,0,,False,1226
-
-key,value
-def,21.0
-critRate_,3.1
-hp_,4.7
-hp,239.0
-
-GladiatorsFinale,plume,5,atk,0,,False,1227
+GladiatorsFinale,plume,5,atk,0,,True,809
 
 key,value
 critDMG_,7.8
@@ -9122,98 +6129,42 @@ enerRech_,4.5
 def,23.0
 atk_,4.1
 
-GladiatorsFinale,plume,5,atk,0,,False,1228
-
-key,value
-critDMG_,5.4
-def,21.0
-hp,239.0
-
-GladiatorsFinale,plume,5,atk,0,,False,1229
+GladiatorsFinale,plume,5,atk,0,,True,810
 
 key,value
 hp_,5.3
 atk_,5.3
 critRate_,3.5
 
-GladiatorsFinale,plume,5,atk,0,,False,1230
-
-key,value
-hp_,4.1
-def,23.0
-critDMG_,7.0
-
-GladiatorsFinale,plume,5,atk,0,,True,1231
+GladiatorsFinale,plume,5,atk,0,,True,811
 
 key,value
 eleMas,19.0
 critRate_,3.5
 atk_,4.1
 
-GladiatorsFinale,plume,5,atk,0,,False,1232
-
-key,value
-hp_,5.8
-hp,209.0
-def,16.0
-
-GladiatorsFinale,plume,5,atk,0,,False,1233
-
-key,value
-hp,269.0
-def,19.0
-enerRech_,4.5
-
-GladiatorsFinale,plume,5,atk,0,,False,1234
-
-key,value
-enerRech_,6.5
-hp_,4.7
-hp,299.0
-
-GladiatorsFinale,plume,5,atk,0,,False,1235
+GladiatorsFinale,plume,5,atk,0,,True,812
 
 key,value
 hp_,4.1
 critRate_,3.9
 hp,269.0
 
-GladiatorsFinale,plume,5,atk,0,,True,1236
+GladiatorsFinale,plume,5,atk,0,,True,813
 
 key,value
 eleMas,16.0
 critRate_,3.9
 critDMG_,6.2
 
-GladiatorsFinale,plume,5,atk,0,,True,1237
+GladiatorsFinale,plume,5,atk,0,,True,814
 
 key,value
 critRate_,2.7
 hp,239.0
 atk_,5.8
 
-GladiatorsFinale,sands,5,atk_,0,,False,1238
-
-key,value
-def_,7.3
-hp,269.0
-eleMas,21.0
-
-GladiatorsFinale,sands,5,def_,0,,False,1239
-
-key,value
-def,21.0
-critRate_,2.7
-atk,18.0
-
-GladiatorsFinale,sands,5,atk_,0,,False,1240
-
-key,value
-eleMas,23.0
-hp,209.0
-enerRech_,5.2
-
-GladiatorsFinale,goblet,5,dendro_dmg_,0,,True,1241
+GladiatorsFinale,goblet,5,dendro_dmg_,0,,True,815
 
 key,value
 critDMG_,5.4
@@ -9221,74 +6172,14 @@ def_,5.1
 def,23.0
 hp_,4.7
 
-GladiatorsFinale,goblet,5,hp_,0,,False,1242
-
-key,value
-def,16.0
-critRate_,3.5
-enerRech_,4.5
-
-GladiatorsFinale,goblet,5,atk_,0,,False,1244
-
-key,value
-def,16.0
-hp_,5.8
-hp,299.0
-
-GladiatorsFinale,goblet,5,geo_dmg_,0,,False,1243
-
-key,value
-hp_,5.3
-def_,5.8
-critDMG_,6.2
-
-GladiatorsFinale,goblet,5,cryo_dmg_,0,,False,1245
-
-key,value
-def,16.0
-critDMG_,5.4
-hp_,5.8
-
-GladiatorsFinale,goblet,5,geo_dmg_,0,,True,1246
+GladiatorsFinale,goblet,5,geo_dmg_,0,,True,816
 
 key,value
 critRate_,3.5
 hp_,4.1
 enerRech_,4.5
 
-GladiatorsFinale,circlet,5,atk_,0,,False,1247
-
-key,value
-def,16.0
-eleMas,23.0
-critDMG_,7.0
-def_,7.3
-
-GladiatorsFinale,circlet,5,atk_,0,,False,1248
-
-key,value
-def,23.0
-enerRech_,5.2
-hp_,5.8
-atk,19.0
-
-GladiatorsFinale,circlet,5,atk_,0,,False,1249
-
-key,value
-def,16.0
-hp,239.0
-critDMG_,7.8
-eleMas,23.0
-
-GladiatorsFinale,circlet,5,atk_,0,,False,1250
-
-key,value
-enerRech_,5.2
-atk,14.0
-def,21.0
-eleMas,19.0
-
-GladiatorsFinale,circlet,5,atk_,0,,False,1251
+GladiatorsFinale,circlet,5,atk_,0,,True,817
 
 key,value
 hp_,4.7
@@ -9296,7 +6187,7 @@ critRate_,3.5
 enerRech_,5.2
 critDMG_,7.8
 
-GladiatorsFinale,circlet,5,eleMas,0,,True,1252
+GladiatorsFinale,circlet,5,eleMas,0,,True,818
 
 key,value
 hp_,4.7
@@ -9304,28 +6195,14 @@ critDMG_,5.4
 critRate_,3.1
 atk,19.0
 
-GladiatorsFinale,circlet,5,atk_,0,,False,1253
-
-key,value
-critRate_,3.5
-atk,19.0
-enerRech_,6.5
-
-GladiatorsFinale,circlet,5,def_,0,,False,1254
-
-key,value
-eleMas,23.0
-def,21.0
-atk_,5.3
-
-MaidenBeloved,flower,5,hp,0,,False,1255
+MaidenBeloved,flower,5,hp,0,,True,819
 
 key,value
 hp_,4.7
 atk,18.0
 enerRech_,4.5
 
-MaidenBeloved,plume,5,atk,0,,True,1256
+MaidenBeloved,plume,5,atk,0,,True,820
 
 key,value
 atk_,5.3
@@ -9333,28 +6210,28 @@ enerRech_,6.5
 critRate_,3.9
 hp_,5.3
 
-MaidenBeloved,plume,5,atk,0,,True,1257
+MaidenBeloved,plume,5,atk,0,,True,821
 
 key,value
 critRate_,3.1
 enerRech_,6.5
 hp_,4.7
 
-MaidenBeloved,sands,5,eleMas,0,,True,1258
+MaidenBeloved,sands,5,eleMas,0,,True,822
 
 key,value
 critRate_,3.1
 atk_,5.8
 enerRech_,5.8
 
-MaidenBeloved,goblet,5,eleMas,0,,True,1259
+MaidenBeloved,goblet,5,eleMas,0,,True,823
 
 key,value
 def,21.0
 critRate_,3.1
 hp_,5.3
 
-BlizzardStrayer,circlet,5,atk_,0,,True,1260
+BlizzardStrayer,circlet,5,atk_,0,,True,824
 
 key,value
 critRate_,3.1
@@ -9362,1480 +6239,1455 @@ critDMG_,7.8
 hp_,4.7
 hp,299.0
 
-ObsidianCodex,flower,4,hp,0,,False,1261
+ObsidianCodex,flower,4,hp,0,,False,825
 
 key,value
 def,19.0
 critRate_,2.2
 
-ObsidianCodex,flower,4,hp,0,,False,1262
+ObsidianCodex,flower,4,hp,0,,False,826
 
 key,value
 def_,4.7
 atk_,4.7
 
-ObsidianCodex,flower,4,hp,0,,False,1263
+ObsidianCodex,flower,4,hp,0,,False,827
 
 key,value
 def,15.0
 critDMG_,6.2
 
-ObsidianCodex,flower,4,hp,0,,False,1264
+ObsidianCodex,flower,4,hp,0,,False,828
 
 key,value
 eleMas,17.0
 def_,4.7
 
-ObsidianCodex,flower,4,hp,0,,False,1265
+ObsidianCodex,flower,4,hp,0,,False,829
 
 key,value
 atk_,4.2
 eleMas,19.0
 
-ObsidianCodex,flower,4,hp,0,,False,1266
+ObsidianCodex,flower,4,hp,0,,False,830
 
 key,value
 atk_,4.2
 eleMas,19.0
 
-ObsidianCodex,flower,4,hp,0,,False,1267
+ObsidianCodex,flower,4,hp,0,,False,831
 
 key,value
 atk,11.0
 atk_,3.3
 
-ObsidianCodex,flower,4,hp,0,,False,1268
+ObsidianCodex,flower,4,hp,0,,False,832
 
 key,value
 def,13.0
 eleMas,15.0
 
-ObsidianCodex,plume,4,atk,0,,False,1269
+ObsidianCodex,plume,4,atk,0,,False,833
 
 key,value
 critRate_,2.2
 eleMas,13.0
 enerRech_,5.2
 
-ObsidianCodex,plume,4,atk,0,,False,1270
+ObsidianCodex,plume,4,atk,0,,False,834
 
 key,value
 atk_,3.3
 hp_,3.3
 def_,5.8
 
-ObsidianCodex,plume,4,atk,0,,False,1271
+ObsidianCodex,plume,4,atk,0,,False,835
 
 key,value
 atk_,3.3
 def_,5.3
 
-ObsidianCodex,plume,4,atk,0,,False,1272
+ObsidianCodex,plume,4,atk,0,,False,836
 
 key,value
 def_,5.8
 def,13.0
 
-ObsidianCodex,plume,4,atk,0,,False,1273
+ObsidianCodex,plume,4,atk,0,,False,837
 
 key,value
 critDMG_,6.2
 def_,5.3
 
-ObsidianCodex,plume,4,atk,0,,False,1274
+ObsidianCodex,plume,4,atk,0,,False,838
 
 key,value
 hp,239.0
 hp_,4.7
 
-ObsidianCodex,plume,4,atk,0,,False,1275
+ObsidianCodex,plume,4,atk,0,,False,839
 
 key,value
 hp,167.0
 critDMG_,6.2
 
-ObsidianCodex,sands,4,atk_,0,,False,1276
+ObsidianCodex,sands,4,atk_,0,,False,840
 
 key,value
 critDMG_,6.2
 def_,4.1
 def,17.0
 
-ObsidianCodex,sands,4,atk_,0,,False,1277
+ObsidianCodex,sands,4,atk_,0,,False,841
 
 key,value
 def,15.0
 eleMas,13.0
 enerRech_,4.7
 
-ObsidianCodex,sands,4,enerRech_,0,,False,1278
+ObsidianCodex,sands,4,enerRech_,0,,False,842
 
 key,value
 hp,215.0
 atk,11.0
 
-ObsidianCodex,sands,4,def_,0,,False,1279
+ObsidianCodex,sands,4,def_,0,,False,843
 
 key,value
 atk_,3.7
 eleMas,17.0
 
-ObsidianCodex,sands,4,hp_,0,,False,1280
+ObsidianCodex,sands,4,hp_,0,,False,844
 
 key,value
 hp,215.0
 atk_,4.2
 
-ObsidianCodex,sands,4,atk_,0,,False,1281
+ObsidianCodex,sands,4,atk_,0,,False,845
 
 key,value
 enerRech_,4.7
 critDMG_,5.0
 
-ObsidianCodex,sands,4,def_,0,,False,1282
+ObsidianCodex,sands,4,def_,0,,False,846
 
 key,value
 eleMas,13.0
 atk,12.0
 
-ObsidianCodex,sands,4,def_,0,,False,1283
+ObsidianCodex,sands,4,def_,0,,False,847
 
 key,value
 hp_,3.3
 hp,215.0
 
-ObsidianCodex,sands,4,eleMas,0,,False,1284
+ObsidianCodex,sands,4,eleMas,0,,False,848
 
 key,value
 atk,12.0
 hp,191.0
 
-ObsidianCodex,sands,4,def_,0,,False,1285
+ObsidianCodex,sands,4,def_,0,,False,849
 
 key,value
 hp,239.0
 critDMG_,5.6
 
-ObsidianCodex,goblet,4,dendro_dmg_,0,,False,1286
+ObsidianCodex,goblet,4,dendro_dmg_,0,,False,850
 
 key,value
 atk,11.0
 def,19.0
 atk_,3.3
 
-ObsidianCodex,goblet,4,def_,0,,False,1287
+ObsidianCodex,goblet,4,def_,0,,False,851
 
 key,value
 atk_,4.2
 eleMas,15.0
 hp,239.0
 
-ObsidianCodex,goblet,4,hp_,0,,False,1288
+ObsidianCodex,goblet,4,hp_,0,,False,852
 
 key,value
 hp,191.0
 enerRech_,3.6
 
-ObsidianCodex,goblet,4,geo_dmg_,0,,False,1289
+ObsidianCodex,goblet,4,geo_dmg_,0,,False,853
 
 key,value
 atk_,4.7
 eleMas,17.0
 
-ObsidianCodex,goblet,4,atk_,0,,False,1290
+ObsidianCodex,goblet,4,atk_,0,,False,854
 
 key,value
 enerRech_,4.1
 critRate_,3.1
 
-ObsidianCodex,goblet,4,electro_dmg_,0,,False,1291
+ObsidianCodex,goblet,4,electro_dmg_,0,,False,855
 
 key,value
 def,17.0
 atk,16.0
 
-ObsidianCodex,goblet,4,def_,0,,False,1292
+ObsidianCodex,goblet,4,def_,0,,False,856
 
 key,value
 critDMG_,6.2
 def,19.0
 
-ObsidianCodex,goblet,4,def_,0,,False,1293
+ObsidianCodex,goblet,4,def_,0,,False,857
 
 key,value
 critDMG_,5.6
 atk,16.0
 
-ObsidianCodex,goblet,4,anemo_dmg_,0,,False,1294
+ObsidianCodex,goblet,4,anemo_dmg_,0,,False,858
 
 key,value
 critRate_,2.2
 hp_,4.2
 
-ObsidianCodex,goblet,4,geo_dmg_,0,,False,1295
+ObsidianCodex,goblet,4,geo_dmg_,0,,False,859
 
 key,value
 def_,4.7
 def,17.0
 
-ObsidianCodex,circlet,4,hp_,0,,False,1296
+ObsidianCodex,circlet,4,hp_,0,,False,860
 
 key,value
 def,13.0
 critRate_,2.5
 eleMas,17.0
 
-ObsidianCodex,circlet,4,atk_,0,,False,1297
+ObsidianCodex,circlet,4,atk_,0,,False,861
 
 key,value
 eleMas,19.0
 def,19.0
 
-ObsidianCodex,circlet,4,def_,0,,False,1298
+ObsidianCodex,circlet,4,def_,0,,False,862
 
 key,value
 hp_,3.3
 atk_,3.7
 
-ObsidianCodex,circlet,4,atk_,0,,False,1299
+ObsidianCodex,circlet,4,atk_,0,,False,863
 
 key,value
 eleMas,17.0
 def_,4.7
 
-ObsidianCodex,circlet,4,def_,0,,False,1300
+ObsidianCodex,circlet,4,def_,0,,False,864
 
 key,value
 def,15.0
 eleMas,19.0
 
-ObsidianCodex,circlet,4,atk_,0,,False,1301
+ObsidianCodex,circlet,4,atk_,0,,False,865
 
 key,value
 def_,4.1
 enerRech_,3.6
 
-ObsidianCodex,circlet,4,def_,0,,False,1302
+ObsidianCodex,circlet,4,def_,0,,False,866
 
 key,value
 def,13.0
 hp,215.0
 
-ObsidianCodex,circlet,4,def_,0,,False,1303
+ObsidianCodex,circlet,4,def_,0,,False,867
 
 key,value
 hp,167.0
 atk_,4.2
 
-ObsidianCodex,circlet,4,critDMG_,0,,False,1304
+ObsidianCodex,circlet,4,critDMG_,0,,False,868
 
 key,value
 enerRech_,3.6
 def_,4.7
 
-ObsidianCodex,circlet,4,def_,0,,False,1305
+ObsidianCodex,circlet,4,def_,0,,False,869
 
 key,value
 hp,167.0
 critDMG_,4.4
 
-ScrollOfTheHeroOfCinderCity,flower,4,hp,0,,False,1306
+ScrollOfTheHeroOfCinderCity,flower,4,hp,0,,False,870
 
 key,value
 def_,5.3
 critRate_,3.1
 def,13.0
 
-ScrollOfTheHeroOfCinderCity,flower,4,hp,0,,False,1307
+ScrollOfTheHeroOfCinderCity,flower,4,hp,0,,False,871
 
 key,value
 enerRech_,5.2
 def_,4.1
 hp_,4.7
 
-ScrollOfTheHeroOfCinderCity,flower,4,hp,0,,False,1308
+ScrollOfTheHeroOfCinderCity,flower,4,hp,0,,False,872
 
 key,value
 hp_,4.7
 critDMG_,6.2
 def,13.0
 
-ScrollOfTheHeroOfCinderCity,flower,4,hp,0,,False,1309
+ScrollOfTheHeroOfCinderCity,flower,4,hp,0,,False,873
 
 key,value
 enerRech_,3.6
 hp_,3.7
 
-ScrollOfTheHeroOfCinderCity,flower,4,hp,0,,False,1310
+ScrollOfTheHeroOfCinderCity,flower,4,hp,0,,False,874
 
 key,value
 def,13.0
 hp_,3.7
 
-ScrollOfTheHeroOfCinderCity,flower,4,hp,0,,False,1312
+ScrollOfTheHeroOfCinderCity,flower,4,hp,0,,False,876
 
 key,value
 hp_,3.3
 def,19.0
 
-ScrollOfTheHeroOfCinderCity,flower,4,hp,0,,False,1311
+ScrollOfTheHeroOfCinderCity,flower,4,hp,0,,False,875
 
 key,value
 critRate_,2.8
 enerRech_,5.2
 
-ScrollOfTheHeroOfCinderCity,flower,4,hp,0,,False,1313
+ScrollOfTheHeroOfCinderCity,flower,4,hp,0,,False,877
 
 key,value
 def,19.0
 hp_,3.3
 
-ScrollOfTheHeroOfCinderCity,flower,4,hp,0,,False,1314
+ScrollOfTheHeroOfCinderCity,flower,4,hp,0,,False,878
 
 key,value
 eleMas,13.0
 critRate_,2.5
 
-ScrollOfTheHeroOfCinderCity,flower,4,hp,0,,False,1315
+ScrollOfTheHeroOfCinderCity,flower,4,hp,0,,False,879
 
 key,value
 atk,14.0
 atk_,4.2
 
-ScrollOfTheHeroOfCinderCity,plume,4,atk,0,,False,1316
+ScrollOfTheHeroOfCinderCity,plume,4,atk,0,,False,880
 
 key,value
 enerRech_,3.6
 hp,215.0
 critRate_,2.5
 
-ScrollOfTheHeroOfCinderCity,plume,4,atk,0,,False,1317
+ScrollOfTheHeroOfCinderCity,plume,4,atk,0,,False,881
 
 key,value
 hp_,4.2
 atk_,3.3
 
-ScrollOfTheHeroOfCinderCity,plume,4,atk,0,,False,1318
+ScrollOfTheHeroOfCinderCity,plume,4,atk,0,,False,882
 
 key,value
 def,15.0
 atk_,4.2
 
-ScrollOfTheHeroOfCinderCity,plume,4,atk,0,,False,1319
+ScrollOfTheHeroOfCinderCity,plume,4,atk,0,,False,883
 
 key,value
 atk_,3.7
 critRate_,2.8
 
-ScrollOfTheHeroOfCinderCity,plume,4,atk,0,,False,1320
+ScrollOfTheHeroOfCinderCity,plume,4,atk,0,,False,884
 
 key,value
 enerRech_,3.6
 critRate_,2.5
 
-ScrollOfTheHeroOfCinderCity,plume,4,atk,0,,False,1321
+ScrollOfTheHeroOfCinderCity,plume,4,atk,0,,False,885
 
 key,value
 critDMG_,6.2
 atk_,3.3
 
-ScrollOfTheHeroOfCinderCity,plume,4,atk,0,,False,1322
+ScrollOfTheHeroOfCinderCity,plume,4,atk,0,,False,886
 
 key,value
 hp,239.0
 hp_,3.7
 
-ScrollOfTheHeroOfCinderCity,plume,4,atk,0,,False,1323
+ScrollOfTheHeroOfCinderCity,plume,4,atk,0,,False,887
 
 key,value
 def,15.0
 def_,4.1
 
-ScrollOfTheHeroOfCinderCity,plume,4,atk,0,,False,1324
+ScrollOfTheHeroOfCinderCity,plume,4,atk,0,,False,888
 
 key,value
 def_,5.8
 def,17.0
 
-ScrollOfTheHeroOfCinderCity,sands,4,def_,0,,False,1325
+ScrollOfTheHeroOfCinderCity,sands,4,def_,0,,False,889
 
 key,value
 hp_,3.3
 enerRech_,4.7
 atk,11.0
 
-ScrollOfTheHeroOfCinderCity,sands,4,hp_,0,,False,1326
+ScrollOfTheHeroOfCinderCity,sands,4,hp_,0,,False,890
 
 key,value
 hp,191.0
 atk,16.0
 critRate_,2.2
 
-ScrollOfTheHeroOfCinderCity,sands,4,def_,0,,False,1327
+ScrollOfTheHeroOfCinderCity,sands,4,def_,0,,False,891
 
 key,value
 atk_,4.7
 hp_,4.2
 critRate_,2.8
 
-ScrollOfTheHeroOfCinderCity,sands,4,def_,0,,False,1328
+ScrollOfTheHeroOfCinderCity,sands,4,def_,0,,False,892
 
 key,value
 enerRech_,3.6
 def,19.0
 hp,191.0
 
-ScrollOfTheHeroOfCinderCity,sands,4,hp_,0,,False,1329
+ScrollOfTheHeroOfCinderCity,sands,4,hp_,0,,False,893
 
 key,value
 def,19.0
 atk,12.0
 
-ScrollOfTheHeroOfCinderCity,sands,4,atk_,0,,False,1330
+ScrollOfTheHeroOfCinderCity,sands,4,atk_,0,,False,894
 
 key,value
 def,13.0
 critDMG_,6.2
 
-ScrollOfTheHeroOfCinderCity,sands,4,atk_,0,,False,1331
+ScrollOfTheHeroOfCinderCity,sands,4,atk_,0,,False,895
 
 key,value
 def_,4.1
 hp_,3.3
 
-ScrollOfTheHeroOfCinderCity,sands,4,enerRech_,0,,False,1332
+ScrollOfTheHeroOfCinderCity,sands,4,enerRech_,0,,False,896
 
 key,value
 def,19.0
 atk,16.0
 
-ScrollOfTheHeroOfCinderCity,sands,4,hp_,0,,False,1333
+ScrollOfTheHeroOfCinderCity,sands,4,hp_,0,,False,897
 
 key,value
 eleMas,15.0
 def_,5.8
 
-ScrollOfTheHeroOfCinderCity,sands,4,atk_,0,,False,1334
+ScrollOfTheHeroOfCinderCity,sands,4,atk_,0,,False,898
 
 key,value
 hp_,3.3
 def_,4.7
 
-ScrollOfTheHeroOfCinderCity,sands,4,enerRech_,0,,False,1335
+ScrollOfTheHeroOfCinderCity,sands,4,enerRech_,0,,False,899
 
 key,value
 def_,5.8
 def,19.0
 
-ScrollOfTheHeroOfCinderCity,sands,4,def_,0,,False,1336
+ScrollOfTheHeroOfCinderCity,sands,4,def_,0,,False,900
 
 key,value
 atk_,3.7
 critDMG_,6.2
 
-ScrollOfTheHeroOfCinderCity,goblet,4,atk_,0,,False,1337
+ScrollOfTheHeroOfCinderCity,goblet,4,atk_,0,,False,901
 
 key,value
 atk,14.0
 def_,4.7
 critRate_,3.1
 
-ScrollOfTheHeroOfCinderCity,goblet,4,hp_,0,,False,1338
+ScrollOfTheHeroOfCinderCity,goblet,4,hp_,0,,False,902
 
 key,value
 eleMas,17.0
 critDMG_,6.2
 atk,14.0
 
-ScrollOfTheHeroOfCinderCity,goblet,4,atk_,0,,False,1339
+ScrollOfTheHeroOfCinderCity,goblet,4,atk_,0,,False,903
 
 key,value
 hp,239.0
 atk,16.0
 def_,4.1
 
-ScrollOfTheHeroOfCinderCity,goblet,4,def_,0,,False,1340
+ScrollOfTheHeroOfCinderCity,goblet,4,def_,0,,False,904
 
 key,value
 enerRech_,4.1
 def,17.0
 atk,11.0
 
-ScrollOfTheHeroOfCinderCity,goblet,4,hp_,0,,False,1341
+ScrollOfTheHeroOfCinderCity,goblet,4,hp_,0,,False,905
 
 key,value
 critDMG_,5.0
 def,13.0
 critRate_,3.1
 
-ScrollOfTheHeroOfCinderCity,goblet,4,geo_dmg_,0,,False,1342
+ScrollOfTheHeroOfCinderCity,goblet,4,geo_dmg_,0,,False,906
 
 key,value
 atk,12.0
 eleMas,19.0
 
-ScrollOfTheHeroOfCinderCity,goblet,4,def_,0,,False,1343
+ScrollOfTheHeroOfCinderCity,goblet,4,def_,0,,False,907
 
 key,value
 def,15.0
 hp_,4.7
 
-ScrollOfTheHeroOfCinderCity,circlet,4,hp_,0,,False,1344
+ScrollOfTheHeroOfCinderCity,circlet,4,hp_,0,,False,908
 
 key,value
 atk,14.0
 atk_,4.7
 hp,167.0
 
-ScrollOfTheHeroOfCinderCity,circlet,4,critRate_,0,,False,1345
+ScrollOfTheHeroOfCinderCity,circlet,4,critRate_,0,,False,909
 
 key,value
 hp,215.0
 eleMas,15.0
 hp_,4.7
 
-ScrollOfTheHeroOfCinderCity,circlet,4,def_,0,,False,1346
+ScrollOfTheHeroOfCinderCity,circlet,4,def_,0,,False,910
 
 key,value
 def,15.0
 eleMas,17.0
 
-ScrollOfTheHeroOfCinderCity,circlet,4,atk_,0,,False,1347
+ScrollOfTheHeroOfCinderCity,circlet,4,atk_,0,,False,911
 
 key,value
 critRate_,2.5
 def_,4.1
 
-ScrollOfTheHeroOfCinderCity,circlet,4,critRate_,0,,False,1348
+ScrollOfTheHeroOfCinderCity,circlet,4,hp_,0,,False,913
+
+key,value
+atk_,4.2
+atk,12.0
+
+ScrollOfTheHeroOfCinderCity,circlet,4,critRate_,0,,False,912
 
 key,value
 eleMas,15.0
 critDMG_,4.4
 
-ScrollOfTheHeroOfCinderCity,circlet,4,hp_,0,,False,1349
-
-key,value
-atk_,4.2
-atk,12.0
-
-ScrollOfTheHeroOfCinderCity,circlet,4,critRate_,0,,False,1350
+ScrollOfTheHeroOfCinderCity,circlet,4,critRate_,0,,False,914
 
 key,value
 hp,191.0
 def,19.0
 
-ScrollOfTheHeroOfCinderCity,circlet,4,atk_,0,,False,1351
+ScrollOfTheHeroOfCinderCity,circlet,4,atk_,0,,False,915
 
 key,value
 def,15.0
 atk,11.0
 
-ScrollOfTheHeroOfCinderCity,circlet,4,hp_,0,,False,1352
+ScrollOfTheHeroOfCinderCity,circlet,4,hp_,0,,False,916
 
 key,value
 def,15.0
 critRate_,2.8
 
-ScrollOfTheHeroOfCinderCity,circlet,4,eleMas,0,,False,1353
-
-key,value
-def,13.0
-enerRech_,3.6
-
-Gambler,flower,4,hp,0,,False,1354
+Gambler,flower,4,hp,0,,False,918
 
 key,value
 atk,11.0
 atk_,3.3
 def_,4.1
 
-Gambler,flower,4,hp,0,,False,1355
+ScrollOfTheHeroOfCinderCity,circlet,4,eleMas,0,,False,917
+
+key,value
+def,13.0
+enerRech_,3.6
+
+Gambler,flower,4,hp,0,,False,919
 
 key,value
 hp_,3.7
 def,19.0
 
-Gambler,flower,4,hp,0,,False,1356
+Gambler,flower,4,hp,0,,False,920
 
 key,value
 atk,14.0
 enerRech_,4.7
 
-Gambler,flower,4,hp,0,,False,1357
+Gambler,flower,4,hp,0,,False,921
 
 key,value
 hp_,4.2
 def,15.0
 
-Gambler,flower,4,hp,0,,False,1358
+Gambler,flower,4,hp,0,,False,922
 
 key,value
 def,19.0
 def_,5.3
 
-Gambler,flower,4,hp,0,,False,1359
+Gambler,flower,4,hp,0,,False,923
 
 key,value
 atk,12.0
 critRate_,3.1
 
-Gambler,flower,4,hp,0,,False,1360
+Gambler,flower,4,hp,0,,False,924
 
 key,value
 atk,14.0
 critRate_,2.5
 
-Gambler,flower,4,hp,0,,False,1361
+Gambler,flower,4,hp,0,,False,925
 
 key,value
 eleMas,13.0
 enerRech_,4.1
 
-Gambler,flower,4,hp,0,,False,1362
+Gambler,flower,4,hp,0,,False,926
 
 key,value
 def_,4.1
 critDMG_,5.6
 
-Gambler,flower,4,hp,0,,False,1363
+Gambler,flower,4,hp,0,,False,927
 
 key,value
 atk,11.0
 def_,5.3
 
-Gambler,flower,4,hp,0,,False,1364
+Gambler,flower,4,hp,0,,False,928
 
 key,value
 enerRech_,5.2
 def,15.0
 
-Gambler,flower,4,hp,0,,False,1365
+Gambler,flower,4,hp,0,,False,929
 
 key,value
 def,15.0
 atk_,4.7
 
-Gambler,plume,4,atk,0,,False,1366
+Gambler,plume,4,atk,0,,False,930
 
 key,value
 hp_,4.7
 hp,215.0
 enerRech_,4.7
 
-Gambler,plume,4,atk,0,,False,1367
+Gambler,plume,4,atk,0,,False,931
 
 key,value
 hp_,4.2
 critRate_,3.1
 hp,215.0
 
-Gambler,plume,4,atk,0,,False,1368
+Gambler,plume,4,atk,0,,False,932
 
 key,value
 critRate_,2.8
 eleMas,13.0
 def_,5.8
 
-Gambler,plume,4,atk,0,,False,1369
+Gambler,plume,4,atk,0,,False,933
 
 key,value
 eleMas,13.0
 hp,191.0
 atk_,3.3
 
-Gambler,plume,4,atk,0,,False,1370
+Gambler,plume,4,atk,0,,False,934
 
 key,value
 atk_,4.2
 def_,4.1
 eleMas,13.0
 
-Gambler,plume,4,atk,0,,False,1371
+Gambler,plume,4,atk,0,,False,935
 
 key,value
 eleMas,19.0
 critDMG_,6.2
 enerRech_,5.2
 
-Gambler,plume,4,atk,0,,False,1372
+Gambler,plume,4,atk,0,,False,936
 
 key,value
 hp,215.0
 def_,5.3
 critRate_,2.5
 
-Gambler,plume,4,atk,0,,False,1373
+Gambler,plume,4,atk,0,,False,937
 
 key,value
 def,19.0
 eleMas,19.0
 enerRech_,4.7
 
-Gambler,plume,4,atk,0,,False,1374
+Gambler,plume,4,atk,0,,False,938
 
 key,value
 hp,191.0
 eleMas,15.0
 
-Gambler,plume,4,atk,0,,False,1375
+Gambler,plume,4,atk,0,,False,939
 
 key,value
 hp,215.0
 def,17.0
 
-Gambler,plume,4,atk,0,,False,1376
+Gambler,plume,4,atk,0,,False,940
 
 key,value
 eleMas,13.0
 critRate_,2.8
 
-Gambler,plume,4,atk,0,,False,1377
+Gambler,plume,4,atk,0,,False,941
 
 key,value
 hp,167.0
 def,17.0
 
-Gambler,plume,4,atk,0,,False,1378
+Gambler,plume,4,atk,0,,False,942
 
 key,value
 eleMas,13.0
 critRate_,2.8
 
-Gambler,plume,4,atk,0,,False,1379
+Gambler,plume,4,atk,0,,False,943
 
 key,value
 enerRech_,3.6
 critRate_,3.1
 
-Gambler,sands,4,def_,0,,False,1380
-
-key,value
-hp,167.0
-hp_,4.7
-critRate_,3.1
-
-Gambler,sands,4,hp_,0,,False,1381
+Gambler,sands,4,hp_,0,,False,944
 
 key,value
 hp,215.0
 def,17.0
 
-Gambler,sands,4,enerRech_,0,,False,1382
-
-key,value
-hp,191.0
-hp_,4.7
-
-Gambler,sands,4,hp_,0,,False,1383
-
-key,value
-def,19.0
-hp,191.0
-
-Gambler,sands,4,hp_,0,,False,1384
-
-key,value
-atk,16.0
-def,17.0
-
-Gambler,sands,4,atk_,0,,False,1385
+Gambler,sands,4,atk_,0,,False,945
 
 key,value
 hp,239.0
 atk,12.0
 
-Gambler,sands,4,eleMas,0,,False,1386
-
-key,value
-def_,4.1
-critRate_,2.8
-
-Gambler,sands,4,def_,0,,False,1387
+Gambler,sands,4,def_,0,,False,947
 
 key,value
 atk,16.0
 hp,167.0
 
-Gambler,sands,4,hp_,0,,False,1388
+Gambler,sands,4,eleMas,0,,False,946
+
+key,value
+def_,4.1
+critRate_,2.8
+
+Gambler,sands,4,hp_,0,,False,948
 
 key,value
 def_,5.8
 enerRech_,4.7
 
-Gambler,sands,4,def_,0,,False,1389
+Gambler,sands,4,def_,0,,False,949
 
 key,value
 hp_,3.7
 atk_,4.2
 
-Gambler,sands,4,hp_,0,,False,1390
+Gambler,sands,4,hp_,0,,False,950
 
 key,value
 hp,215.0
 def,17.0
 
-Gambler,sands,4,atk_,0,,False,1391
+Gambler,sands,4,atk_,0,,False,951
 
 key,value
 atk,16.0
 def,19.0
 
-Gambler,goblet,4,pyro_dmg_,0,,False,1392
+Gambler,goblet,4,pyro_dmg_,0,,False,952
 
 key,value
 hp,239.0
 critRate_,2.5
 def,13.0
 
-Gambler,goblet,4,def_,0,,False,1393
+Gambler,goblet,4,def_,0,,False,953
 
 key,value
 atk,11.0
 def,13.0
 critDMG_,5.6
 
-Gambler,goblet,4,electro_dmg_,0,,False,1394
+Gambler,goblet,4,electro_dmg_,0,,False,954
 
 key,value
 atk,16.0
 hp_,4.2
 
-Gambler,goblet,4,atk_,0,,False,1395
+Gambler,goblet,4,atk_,0,,False,955
 
 key,value
 eleMas,19.0
 def_,5.8
 
-Gambler,goblet,4,electro_dmg_,0,,False,1396
+Gambler,goblet,4,electro_dmg_,0,,False,956
 
 key,value
 eleMas,13.0
 hp,191.0
 
-Gambler,goblet,4,atk_,0,,False,1397
+Gambler,goblet,4,atk_,0,,False,957
 
 key,value
 hp,215.0
 def,19.0
 
-Gambler,goblet,4,def_,0,,False,1398
+Gambler,goblet,4,def_,0,,False,958
 
 key,value
 atk,14.0
 def,13.0
 
-Gambler,circlet,4,hp_,0,,False,1399
+Gambler,circlet,4,hp_,0,,False,959
 
 key,value
 eleMas,17.0
 atk_,4.2
 def_,5.3
 
-Gambler,circlet,4,critDMG_,0,,False,1400
+Gambler,circlet,4,critDMG_,0,,False,960
 
 key,value
 critRate_,2.2
 hp_,4.2
 
-Gambler,circlet,4,atk_,0,,False,1401
+Gambler,circlet,4,atk_,0,,False,961
 
 key,value
 eleMas,13.0
 def_,5.8
 
-Gambler,circlet,4,eleMas,0,,False,1402
+Gambler,circlet,4,eleMas,0,,False,962
 
 key,value
 atk_,4.2
 hp,167.0
 
-Gambler,circlet,4,def_,0,,False,1403
+Gambler,circlet,4,def_,0,,False,963
 
 key,value
 hp_,4.2
 enerRech_,3.6
 
-Gambler,circlet,4,hp_,0,,False,1404
+Gambler,circlet,4,hp_,0,,False,964
 
 key,value
 enerRech_,4.7
 def,17.0
 
-Gambler,circlet,4,atk_,0,,False,1405
+Gambler,circlet,4,atk_,0,,False,965
 
 key,value
 atk,14.0
 eleMas,13.0
 
-Gambler,circlet,4,def_,0,,False,1406
+Gambler,circlet,4,def_,0,,False,966
 
 key,value
 eleMas,17.0
 atk,14.0
 
-Gambler,circlet,4,eleMas,0,,False,1407
+Gambler,circlet,4,eleMas,0,,False,967
 
 key,value
 def,17.0
 hp,239.0
 
-Gambler,circlet,4,def_,0,,False,1408
+Gambler,circlet,4,def_,0,,False,968
 
 key,value
 enerRech_,4.1
 atk_,3.3
 
-Gambler,circlet,4,hp_,0,,False,1409
+Gambler,circlet,4,hp_,0,,False,969
 
 key,value
 hp,167.0
 eleMas,13.0
 
-Instructor,flower,4,hp,0,,False,1410
+Instructor,flower,4,hp,0,,True,970
 
 key,value
 critRate_,3.1
 eleMas,19.0
 
-Instructor,flower,4,hp,0,,True,1411
+Instructor,flower,4,hp,0,,True,971
 
 key,value
 critRate_,3.1
 def_,5.3
 
-Instructor,plume,4,atk,0,,True,1412
+Instructor,plume,4,atk,0,,True,972
 
 key,value
 enerRech_,4.1
 hp_,4.2
 
-Instructor,plume,4,atk,0,,True,1413
+Instructor,plume,4,atk,0,,True,973
 
 key,value
 def,17.0
 enerRech_,4.1
 
-Instructor,plume,4,atk,0,,True,1414
+Instructor,plume,4,atk,0,,True,974
 
 key,value
 enerRech_,3.6
 hp,191.0
 
-Instructor,plume,4,atk,0,,True,1415
+Instructor,plume,4,atk,0,,True,975
 
 key,value
 eleMas,19.0
 critRate_,2.2
 
-Instructor,plume,4,atk,0,,True,1416
+Instructor,plume,4,atk,0,,True,976
 
 key,value
 def,15.0
 hp_,3.3
 
-Instructor,plume,4,atk,0,,True,1417
+Instructor,plume,4,atk,0,,True,977
 
 key,value
 critDMG_,6.2
 atk_,3.7
 
-Instructor,plume,4,atk,0,,True,1418
+Instructor,plume,4,atk,0,,True,978
 
 key,value
 atk_,4.2
 def,17.0
 
-Instructor,plume,4,atk,0,,True,1419
+Instructor,plume,4,atk,0,,True,979
 
 key,value
 atk_,4.7
 eleMas,15.0
 
-Instructor,sands,4,atk_,0,,True,1420
+Instructor,sands,4,atk_,0,,True,980
 
 key,value
 critDMG_,5.6
 def,15.0
 enerRech_,5.2
 
-Instructor,sands,4,atk_,0,,True,1421
+Instructor,sands,4,atk_,0,,True,981
 
 key,value
 atk,14.0
 enerRech_,4.7
 critRate_,2.2
 
-Instructor,sands,4,eleMas,0,Kaveh,True,1422
+Instructor,sands,4,eleMas,0,Kaveh,True,982
 
 key,value
 def_,4.7
 atk,14.0
 atk_,4.7
 
-Instructor,sands,4,hp_,0,,True,1423
+Instructor,sands,4,hp_,0,,True,983
 
 key,value
 def_,4.7
 critRate_,3.1
 eleMas,17.0
 
-Instructor,sands,4,hp_,0,,True,1424
+Instructor,sands,4,hp_,0,,True,984
 
 key,value
 atk_,3.7
 def_,5.8
 
-Instructor,sands,4,eleMas,0,,True,1425
+Instructor,sands,4,eleMas,0,,True,985
 
 key,value
 def,17.0
 atk,16.0
 
-Instructor,sands,4,eleMas,0,Kirara,True,1426
+Instructor,sands,4,eleMas,0,Kirara,True,986
 
 key,value
 def_,4.7
 atk,11.0
 
-Instructor,sands,4,hp_,0,,True,1427
+Instructor,sands,4,hp_,0,,True,987
 
 key,value
 enerRech_,4.7
 def,13.0
 
-Instructor,sands,4,hp_,0,,True,1428
+Instructor,sands,4,hp_,0,,True,988
 
 key,value
 atk_,4.2
 def,17.0
 
-Instructor,sands,4,atk_,0,,True,1429
+Instructor,sands,4,atk_,0,,True,989
 
 key,value
 def,15.0
 def_,4.7
 
-Instructor,sands,4,hp_,0,,True,1430
+Instructor,sands,4,hp_,0,,True,990
 
 key,value
 enerRech_,4.7
 def,17.0
 
-Instructor,sands,4,hp_,0,,True,1431
+Instructor,sands,4,hp_,0,,True,991
 
 key,value
 def_,5.3
 critDMG_,5.6
 
-Instructor,sands,4,def_,0,,True,1432
+Instructor,sands,4,def_,0,,True,992
 
 key,value
 atk_,4.2
 def,19.0
 
-Instructor,goblet,4,hp_,0,,True,1433
+Instructor,goblet,4,hp_,0,,True,993
 
 key,value
 hp,239.0
 atk_,3.3
 
-Instructor,goblet,4,hp_,0,,True,1434
+Instructor,goblet,4,hp_,0,,True,994
 
 key,value
 atk,14.0
 enerRech_,3.6
 
-Instructor,goblet,4,hp_,0,,True,1435
+Instructor,goblet,4,hp_,0,,True,995
 
 key,value
 def_,5.8
 enerRech_,4.1
 
-Instructor,goblet,4,cryo_dmg_,0,,True,1436
+Instructor,goblet,4,cryo_dmg_,0,,True,996
 
 key,value
 enerRech_,5.2
 def,17.0
 
-Instructor,goblet,4,hydro_dmg_,0,,True,1437
+Instructor,goblet,4,hydro_dmg_,0,,True,997
 
 key,value
 eleMas,15.0
 critRate_,2.5
 
-Instructor,circlet,4,critDMG_,0,,True,1438
+Instructor,circlet,4,critDMG_,0,,True,998
 
 key,value
 def_,4.1
 def,13.0
 hp,239.0
 
-Instructor,circlet,4,atk_,0,Amber,True,1439
+Instructor,circlet,4,atk_,0,Amber,True,999
 
 key,value
 enerRech_,3.6
 def_,4.7
 def,17.0
 
-Instructor,circlet,4,critRate_,0,,True,1440
+Instructor,circlet,4,critRate_,0,,True,1000
 
 key,value
 def,13.0
 atk_,3.7
 
-ResolutionOfSojourner,flower,4,hp,0,,False,1441
+ResolutionOfSojourner,flower,4,hp,0,,False,1001
 
 key,value
 eleMas,19.0
 enerRech_,4.1
 
-ResolutionOfSojourner,flower,4,hp,0,,False,1442
+ResolutionOfSojourner,flower,4,hp,0,,False,1002
 
 key,value
 enerRech_,5.2
 atk,12.0
 
-ResolutionOfSojourner,flower,4,hp,0,,False,1443
+ResolutionOfSojourner,flower,4,hp,0,,False,1003
 
 key,value
 enerRech_,4.1
 critDMG_,5.0
 
-ResolutionOfSojourner,flower,4,hp,0,,False,1444
+ResolutionOfSojourner,flower,4,hp,0,,False,1004
 
 key,value
 def_,5.8
 eleMas,19.0
 
-ResolutionOfSojourner,flower,4,hp,0,,False,1445
+ResolutionOfSojourner,flower,4,hp,0,,False,1005
 
 key,value
 def,17.0
 critRate_,2.2
 
-ResolutionOfSojourner,flower,4,hp,0,,False,1446
+ResolutionOfSojourner,flower,4,hp,0,,False,1006
 
 key,value
 critRate_,2.2
 atk,16.0
 
-ResolutionOfSojourner,flower,4,hp,0,,False,1447
+ResolutionOfSojourner,flower,4,hp,0,,False,1007
 
 key,value
 def_,4.7
 hp_,4.7
 
-ResolutionOfSojourner,flower,4,hp,0,,False,1448
+ResolutionOfSojourner,flower,4,hp,0,,False,1008
 
 key,value
 atk_,4.2
 def,13.0
 
-ResolutionOfSojourner,flower,4,hp,0,,False,1449
+ResolutionOfSojourner,flower,4,hp,0,,False,1009
 
 key,value
 def,19.0
 critDMG_,5.0
 
-ResolutionOfSojourner,flower,4,hp,0,,False,1450
+ResolutionOfSojourner,flower,4,hp,0,,False,1010
 
 key,value
 enerRech_,3.6
 atk,12.0
 
-ResolutionOfSojourner,flower,4,hp,0,,False,1451
+ResolutionOfSojourner,flower,4,hp,0,,False,1011
 
 key,value
 def_,4.7
 hp_,3.3
 
-ResolutionOfSojourner,plume,4,atk,0,,False,1452
+ResolutionOfSojourner,plume,4,atk,0,,False,1012
 
 key,value
 def,19.0
 eleMas,13.0
 atk_,3.7
 
-ResolutionOfSojourner,plume,4,atk,0,,False,1453
+ResolutionOfSojourner,plume,4,atk,0,,False,1013
 
 key,value
 critDMG_,5.0
 hp,167.0
 
-ResolutionOfSojourner,plume,4,atk,0,,False,1454
+ResolutionOfSojourner,plume,4,atk,0,,False,1014
 
 key,value
 critRate_,2.8
 hp,167.0
 
-ResolutionOfSojourner,plume,4,atk,0,,False,1455
+ResolutionOfSojourner,plume,4,atk,0,,False,1015
 
 key,value
 eleMas,13.0
 critDMG_,6.2
 
-ResolutionOfSojourner,plume,4,atk,0,,False,1456
+ResolutionOfSojourner,plume,4,atk,0,,False,1016
 
 key,value
 hp,167.0
 critRate_,2.8
 
-ResolutionOfSojourner,plume,4,atk,0,,False,1457
+ResolutionOfSojourner,plume,4,atk,0,,False,1017
 
 key,value
 critRate_,2.8
 atk_,3.3
 
-ResolutionOfSojourner,plume,4,atk,0,,False,1458
+ResolutionOfSojourner,plume,4,atk,0,,False,1018
 
 key,value
 def_,5.3
 critDMG_,5.0
 
-ResolutionOfSojourner,plume,4,atk,0,,False,1459
+ResolutionOfSojourner,plume,4,atk,0,,False,1019
 
 key,value
 hp_,4.7
 atk_,4.7
 
-ResolutionOfSojourner,plume,4,atk,0,,False,1460
+ResolutionOfSojourner,plume,4,atk,0,,False,1020
 
 key,value
 def,19.0
 def_,4.1
 
-ResolutionOfSojourner,sands,4,hp_,0,,False,1462
+ResolutionOfSojourner,plume,4,atk,0,,False,1021
+
+key,value
+hp_,3.7
+enerRech_,3.6
+
+ResolutionOfSojourner,sands,4,hp_,0,,False,1022
 
 key,value
 def_,5.8
 atk_,3.7
 def,13.0
 
-ResolutionOfSojourner,plume,4,atk,0,,False,1461
-
-key,value
-hp_,3.7
-enerRech_,3.6
-
-ResolutionOfSojourner,sands,4,hp_,0,,False,1463
+ResolutionOfSojourner,sands,4,hp_,0,,False,1023
 
 key,value
 enerRech_,4.7
 atk,14.0
 critRate_,3.1
 
-ResolutionOfSojourner,sands,4,def_,0,,False,1464
+ResolutionOfSojourner,sands,4,def_,0,,False,1024
 
 key,value
 enerRech_,3.6
 hp_,3.7
 
-ResolutionOfSojourner,sands,4,eleMas,0,,False,1465
+ResolutionOfSojourner,sands,4,eleMas,0,,False,1025
 
 key,value
 atk,16.0
 hp,191.0
 
-ResolutionOfSojourner,sands,4,def_,0,,False,1466
+ResolutionOfSojourner,sands,4,def_,0,,False,1026
 
 key,value
 hp,167.0
 critDMG_,4.4
 
-ResolutionOfSojourner,sands,4,eleMas,0,,False,1467
-
-key,value
-atk,12.0
-hp,191.0
-
-ResolutionOfSojourner,sands,4,atk_,0,,False,1468
-
-key,value
-critDMG_,5.6
-def,13.0
-
-ResolutionOfSojourner,sands,4,atk_,0,,False,1469
+ResolutionOfSojourner,sands,4,atk_,0,,False,1029
 
 key,value
 enerRech_,4.7
 def,19.0
 
-ResolutionOfSojourner,sands,4,eleMas,0,,False,1470
+ResolutionOfSojourner,sands,4,atk_,0,,False,1028
+
+key,value
+critDMG_,5.6
+def,13.0
+
+ResolutionOfSojourner,sands,4,eleMas,0,,False,1027
+
+key,value
+atk,12.0
+hp,191.0
+
+ResolutionOfSojourner,sands,4,eleMas,0,,False,1030
 
 key,value
 def,17.0
 def_,4.7
 
-ResolutionOfSojourner,sands,4,hp_,0,,False,1471
-
-key,value
-critRate_,2.2
-def,19.0
-
-ResolutionOfSojourner,sands,4,eleMas,0,,False,1472
+ResolutionOfSojourner,sands,4,eleMas,0,,False,1032
 
 key,value
 enerRech_,5.2
 critRate_,3.1
 
-ResolutionOfSojourner,sands,4,hp_,0,,False,1473
+ResolutionOfSojourner,sands,4,hp_,0,,False,1031
+
+key,value
+critRate_,2.2
+def,19.0
+
+ResolutionOfSojourner,sands,4,hp_,0,,False,1033
 
 key,value
 atk,16.0
 atk_,4.2
 
-ResolutionOfSojourner,goblet,4,physical_dmg_,0,,False,1474
+ResolutionOfSojourner,goblet,4,physical_dmg_,0,,False,1034
 
 key,value
 eleMas,17.0
 hp,167.0
 hp_,4.7
 
-ResolutionOfSojourner,goblet,4,geo_dmg_,0,,False,1475
+ResolutionOfSojourner,goblet,4,geo_dmg_,0,,False,1035
 
 key,value
 def_,4.1
 atk_,3.7
 def,17.0
 
-ResolutionOfSojourner,goblet,4,def_,0,,False,1476
+ResolutionOfSojourner,goblet,4,def_,0,,False,1036
 
 key,value
 atk_,3.3
 hp,239.0
 
-ResolutionOfSojourner,goblet,4,geo_dmg_,0,,False,1477
+ResolutionOfSojourner,goblet,4,geo_dmg_,0,,False,1037
 
 key,value
 def,15.0
 eleMas,19.0
 
-ResolutionOfSojourner,goblet,4,atk_,0,,False,1478
+ResolutionOfSojourner,goblet,4,atk_,0,,False,1038
 
 key,value
 hp_,4.7
 atk,11.0
 
-ResolutionOfSojourner,goblet,4,atk_,0,,False,1479
+ResolutionOfSojourner,goblet,4,atk_,0,,False,1039
 
 key,value
 enerRech_,5.2
 hp_,4.2
 
-ResolutionOfSojourner,goblet,4,cryo_dmg_,0,,False,1480
+ResolutionOfSojourner,goblet,4,cryo_dmg_,0,,False,1040
 
 key,value
 critDMG_,4.4
 eleMas,13.0
 
-ResolutionOfSojourner,goblet,4,def_,0,,False,1481
+ResolutionOfSojourner,goblet,4,def_,0,,False,1041
 
 key,value
 hp_,4.7
 eleMas,15.0
 
-ResolutionOfSojourner,goblet,4,hp_,0,,False,1482
+ResolutionOfSojourner,goblet,4,hp_,0,,False,1042
 
 key,value
 def_,5.3
 enerRech_,5.2
 
-ResolutionOfSojourner,circlet,4,atk_,0,,False,1483
+ResolutionOfSojourner,circlet,4,atk_,0,,False,1043
 
 key,value
 atk,12.0
 eleMas,15.0
 critRate_,2.8
 
-ResolutionOfSojourner,circlet,4,hp_,0,,False,1484
+ResolutionOfSojourner,circlet,4,hp_,0,,False,1044
 
 key,value
 def_,4.7
 eleMas,19.0
 atk,14.0
 
-ResolutionOfSojourner,circlet,4,def_,0,,False,1485
+ResolutionOfSojourner,circlet,4,def_,0,,False,1045
 
 key,value
 atk,12.0
 critRate_,3.1
 eleMas,17.0
 
-ResolutionOfSojourner,circlet,4,def_,0,,False,1486
+ResolutionOfSojourner,circlet,4,def_,0,,False,1046
 
 key,value
 hp_,4.2
 def,17.0
 enerRech_,4.7
 
-ResolutionOfSojourner,circlet,4,hp_,0,,False,1487
+ResolutionOfSojourner,circlet,4,hp_,0,,False,1047
 
 key,value
 critDMG_,6.2
 def,19.0
 hp,191.0
 
-ResolutionOfSojourner,circlet,4,hp_,0,,False,1488
+ResolutionOfSojourner,circlet,4,hp_,0,,False,1048
 
 key,value
 def_,5.3
 hp,191.0
 
-ResolutionOfSojourner,circlet,4,atk_,0,,False,1489
+ResolutionOfSojourner,circlet,4,atk_,0,,False,1049
 
 key,value
 def_,4.1
 critDMG_,6.2
 
-ResolutionOfSojourner,circlet,4,hp_,0,,False,1490
+ResolutionOfSojourner,circlet,4,hp_,0,,False,1050
 
 key,value
 def,15.0
 enerRech_,5.2
 
-ResolutionOfSojourner,circlet,4,def_,0,,False,1491
+ResolutionOfSojourner,circlet,4,def_,0,,False,1051
 
 key,value
 eleMas,15.0
 atk,14.0
 
-ResolutionOfSojourner,circlet,4,def_,0,,False,1492
+ResolutionOfSojourner,circlet,4,def_,0,,False,1052
 
 key,value
 hp,215.0
 enerRech_,4.1
 
-ResolutionOfSojourner,circlet,4,critRate_,0,,False,1493
+ResolutionOfSojourner,circlet,4,critRate_,0,,False,1053
 
 key,value
 hp_,3.3
 atk,16.0
 
-ResolutionOfSojourner,circlet,4,def_,0,,False,1494
+ResolutionOfSojourner,circlet,4,def_,0,,False,1054
 
 key,value
 atk,14.0
 hp_,3.3
 
-ResolutionOfSojourner,circlet,4,critDMG_,0,,False,1495
+ResolutionOfSojourner,circlet,4,critDMG_,0,,False,1055
 
 key,value
 eleMas,17.0
 def,17.0
 
-ResolutionOfSojourner,circlet,4,eleMas,0,,False,1496
+ResolutionOfSojourner,circlet,4,eleMas,0,,False,1056
 
 key,value
 atk,11.0
 hp_,4.7
 
-ResolutionOfSojourner,circlet,4,def_,0,,False,1497
+ResolutionOfSojourner,circlet,4,def_,0,,False,1057
 
 key,value
 enerRech_,3.6
 atk,16.0
 
-ResolutionOfSojourner,circlet,4,critRate_,0,,False,1498
+ResolutionOfSojourner,circlet,4,critRate_,0,,False,1058
 
 key,value
 def,17.0

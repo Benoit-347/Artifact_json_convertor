@@ -43,7 +43,7 @@ def calc_csv():
         reader = csv.reader(file1)
         flag = 0
         a = 0
-        j = -3
+        j = -2
         b = [["ID", "Roll Value"]]
         for line in reader:
             j+=1
@@ -51,7 +51,6 @@ def calc_csv():
                 c = []
                 id = line[7]
                 c.append(id)
-                print(id)
             if len(line) != 0:
                 if line[0] == "key":
                     flag = 4
@@ -72,12 +71,11 @@ def calc_csv():
                         c = []
                         id = line[7]
                         c.append(id)
-                        print(id)
     return b
 
 #write the calculated data obtained into a file 
 def write_calculated():
-    with open ("calculated.csv", "w+", newline= "") as file1:
+    with open ("calcs\calculated.csv", "w+", newline= "") as file1:
         writer = csv.writer(file1)
         writer.writerows(calc_csv())
 

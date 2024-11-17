@@ -1,0 +1,7694 @@
+setKey,slotKey,rarity,mainStatKey,level,location,lock,id
+ObsidianCodex,flower,5,hp,20,,True,0,Total Rolls:,1.2
+
+key,value
+critRate_,3.9
+hp_,21.6
+def,16.0
+eleMas,44.0
+
+ObsidianCodex,flower,5,hp,20,Chongyun,True,1,Total Rolls:,6.7
+
+key,value
+enerRech_,11.0
+hp_,8.7
+critDMG_,19.4
+critRate_,7.4
+
+ObsidianCodex,flower,5,hp,20,,True,2,Total Rolls:,6.2
+
+key,value
+critRate_,10.1
+enerRech_,11.0
+hp_,4.1
+critDMG_,10.9
+
+ObsidianCodex,plume,5,atk,20,Chongyun,True,3,Total Rolls:,6.1
+
+key,value
+def_,10.2
+critRate_,9.7
+critDMG_,21.0
+eleMas,23.0
+
+ObsidianCodex,goblet,5,def_,20,Xilonen,True,4,Total Rolls:,6.4
+
+key,value
+atk,29.0
+critRate_,7.0
+critDMG_,14.8
+enerRech_,12.3
+
+ObsidianCodex,circlet,5,critDMG_,20,Chongyun,True,5,Total Rolls:,4.8
+
+key,value
+eleMas,56.0
+atk_,5.8
+critRate_,12.1
+enerRech_,4.5
+
+ScrollOfTheHeroOfCinderCity,flower,5,hp,20,Xilonen,True,6,Total Rolls:,5.2
+
+key,value
+critDMG_,19.4
+critRate_,2.7
+enerRech_,10.4
+hp_,9.3
+
+ScrollOfTheHeroOfCinderCity,plume,5,atk,20,Xilonen,True,7,Total Rolls:,4.9
+
+key,value
+enerRech_,20.1
+critDMG_,14.0
+hp,269.0
+def_,10.2
+
+ScrollOfTheHeroOfCinderCity,sands,5,def_,20,Xilonen,True,8,Total Rolls:,2.5
+
+key,value
+critRate_,2.7
+def,53.0
+enerRech_,12.3
+eleMas,40.0
+
+ScrollOfTheHeroOfCinderCity,circlet,5,heal_,20,Xilonen,True,9,Total Rolls:,2.8
+
+key,value
+def,44.0
+critRate_,9.3
+def_,10.2
+eleMas,44.0
+
+GoldenTroupe,flower,5,hp,20,Furina,True,10,Total Rolls:,6.7
+
+key,value
+critRate_,7.0
+eleMas,23.0
+hp_,8.7
+critDMG_,30.3
+
+GoldenTroupe,flower,5,hp,20,Gorou,True,11,Total Rolls:,6.0
+
+key,value
+critDMG_,20.2
+hp_,11.7
+critRate_,6.6
+atk_,10.5
+
+GoldenTroupe,flower,5,hp,20,Thoma,True,12,Total Rolls:,2.8
+
+key,value
+atk_,8.7
+critDMG_,13.2
+eleMas,42.0
+hp_,15.2
+
+GoldenTroupe,plume,5,atk,20,Furina,True,13,Total Rolls:,7.8
+
+key,value
+atk_,4.1
+hp_,4.7
+critRate_,14.0
+critDMG_,21.0
+
+GoldenTroupe,plume,5,atk,20,Fischl,True,14,Total Rolls:,5.5
+
+key,value
+eleMas,42.0
+critRate_,11.3
+hp,239.0
+critDMG_,14.0
+
+GoldenTroupe,plume,5,atk,20,Traveler,True,15,Total Rolls:,5.2
+
+key,value
+critRate_,6.6
+critDMG_,21.0
+hp,448.0
+hp_,4.7
+
+GoldenTroupe,sands,5,hp_,20,Gorou,True,16,Total Rolls:,3.0
+
+key,value
+eleMas,42.0
+atk,19.0
+def,56.0
+critDMG_,18.7
+
+GoldenTroupe,sands,5,atk_,20,Traveler,True,17,Total Rolls:,3.4
+
+key,value
+hp,478.0
+critRate_,7.4
+def,56.0
+critDMG_,7.8
+
+GoldenTroupe,goblet,5,hydro_dmg_,20,Furina,True,18,Total Rolls:,4.9
+
+key,value
+atk,16.0
+critDMG_,18.7
+critRate_,6.2
+hp_,10.5
+
+GoldenTroupe,circlet,5,critDMG_,20,Furina,True,19,Total Rolls:,3.9
+
+key,value
+hp_,10.5
+atk_,4.7
+critRate_,10.5
+atk,31.0
+
+GoldenTroupe,circlet,5,critRate_,20,Fischl,True,20,Total Rolls:,3.4
+
+key,value
+critDMG_,13.2
+atk,53.0
+atk_,9.3
+hp,209.0
+
+FlowerOfParadiseLost,flower,5,hp,20,Yaoyao,True,22,Total Rolls:,3.3
+
+key,value
+def,60.0
+eleMas,16.0
+hp_,4.1
+enerRech_,23.3
+
+FlowerOfParadiseLost,flower,5,hp,20,Barbara,True,21,Total Rolls:,0.8
+
+key,value
+def,35.0
+enerRech_,5.8
+eleMas,56.0
+hp_,15.7
+
+FlowerOfParadiseLost,flower,5,hp,20,,True,23,Total Rolls:,1.4
+
+key,value
+enerRech_,4.5
+hp_,5.8
+eleMas,98.0
+critDMG_,5.4
+
+FlowerOfParadiseLost,plume,5,atk,20,,True,24,Total Rolls:,3.8
+
+key,value
+eleMas,65.0
+hp,299.0
+enerRech_,18.8
+critDMG_,7.8
+
+FlowerOfParadiseLost,sands,5,eleMas,20,,True,25,Total Rolls:,5.4
+
+key,value
+critDMG_,21.0
+critRate_,3.9
+atk_,11.1
+hp,508.0
+
+FlowerOfParadiseLost,circlet,5,eleMas,20,,True,26,Total Rolls:,3.5
+
+key,value
+atk_,12.8
+critRate_,7.0
+def,37.0
+atk,19.0
+
+GildedDreams,flower,5,hp,20,YunJin,True,27,Total Rolls:,5.8
+
+key,value
+enerRech_,10.4
+atk_,15.2
+critDMG_,7.8
+critRate_,5.8
+
+GildedDreams,flower,5,hp,20,Keqing,True,28,Total Rolls:,5.4
+
+key,value
+enerRech_,12.3
+eleMas,37.0
+critDMG_,21.0
+atk_,5.3
+
+GildedDreams,flower,5,hp,20,,True,29,Total Rolls:,2.8
+
+key,value
+critRate_,7.4
+eleMas,82.0
+atk,19.0
+atk_,4.1
+
+GildedDreams,plume,5,atk,20,Keqing,True,30,Total Rolls:,6.7
+
+key,value
+hp,478.0
+atk_,5.3
+critDMG_,14.0
+critRate_,13.6
+
+GildedDreams,plume,5,atk,20,Thoma,True,31,Total Rolls:,2.0
+
+key,value
+hp_,11.1
+critDMG_,13.2
+eleMas,16.0
+hp,837.0
+
+GildedDreams,plume,5,atk,20,YunJin,True,32,Total Rolls:,3.0
+
+key,value
+eleMas,54.0
+atk_,8.2
+def,21.0
+critDMG_,14.8
+
+GildedDreams,sands,5,hp_,20,YunJin,True,33,Total Rolls:,2.8
+
+key,value
+critDMG_,7.8
+def_,10.2
+hp,747.0
+enerRech_,11.7
+
+GildedDreams,sands,5,eleMas,20,,True,34,Total Rolls:,2.3
+
+key,value
+def,19.0
+hp,1076.0
+enerRech_,9.7
+critRate_,3.1
+
+GildedDreams,sands,5,hp_,20,Nilou,True,35,Total Rolls:,3.3
+
+key,value
+eleMas,65.0
+enerRech_,15.5
+critDMG_,7.8
+def_,5.8
+
+GildedDreams,goblet,5,dendro_dmg_,20,Tighnari,True,36,Total Rolls:,4.1
+
+key,value
+atk_,5.8
+critRate_,11.7
+eleMas,44.0
+hp,508.0
+
+GildedDreams,goblet,5,eleMas,20,,True,37,Total Rolls:,2.7
+
+key,value
+enerRech_,11.0
+atk_,9.3
+atk,29.0
+hp_,11.1
+
+GildedDreams,circlet,5,hp_,20,Nilou,True,38,Total Rolls:,2.1
+
+key,value
+hp,508.0
+eleMas,33.0
+critDMG_,14.0
+def_,13.1
+
+GildedDreams,circlet,5,critRate_,20,Tighnari,True,39,Total Rolls:,1.8
+
+key,value
+atk_,8.7
+critDMG_,6.2
+eleMas,63.0
+def,37.0
+
+DeepwoodMemories,flower,5,hp,20,Mika,True,40,Total Rolls:,0.2
+
+key,value
+atk,18.0
+hp_,10.5
+def,39.0
+eleMas,89.0
+
+DeepwoodMemories,flower,5,hp,20,Collei,True,41,Total Rolls:,6.8
+
+key,value
+atk_,15.2
+critRate_,6.2
+enerRech_,12.3
+critDMG_,11.7
+
+DeepwoodMemories,flower,5,hp,20,Nahida,True,42,Total Rolls:,4.7
+
+key,value
+critDMG_,19.4
+critRate_,2.7
+eleMas,70.0
+enerRech_,6.5
+
+DeepwoodMemories,plume,5,atk,20,Gorou,True,43,Total Rolls:,4.6
+
+key,value
+atk_,9.3
+critDMG_,13.2
+enerRech_,12.3
+eleMas,44.0
+
+DeepwoodMemories,sands,5,eleMas,20,Nahida,True,44,Total Rolls:,4.8
+
+key,value
+def_,13.9
+critRate_,9.7
+hp_,8.7
+enerRech_,13.0
+
+DeepwoodMemories,sands,5,enerRech_,20,Beidou,True,45,Total Rolls:,1.8
+
+key,value
+critDMG_,11.7
+eleMas,16.0
+def,42.0
+hp,717.0
+
+DeepwoodMemories,goblet,5,eleMas,20,Nahida,True,46,Total Rolls:,5.3
+
+key,value
+def,42.0
+hp_,5.8
+critDMG_,28.0
+critRate_,3.5
+
+DeepwoodMemories,circlet,5,eleMas,20,Nahida,True,47,Total Rolls:,5.6
+
+key,value
+critRate_,6.2
+hp,239.0
+def_,5.1
+critDMG_,24.9
+
+DeepwoodMemories,circlet,5,critRate_,20,Collei,True,48,Total Rolls:,0.4
+
+key,value
+hp_,5.8
+eleMas,40.0
+atk_,4.1
+hp,926.0
+
+EmblemOfSeveredFate,flower,5,hp,20,,True,49,Total Rolls:,4.6
+
+key,value
+enerRech_,23.3
+atk_,4.1
+critRate_,3.1
+eleMas,58.0
+
+EmblemOfSeveredFate,flower,5,hp,20,,False,50,Total Rolls:,5.3
+
+key,value
+critRate_,9.3
+enerRech_,14.9
+hp_,10.5
+atk_,4.7
+
+EmblemOfSeveredFate,flower,5,hp,20,KujouSara,False,51,Total Rolls:,4.6
+
+key,value
+eleMas,23.0
+atk_,12.8
+atk,37.0
+critDMG_,20.2
+
+EmblemOfSeveredFate,flower,5,hp,20,RaidenShogun,False,52,Total Rolls:,6.1
+
+key,value
+atk_,8.2
+critDMG_,5.4
+critRate_,14.8
+def,19.0
+
+EmblemOfSeveredFate,flower,5,hp,20,Faruzan,True,53,Total Rolls:,5.0
+
+key,value
+atk,18.0
+enerRech_,16.2
+critDMG_,11.7
+atk_,8.2
+
+EmblemOfSeveredFate,flower,5,hp,20,Dehya,True,54,Total Rolls:,5.1
+
+key,value
+critDMG_,14.8
+atk,35.0
+atk_,11.1
+enerRech_,10.4
+
+EmblemOfSeveredFate,flower,5,hp,20,Beidou,True,55,Total Rolls:,6.3
+
+key,value
+critDMG_,7.8
+critRate_,9.7
+atk_,14.6
+enerRech_,5.8
+
+EmblemOfSeveredFate,flower,5,hp,20,,True,56,Total Rolls:,5.0
+
+key,value
+critRate_,6.2
+critDMG_,13.2
+atk_,11.7
+def,44.0
+
+EmblemOfSeveredFate,plume,5,atk,20,Xiangling,True,57,Total Rolls:,6.7
+
+key,value
+critRate_,5.4
+atk_,9.9
+enerRech_,17.5
+critDMG_,10.9
+
+EmblemOfSeveredFate,plume,5,atk,20,Xingqiu,True,58,Total Rolls:,6.3
+
+key,value
+critDMG_,15.5
+eleMas,16.0
+critRate_,6.2
+atk_,22.2
+
+EmblemOfSeveredFate,plume,5,atk,20,Yanfei,True,59,Total Rolls:,6.2
+
+key,value
+def,46.0
+atk_,11.1
+critDMG_,18.7
+critRate_,7.8
+
+EmblemOfSeveredFate,plume,5,atk,20,Lisa,True,60,Total Rolls:,5.6
+
+key,value
+critDMG_,12.4
+critRate_,9.3
+atk_,9.9
+eleMas,23.0
+
+EmblemOfSeveredFate,plume,5,atk,20,,True,61,Total Rolls:,5.4
+
+key,value
+critRate_,6.6
+def,44.0
+critDMG_,19.4
+atk_,5.3
+
+EmblemOfSeveredFate,plume,5,atk,20,Mona,False,62,Total Rolls:,5.2
+
+key,value
+atk_,5.3
+eleMas,42.0
+critRate_,10.5
+enerRech_,11.0
+
+EmblemOfSeveredFate,plume,5,atk,20,Faruzan,False,63,Total Rolls:,4.3
+
+key,value
+eleMas,21.0
+critRate_,6.6
+enerRech_,16.8
+hp,538.0
+
+EmblemOfSeveredFate,plume,5,atk,20,Kirara,False,64,Total Rolls:,3.1
+
+key,value
+critRate_,7.4
+eleMas,37.0
+atk_,9.3
+hp_,11.7
+
+EmblemOfSeveredFate,plume,5,atk,20,Candace,False,65,Total Rolls:,5.1
+
+key,value
+critDMG_,7.8
+enerRech_,24.0
+atk_,5.8
+def,39.0
+
+EmblemOfSeveredFate,sands,5,hp_,20,Furina,True,66,Total Rolls:,7.3
+
+key,value
+critRate_,12.4
+atk_,5.3
+eleMas,16.0
+critDMG_,20.2
+
+EmblemOfSeveredFate,sands,5,enerRech_,20,Xiangling,True,67,Total Rolls:,4.5
+
+key,value
+atk_,5.8
+def,19.0
+hp_,14.0
+critDMG_,26.4
+
+EmblemOfSeveredFate,sands,5,enerRech_,20,RaidenShogun,True,68,Total Rolls:,5.4
+
+key,value
+atk_,14.0
+def,21.0
+critRate_,7.0
+critDMG_,13.2
+
+EmblemOfSeveredFate,sands,5,atk_,20,Diluc,False,69,Total Rolls:,4.3
+
+key,value
+critRate_,5.4
+enerRech_,4.5
+hp,777.0
+critDMG_,13.2
+
+EmblemOfSeveredFate,sands,5,eleMas,20,Charlotte,True,70,Total Rolls:,4.8
+
+key,value
+critDMG_,10.9
+atk_,14.6
+atk,14.0
+enerRech_,11.7
+
+EmblemOfSeveredFate,sands,5,atk_,20,Xingqiu,True,71,Total Rolls:,6.6
+
+key,value
+critDMG_,28.7
+critRate_,7.4
+hp,299.0
+def_,5.8
+
+EmblemOfSeveredFate,sands,5,atk_,20,KujouSara,True,72,Total Rolls:,4.8
+
+key,value
+atk,18.0
+hp,508.0
+critRate_,5.4
+critDMG_,19.4
+
+EmblemOfSeveredFate,sands,5,enerRech_,20,Thoma,False,73,Total Rolls:,3.1
+
+key,value
+critRate_,6.6
+eleMas,23.0
+atk_,11.7
+def,60.0
+
+EmblemOfSeveredFate,sands,5,atk_,20,Gaming,False,74,Total Rolls:,3.0
+
+key,value
+hp_,4.1
+enerRech_,6.5
+critDMG_,14.0
+eleMas,77.0
+
+EmblemOfSeveredFate,sands,5,atk_,20,Sayu,True,75,Total Rolls:,3.8
+
+key,value
+critRate_,6.2
+hp_,9.3
+critDMG_,12.4
+def_,13.1
+
+EmblemOfSeveredFate,sands,5,enerRech_,20,ShikanoinHeizou,True,76,Total Rolls:,4.4
+
+key,value
+atk,53.0
+atk_,4.1
+critDMG_,23.3
+def_,6.6
+
+EmblemOfSeveredFate,sands,5,enerRech_,20,,False,77,Total Rolls:,4.5
+
+key,value
+atk,35.0
+critDMG_,11.7
+critRate_,7.8
+hp,508.0
+
+EmblemOfSeveredFate,sands,5,atk_,20,,True,78,Total Rolls:,3.6
+
+key,value
+eleMas,47.0
+def_,11.7
+enerRech_,4.5
+critDMG_,19.4
+
+EmblemOfSeveredFate,goblet,5,hydro_dmg_,20,Xingqiu,True,79,Total Rolls:,4.4
+
+key,value
+atk_,15.2
+def_,12.4
+critDMG_,19.4
+hp,269.0
+
+EmblemOfSeveredFate,goblet,5,electro_dmg_,20,Keqing,True,80,Total Rolls:,4.2
+
+key,value
+hp,717.0
+atk,33.0
+critRate_,10.1
+critDMG_,5.4
+
+EmblemOfSeveredFate,goblet,5,hp_,20,Nilou,True,81,Total Rolls:,1.7
+
+key,value
+eleMas,65.0
+def,42.0
+enerRech_,12.3
+hp,508.0
+
+EmblemOfSeveredFate,goblet,5,hydro_dmg_,20,Faruzan,True,82,Total Rolls:,4.6
+
+key,value
+atk_,12.8
+critRate_,3.1
+def,37.0
+enerRech_,17.5
+
+EmblemOfSeveredFate,goblet,5,pyro_dmg_,20,Diluc,True,83,Total Rolls:,4.3
+
+key,value
+enerRech_,16.2
+eleMas,40.0
+critRate_,3.1
+atk_,11.1
+
+EmblemOfSeveredFate,goblet,5,atk_,20,Traveler,True,84,Total Rolls:,2.8
+
+key,value
+hp_,9.9
+enerRech_,5.2
+critDMG_,14.0
+hp,777.0
+
+EmblemOfSeveredFate,goblet,5,electro_dmg_,20,Fischl,True,85,Total Rolls:,3.6
+
+key,value
+atk_,21.6
+enerRech_,4.5
+eleMas,33.0
+critDMG_,6.2
+
+EmblemOfSeveredFate,goblet,5,eleMas,20,KaedeharaKazuha,True,86,Total Rolls:,5.9
+
+key,value
+enerRech_,28.5
+critRate_,3.1
+def_,6.6
+critDMG_,6.2
+
+EmblemOfSeveredFate,goblet,5,cryo_dmg_,20,Rosaria,True,87,Total Rolls:,5.7
+
+key,value
+atk,16.0
+critDMG_,23.3
+hp,418.0
+critRate_,6.6
+
+EmblemOfSeveredFate,goblet,5,electro_dmg_,20,RaidenShogun,True,88,Total Rolls:,5.7
+
+key,value
+critDMG_,21.0
+atk,14.0
+atk_,15.2
+enerRech_,6.5
+
+EmblemOfSeveredFate,circlet,5,critDMG_,20,Beidou,True,89,Total Rolls:,5.4
+
+key,value
+def,16.0
+critRate_,11.3
+atk_,16.9
+atk,35.0
+
+EmblemOfSeveredFate,circlet,5,critRate_,20,Xiangling,True,91,Total Rolls:,4.1
+
+key,value
+def,60.0
+critDMG_,15.5
+hp,538.0
+enerRech_,12.3
+
+EmblemOfSeveredFate,circlet,5,critRate_,20,,True,90,Total Rolls:,4.0
+
+key,value
+critDMG_,14.8
+enerRech_,10.4
+atk,35.0
+hp,717.0
+
+EmblemOfSeveredFate,circlet,5,critDMG_,20,,True,92,Total Rolls:,3.3
+
+key,value
+atk_,21.6
+eleMas,16.0
+hp_,8.7
+enerRech_,9.1
+
+EmblemOfSeveredFate,circlet,5,critRate_,20,Xingqiu,True,93,Total Rolls:,3.6
+
+key,value
+atk_,15.7
+critDMG_,11.7
+def,42.0
+atk,31.0
+
+EmblemOfSeveredFate,circlet,5,critRate_,20,RaidenShogun,True,94,Total Rolls:,4.0
+
+key,value
+enerRech_,10.4
+hp_,9.9
+eleMas,21.0
+critDMG_,17.1
+
+EmblemOfSeveredFate,circlet,5,critRate_,20,YunJin,True,95,Total Rolls:,3.5
+
+key,value
+hp,478.0
+eleMas,37.0
+critDMG_,14.0
+enerRech_,9.7
+
+EmblemOfSeveredFate,circlet,5,eleMas,20,,True,96,Total Rolls:,3.9
+
+key,value
+hp,508.0
+enerRech_,5.8
+critRate_,5.8
+atk_,14.0
+
+EmblemOfSeveredFate,circlet,5,critRate_,20,,True,97,Total Rolls:,4.0
+
+key,value
+enerRech_,5.8
+atk,49.0
+critDMG_,12.4
+atk_,8.7
+
+EmblemOfSeveredFate,circlet,5,critDMG_,20,,True,98,Total Rolls:,3.1
+
+key,value
+hp_,10.5
+critRate_,10.1
+hp,299.0
+eleMas,33.0
+
+ShimenawasReminiscence,flower,5,hp,20,Fischl,True,99,Total Rolls:,5.7
+
+key,value
+critRate_,7.0
+critDMG_,13.2
+eleMas,19.0
+atk_,16.9
+
+ShimenawasReminiscence,flower,5,hp,20,Tighnari,True,100,Total Rolls:,7.1
+
+key,value
+enerRech_,5.2
+eleMas,19.0
+critRate_,7.8
+critDMG_,26.4
+
+ShimenawasReminiscence,plume,5,atk,20,Diluc,True,101,Total Rolls:,6.1
+
+key,value
+critDMG_,14.0
+hp_,4.1
+critRate_,9.7
+atk_,11.1
+
+ShimenawasReminiscence,plume,5,atk,20,Gaming,True,102,Total Rolls:,6.7
+
+key,value
+critRate_,6.2
+atk_,4.1
+critDMG_,19.4
+enerRech_,10.4
+
+ShimenawasReminiscence,plume,5,atk,20,,True,103,Total Rolls:,7.0
+
+key,value
+enerRech_,5.2
+critRate_,16.7
+atk_,4.7
+critDMG_,5.4
+
+ShimenawasReminiscence,sands,5,eleMas,20,Keqing,True,104,Total Rolls:,6.9
+
+key,value
+atk,33.0
+atk_,4.7
+critDMG_,20.2
+critRate_,10.1
+
+ShimenawasReminiscence,sands,5,atk_,20,Fischl,True,105,Total Rolls:,4.2
+
+key,value
+enerRech_,6.5
+critDMG_,21.8
+eleMas,58.0
+def_,7.3
+
+ShimenawasReminiscence,circlet,5,critDMG_,20,Gaming,True,106,Total Rolls:,2.8
+
+key,value
+def,39.0
+eleMas,56.0
+critRate_,5.8
+atk_,10.5
+
+ShimenawasReminiscence,circlet,5,critRate_,20,Noelle,True,107,Total Rolls:,3.4
+
+key,value
+critDMG_,21.0
+atk,18.0
+hp,1076.0
+def,21.0
+
+ShimenawasReminiscence,circlet,5,critRate_,20,Keqing,True,108,Total Rolls:,3.8
+
+key,value
+atk,33.0
+atk_,4.7
+def_,11.7
+critDMG_,20.2
+
+ShimenawasReminiscence,circlet,5,critRate_,20,Traveler,True,109,Total Rolls:,2.4
+
+key,value
+atk_,14.6
+hp_,9.9
+def,35.0
+critDMG_,7.0
+
+ShimenawasReminiscence,circlet,5,critRate_,20,Dehya,True,110,Total Rolls:,1.8
+
+key,value
+hp,299.0
+atk,33.0
+enerRech_,10.4
+eleMas,56.0
+
+ShimenawasReminiscence,circlet,5,critRate_,20,,True,111,Total Rolls:,3.5
+
+key,value
+critDMG_,13.2
+def,58.0
+eleMas,23.0
+enerRech_,10.4
+
+TenacityOfTheMillelith,flower,5,hp,20,Nilou,True,112,Total Rolls:,1.8
+
+key,value
+def,35.0
+hp_,13.4
+atk_,8.2
+critDMG_,7.0
+
+TenacityOfTheMillelith,flower,5,hp,20,,True,113,Total Rolls:,4.0
+
+key,value
+atk_,9.9
+def,39.0
+critDMG_,5.4
+enerRech_,16.2
+
+TenacityOfTheMillelith,flower,5,hp,20,Noelle,True,114,Total Rolls:,5.0
+
+key,value
+critDMG_,14.0
+atk_,20.4
+def_,7.3
+critRate_,3.1
+
+TenacityOfTheMillelith,plume,5,atk,20,Barbara,True,115,Total Rolls:,5.4
+
+key,value
+enerRech_,18.8
+hp_,9.9
+eleMas,16.0
+critRate_,9.3
+
+TenacityOfTheMillelith,plume,5,atk,20,,True,116,Total Rolls:,5.4
+
+key,value
+enerRech_,9.1
+hp,209.0
+critDMG_,20.2
+atk_,11.1
+
+TenacityOfTheMillelith,plume,5,atk,20,Nilou,True,117,Total Rolls:,0.8
+
+key,value
+critDMG_,5.4
+eleMas,19.0
+hp,478.0
+hp_,20.4
+
+TenacityOfTheMillelith,sands,5,hp_,20,Barbara,True,118,Total Rolls:,0.9
+
+key,value
+eleMas,37.0
+critDMG_,6.2
+def,42.0
+hp,1076.0
+
+TenacityOfTheMillelith,sands,5,hp_,20,Dehya,True,119,Total Rolls:,4.2
+
+key,value
+critRate_,2.7
+eleMas,58.0
+critDMG_,18.7
+atk_,5.8
+
+TenacityOfTheMillelith,circlet,5,critRate_,20,,True,120,Total Rolls:,1.5
+
+key,value
+def_,10.9
+hp,448.0
+enerRech_,10.4
+hp_,11.1
+
+HeartOfDepth,flower,5,hp,20,,True,121,Total Rolls:,6.5
+
+key,value
+enerRech_,5.2
+def,42.0
+critRate_,10.1
+critDMG_,17.9
+
+HeartOfDepth,plume,5,atk,20,Nahida,True,122,Total Rolls:,4.9
+
+key,value
+critDMG_,14.8
+critRate_,8.9
+def,23.0
+eleMas,42.0
+
+HeartOfDepth,goblet,5,pyro_dmg_,20,Xiangling,True,123,Total Rolls:,6.1
+
+key,value
+critRate_,12.4
+critDMG_,15.5
+def,39.0
+eleMas,16.0
+
+HeartOfDepth,goblet,5,hydro_dmg_,20,Gorou,True,124,Total Rolls:,4.9
+
+key,value
+critRate_,7.0
+critDMG_,13.2
+atk_,8.7
+hp,568.0
+
+NoblesseOblige,flower,5,hp,20,Gaming,True,125,Total Rolls:,5.1
+
+key,value
+eleMas,44.0
+critRate_,6.6
+atk_,8.7
+critDMG_,14.8
+
+NoblesseOblige,flower,5,hp,20,Rosaria,True,126,Total Rolls:,6.2
+
+key,value
+critDMG_,7.0
+atk_,9.9
+critRate_,6.6
+enerRech_,15.5
+
+NoblesseOblige,flower,5,hp,20,,True,127,Total Rolls:,5.1
+
+key,value
+atk,29.0
+critRate_,7.8
+enerRech_,11.0
+atk_,9.9
+
+NoblesseOblige,flower,5,hp,20,Mona,True,128,Total Rolls:,4.1
+
+key,value
+hp_,10.5
+enerRech_,5.2
+critRate_,10.1
+atk,33.0
+
+NoblesseOblige,flower,5,hp,20,Bennett,True,129,Total Rolls:,3.1
+
+key,value
+enerRech_,18.1
+def,23.0
+eleMas,21.0
+atk,53.0
+
+NoblesseOblige,plume,5,atk,20,,True,130,Total Rolls:,5.4
+
+key,value
+hp,478.0
+critRate_,7.4
+critDMG_,21.0
+eleMas,35.0
+
+NoblesseOblige,plume,5,atk,20,,True,131,Total Rolls:,5.5
+
+key,value
+atk_,14.6
+enerRech_,6.5
+critDMG_,21.0
+hp_,10.5
+
+NoblesseOblige,plume,5,atk,20,,True,132,Total Rolls:,4.1
+
+key,value
+hp_,4.1
+enerRech_,10.4
+critRate_,8.9
+eleMas,33.0
+
+NoblesseOblige,plume,5,atk,20,Noelle,True,133,Total Rolls:,1.5
+
+key,value
+hp_,11.7
+def_,19.7
+enerRech_,11.0
+hp,209.0
+
+NoblesseOblige,sands,5,hp_,20,Mona,True,134,Total Rolls:,4.2
+
+key,value
+enerRech_,12.3
+critRate_,3.1
+atk_,10.5
+atk,51.0
+
+NoblesseOblige,sands,5,enerRech_,20,Bennett,True,136,Total Rolls:,1.9
+
+key,value
+def_,6.6
+hp_,4.7
+eleMas,79.0
+critRate_,6.2
+
+NoblesseOblige,sands,5,atk_,20,,True,135,Total Rolls:,4.8
+
+key,value
+eleMas,44.0
+critRate_,10.1
+atk,19.0
+enerRech_,11.0
+
+NoblesseOblige,goblet,5,pyro_dmg_,20,Gaming,True,137,Total Rolls:,4.9
+
+key,value
+enerRech_,12.3
+hp,538.0
+critRate_,7.8
+atk_,8.7
+
+NoblesseOblige,goblet,5,hp_,20,Bennett,True,138,Total Rolls:,3.7
+
+key,value
+enerRech_,14.9
+hp,568.0
+critDMG_,5.4
+atk_,8.7
+
+NoblesseOblige,circlet,5,critRate_,20,Rosaria,True,139,Total Rolls:,3.3
+
+key,value
+critDMG_,7.8
+atk,60.0
+enerRech_,11.0
+hp_,8.7
+
+NoblesseOblige,circlet,5,heal_,20,,True,140,Total Rolls:,2.9
+
+key,value
+hp_,13.4
+enerRech_,6.5
+critRate_,6.6
+hp,508.0
+
+WanderersTroupe,flower,5,hp,20,,True,142,Total Rolls:,5.7
+
+key,value
+eleMas,21.0
+critRate_,11.7
+critDMG_,14.0
+def,16.0
+
+NoblesseOblige,circlet,5,hp_,20,Bennett,True,141,Total Rolls:,3.0
+
+key,value
+atk,49.0
+def,19.0
+eleMas,16.0
+enerRech_,18.1
+
+WanderersTroupe,flower,5,hp,20,,True,143,Total Rolls:,5.5
+
+key,value
+critRate_,14.4
+def_,7.3
+critDMG_,7.8
+def,42.0
+
+WanderersTroupe,flower,5,hp,20,Traveler,True,144,Total Rolls:,7.2
+
+key,value
+critDMG_,21.0
+critRate_,10.5
+def,23.0
+enerRech_,5.8
+
+WanderersTroupe,plume,5,atk,20,,True,145,Total Rolls:,2.0
+
+key,value
+eleMas,89.0
+def,32.0
+critRate_,3.5
+atk_,9.9
+
+WanderersTroupe,plume,5,atk,20,Beidou,True,146,Total Rolls:,7.5
+
+key,value
+enerRech_,16.2
+critDMG_,11.7
+critRate_,10.1
+atk_,4.7
+
+WanderersTroupe,plume,5,atk,20,,True,147,Total Rolls:,4.2
+
+key,value
+atk_,5.8
+critDMG_,5.4
+eleMas,51.0
+critRate_,9.3
+
+WanderersTroupe,sands,5,eleMas,20,,True,148,Total Rolls:,4.3
+
+key,value
+hp_,9.3
+atk,19.0
+critDMG_,21.0
+atk_,9.3
+
+WanderersTroupe,sands,5,atk_,20,Ganyu,True,149,Total Rolls:,4.3
+
+key,value
+def,42.0
+critDMG_,28.7
+hp,239.0
+hp_,4.1
+
+WanderersTroupe,sands,5,atk_,20,,True,150,Total Rolls:,3.3
+
+key,value
+hp,478.0
+eleMas,58.0
+critRate_,7.0
+critDMG_,7.8
+
+WanderersTroupe,goblet,5,eleMas,20,,True,151,Total Rolls:,4.7
+
+key,value
+hp,837.0
+critRate_,6.2
+def,16.0
+critDMG_,18.7
+
+WanderersTroupe,circlet,5,hp_,20,Faruzan,True,152,Total Rolls:,4.1
+
+key,value
+enerRech_,16.8
+eleMas,47.0
+atk,16.0
+atk_,16.3
+
+WanderersTroupe,circlet,5,critDMG_,20,Lisa,True,153,Total Rolls:,2.9
+
+key,value
+enerRech_,6.5
+atk_,21.0
+def,39.0
+hp,538.0
+
+WanderersTroupe,circlet,5,critDMG_,20,,True,154,Total Rolls:,1.9
+
+key,value
+critRate_,5.8
+hp,807.0
+atk,18.0
+eleMas,47.0
+
+ViridescentVenerer,flower,5,hp,20,Sucrose,True,155,Total Rolls:,2.1
+
+key,value
+eleMas,70.0
+atk,33.0
+def,37.0
+enerRech_,12.3
+
+ViridescentVenerer,flower,5,hp,20,,True,156,Total Rolls:,5.7
+
+key,value
+critDMG_,12.4
+enerRech_,4.5
+critRate_,10.5
+def,42.0
+
+ViridescentVenerer,flower,5,hp,20,Jean,True,157,Total Rolls:,5.4
+
+key,value
+critRate_,5.8
+atk_,5.8
+enerRech_,22.0
+def,16.0
+
+ViridescentVenerer,flower,5,hp,20,,True,158,Total Rolls:,3.6
+
+key,value
+eleMas,35.0
+hp_,8.7
+atk_,4.1
+critRate_,10.5
+
+ViridescentVenerer,flower,5,hp,20,KaedeharaKazuha,True,159,Total Rolls:,0.5
+
+key,value
+hp_,4.1
+atk_,5.3
+eleMas,89.0
+def_,5.1
+
+ViridescentVenerer,plume,5,atk,20,ShikanoinHeizou,True,160,Total Rolls:,7.5
+
+key,value
+critRate_,9.7
+critDMG_,19.4
+enerRech_,11.7
+def,16.0
+
+ViridescentVenerer,plume,5,atk,20,KaedeharaKazuha,True,161,Total Rolls:,0.0
+
+key,value
+hp,687.0
+def,21.0
+eleMas,82.0
+hp_,5.8
+
+ViridescentVenerer,plume,5,atk,20,Sucrose,True,162,Total Rolls:,5.0
+
+key,value
+critDMG_,22.5
+enerRech_,11.7
+eleMas,47.0
+def,23.0
+
+ViridescentVenerer,sands,5,eleMas,20,KaedeharaKazuha,True,163,Total Rolls:,2.8
+
+key,value
+atk_,5.8
+enerRech_,11.7
+hp_,4.7
+atk,60.0
+
+ViridescentVenerer,sands,5,enerRech_,20,Faruzan,True,164,Total Rolls:,1.9
+
+key,value
+critDMG_,12.4
+hp,807.0
+def,21.0
+eleMas,42.0
+
+ViridescentVenerer,sands,5,eleMas,20,Sucrose,True,165,Total Rolls:,4.9
+
+key,value
+critRate_,9.7
+def,19.0
+enerRech_,11.0
+atk,39.0
+
+ViridescentVenerer,sands,5,atk_,20,,True,166,Total Rolls:,4.2
+
+key,value
+enerRech_,4.5
+atk,54.0
+critRate_,7.4
+critDMG_,5.4
+
+ViridescentVenerer,goblet,5,anemo_dmg_,20,ShikanoinHeizou,True,167,Total Rolls:,3.9
+
+key,value
+eleMas,21.0
+critDMG_,21.8
+def,56.0
+enerRech_,4.5
+
+ViridescentVenerer,circlet,5,eleMas,20,KaedeharaKazuha,True,168,Total Rolls:,5.2
+
+key,value
+critDMG_,6.2
+def,39.0
+enerRech_,29.2
+atk,14.0
+
+ViridescentVenerer,circlet,5,eleMas,20,Sucrose,True,169,Total Rolls:,1.7
+
+key,value
+hp,956.0
+atk_,10.5
+hp_,9.9
+enerRech_,5.2
+
+ViridescentVenerer,circlet,5,critRate_,20,,True,170,Total Rolls:,2.5
+
+key,value
+eleMas,23.0
+critDMG_,14.8
+def,60.0
+atk,29.0
+
+GladiatorsFinale,sands,5,atk_,20,Tighnari,True,171,Total Rolls:,5.3
+
+key,value
+hp_,11.7
+critRate_,6.2
+atk,29.0
+critDMG_,21.0
+
+MaidenBeloved,flower,5,hp,20,Dori,True,172,Total Rolls:,3.7
+
+key,value
+critRate_,3.5
+atk_,20.4
+enerRech_,5.2
+hp_,9.9
+
+MaidenBeloved,plume,5,atk,20,Yaoyao,True,173,Total Rolls:,2.1
+
+key,value
+enerRech_,14.9
+eleMas,23.0
+hp,448.0
+hp_,14.6
+
+MaidenBeloved,sands,5,hp_,20,Yaoyao,True,174,Total Rolls:,3.1
+
+key,value
+hp,837.0
+eleMas,33.0
+critRate_,7.8
+enerRech_,5.2
+
+MaidenBeloved,sands,5,enerRech_,20,,True,175,Total Rolls:,0.0
+
+key,value
+hp_,10.5
+def_,11.7
+def,44.0
+hp,508.0
+
+MaidenBeloved,goblet,5,hp_,20,Yaoyao,True,176,Total Rolls:,3.2
+
+key,value
+hp,299.0
+def,39.0
+enerRech_,22.7
+def_,6.6
+
+MaidenBeloved,goblet,5,hp_,20,Dori,True,177,Total Rolls:,1.6
+
+key,value
+hp,986.0
+def,44.0
+enerRech_,4.5
+critDMG_,6.2
+
+MaidenBeloved,circlet,5,critRate_,20,Diona,True,178,Total Rolls:,3.2
+
+key,value
+hp_,5.3
+hp,807.0
+atk_,8.7
+enerRech_,16.8
+
+MaidenBeloved,circlet,5,heal_,20,Mona,True,179,Total Rolls:,4.1
+
+key,value
+atk_,4.7
+hp_,4.1
+critDMG_,24.1
+eleMas,37.0
+
+MaidenBeloved,circlet,5,heal_,20,Yaoyao,True,180,Total Rolls:,3.1
+
+key,value
+critRate_,10.1
+eleMas,35.0
+hp,209.0
+hp_,9.3
+
+BlizzardStrayer,flower,5,hp,20,Xingqiu,True,181,Total Rolls:,7.5
+
+key,value
+critDMG_,22.5
+critRate_,10.5
+atk,18.0
+enerRech_,5.2
+
+BlizzardStrayer,flower,5,hp,20,Ganyu,True,182,Total Rolls:,4.2
+
+key,value
+atk_,26.8
+critDMG_,5.4
+enerRech_,5.8
+def,23.0
+
+BlizzardStrayer,plume,5,atk,20,Rosaria,True,183,Total Rolls:,6.3
+
+key,value
+def,42.0
+enerRech_,11.0
+critDMG_,28.0
+atk_,5.8
+
+BlizzardStrayer,plume,5,atk,20,Ganyu,True,184,Total Rolls:,5.2
+
+key,value
+critDMG_,7.0
+critRate_,10.5
+atk_,10.5
+hp_,9.9
+
+BlizzardStrayer,plume,5,atk,20,Jean,True,185,Total Rolls:,4.6
+
+key,value
+hp_,4.7
+critRate_,2.7
+atk_,22.2
+enerRech_,11.7
+
+BlizzardStrayer,plume,5,atk,20,Bennett,True,186,Total Rolls:,5.4
+
+key,value
+hp_,5.8
+critDMG_,14.0
+enerRech_,23.3
+def,21.0
+
+BlizzardStrayer,sands,5,atk_,20,Rosaria,True,187,Total Rolls:,3.9
+
+key,value
+atk,16.0
+critDMG_,24.9
+hp,209.0
+def,37.0
+
+BlizzardStrayer,goblet,5,cryo_dmg_,20,Ganyu,True,188,Total Rolls:,5.1
+
+key,value
+atk_,15.2
+eleMas,23.0
+critDMG_,23.3
+atk,14.0
+
+BlizzardStrayer,circlet,5,critDMG_,20,Ganyu,True,189,Total Rolls:,4.6
+
+key,value
+eleMas,68.0
+critRate_,10.1
+hp,239.0
+enerRech_,11.0
+
+EmblemOfSeveredFate,goblet,5,pyro_dmg_,17,,False,190,Total Rolls:,3.2
+
+key,value
+enerRech_,4.5
+critDMG_,13.2
+atk_,5.8
+def,53.0
+
+ObsidianCodex,sands,5,hp_,16,Chongyun,True,191,Total Rolls:,4.7
+
+key,value
+atk_,9.9
+critRate_,12.4
+hp,269.0
+eleMas,19.0
+
+MarechausseeHunter,flower,5,hp,16,,True,192,Total Rolls:,4.5
+
+key,value
+hp_,4.1
+critRate_,7.0
+critDMG_,14.0
+atk,29.0
+
+FlowerOfParadiseLost,plume,5,atk,16,,True,193,Total Rolls:,3.2
+
+key,value
+critRate_,3.1
+eleMas,40.0
+enerRech_,16.2
+def,19.0
+
+EmblemOfSeveredFate,flower,5,hp,16,Xiangling,False,194,Total Rolls:,3.8
+
+key,value
+atk,27.0
+critDMG_,7.0
+enerRech_,17.5
+eleMas,21.0
+
+ShimenawasReminiscence,goblet,5,cryo_dmg_,16,Mika,False,195,Total Rolls:,4.4
+
+key,value
+critDMG_,18.7
+hp_,9.9
+enerRech_,11.0
+def,16.0
+
+HeartOfDepth,sands,5,atk_,16,,True,196,Total Rolls:,4.6
+
+key,value
+enerRech_,11.0
+critRate_,2.7
+critDMG_,14.8
+hp,568.0
+
+NoblesseOblige,sands,5,enerRech_,16,,True,197,Total Rolls:,1.0
+
+key,value
+critRate_,2.7
+def_,32.8
+def,21.0
+atk,19.0
+
+NoblesseOblige,sands,5,enerRech_,16,,True,198,Total Rolls:,1.3
+
+key,value
+def,21.0
+hp,717.0
+atk,47.0
+critRate_,2.7
+
+NoblesseOblige,sands,5,eleMas,16,,True,199,Total Rolls:,4.2
+
+key,value
+hp_,4.1
+def,44.0
+critDMG_,13.2
+critRate_,7.4
+
+WanderersTroupe,goblet,5,cryo_dmg_,16,,True,200,Total Rolls:,1.9
+
+key,value
+atk_,9.9
+def,39.0
+def_,19.7
+critDMG_,6.2
+
+ViridescentVenerer,goblet,5,atk_,16,Jean,True,201,Total Rolls:,3.9
+
+key,value
+atk,27.0
+enerRech_,9.1
+def_,6.6
+critDMG_,15.5
+
+GladiatorsFinale,plume,5,atk,16,Tighnari,True,202,Total Rolls:,6.3
+
+key,value
+critRate_,6.2
+critDMG_,15.5
+atk_,4.7
+enerRech_,11.7
+
+GladiatorsFinale,circlet,5,critDMG_,16,Diluc,True,203,Total Rolls:,2.4
+
+key,value
+def,19.0
+atk_,4.7
+def_,19.0
+critRate_,6.6
+
+BlizzardStrayer,sands,5,atk_,16,,True,204,Total Rolls:,4.2
+
+key,value
+def,21.0
+critDMG_,13.2
+critRate_,6.2
+atk,37.0
+
+Instructor,flower,4,hp,16,Candace,True,205,Total Rolls:,2.1
+
+key,value
+critRate_,5.0
+enerRech_,4.1
+eleMas,15.0
+hp_,6.5
+
+Instructor,flower,4,hp,16,,True,206,Total Rolls:,1.4
+
+key,value
+hp_,6.5
+enerRech_,3.6
+critRate_,2.2
+atk,26.0
+
+Instructor,flower,4,hp,16,Kaveh,True,207,Total Rolls:,2.1
+
+key,value
+def,19.0
+critRate_,6.2
+atk,26.0
+eleMas,15.0
+
+Instructor,plume,4,atk,16,,True,208,Total Rolls:,1.7
+
+key,value
+eleMas,17.0
+hp,598.0
+critRate_,5.6
+hp_,4.7
+
+Instructor,sands,4,hp_,16,,True,209,Total Rolls:,1.8
+
+key,value
+critRate_,5.9
+eleMas,15.0
+hp,669.0
+def_,5.3
+
+Instructor,sands,4,enerRech_,16,Candace,True,210,Total Rolls:,0.1
+
+key,value
+hp_,12.1
+atk,11.0
+eleMas,13.0
+hp,335.0
+
+Instructor,goblet,4,hp_,16,,True,211,Total Rolls:,0.8
+
+key,value
+atk,26.0
+hp,215.0
+enerRech_,3.6
+eleMas,48.0
+
+Instructor,goblet,4,hp_,16,Candace,True,212,Total Rolls:,1.3
+
+key,value
+enerRech_,7.8
+atk,16.0
+def,30.0
+hp,167.0
+
+Instructor,goblet,4,electro_dmg_,16,Lisa,True,213,Total Rolls:,2.9
+
+key,value
+enerRech_,3.6
+critRate_,5.6
+eleMas,17.0
+atk_,7.9
+
+Instructor,circlet,4,critRate_,16,,True,214,Total Rolls:,1.1
+
+key,value
+hp_,4.2
+atk_,3.7
+critDMG_,5.0
+eleMas,52.0
+
+Instructor,circlet,4,critRate_,16,Candace,True,215,Total Rolls:,0.3
+
+key,value
+def,15.0
+atk,28.0
+hp_,7.0
+def_,5.3
+
+ObsidianCodex,flower,5,hp,14,,False,216,Total Rolls:,1.4
+
+key,value
+critDMG_,5.4
+hp_,9.3
+atk,58.0
+eleMas,19.0
+
+MarechausseeHunter,plume,5,atk,14,KukiShinobu,True,217,Total Rolls:,4.2
+
+key,value
+enerRech_,6.5
+critDMG_,5.4
+critRate_,3.5
+atk_,14.6
+
+Instructor,circlet,4,hp_,14,Kaveh,False,218,Total Rolls:,0.8
+
+key,value
+atk_,7.5
+hp,215.0
+eleMas,19.0
+atk,11.0
+
+GoldenTroupe,circlet,5,critDMG_,12,,False,219,Total Rolls:,2.9
+
+key,value
+def_,5.1
+enerRech_,12.3
+critRate_,3.9
+hp,508.0
+
+FlowerOfParadiseLost,flower,5,hp,12,,True,220,Total Rolls:,1.0
+
+key,value
+enerRech_,4.5
+eleMas,42.0
+hp_,4.7
+atk,35.0
+
+FlowerOfParadiseLost,plume,5,atk,12,,True,221,Total Rolls:,4.6
+
+key,value
+critDMG_,7.8
+enerRech_,16.8
+eleMas,16.0
+critRate_,3.5
+
+FlowerOfParadiseLost,plume,5,atk,12,,True,222,Total Rolls:,1.2
+
+key,value
+eleMas,40.0
+critRate_,3.9
+def,16.0
+hp_,10.5
+
+ShimenawasReminiscence,plume,5,atk,12,,True,223,Total Rolls:,4.7
+
+key,value
+critDMG_,6.2
+enerRech_,6.5
+atk_,9.9
+critRate_,6.2
+
+TenacityOfTheMillelith,goblet,5,pyro_dmg_,12,Dehya,True,224,Total Rolls:,3.2
+
+key,value
+enerRech_,4.5
+hp_,8.7
+atk,33.0
+critRate_,7.4
+
+HeartOfDepth,plume,5,atk,12,,True,225,Total Rolls:,3.3
+
+key,value
+critRate_,3.5
+eleMas,35.0
+critDMG_,14.8
+def_,11.7
+
+HeartOfDepth,plume,5,atk,12,,True,226,Total Rolls:,3.1
+
+key,value
+def,37.0
+critDMG_,6.2
+critRate_,7.0
+eleMas,19.0
+
+NoblesseOblige,plume,5,atk,12,,True,227,Total Rolls:,3.3
+
+key,value
+def,23.0
+eleMas,42.0
+critRate_,3.5
+critDMG_,14.8
+
+BlizzardStrayer,flower,5,hp,12,,True,228,Total Rolls:,4.5
+
+key,value
+atk_,4.1
+atk,19.0
+critDMG_,14.8
+enerRech_,11.7
+
+MarechausseeHunter,sands,5,atk_,9,,True,229,Total Rolls:,1.9
+
+key,value
+def_,12.4
+critDMG_,6.2
+critRate_,2.7
+atk,16.0
+
+WanderersTroupe,goblet,5,eleMas,9,KujouSara,True,230,Total Rolls:,2.4
+
+key,value
+enerRech_,10.4
+critDMG_,6.2
+hp_,4.1
+def,23.0
+
+ScrollOfTheHeroOfCinderCity,plume,5,atk,8,,True,231,Total Rolls:,1.4
+
+key,value
+def,44.0
+atk_,8.2
+def_,6.6
+enerRech_,4.5
+
+FlowerOfParadiseLost,plume,5,atk,8,,True,232,Total Rolls:,1.9
+
+key,value
+atk_,4.1
+hp_,5.3
+eleMas,23.0
+enerRech_,11.0
+
+EmblemOfSeveredFate,sands,5,enerRech_,8,,False,233,Total Rolls:,2.3
+
+key,value
+critDMG_,11.7
+atk_,5.8
+hp,299.0
+def,39.0
+
+TenacityOfTheMillelith,circlet,5,critDMG_,8,,False,234,Total Rolls:,2.0
+
+key,value
+atk,18.0
+critRate_,3.1
+enerRech_,6.5
+eleMas,40.0
+
+NoblesseOblige,sands,5,atk_,8,,True,235,Total Rolls:,3.1
+
+key,value
+atk,16.0
+critRate_,5.8
+critDMG_,7.8
+def,46.0
+
+WanderersTroupe,circlet,5,critRate_,8,,True,236,Total Rolls:,0.5
+
+key,value
+hp,299.0
+atk_,5.3
+eleMas,40.0
+def,16.0
+
+Instructor,plume,4,atk,8,KujouSara,True,237,Total Rolls:,0.7
+
+key,value
+enerRech_,4.7
+eleMas,15.0
+hp_,4.7
+hp,215.0
+
+GoldenTroupe,flower,5,hp,7,,False,238,Total Rolls:,1.1
+
+key,value
+critDMG_,7.0
+hp_,4.1
+def,19.0
+eleMas,16.0
+
+GoldenTroupe,flower,5,hp,7,,False,239,Total Rolls:,3.0
+
+key,value
+enerRech_,5.2
+critRate_,3.1
+critDMG_,7.8
+atk,14.0
+
+GoldenTroupe,plume,5,atk,7,,False,240,Total Rolls:,2.5
+
+key,value
+hp,209.0
+critDMG_,5.4
+enerRech_,11.7
+hp_,4.1
+
+ViridescentVenerer,sands,5,atk_,7,,True,241,Total Rolls:,2.0
+
+key,value
+def,19.0
+critRate_,3.1
+hp,269.0
+critDMG_,7.0
+
+ObsidianCodex,flower,5,hp,6,,True,242,Total Rolls:,0.8
+
+key,value
+critRate_,2.7
+hp_,4.7
+eleMas,21.0
+def_,5.1
+
+ObsidianCodex,sands,5,eleMas,6,,False,243,Total Rolls:,1.6
+
+key,value
+atk_,4.7
+hp_,4.1
+critRate_,3.9
+def,16.0
+
+MarechausseeHunter,flower,5,hp,6,,False,244,Total Rolls:,1.8
+
+key,value
+atk,14.0
+critDMG_,5.4
+critRate_,2.7
+def,19.0
+
+EmblemOfSeveredFate,flower,5,hp,6,,True,245,Total Rolls:,1.9
+
+key,value
+atk,16.0
+critRate_,2.7
+critDMG_,6.2
+eleMas,21.0
+
+EmblemOfSeveredFate,sands,5,eleMas,6,,False,246,Total Rolls:,1.8
+
+key,value
+critRate_,3.5
+def_,6.6
+atk_,4.7
+atk,33.0
+
+EmblemOfSeveredFate,circlet,5,critRate_,6,,False,247,Total Rolls:,1.4
+
+key,value
+enerRech_,6.5
+hp_,5.8
+def,21.0
+atk_,4.7
+
+EmblemOfSeveredFate,circlet,5,critRate_,6,,False,248,Total Rolls:,0.6
+
+key,value
+hp_,4.7
+atk,18.0
+hp,209.0
+atk_,4.7
+
+EmblemOfSeveredFate,circlet,5,critDMG_,6,,False,249,Total Rolls:,0.8
+
+key,value
+eleMas,19.0
+hp,299.0
+enerRech_,5.8
+def,23.0
+
+NoblesseOblige,plume,5,atk,6,,False,250,Total Rolls:,1.6
+
+key,value
+critDMG_,7.0
+hp_,5.8
+atk_,5.8
+def,21.0
+
+GoldenTroupe,plume,5,atk,5,,False,251,Total Rolls:,2.1
+
+key,value
+enerRech_,5.2
+eleMas,19.0
+critDMG_,6.2
+atk_,4.7
+
+GoldenTroupe,plume,5,atk,5,,False,252,Total Rolls:,0.9
+
+key,value
+def_,5.8
+hp_,5.8
+critRate_,3.1
+hp,239.0
+
+ViridescentVenerer,goblet,5,eleMas,5,,False,253,Total Rolls:,1.3
+
+key,value
+critRate_,3.9
+hp_,4.1
+def,16.0
+atk,14.0
+
+ObsidianCodex,flower,5,hp,4,,False,254,Total Rolls:,0.8
+
+key,value
+hp_,5.8
+critRate_,2.7
+def_,6.6
+eleMas,23.0
+
+ObsidianCodex,flower,5,hp,4,,False,255,Total Rolls:,0.9
+
+key,value
+eleMas,23.0
+critDMG_,6.2
+def,21.0
+def_,5.1
+
+ObsidianCodex,flower,5,hp,4,,False,256,Total Rolls:,1.0
+
+key,value
+eleMas,23.0
+critRate_,2.7
+def_,6.6
+atk,14.0
+
+ObsidianCodex,flower,5,hp,4,,False,257,Total Rolls:,2.2
+
+key,value
+critRate_,2.7
+def_,5.1
+critDMG_,6.2
+atk_,4.7
+
+ObsidianCodex,flower,5,hp,4,,False,258,Total Rolls:,1.0
+
+key,value
+def_,5.8
+hp_,4.7
+critRate_,2.7
+atk,14.0
+
+ObsidianCodex,flower,5,hp,4,,False,259,Total Rolls:,1.2
+
+key,value
+atk,18.0
+critDMG_,7.0
+hp_,5.8
+eleMas,23.0
+
+ObsidianCodex,flower,5,hp,4,,False,260,Total Rolls:,0.8
+
+key,value
+critRate_,2.7
+def,19.0
+eleMas,16.0
+def_,5.8
+
+ObsidianCodex,flower,5,hp,4,,False,261,Total Rolls:,1.2
+
+key,value
+def_,7.3
+hp_,5.3
+critRate_,3.9
+def,21.0
+
+ObsidianCodex,flower,5,hp,4,,False,262,Total Rolls:,2.1
+
+key,value
+critRate_,3.9
+critDMG_,6.2
+def,16.0
+def_,5.8
+
+ObsidianCodex,flower,5,hp,4,,True,263,Total Rolls:,0.9
+
+key,value
+def,16.0
+critDMG_,6.2
+eleMas,21.0
+hp_,5.3
+
+ObsidianCodex,flower,5,hp,4,,False,264,Total Rolls:,1.3
+
+key,value
+def_,7.3
+hp_,5.3
+critRate_,3.9
+atk,16.0
+
+ObsidianCodex,flower,5,hp,4,,False,265,Total Rolls:,1.5
+
+key,value
+critRate_,2.7
+hp_,5.8
+enerRech_,5.2
+def,21.0
+
+ObsidianCodex,plume,5,atk,4,,False,266,Total Rolls:,1.6
+
+key,value
+critDMG_,7.0
+atk_,5.3
+eleMas,21.0
+def,16.0
+
+ObsidianCodex,plume,5,atk,4,,False,267,Total Rolls:,2.1
+
+key,value
+critRate_,3.1
+critDMG_,5.4
+hp,269.0
+atk_,4.1
+
+ObsidianCodex,plume,5,atk,4,,False,268,Total Rolls:,1.2
+
+key,value
+hp_,4.1
+critDMG_,7.8
+def_,5.8
+def,16.0
+
+ObsidianCodex,plume,5,atk,4,,False,269,Total Rolls:,0.8
+
+key,value
+hp_,5.8
+critDMG_,5.4
+eleMas,21.0
+def,19.0
+
+ObsidianCodex,plume,5,atk,4,,False,270,Total Rolls:,2.2
+
+key,value
+critRate_,3.5
+critDMG_,7.8
+def_,5.1
+hp_,4.7
+
+ObsidianCodex,plume,5,atk,4,,False,271,Total Rolls:,0.8
+
+key,value
+hp,239.0
+critDMG_,5.4
+eleMas,16.0
+def,16.0
+
+ObsidianCodex,plume,5,atk,4,,False,272,Total Rolls:,2.5
+
+key,value
+critRate_,3.1
+enerRech_,4.5
+critDMG_,6.2
+hp,209.0
+
+ObsidianCodex,plume,5,atk,4,,False,273,Total Rolls:,2.3
+
+key,value
+enerRech_,5.8
+hp_,5.3
+critDMG_,7.0
+atk_,4.7
+
+ObsidianCodex,sands,5,eleMas,4,,False,274,Total Rolls:,1.1
+
+key,value
+hp_,5.3
+critRate_,3.5
+def_,6.6
+hp,269.0
+
+ObsidianCodex,sands,5,hp_,4,,False,275,Total Rolls:,2.3
+
+key,value
+critDMG_,6.2
+atk_,5.3
+enerRech_,5.2
+atk,16.0
+
+ObsidianCodex,goblet,5,hp_,4,,True,276,Total Rolls:,2.5
+
+key,value
+atk_,5.3
+eleMas,23.0
+critDMG_,7.8
+enerRech_,5.8
+
+ObsidianCodex,goblet,5,hydro_dmg_,4,Chongyun,True,277,Total Rolls:,0.4
+
+key,value
+eleMas,16.0
+atk_,4.7
+hp,239.0
+hp_,5.3
+
+ScrollOfTheHeroOfCinderCity,sands,5,def_,4,,True,278,Total Rolls:,1.9
+
+key,value
+critRate_,3.5
+hp_,5.3
+enerRech_,5.8
+eleMas,19.0
+
+ScrollOfTheHeroOfCinderCity,goblet,5,def_,4,YunJin,True,279,Total Rolls:,1.6
+
+key,value
+atk_,5.3
+hp,209.0
+critDMG_,7.0
+def,19.0
+
+GoldenTroupe,sands,5,hp_,4,,True,280,Total Rolls:,1.2
+
+key,value
+def_,6.6
+atk,16.0
+critDMG_,7.0
+hp,209.0
+
+MarechausseeHunter,flower,5,hp,4,,True,281,Total Rolls:,2.3
+
+key,value
+eleMas,16.0
+atk_,4.1
+critDMG_,6.2
+critRate_,3.1
+
+MarechausseeHunter,sands,5,hp_,4,,True,282,Total Rolls:,1.1
+
+key,value
+critDMG_,7.0
+def,21.0
+def_,5.1
+hp,269.0
+
+MarechausseeHunter,sands,5,atk_,4,KukiShinobu,True,283,Total Rolls:,2.4
+
+key,value
+atk,19.0
+critRate_,3.9
+critDMG_,7.0
+hp,269.0
+
+MarechausseeHunter,sands,5,hp_,4,,True,284,Total Rolls:,1.5
+
+key,value
+atk_,5.8
+critRate_,3.1
+def_,5.1
+hp,239.0
+
+MarechausseeHunter,circlet,5,critDMG_,4,Barbara,True,285,Total Rolls:,1.4
+
+key,value
+atk_,4.1
+hp,239.0
+atk,16.0
+enerRech_,5.8
+
+VourukashasGlow,flower,5,hp,4,,True,286,Total Rolls:,1.1
+
+key,value
+atk,16.0
+hp_,5.3
+enerRech_,6.5
+def,23.0
+
+NymphsDream,plume,5,atk,4,,True,287,Total Rolls:,1.6
+
+key,value
+critDMG_,7.8
+hp,209.0
+atk_,4.1
+hp_,5.8
+
+DeepwoodMemories,circlet,5,critDMG_,4,,True,288,Total Rolls:,1.4
+
+key,value
+atk_,4.1
+atk,18.0
+hp,209.0
+critRate_,2.7
+
+EmblemOfSeveredFate,plume,5,atk,4,,False,289,Total Rolls:,1.6
+
+key,value
+enerRech_,4.5
+critDMG_,6.2
+eleMas,23.0
+def,16.0
+
+EmblemOfSeveredFate,plume,5,atk,4,,False,290,Total Rolls:,2.3
+
+key,value
+atk_,4.7
+critRate_,3.5
+enerRech_,5.8
+def,16.0
+
+EmblemOfSeveredFate,sands,5,eleMas,4,,False,291,Total Rolls:,1.2
+
+key,value
+critDMG_,7.8
+def_,6.6
+hp,209.0
+hp_,5.8
+
+EmblemOfSeveredFate,sands,5,enerRech_,4,,False,292,Total Rolls:,0.5
+
+key,value
+hp,209.0
+atk_,5.3
+eleMas,19.0
+def_,6.6
+
+EmblemOfSeveredFate,sands,5,enerRech_,4,,False,293,Total Rolls:,0.4
+
+key,value
+eleMas,21.0
+hp,209.0
+def,23.0
+atk_,4.1
+
+EmblemOfSeveredFate,sands,5,hp_,4,,False,294,Total Rolls:,2.0
+
+key,value
+eleMas,21.0
+critRate_,3.1
+critDMG_,6.2
+atk,16.0
+
+EmblemOfSeveredFate,goblet,5,electro_dmg_,4,,False,295,Total Rolls:,1.3
+
+key,value
+hp,299.0
+critRate_,3.9
+hp_,5.8
+atk,14.0
+
+EmblemOfSeveredFate,goblet,5,pyro_dmg_,4,,False,296,Total Rolls:,1.0
+
+key,value
+critDMG_,5.4
+hp,269.0
+def_,5.8
+atk,14.0
+
+EmblemOfSeveredFate,circlet,5,critRate_,4,,False,297,Total Rolls:,1.3
+
+key,value
+hp,299.0
+eleMas,21.0
+enerRech_,5.8
+atk_,4.7
+
+EmblemOfSeveredFate,circlet,5,critRate_,4,,False,298,Total Rolls:,1.4
+
+key,value
+enerRech_,6.5
+def,21.0
+def_,6.6
+atk_,5.3
+
+EmblemOfSeveredFate,circlet,5,critRate_,4,,False,299,Total Rolls:,0.6
+
+key,value
+hp_,4.1
+atk_,4.7
+def_,7.3
+atk,16.0
+
+EmblemOfSeveredFate,circlet,5,critDMG_,4,,False,300,Total Rolls:,1.5
+
+key,value
+def,23.0
+atk_,5.3
+enerRech_,5.8
+atk,19.0
+
+EmblemOfSeveredFate,circlet,5,critRate_,4,,False,301,Total Rolls:,0.8
+
+key,value
+def,23.0
+def_,5.8
+hp_,5.8
+enerRech_,5.8
+
+EmblemOfSeveredFate,circlet,5,critRate_,4,,False,302,Total Rolls:,0.4
+
+key,value
+hp,239.0
+def,23.0
+def_,6.6
+atk_,4.1
+
+EmblemOfSeveredFate,circlet,5,critRate_,4,,False,303,Total Rolls:,0.7
+
+key,value
+atk,18.0
+atk_,5.8
+def,23.0
+def_,5.1
+
+EmblemOfSeveredFate,circlet,5,critDMG_,4,,False,304,Total Rolls:,1.0
+
+key,value
+hp_,5.8
+atk,14.0
+enerRech_,5.8
+eleMas,23.0
+
+EmblemOfSeveredFate,circlet,5,critRate_,4,,False,305,Total Rolls:,1.1
+
+key,value
+enerRech_,6.5
+atk,14.0
+hp_,4.7
+def_,5.8
+
+EmblemOfSeveredFate,circlet,5,heal_,4,Kirara,False,306,Total Rolls:,0.4
+
+key,value
+atk_,4.7
+hp,269.0
+hp_,4.7
+def_,5.1
+
+EmblemOfSeveredFate,circlet,5,heal_,4,,False,307,Total Rolls:,2.5
+
+key,value
+enerRech_,6.5
+def_,6.6
+critRate_,3.9
+atk_,4.1
+
+ShimenawasReminiscence,plume,5,atk,4,,False,308,Total Rolls:,2.6
+
+key,value
+hp,269.0
+critRate_,3.5
+critDMG_,6.2
+enerRech_,4.5
+
+ShimenawasReminiscence,plume,5,atk,4,,True,309,Total Rolls:,1.8
+
+key,value
+eleMas,16.0
+critDMG_,5.4
+critRate_,3.1
+hp_,5.3
+
+ShimenawasReminiscence,plume,5,atk,4,,True,310,Total Rolls:,2.0
+
+key,value
+critRate_,3.5
+hp_,5.8
+critDMG_,6.2
+def_,6.6
+
+ShimenawasReminiscence,plume,5,atk,4,,True,311,Total Rolls:,1.9
+
+key,value
+hp,209.0
+critRate_,2.7
+critDMG_,7.0
+hp_,5.3
+
+ShimenawasReminiscence,plume,5,atk,4,,True,312,Total Rolls:,2.0
+
+key,value
+def,23.0
+critRate_,3.5
+critDMG_,6.2
+hp,239.0
+
+ShimenawasReminiscence,circlet,5,critRate_,4,,False,313,Total Rolls:,0.2
+
+key,value
+hp_,5.8
+eleMas,21.0
+hp,239.0
+atk,18.0
+
+TenacityOfTheMillelith,plume,5,atk,4,,False,314,Total Rolls:,1.5
+
+key,value
+atk_,4.7
+eleMas,23.0
+critRate_,3.5
+hp_,5.8
+
+NoblesseOblige,flower,5,hp,4,,True,315,Total Rolls:,3.0
+
+key,value
+hp_,5.8
+critDMG_,6.2
+atk_,4.1
+enerRech_,11.7
+
+NoblesseOblige,flower,5,hp,4,,True,316,Total Rolls:,2.3
+
+key,value
+enerRech_,5.2
+critDMG_,7.0
+atk_,5.8
+eleMas,21.0
+
+NoblesseOblige,plume,5,atk,4,,False,317,Total Rolls:,2.0
+
+key,value
+critRate_,3.1
+def,19.0
+critDMG_,7.0
+hp,478.0
+
+NoblesseOblige,sands,5,enerRech_,4,,True,318,Total Rolls:,0.9
+
+key,value
+critDMG_,6.2
+eleMas,21.0
+def_,7.3
+def,19.0
+
+NoblesseOblige,circlet,5,critRate_,4,,False,319,Total Rolls:,0.4
+
+key,value
+def,16.0
+eleMas,16.0
+atk_,4.1
+hp,269.0
+
+WanderersTroupe,flower,5,hp,4,,False,320,Total Rolls:,1.0
+
+key,value
+eleMas,23.0
+critRate_,2.7
+atk,14.0
+def_,5.1
+
+WanderersTroupe,plume,5,atk,4,,True,321,Total Rolls:,1.5
+
+key,value
+critDMG_,5.4
+hp_,4.1
+eleMas,16.0
+enerRech_,5.2
+
+Instructor,flower,4,hp,4,Kirara,True,322,Total Rolls:,0.4
+
+key,value
+eleMas,13.0
+def,17.0
+def_,5.3
+atk_,3.7
+
+Instructor,plume,4,atk,4,,True,323,Total Rolls:,1.7
+
+key,value
+def,13.0
+critRate_,2.2
+atk_,3.3
+critDMG_,5.0
+
+Instructor,plume,4,atk,4,,True,324,Total Rolls:,1.2
+
+key,value
+hp,215.0
+atk_,4.7
+critRate_,2.5
+eleMas,17.0
+
+ShimenawasReminiscence,plume,5,atk,3,,True,325,Total Rolls:,2.2
+
+key,value
+critDMG_,7.8
+hp_,5.3
+critRate_,3.5
+eleMas,19.0
+
+ObsidianCodex,flower,5,hp,0,,True,326,Total Rolls:,3.7
+
+key,value
+atk_,4.1
+enerRech_,6.5
+critRate_,3.9
+critDMG_,7.8
+
+ObsidianCodex,flower,5,hp,0,,True,327,Total Rolls:,2.2
+
+key,value
+enerRech_,5.8
+hp_,5.3
+atk,18.0
+critDMG_,7.8
+
+ObsidianCodex,flower,5,hp,0,,True,328,Total Rolls:,1.4
+
+key,value
+critDMG_,7.8
+def,19.0
+atk,18.0
+hp_,4.7
+
+ObsidianCodex,flower,5,hp,0,,True,329,Total Rolls:,2.3
+
+key,value
+critRate_,3.5
+critDMG_,7.0
+atk,14.0
+def,21.0
+
+ObsidianCodex,flower,5,hp,0,,True,330,Total Rolls:,1.8
+
+key,value
+critDMG_,7.8
+atk_,4.7
+atk,19.0
+
+ObsidianCodex,plume,5,atk,0,,True,331,Total Rolls:,2.5
+
+key,value
+atk_,5.3
+enerRech_,6.5
+critDMG_,7.0
+hp_,5.3
+
+ObsidianCodex,plume,5,atk,0,,True,332,Total Rolls:,1.4
+
+key,value
+critRate_,2.7
+hp_,4.1
+eleMas,19.0
+atk_,5.8
+
+ObsidianCodex,plume,5,atk,0,,True,333,Total Rolls:,1.5
+
+key,value
+def,19.0
+critRate_,2.7
+hp_,5.3
+enerRech_,5.2
+
+ObsidianCodex,plume,5,atk,0,,True,334,Total Rolls:,1.4
+
+key,value
+hp_,5.3
+critRate_,3.1
+atk_,5.3
+def_,5.8
+
+ObsidianCodex,plume,5,atk,0,,True,335,Total Rolls:,1.4
+
+key,value
+critRate_,3.1
+atk_,4.7
+eleMas,21.0
+
+ObsidianCodex,plume,5,atk,0,,True,336,Total Rolls:,1.5
+
+key,value
+critDMG_,6.2
+def_,6.6
+atk_,5.8
+
+ObsidianCodex,plume,5,atk,0,,True,337,Total Rolls:,1.7
+
+key,value
+critRate_,3.9
+atk_,5.3
+eleMas,21.0
+
+ObsidianCodex,plume,5,atk,0,,True,338,Total Rolls:,0.0
+
+key,value
+eleMas,23.0
+hp_,5.8
+def,23.0
+
+ObsidianCodex,plume,5,atk,0,,True,339,Total Rolls:,0.8
+
+key,value
+def,16.0
+enerRech_,5.8
+hp_,5.3
+
+ObsidianCodex,plume,5,atk,0,,True,340,Total Rolls:,1.1
+
+key,value
+hp,269.0
+critRate_,3.5
+hp_,5.3
+
+ObsidianCodex,plume,5,atk,0,,True,341,Total Rolls:,1.1
+
+key,value
+eleMas,19.0
+def_,5.8
+critDMG_,7.0
+
+ObsidianCodex,plume,5,atk,0,,True,342,Total Rolls:,1.6
+
+key,value
+enerRech_,4.5
+eleMas,16.0
+critRate_,3.1
+
+ObsidianCodex,plume,5,atk,0,,True,343,Total Rolls:,2.0
+
+key,value
+critRate_,3.9
+enerRech_,5.8
+eleMas,23.0
+
+ObsidianCodex,plume,5,atk,0,,True,344,Total Rolls:,1.6
+
+key,value
+critDMG_,7.8
+atk_,4.7
+def,21.0
+
+ObsidianCodex,sands,5,atk_,0,,True,345,Total Rolls:,1.9
+
+key,value
+hp_,4.7
+enerRech_,5.2
+critRate_,3.9
+hp,269.0
+
+ObsidianCodex,sands,5,atk_,0,,True,346,Total Rolls:,2.8
+
+key,value
+critDMG_,7.0
+eleMas,19.0
+enerRech_,5.8
+critRate_,3.1
+
+ObsidianCodex,sands,5,atk_,0,,True,347,Total Rolls:,2.0
+
+key,value
+def,23.0
+atk,14.0
+enerRech_,6.5
+critRate_,3.1
+
+ObsidianCodex,sands,5,atk_,0,,True,348,Total Rolls:,0.8
+
+key,value
+hp,239.0
+eleMas,16.0
+critRate_,2.7
+
+ObsidianCodex,sands,5,eleMas,0,,True,349,Total Rolls:,1.2
+
+key,value
+critRate_,2.7
+def,16.0
+atk_,4.1
+
+ObsidianCodex,sands,5,atk_,0,,True,350,Total Rolls:,1.7
+
+key,value
+def_,7.3
+enerRech_,5.2
+critDMG_,6.2
+
+ObsidianCodex,sands,5,atk_,0,,True,351,Total Rolls:,1.6
+
+key,value
+enerRech_,4.5
+critRate_,3.1
+def_,7.3
+
+ObsidianCodex,sands,5,atk_,0,,True,352,Total Rolls:,0.8
+
+key,value
+hp_,5.8
+eleMas,19.0
+critRate_,2.7
+
+ObsidianCodex,sands,5,eleMas,0,,True,353,Total Rolls:,1.7
+
+key,value
+atk_,5.8
+enerRech_,6.5
+atk,19.0
+
+ObsidianCodex,sands,5,enerRech_,0,,True,354,Total Rolls:,1.4
+
+key,value
+atk,18.0
+critRate_,3.9
+def,16.0
+
+ObsidianCodex,sands,5,atk_,0,,True,355,Total Rolls:,1.8
+
+key,value
+enerRech_,6.5
+critRate_,3.1
+hp,209.0
+
+ObsidianCodex,goblet,5,pyro_dmg_,0,,True,356,Total Rolls:,1.3
+
+key,value
+def_,5.8
+def,23.0
+atk_,4.1
+critDMG_,6.2
+
+ObsidianCodex,goblet,5,electro_dmg_,0,,True,357,Total Rolls:,1.4
+
+key,value
+hp,269.0
+def_,5.8
+critRate_,2.7
+atk_,5.8
+
+ObsidianCodex,goblet,5,electro_dmg_,0,,True,358,Total Rolls:,1.1
+
+key,value
+atk,16.0
+critRate_,3.1
+hp_,5.3
+
+ObsidianCodex,goblet,5,cryo_dmg_,0,,True,359,Total Rolls:,1.6
+
+key,value
+critRate_,3.9
+atk_,4.1
+hp_,4.7
+
+ObsidianCodex,goblet,5,pyro_dmg_,0,,True,360,Total Rolls:,2.4
+
+key,value
+critDMG_,7.8
+hp_,5.3
+critRate_,3.9
+
+ObsidianCodex,goblet,5,def_,0,Noelle,True,361,Total Rolls:,2.0
+
+key,value
+critDMG_,7.0
+hp_,5.3
+critRate_,3.1
+
+ObsidianCodex,circlet,5,critDMG_,0,,True,362,Total Rolls:,0.6
+
+key,value
+atk_,4.7
+hp_,4.7
+atk,14.0
+
+ObsidianCodex,circlet,5,critDMG_,0,,True,363,Total Rolls:,1.8
+
+key,value
+critRate_,3.9
+atk_,4.1
+atk,19.0
+
+ObsidianCodex,circlet,5,critRate_,0,,True,364,Total Rolls:,1.2
+
+key,value
+critDMG_,7.0
+def_,7.3
+atk,14.0
+
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,365,Total Rolls:,1.3
+
+key,value
+enerRech_,5.8
+atk_,4.7
+hp_,5.3
+def,21.0
+
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,366,Total Rolls:,2.0
+
+key,value
+enerRech_,5.2
+def,21.0
+critRate_,2.7
+atk_,5.3
+
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,367,Total Rolls:,1.1
+
+key,value
+eleMas,21.0
+def,19.0
+enerRech_,4.5
+atk_,4.7
+
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,368,Total Rolls:,1.4
+
+key,value
+eleMas,16.0
+atk,19.0
+hp_,4.7
+critDMG_,7.8
+
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,369,Total Rolls:,1.3
+
+key,value
+atk,18.0
+enerRech_,4.5
+atk_,5.3
+eleMas,16.0
+
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,370,Total Rolls:,1.1
+
+key,value
+critRate_,3.1
+atk,19.0
+hp_,5.3
+def,23.0
+
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,371,Total Rolls:,1.7
+
+key,value
+def_,6.6
+critRate_,3.9
+eleMas,21.0
+atk_,5.8
+
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,372,Total Rolls:,2.3
+
+key,value
+critRate_,3.5
+atk,18.0
+critDMG_,7.0
+
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,373,Total Rolls:,1.5
+
+key,value
+enerRech_,6.5
+atk_,4.7
+atk,14.0
+
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,374,Total Rolls:,0.8
+
+key,value
+critDMG_,5.4
+eleMas,23.0
+hp_,4.1
+
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,375,Total Rolls:,2.0
+
+key,value
+critDMG_,6.2
+critRate_,3.5
+def,16.0
+
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,376,Total Rolls:,1.8
+
+key,value
+critRate_,3.5
+atk,16.0
+atk_,5.8
+
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,377,Total Rolls:,1.0
+
+key,value
+critDMG_,5.4
+hp_,5.8
+atk,19.0
+
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,378,Total Rolls:,1.1
+
+key,value
+eleMas,23.0
+hp_,5.8
+critRate_,3.5
+
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,379,Total Rolls:,0.8
+
+key,value
+enerRech_,5.8
+def,23.0
+hp_,5.3
+
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,380,Total Rolls:,1.6
+
+key,value
+atk_,4.7
+eleMas,21.0
+critRate_,3.9
+
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,381,Total Rolls:,1.3
+
+key,value
+hp_,4.7
+critDMG_,6.2
+atk_,4.1
+
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,382,Total Rolls:,0.5
+
+key,value
+eleMas,21.0
+def,16.0
+atk_,5.3
+
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,383,Total Rolls:,0.6
+
+key,value
+hp_,5.8
+enerRech_,4.5
+eleMas,19.0
+
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,384,Total Rolls:,1.1
+
+key,value
+critDMG_,6.2
+atk,16.0
+def_,6.6
+
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,385,Total Rolls:,1.4
+
+key,value
+atk_,4.7
+critDMG_,6.2
+eleMas,21.0
+
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,386,Total Rolls:,0.9
+
+key,value
+hp_,4.7
+def,16.0
+critDMG_,6.2
+
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,387,Total Rolls:,1.8
+
+key,value
+critRate_,3.1
+enerRech_,6.5
+hp_,5.3
+
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,388,Total Rolls:,1.0
+
+key,value
+hp_,5.8
+enerRech_,5.8
+atk,18.0
+
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,389,Total Rolls:,1.8
+
+key,value
+def,16.0
+critDMG_,6.2
+enerRech_,6.5
+
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,390,Total Rolls:,1.9
+
+key,value
+critDMG_,7.8
+atk,19.0
+atk_,5.8
+
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,391,Total Rolls:,1.4
+
+key,value
+critDMG_,5.4
+atk,14.0
+atk_,4.7
+
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,392,Total Rolls:,1.7
+
+key,value
+def_,5.8
+critDMG_,7.8
+atk_,5.3
+
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,393,Total Rolls:,1.2
+
+key,value
+critDMG_,7.8
+def,19.0
+eleMas,21.0
+
+ScrollOfTheHeroOfCinderCity,flower,5,hp,0,,True,394,Total Rolls:,1.3
+
+key,value
+atk_,4.1
+hp_,5.3
+critDMG_,6.2
+
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,395,Total Rolls:,0.7
+
+key,value
+hp_,5.8
+def,21.0
+enerRech_,5.2
+hp,299.0
+
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,396,Total Rolls:,1.1
+
+key,value
+enerRech_,5.2
+eleMas,19.0
+hp_,4.7
+atk_,4.1
+
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,397,Total Rolls:,2.1
+
+key,value
+hp,299.0
+critDMG_,7.8
+critRate_,3.1
+def_,6.6
+
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,398,Total Rolls:,1.3
+
+key,value
+def_,5.1
+enerRech_,5.8
+atk_,5.3
+def,16.0
+
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,399,Total Rolls:,1.6
+
+key,value
+def,21.0
+atk_,4.1
+critRate_,3.9
+hp_,5.8
+
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,400,Total Rolls:,1.8
+
+key,value
+def,16.0
+critDMG_,7.8
+enerRech_,4.5
+hp_,5.3
+
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,401,Total Rolls:,2.0
+
+key,value
+critRate_,3.5
+def_,6.6
+hp,209.0
+enerRech_,6.5
+
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,402,Total Rolls:,0.6
+
+key,value
+def_,6.6
+atk_,5.8
+def,16.0
+eleMas,19.0
+
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,403,Total Rolls:,1.5
+
+key,value
+hp_,5.8
+def_,5.8
+critRate_,3.5
+atk_,4.7
+
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,404,Total Rolls:,2.1
+
+key,value
+hp_,4.1
+critDMG_,5.4
+atk_,4.1
+critRate_,3.1
+
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,405,Total Rolls:,1.1
+
+key,value
+eleMas,19.0
+critDMG_,7.0
+def_,7.3
+
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,406,Total Rolls:,1.6
+
+key,value
+eleMas,16.0
+critRate_,3.9
+atk_,4.1
+
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,407,Total Rolls:,0.4
+
+key,value
+atk_,4.7
+eleMas,19.0
+def_,7.3
+
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,408,Total Rolls:,1.9
+
+key,value
+hp,209.0
+critDMG_,7.8
+enerRech_,5.2
+
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,409,Total Rolls:,1.1
+
+key,value
+def,23.0
+critRate_,3.5
+hp_,5.3
+
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,410,Total Rolls:,0.5
+
+key,value
+atk_,5.3
+def_,6.6
+hp_,5.3
+
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,411,Total Rolls:,1.4
+
+key,value
+hp,299.0
+atk_,4.7
+critRate_,3.1
+
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,412,Total Rolls:,1.1
+
+key,value
+hp,209.0
+atk_,5.3
+enerRech_,4.5
+
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,413,Total Rolls:,2.1
+
+key,value
+enerRech_,6.5
+def,23.0
+critDMG_,7.8
+
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,414,Total Rolls:,0.6
+
+key,value
+hp_,4.7
+atk_,5.8
+eleMas,16.0
+
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,415,Total Rolls:,0.9
+
+key,value
+enerRech_,6.5
+hp_,4.7
+hp,299.0
+
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,416,Total Rolls:,1.7
+
+key,value
+critDMG_,7.8
+hp_,4.7
+atk_,5.8
+
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,417,Total Rolls:,1.5
+
+key,value
+critDMG_,5.4
+enerRech_,5.2
+eleMas,19.0
+
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,418,Total Rolls:,0.9
+
+key,value
+critRate_,3.1
+def_,6.6
+eleMas,16.0
+
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,419,Total Rolls:,0.6
+
+key,value
+hp_,5.3
+enerRech_,4.5
+hp,209.0
+
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,420,Total Rolls:,2.4
+
+key,value
+critRate_,3.9
+def,21.0
+critDMG_,7.8
+
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,421,Total Rolls:,0.9
+
+key,value
+def,16.0
+enerRech_,6.5
+hp_,5.8
+
+ScrollOfTheHeroOfCinderCity,plume,5,atk,0,,True,422,Total Rolls:,0.9
+
+key,value
+critRate_,3.1
+hp_,4.7
+def,19.0
+
+ScrollOfTheHeroOfCinderCity,sands,5,hp_,0,,True,423,Total Rolls:,0.5
+
+key,value
+eleMas,16.0
+atk_,5.3
+hp,239.0
+def,19.0
+
+ScrollOfTheHeroOfCinderCity,sands,5,hp_,0,,True,424,Total Rolls:,1.1
+
+key,value
+def_,6.6
+def,23.0
+enerRech_,4.5
+atk_,4.7
+
+ScrollOfTheHeroOfCinderCity,sands,5,hp_,0,,True,425,Total Rolls:,1.9
+
+key,value
+atk,16.0
+critDMG_,7.8
+def,21.0
+atk_,5.8
+
+ScrollOfTheHeroOfCinderCity,sands,5,enerRech_,0,,True,426,Total Rolls:,1.6
+
+key,value
+atk_,4.1
+def_,5.8
+hp_,4.1
+critRate_,3.9
+
+ScrollOfTheHeroOfCinderCity,sands,5,enerRech_,0,,True,427,Total Rolls:,1.8
+
+key,value
+critRate_,3.1
+hp,209.0
+def,23.0
+critDMG_,5.4
+
+ScrollOfTheHeroOfCinderCity,sands,5,enerRech_,0,,True,428,Total Rolls:,2.3
+
+key,value
+atk_,5.8
+hp_,5.3
+critDMG_,6.2
+critRate_,2.7
+
+ScrollOfTheHeroOfCinderCity,sands,5,hp_,0,,True,429,Total Rolls:,1.3
+
+key,value
+enerRech_,5.8
+atk_,4.7
+hp,299.0
+def,16.0
+
+ScrollOfTheHeroOfCinderCity,sands,5,hp_,0,,True,430,Total Rolls:,1.4
+
+key,value
+atk,18.0
+atk_,5.3
+enerRech_,5.2
+eleMas,19.0
+
+ScrollOfTheHeroOfCinderCity,sands,5,eleMas,0,,True,431,Total Rolls:,1.9
+
+key,value
+hp_,5.3
+critDMG_,5.4
+critRate_,3.5
+
+ScrollOfTheHeroOfCinderCity,sands,5,def_,0,,True,432,Total Rolls:,1.0
+
+key,value
+critDMG_,5.4
+hp_,4.7
+atk,18.0
+
+ScrollOfTheHeroOfCinderCity,sands,5,def_,0,,True,433,Total Rolls:,2.1
+
+key,value
+hp_,5.8
+enerRech_,6.5
+critDMG_,7.8
+
+ScrollOfTheHeroOfCinderCity,sands,5,eleMas,0,,True,434,Total Rolls:,1.1
+
+key,value
+def,23.0
+enerRech_,6.5
+atk,19.0
+
+ScrollOfTheHeroOfCinderCity,sands,5,enerRech_,0,,True,435,Total Rolls:,2.2
+
+key,value
+atk,19.0
+critDMG_,7.0
+critRate_,3.1
+
+ScrollOfTheHeroOfCinderCity,sands,5,hp_,0,,True,436,Total Rolls:,2.4
+
+key,value
+atk_,4.7
+enerRech_,5.8
+critDMG_,7.8
+
+ScrollOfTheHeroOfCinderCity,sands,5,atk_,0,,True,437,Total Rolls:,1.9
+
+key,value
+enerRech_,6.5
+atk,16.0
+critRate_,2.7
+
+ScrollOfTheHeroOfCinderCity,sands,5,atk_,0,,True,438,Total Rolls:,0.7
+
+key,value
+eleMas,16.0
+hp_,5.3
+enerRech_,5.2
+
+ScrollOfTheHeroOfCinderCity,sands,5,def_,0,,True,439,Total Rolls:,1.6
+
+key,value
+atk_,5.8
+critRate_,3.5
+def,21.0
+
+ScrollOfTheHeroOfCinderCity,sands,5,hp_,0,,True,440,Total Rolls:,0.8
+
+key,value
+critDMG_,5.4
+eleMas,19.0
+def_,6.6
+
+ScrollOfTheHeroOfCinderCity,sands,5,def_,0,,True,441,Total Rolls:,0.6
+
+key,value
+hp,209.0
+atk_,5.8
+hp_,5.3
+
+ScrollOfTheHeroOfCinderCity,sands,5,def_,0,,True,442,Total Rolls:,1.0
+
+key,value
+def,21.0
+enerRech_,5.8
+atk,14.0
+
+ScrollOfTheHeroOfCinderCity,sands,5,hp_,0,,True,443,Total Rolls:,1.5
+
+key,value
+atk_,4.7
+critRate_,3.5
+def,21.0
+
+ScrollOfTheHeroOfCinderCity,sands,5,enerRech_,0,,True,444,Total Rolls:,1.7
+
+key,value
+hp,209.0
+atk_,5.8
+critDMG_,7.8
+
+ScrollOfTheHeroOfCinderCity,sands,5,enerRech_,0,,True,445,Total Rolls:,1.1
+
+key,value
+def_,7.3
+critRate_,3.5
+eleMas,19.0
+
+ScrollOfTheHeroOfCinderCity,sands,5,hp_,0,,True,446,Total Rolls:,0.6
+
+key,value
+eleMas,21.0
+atk_,4.1
+atk,16.0
+
+ScrollOfTheHeroOfCinderCity,sands,5,atk_,0,,True,447,Total Rolls:,1.0
+
+key,value
+critRate_,2.7
+atk,16.0
+eleMas,19.0
+
+ScrollOfTheHeroOfCinderCity,goblet,5,electro_dmg_,0,,True,448,Total Rolls:,2.5
+
+key,value
+def,21.0
+atk_,5.8
+critDMG_,6.2
+critRate_,3.5
+
+ScrollOfTheHeroOfCinderCity,goblet,5,dendro_dmg_,0,,True,449,Total Rolls:,1.4
+
+key,value
+atk_,4.1
+critDMG_,7.0
+eleMas,16.0
+hp_,5.3
+
+ScrollOfTheHeroOfCinderCity,goblet,5,electro_dmg_,0,,True,450,Total Rolls:,1.5
+
+key,value
+def,21.0
+atk,18.0
+atk_,5.3
+enerRech_,5.8
+
+ScrollOfTheHeroOfCinderCity,goblet,5,hydro_dmg_,0,,True,451,Total Rolls:,1.5
+
+key,value
+def_,5.8
+critRate_,3.1
+hp,209.0
+atk_,5.8
+
+ScrollOfTheHeroOfCinderCity,goblet,5,geo_dmg_,0,,True,452,Total Rolls:,2.7
+
+key,value
+def,19.0
+enerRech_,5.8
+critRate_,2.7
+critDMG_,7.0
+
+ScrollOfTheHeroOfCinderCity,goblet,5,geo_dmg_,0,,True,453,Total Rolls:,1.8
+
+key,value
+def_,5.1
+hp,209.0
+critDMG_,7.8
+enerRech_,4.5
+
+ScrollOfTheHeroOfCinderCity,goblet,5,anemo_dmg_,0,,True,454,Total Rolls:,2.0
+
+key,value
+hp,209.0
+critRate_,3.5
+critDMG_,5.4
+atk,16.0
+
+ScrollOfTheHeroOfCinderCity,goblet,5,cryo_dmg_,0,,True,455,Total Rolls:,1.5
+
+key,value
+atk_,4.7
+hp,209.0
+def_,5.1
+critDMG_,7.0
+
+ScrollOfTheHeroOfCinderCity,goblet,5,electro_dmg_,0,,True,456,Total Rolls:,0.5
+
+key,value
+hp,239.0
+hp_,4.7
+atk_,5.3
+
+ScrollOfTheHeroOfCinderCity,goblet,5,hydro_dmg_,0,,True,457,Total Rolls:,1.0
+
+key,value
+atk,19.0
+hp_,5.8
+critRate_,2.7
+
+ScrollOfTheHeroOfCinderCity,goblet,5,hydro_dmg_,0,,True,458,Total Rolls:,0.9
+
+key,value
+eleMas,16.0
+critDMG_,6.2
+def,19.0
+
+ScrollOfTheHeroOfCinderCity,goblet,5,def_,0,,True,459,Total Rolls:,1.1
+
+key,value
+hp_,5.3
+atk,16.0
+enerRech_,6.5
+
+ScrollOfTheHeroOfCinderCity,goblet,5,pyro_dmg_,0,,True,460,Total Rolls:,1.1
+
+key,value
+atk_,4.1
+eleMas,21.0
+enerRech_,5.2
+
+ScrollOfTheHeroOfCinderCity,goblet,5,def_,0,,True,461,Total Rolls:,1.5
+
+key,value
+atk,14.0
+atk_,5.8
+enerRech_,5.8
+
+ScrollOfTheHeroOfCinderCity,goblet,5,cryo_dmg_,0,,True,462,Total Rolls:,1.4
+
+key,value
+eleMas,19.0
+atk_,4.1
+critRate_,3.5
+
+ScrollOfTheHeroOfCinderCity,goblet,5,anemo_dmg_,0,,True,463,Total Rolls:,0.7
+
+key,value
+hp_,4.1
+atk,18.0
+atk_,5.8
+
+ScrollOfTheHeroOfCinderCity,goblet,5,anemo_dmg_,0,,True,464,Total Rolls:,1.0
+
+key,value
+critRate_,2.7
+atk,14.0
+eleMas,19.0
+
+ScrollOfTheHeroOfCinderCity,goblet,5,hydro_dmg_,0,,True,465,Total Rolls:,1.1
+
+key,value
+def_,5.8
+atk,18.0
+critRate_,3.1
+
+ScrollOfTheHeroOfCinderCity,goblet,5,electro_dmg_,0,,True,466,Total Rolls:,2.4
+
+key,value
+atk,16.0
+critDMG_,7.0
+critRate_,3.9
+
+ScrollOfTheHeroOfCinderCity,circlet,5,def_,0,,True,467,Total Rolls:,1.0
+
+key,value
+hp_,5.8
+atk,18.0
+def,16.0
+enerRech_,5.8
+
+ScrollOfTheHeroOfCinderCity,circlet,5,def_,0,Gorou,True,468,Total Rolls:,1.0
+
+key,value
+hp_,4.7
+enerRech_,5.8
+atk,14.0
+def,21.0
+
+ScrollOfTheHeroOfCinderCity,circlet,5,critDMG_,0,,True,469,Total Rolls:,1.2
+
+key,value
+critRate_,3.9
+hp_,4.7
+hp,209.0
+eleMas,21.0
+
+ScrollOfTheHeroOfCinderCity,circlet,5,atk_,0,,True,470,Total Rolls:,0.8
+
+key,value
+eleMas,23.0
+critDMG_,5.4
+hp_,5.8
+def,21.0
+
+ScrollOfTheHeroOfCinderCity,circlet,5,def_,0,,True,471,Total Rolls:,1.1
+
+key,value
+atk_,4.1
+enerRech_,5.2
+hp,209.0
+
+ScrollOfTheHeroOfCinderCity,circlet,5,critRate_,0,,True,472,Total Rolls:,1.7
+
+key,value
+critDMG_,7.0
+enerRech_,4.5
+hp,209.0
+
+ScrollOfTheHeroOfCinderCity,circlet,5,def_,0,,True,473,Total Rolls:,0.8
+
+key,value
+critRate_,2.7
+hp,239.0
+hp_,5.3
+
+ScrollOfTheHeroOfCinderCity,circlet,5,heal_,0,,True,474,Total Rolls:,0.6
+
+key,value
+def_,5.1
+atk_,5.8
+def,21.0
+
+ScrollOfTheHeroOfCinderCity,circlet,5,def_,0,,True,475,Total Rolls:,1.8
+
+key,value
+enerRech_,5.8
+atk,19.0
+critDMG_,5.4
+
+ScrollOfTheHeroOfCinderCity,circlet,5,heal_,0,,True,476,Total Rolls:,1.5
+
+key,value
+critDMG_,6.2
+def_,5.8
+atk_,5.8
+
+ScrollOfTheHeroOfCinderCity,circlet,5,critDMG_,0,,True,477,Total Rolls:,0.8
+
+key,value
+def,23.0
+hp,209.0
+critRate_,2.7
+
+ScrollOfTheHeroOfCinderCity,circlet,5,critRate_,0,,True,478,Total Rolls:,0.9
+
+key,value
+def,19.0
+hp,299.0
+enerRech_,6.5
+
+ScrollOfTheHeroOfCinderCity,circlet,5,critRate_,0,,True,479,Total Rolls:,0.9
+
+key,value
+def,23.0
+hp,299.0
+critDMG_,6.2
+
+ScrollOfTheHeroOfCinderCity,circlet,5,def_,0,,True,480,Total Rolls:,1.9
+
+key,value
+atk,18.0
+atk_,5.3
+critRate_,3.9
+
+ScrollOfTheHeroOfCinderCity,circlet,5,atk_,0,,True,481,Total Rolls:,2.1
+
+key,value
+critDMG_,6.2
+critRate_,3.9
+hp,239.0
+
+ScrollOfTheHeroOfCinderCity,circlet,5,critDMG_,0,,True,482,Total Rolls:,1.3
+
+key,value
+atk_,4.1
+eleMas,21.0
+critRate_,3.1
+
+ScrollOfTheHeroOfCinderCity,circlet,5,critDMG_,0,,True,483,Total Rolls:,0.7
+
+key,value
+def,19.0
+hp,209.0
+enerRech_,5.2
+
+ScrollOfTheHeroOfCinderCity,circlet,5,heal_,0,,True,484,Total Rolls:,1.7
+
+key,value
+enerRech_,6.5
+atk,19.0
+atk_,5.8
+
+ScrollOfTheHeroOfCinderCity,circlet,5,atk_,0,,True,485,Total Rolls:,1.7
+
+key,value
+critDMG_,5.4
+def,23.0
+enerRech_,6.5
+
+ScrollOfTheHeroOfCinderCity,circlet,5,critDMG_,0,,True,486,Total Rolls:,0.0
+
+key,value
+def_,6.6
+hp,269.0
+hp_,4.1
+
+ScrollOfTheHeroOfCinderCity,circlet,5,def_,0,,True,487,Total Rolls:,1.1
+
+key,value
+critDMG_,7.0
+hp_,5.8
+eleMas,19.0
+
+ScrollOfTheHeroOfCinderCity,circlet,5,hp_,0,,True,488,Total Rolls:,0.9
+
+key,value
+critDMG_,6.2
+def,23.0
+hp,209.0
+
+ScrollOfTheHeroOfCinderCity,circlet,5,critRate_,0,,True,489,Total Rolls:,1.4
+
+key,value
+critDMG_,7.8
+atk,19.0
+def_,6.6
+
+ScrollOfTheHeroOfCinderCity,circlet,5,def_,0,,True,490,Total Rolls:,1.4
+
+key,value
+enerRech_,5.8
+def,23.0
+atk_,5.8
+
+ScrollOfTheHeroOfCinderCity,circlet,5,heal_,0,,True,491,Total Rolls:,1.5
+
+key,value
+atk,18.0
+critRate_,3.1
+atk_,4.1
+
+GoldenTroupe,flower,5,hp,0,,True,492,Total Rolls:,2.3
+
+key,value
+atk,14.0
+def,16.0
+critRate_,3.9
+critDMG_,6.2
+
+GoldenTroupe,flower,5,hp,0,,True,493,Total Rolls:,1.2
+
+key,value
+critDMG_,7.8
+hp_,5.3
+eleMas,23.0
+
+GoldenTroupe,flower,5,hp,0,,True,494,Total Rolls:,0.9
+
+key,value
+hp_,5.8
+critDMG_,6.2
+def_,7.3
+
+GoldenTroupe,plume,5,atk,0,,True,495,Total Rolls:,2.4
+
+key,value
+critRate_,3.5
+atk_,4.1
+enerRech_,6.5
+
+GoldenTroupe,goblet,5,atk_,0,,True,496,Total Rolls:,1.7
+
+key,value
+hp,299.0
+critRate_,3.1
+enerRech_,5.2
+
+MarechausseeHunter,flower,5,hp,0,,True,497,Total Rolls:,1.2
+
+key,value
+hp_,4.7
+eleMas,21.0
+critDMG_,7.8
+
+MarechausseeHunter,plume,5,atk,0,,True,498,Total Rolls:,1.8
+
+key,value
+def_,5.8
+critRate_,3.9
+enerRech_,4.5
+
+MarechausseeHunter,plume,5,atk,0,,True,499,Total Rolls:,0.8
+
+key,value
+critRate_,2.7
+hp_,4.1
+def_,5.8
+
+MarechausseeHunter,plume,5,atk,0,,True,500,Total Rolls:,2.0
+
+key,value
+critRate_,2.7
+critDMG_,7.8
+hp,239.0
+
+MarechausseeHunter,sands,5,hp_,0,,True,501,Total Rolls:,1.4
+
+key,value
+critDMG_,5.4
+def,21.0
+enerRech_,4.5
+
+MarechausseeHunter,sands,5,eleMas,0,,True,502,Total Rolls:,1.1
+
+key,value
+hp,269.0
+def_,5.8
+critDMG_,7.0
+
+VourukashasGlow,flower,5,hp,0,,True,503,Total Rolls:,1.9
+
+key,value
+enerRech_,5.8
+critDMG_,6.2
+hp_,4.1
+atk,14.0
+
+VourukashasGlow,flower,5,hp,0,,True,504,Total Rolls:,1.5
+
+key,value
+critRate_,3.1
+def,19.0
+hp_,5.3
+atk_,5.8
+
+VourukashasGlow,flower,5,hp,0,,True,505,Total Rolls:,1.7
+
+key,value
+atk_,5.3
+critRate_,3.9
+def,16.0
+
+VourukashasGlow,plume,5,atk,0,,True,506,Total Rolls:,1.2
+
+key,value
+def,16.0
+hp_,4.7
+enerRech_,4.5
+atk_,5.8
+
+VourukashasGlow,sands,5,hp_,0,,True,507,Total Rolls:,0.6
+
+key,value
+hp,299.0
+def,16.0
+enerRech_,4.5
+def_,7.3
+
+VourukashasGlow,sands,5,enerRech_,0,,True,508,Total Rolls:,0.2
+
+key,value
+hp,299.0
+atk,18.0
+def_,6.6
+
+VourukashasGlow,goblet,5,hp_,0,,True,509,Total Rolls:,1.1
+
+key,value
+atk,14.0
+def,19.0
+critDMG_,6.2
+
+NymphsDream,sands,5,atk_,0,,True,510,Total Rolls:,1.9
+
+key,value
+enerRech_,5.8
+hp_,5.3
+def,16.0
+critDMG_,7.0
+
+NymphsDream,sands,5,hp_,0,,True,511,Total Rolls:,2.2
+
+key,value
+hp,239.0
+critRate_,3.5
+critDMG_,7.8
+
+FlowerOfParadiseLost,flower,5,hp,0,,True,512,Total Rolls:,1.0
+
+key,value
+critDMG_,5.4
+def,19.0
+atk,18.0
+eleMas,19.0
+
+FlowerOfParadiseLost,flower,5,hp,0,,True,513,Total Rolls:,0.6
+
+key,value
+hp_,4.1
+enerRech_,4.5
+def_,7.3
+
+FlowerOfParadiseLost,flower,5,hp,0,,True,514,Total Rolls:,1.4
+
+key,value
+critRate_,3.1
+atk_,5.3
+eleMas,19.0
+
+FlowerOfParadiseLost,flower,5,hp,0,,True,515,Total Rolls:,1.1
+
+key,value
+atk,18.0
+eleMas,19.0
+critRate_,3.1
+
+FlowerOfParadiseLost,flower,5,hp,0,,True,516,Total Rolls:,0.2
+
+key,value
+def_,6.6
+atk,18.0
+eleMas,23.0
+
+FlowerOfParadiseLost,flower,5,hp,0,,True,517,Total Rolls:,0.2
+
+key,value
+hp_,5.3
+atk,16.0
+eleMas,16.0
+
+FlowerOfParadiseLost,plume,5,atk,0,,True,518,Total Rolls:,2.0
+
+key,value
+critDMG_,5.4
+hp_,5.8
+atk_,5.8
+enerRech_,4.5
+
+FlowerOfParadiseLost,plume,5,atk,0,,True,519,Total Rolls:,0.0
+
+key,value
+eleMas,19.0
+hp,209.0
+def,16.0
+
+FlowerOfParadiseLost,plume,5,atk,0,,True,520,Total Rolls:,0.6
+
+key,value
+eleMas,16.0
+atk_,5.8
+hp,209.0
+
+FlowerOfParadiseLost,plume,5,atk,0,,True,521,Total Rolls:,0.8
+
+key,value
+critRate_,2.7
+eleMas,21.0
+def,16.0
+
+FlowerOfParadiseLost,plume,5,atk,0,,True,522,Total Rolls:,1.6
+
+key,value
+def,23.0
+critDMG_,5.4
+critRate_,2.7
+
+FlowerOfParadiseLost,plume,5,atk,0,,True,523,Total Rolls:,0.0
+
+key,value
+hp,209.0
+eleMas,23.0
+def_,5.8
+
+FlowerOfParadiseLost,sands,5,enerRech_,0,,True,524,Total Rolls:,1.5
+
+key,value
+atk_,5.8
+critRate_,3.1
+hp,239.0
+
+FlowerOfParadiseLost,circlet,5,hp_,0,,True,525,Total Rolls:,1.4
+
+key,value
+def,16.0
+atk_,5.8
+critDMG_,5.4
+eleMas,19.0
+
+FlowerOfParadiseLost,circlet,5,critRate_,0,,True,526,Total Rolls:,0.7
+
+key,value
+hp,269.0
+enerRech_,5.2
+def_,6.6
+
+FlowerOfParadiseLost,circlet,5,critRate_,0,,True,527,Total Rolls:,0.0
+
+key,value
+hp,299.0
+hp_,4.1
+def_,6.6
+
+FlowerOfParadiseLost,circlet,5,hp_,0,,True,528,Total Rolls:,0.9
+
+key,value
+enerRech_,5.2
+hp,209.0
+atk,14.0
+
+DesertPavilionChronicle,flower,5,hp,0,,True,529,Total Rolls:,1.8
+
+key,value
+eleMas,23.0
+atk,16.0
+critDMG_,7.0
+atk_,5.8
+
+DesertPavilionChronicle,flower,5,hp,0,,True,530,Total Rolls:,2.1
+
+key,value
+def,19.0
+critRate_,3.9
+critDMG_,6.2
+
+DesertPavilionChronicle,flower,5,hp,0,,True,531,Total Rolls:,0.8
+
+key,value
+def,19.0
+eleMas,21.0
+critRate_,2.7
+
+DesertPavilionChronicle,flower,5,hp,0,,True,532,Total Rolls:,1.6
+
+key,value
+critDMG_,6.2
+def_,6.6
+enerRech_,4.5
+
+DesertPavilionChronicle,flower,5,hp,0,,True,533,Total Rolls:,1.6
+
+key,value
+critDMG_,6.2
+def,21.0
+enerRech_,4.5
+
+DesertPavilionChronicle,plume,5,atk,0,,True,534,Total Rolls:,2.0
+
+key,value
+critDMG_,7.0
+critRate_,3.1
+hp_,5.3
+
+DesertPavilionChronicle,plume,5,atk,0,,True,535,Total Rolls:,1.5
+
+key,value
+enerRech_,5.2
+critDMG_,5.4
+hp_,4.7
+
+DesertPavilionChronicle,sands,5,atk_,0,,True,536,Total Rolls:,2.4
+
+key,value
+atk,14.0
+critRate_,3.5
+critDMG_,7.8
+hp,269.0
+
+DesertPavilionChronicle,sands,5,enerRech_,0,,True,537,Total Rolls:,1.4
+
+key,value
+eleMas,21.0
+critRate_,3.1
+def,16.0
+atk_,4.7
+
+DesertPavilionChronicle,sands,5,enerRech_,0,,True,538,Total Rolls:,1.6
+
+key,value
+critRate_,3.9
+eleMas,19.0
+atk_,4.7
+
+DesertPavilionChronicle,circlet,5,critDMG_,0,,True,539,Total Rolls:,1.1
+
+key,value
+eleMas,23.0
+def,21.0
+critRate_,3.5
+
+DesertPavilionChronicle,circlet,5,critRate_,0,,True,540,Total Rolls:,0.6
+
+key,value
+def,19.0
+atk_,5.8
+eleMas,19.0
+
+GildedDreams,plume,5,atk,0,,True,541,Total Rolls:,2.1
+
+key,value
+hp_,4.1
+atk_,5.3
+enerRech_,5.8
+critRate_,2.7
+
+GildedDreams,plume,5,atk,0,,True,542,Total Rolls:,1.4
+
+key,value
+atk_,5.8
+hp,269.0
+critRate_,2.7
+def_,5.8
+
+GildedDreams,plume,5,atk,0,,True,543,Total Rolls:,1.2
+
+key,value
+def,23.0
+hp,209.0
+critRate_,3.9
+
+GildedDreams,plume,5,atk,0,,True,544,Total Rolls:,1.4
+
+key,value
+atk_,5.8
+enerRech_,5.8
+hp,299.0
+
+GildedDreams,sands,5,enerRech_,0,,True,545,Total Rolls:,0.6
+
+key,value
+eleMas,19.0
+def,19.0
+atk,16.0
+atk_,4.7
+
+GildedDreams,sands,5,atk_,0,,True,546,Total Rolls:,0.9
+
+key,value
+def_,7.3
+hp,209.0
+critRate_,3.1
+eleMas,21.0
+
+GildedDreams,sands,5,enerRech_,0,,True,547,Total Rolls:,0.1
+
+key,value
+eleMas,19.0
+atk,14.0
+def_,7.3
+
+GildedDreams,sands,5,atk_,0,,True,548,Total Rolls:,0.2
+
+key,value
+atk,18.0
+hp_,4.7
+eleMas,23.0
+
+GildedDreams,sands,5,eleMas,0,,True,549,Total Rolls:,0.0
+
+key,value
+hp,239.0
+def,21.0
+hp_,4.1
+
+GildedDreams,goblet,5,hydro_dmg_,0,,True,550,Total Rolls:,0.8
+
+key,value
+eleMas,23.0
+def_,7.3
+critDMG_,5.4
+
+GildedDreams,goblet,5,pyro_dmg_,0,,True,551,Total Rolls:,0.4
+
+key,value
+hp,239.0
+atk_,4.1
+eleMas,23.0
+
+GildedDreams,circlet,5,heal_,0,,True,552,Total Rolls:,2.7
+
+key,value
+atk_,5.8
+critDMG_,6.2
+critRate_,3.5
+atk,19.0
+
+GildedDreams,circlet,5,critRate_,0,,True,553,Total Rolls:,0.4
+
+key,value
+def,21.0
+def_,5.8
+eleMas,23.0
+atk_,4.7
+
+GildedDreams,circlet,5,critRate_,0,,True,554,Total Rolls:,0.4
+
+key,value
+atk_,4.7
+hp,299.0
+hp_,5.8
+
+GildedDreams,circlet,5,heal_,0,,True,555,Total Rolls:,1.5
+
+key,value
+critRate_,3.1
+atk_,4.1
+atk,14.0
+
+GildedDreams,circlet,5,critRate_,0,,True,556,Total Rolls:,0.4
+
+key,value
+atk_,4.1
+def_,5.1
+hp,209.0
+
+GildedDreams,circlet,5,critDMG_,0,,True,557,Total Rolls:,1.0
+
+key,value
+hp,209.0
+enerRech_,5.8
+atk,14.0
+
+GildedDreams,circlet,5,critRate_,0,,True,558,Total Rolls:,0.0
+
+key,value
+hp,269.0
+def,19.0
+eleMas,19.0
+
+DeepwoodMemories,flower,5,hp,0,,True,559,Total Rolls:,2.5
+
+key,value
+critRate_,2.7
+hp_,4.1
+critDMG_,7.8
+atk_,5.3
+
+DeepwoodMemories,flower,5,hp,0,,True,560,Total Rolls:,2.1
+
+key,value
+critRate_,3.1
+def_,6.6
+enerRech_,5.2
+atk_,4.7
+
+DeepwoodMemories,flower,5,hp,0,,True,561,Total Rolls:,0.5
+
+key,value
+atk_,5.3
+hp_,5.8
+eleMas,23.0
+
+DeepwoodMemories,flower,5,hp,0,,True,562,Total Rolls:,0.7
+
+key,value
+def,16.0
+enerRech_,5.2
+eleMas,21.0
+
+DeepwoodMemories,flower,5,hp,0,,True,563,Total Rolls:,0.8
+
+key,value
+enerRech_,5.8
+eleMas,23.0
+def,21.0
+
+DeepwoodMemories,flower,5,hp,0,,True,564,Total Rolls:,0.9
+
+key,value
+hp_,5.3
+eleMas,16.0
+critDMG_,6.2
+
+DeepwoodMemories,flower,5,hp,0,,True,565,Total Rolls:,1.7
+
+key,value
+critRate_,3.1
+hp_,5.8
+enerRech_,5.2
+
+DeepwoodMemories,flower,5,hp,0,,True,566,Total Rolls:,1.4
+
+key,value
+atk_,4.1
+critDMG_,7.0
+def_,6.6
+
+DeepwoodMemories,plume,5,atk,0,,True,567,Total Rolls:,0.4
+
+key,value
+eleMas,21.0
+def_,6.6
+hp_,5.3
+atk_,4.7
+
+DeepwoodMemories,plume,5,atk,0,,True,568,Total Rolls:,1.3
+
+key,value
+critDMG_,6.2
+atk_,4.1
+hp_,4.1
+def,16.0
+
+DeepwoodMemories,plume,5,atk,0,Collei,True,569,Total Rolls:,1.4
+
+key,value
+critDMG_,6.2
+atk_,4.7
+hp,209.0
+def,19.0
+
+DeepwoodMemories,plume,5,atk,0,,True,570,Total Rolls:,0.5
+
+key,value
+eleMas,21.0
+atk_,5.3
+hp,239.0
+
+DeepwoodMemories,plume,5,atk,0,,True,571,Total Rolls:,0.4
+
+key,value
+hp,299.0
+atk_,4.1
+eleMas,21.0
+
+DeepwoodMemories,sands,5,hp_,0,,True,572,Total Rolls:,1.0
+
+key,value
+def,19.0
+atk,14.0
+critRate_,2.7
+
+DeepwoodMemories,sands,5,atk_,0,,True,573,Total Rolls:,0.9
+
+key,value
+hp,239.0
+critDMG_,6.2
+eleMas,16.0
+
+DeepwoodMemories,sands,5,hp_,0,,True,574,Total Rolls:,1.4
+
+key,value
+atk,14.0
+enerRech_,5.8
+atk_,4.7
+
+DeepwoodMemories,sands,5,atk_,0,Collei,True,575,Total Rolls:,1.8
+
+key,value
+critDMG_,7.0
+enerRech_,5.2
+hp,299.0
+
+DeepwoodMemories,sands,5,enerRech_,0,,True,576,Total Rolls:,1.2
+
+key,value
+atk,16.0
+critDMG_,7.0
+def_,6.6
+
+DeepwoodMemories,sands,5,atk_,0,,True,577,Total Rolls:,1.0
+
+key,value
+def,23.0
+atk,18.0
+critRate_,2.7
+
+DeepwoodMemories,sands,5,hp_,0,,True,578,Total Rolls:,2.0
+
+key,value
+hp,209.0
+enerRech_,6.5
+critDMG_,7.0
+
+DeepwoodMemories,goblet,5,hp_,0,Yanfei,True,579,Total Rolls:,1.1
+
+key,value
+def,23.0
+eleMas,21.0
+hp,299.0
+critDMG_,7.0
+
+DeepwoodMemories,goblet,5,hydro_dmg_,0,Thoma,True,580,Total Rolls:,1.2
+
+key,value
+atk,16.0
+hp_,5.3
+critRate_,3.5
+
+DeepwoodMemories,circlet,5,hp_,0,Yanfei,True,581,Total Rolls:,1.2
+
+key,value
+atk_,4.7
+def,21.0
+hp,269.0
+enerRech_,5.2
+
+DeepwoodMemories,circlet,5,hp_,0,,True,582,Total Rolls:,1.3
+
+key,value
+def,19.0
+atk,19.0
+critRate_,3.5
+
+DeepwoodMemories,circlet,5,heal_,0,,True,583,Total Rolls:,1.1
+
+key,value
+def,21.0
+atk,18.0
+enerRech_,6.5
+
+EchoesOfAnOffering,flower,5,hp,0,,True,584,Total Rolls:,1.7
+
+key,value
+enerRech_,5.2
+critDMG_,6.2
+def_,5.8
+
+EchoesOfAnOffering,sands,5,atk_,0,,True,585,Total Rolls:,1.8
+
+key,value
+critDMG_,5.4
+hp_,5.8
+critRate_,3.1
+
+EmblemOfSeveredFate,flower,5,hp,0,,True,586,Total Rolls:,2.0
+
+key,value
+critDMG_,6.2
+critRate_,3.5
+hp_,5.8
+def,23.0
+
+EmblemOfSeveredFate,flower,5,hp,0,,True,587,Total Rolls:,2.3
+
+key,value
+critRate_,3.1
+atk,18.0
+enerRech_,5.2
+atk_,4.7
+
+EmblemOfSeveredFate,flower,5,hp,0,,True,588,Total Rolls:,2.2
+
+key,value
+enerRech_,4.5
+atk_,5.3
+critRate_,3.5
+
+EmblemOfSeveredFate,flower,5,hp,0,,False,589,Total Rolls:,1.0
+
+key,value
+enerRech_,5.8
+atk,16.0
+eleMas,23.0
+
+EmblemOfSeveredFate,flower,5,hp,0,,False,590,Total Rolls:,1.5
+
+key,value
+atk,18.0
+atk_,4.7
+enerRech_,6.5
+
+EmblemOfSeveredFate,flower,5,hp,0,,True,591,Total Rolls:,2.2
+
+key,value
+atk,18.0
+critDMG_,6.2
+critRate_,3.5
+
+EmblemOfSeveredFate,flower,5,hp,0,,True,592,Total Rolls:,1.5
+
+key,value
+def_,7.3
+atk_,4.7
+critRate_,3.5
+
+EmblemOfSeveredFate,flower,5,hp,0,,True,593,Total Rolls:,1.6
+
+key,value
+critDMG_,6.2
+def,19.0
+enerRech_,4.5
+
+EmblemOfSeveredFate,flower,5,hp,0,,True,594,Total Rolls:,1.3
+
+key,value
+atk_,4.1
+def_,6.6
+critDMG_,6.2
+
+EmblemOfSeveredFate,flower,5,hp,0,,True,595,Total Rolls:,1.9
+
+key,value
+enerRech_,6.5
+critRate_,2.7
+atk,18.0
+
+EmblemOfSeveredFate,flower,5,hp,0,,True,596,Total Rolls:,1.8
+
+key,value
+def,21.0
+critRate_,3.5
+enerRech_,5.2
+
+EmblemOfSeveredFate,flower,5,hp,0,,True,597,Total Rolls:,1.4
+
+key,value
+critDMG_,5.4
+atk_,5.8
+hp_,5.8
+
+EmblemOfSeveredFate,flower,5,hp,0,,True,598,Total Rolls:,2.0
+
+key,value
+def,21.0
+critRate_,3.9
+enerRech_,5.8
+
+EmblemOfSeveredFate,flower,5,hp,0,,True,599,Total Rolls:,1.7
+
+key,value
+enerRech_,5.2
+critRate_,2.7
+atk,19.0
+
+EmblemOfSeveredFate,flower,5,hp,0,,True,600,Total Rolls:,1.5
+
+key,value
+atk_,5.8
+atk,18.0
+critDMG_,5.4
+
+EmblemOfSeveredFate,flower,5,hp,0,,True,601,Total Rolls:,1.6
+
+key,value
+def,19.0
+critDMG_,7.0
+atk_,5.3
+
+EmblemOfSeveredFate,flower,5,hp,0,,True,602,Total Rolls:,1.7
+
+key,value
+critRate_,3.9
+def,23.0
+atk_,5.3
+
+EmblemOfSeveredFate,flower,5,hp,0,,True,603,Total Rolls:,1.7
+
+key,value
+def,16.0
+enerRech_,5.2
+critRate_,3.1
+
+EmblemOfSeveredFate,plume,5,atk,0,,False,604,Total Rolls:,1.6
+
+key,value
+critRate_,3.9
+atk_,4.7
+hp,269.0
+eleMas,19.0
+
+EmblemOfSeveredFate,plume,5,atk,0,,True,605,Total Rolls:,1.3
+
+key,value
+eleMas,23.0
+critRate_,2.7
+atk_,5.3
+hp_,5.3
+
+EmblemOfSeveredFate,plume,5,atk,0,,True,606,Total Rolls:,2.1
+
+key,value
+critDMG_,7.0
+hp,209.0
+critRate_,3.5
+def_,6.6
+
+EmblemOfSeveredFate,plume,5,atk,0,,True,607,Total Rolls:,1.7
+
+key,value
+critDMG_,7.8
+hp,239.0
+atk_,5.3
+
+EmblemOfSeveredFate,plume,5,atk,0,,True,608,Total Rolls:,1.8
+
+key,value
+critDMG_,7.0
+enerRech_,5.2
+def_,5.1
+
+EmblemOfSeveredFate,plume,5,atk,0,,True,609,Total Rolls:,1.8
+
+key,value
+critDMG_,7.0
+enerRech_,5.2
+def,19.0
+
+EmblemOfSeveredFate,plume,5,atk,0,,True,610,Total Rolls:,1.6
+
+key,value
+eleMas,16.0
+critDMG_,6.2
+enerRech_,4.5
+
+EmblemOfSeveredFate,plume,5,atk,0,,True,611,Total Rolls:,1.5
+
+key,value
+atk_,5.8
+def,21.0
+critRate_,3.1
+
+EmblemOfSeveredFate,plume,5,atk,0,,True,612,Total Rolls:,1.8
+
+key,value
+hp,239.0
+enerRech_,5.2
+critDMG_,7.0
+
+EmblemOfSeveredFate,plume,5,atk,0,,True,614,Total Rolls:,1.3
+
+key,value
+def,16.0
+critRate_,3.1
+atk_,4.1
+
+EmblemOfSeveredFate,plume,5,atk,0,,True,613,Total Rolls:,1.8
+
+key,value
+hp_,4.1
+enerRech_,5.2
+critDMG_,7.0
+
+EmblemOfSeveredFate,plume,5,atk,0,,True,615,Total Rolls:,1.3
+
+key,value
+critDMG_,5.4
+hp,239.0
+atk_,5.3
+
+EmblemOfSeveredFate,plume,5,atk,0,,True,616,Total Rolls:,2.1
+
+key,value
+def,19.0
+enerRech_,6.5
+critRate_,3.9
+
+EmblemOfSeveredFate,sands,5,eleMas,0,,True,617,Total Rolls:,1.6
+
+key,value
+hp,269.0
+def,23.0
+critDMG_,7.8
+atk_,4.7
+
+EmblemOfSeveredFate,sands,5,eleMas,0,,True,618,Total Rolls:,1.6
+
+key,value
+hp_,4.1
+atk_,4.7
+hp,239.0
+critRate_,3.9
+
+EmblemOfSeveredFate,sands,5,atk_,0,,True,619,Total Rolls:,2.0
+
+key,value
+critRate_,3.1
+eleMas,21.0
+critDMG_,7.0
+def_,5.1
+
+EmblemOfSeveredFate,sands,5,hp_,0,,True,620,Total Rolls:,1.9
+
+key,value
+atk,14.0
+eleMas,16.0
+critRate_,2.7
+critDMG_,6.2
+
+EmblemOfSeveredFate,sands,5,atk_,0,,True,621,Total Rolls:,1.9
+
+key,value
+def_,5.8
+critDMG_,5.4
+critRate_,3.5
+
+EmblemOfSeveredFate,sands,5,atk_,0,,True,622,Total Rolls:,2.0
+
+key,value
+critRate_,3.9
+enerRech_,5.8
+hp,239.0
+
+EmblemOfSeveredFate,goblet,5,anemo_dmg_,0,,True,623,Total Rolls:,2.9
+
+key,value
+critRate_,3.9
+hp,209.0
+critDMG_,7.8
+atk_,5.8
+
+EmblemOfSeveredFate,circlet,5,critDMG_,0,,True,624,Total Rolls:,1.3
+
+key,value
+hp,239.0
+def_,5.1
+critRate_,3.1
+atk_,4.1
+
+EmblemOfSeveredFate,circlet,5,atk_,0,,False,625,Total Rolls:,1.2
+
+key,value
+critDMG_,7.8
+eleMas,23.0
+def_,5.1
+
+EmblemOfSeveredFate,circlet,5,critRate_,0,,False,626,Total Rolls:,1.1
+
+key,value
+def_,5.1
+hp_,5.3
+critDMG_,7.0
+
+EmblemOfSeveredFate,circlet,5,critDMG_,0,,True,627,Total Rolls:,1.3
+
+key,value
+def,21.0
+enerRech_,5.2
+atk_,5.8
+
+EmblemOfSeveredFate,circlet,5,hp_,0,,True,628,Total Rolls:,2.7
+
+key,value
+enerRech_,5.8
+critRate_,2.7
+critDMG_,7.0
+
+ShimenawasReminiscence,flower,5,hp,0,,True,629,Total Rolls:,1.3
+
+key,value
+atk_,4.1
+critDMG_,6.2
+def,19.0
+eleMas,19.0
+
+ShimenawasReminiscence,flower,5,hp,0,,True,630,Total Rolls:,1.6
+
+key,value
+atk_,5.8
+critRate_,3.5
+def_,7.3
+hp_,5.8
+
+ShimenawasReminiscence,flower,5,hp,0,,True,631,Total Rolls:,1.8
+
+key,value
+eleMas,23.0
+critDMG_,6.2
+def_,6.6
+enerRech_,6.5
+
+ShimenawasReminiscence,flower,5,hp,0,,True,632,Total Rolls:,1.2
+
+key,value
+def,21.0
+critRate_,2.7
+eleMas,23.0
+atk_,4.1
+
+ShimenawasReminiscence,flower,5,hp,0,,True,633,Total Rolls:,1.6
+
+key,value
+atk_,4.1
+critRate_,3.5
+atk,16.0
+eleMas,16.0
+
+ShimenawasReminiscence,flower,5,hp,0,,True,634,Total Rolls:,1.5
+
+key,value
+critRate_,3.1
+atk_,4.1
+atk,19.0
+eleMas,21.0
+
+ShimenawasReminiscence,flower,5,hp,0,,True,635,Total Rolls:,1.7
+
+key,value
+def,21.0
+atk_,5.8
+critRate_,3.9
+
+ShimenawasReminiscence,flower,5,hp,0,,True,636,Total Rolls:,2.1
+
+key,value
+atk,18.0
+critRate_,2.7
+critDMG_,7.0
+
+ShimenawasReminiscence,flower,5,hp,0,,True,637,Total Rolls:,1.8
+
+key,value
+atk,14.0
+atk_,5.3
+critRate_,3.9
+
+ShimenawasReminiscence,flower,5,hp,0,,True,638,Total Rolls:,1.9
+
+key,value
+critDMG_,6.2
+enerRech_,5.8
+atk,19.0
+
+ShimenawasReminiscence,flower,5,hp,0,,True,639,Total Rolls:,1.4
+
+key,value
+def,23.0
+critRate_,2.7
+atk_,5.8
+
+ShimenawasReminiscence,flower,5,hp,0,,True,640,Total Rolls:,1.8
+
+key,value
+enerRech_,5.2
+def_,5.1
+critDMG_,7.0
+
+ShimenawasReminiscence,flower,5,hp,0,,True,641,Total Rolls:,1.4
+
+key,value
+atk,19.0
+critDMG_,7.8
+eleMas,23.0
+
+ShimenawasReminiscence,flower,5,hp,0,,True,642,Total Rolls:,1.8
+
+key,value
+critDMG_,7.8
+atk_,4.7
+atk,16.0
+
+ShimenawasReminiscence,flower,5,hp,0,,True,643,Total Rolls:,1.5
+
+key,value
+atk,18.0
+critDMG_,6.2
+atk_,4.1
+
+ShimenawasReminiscence,flower,5,hp,0,,True,644,Total Rolls:,1.1
+
+key,value
+eleMas,21.0
+def_,7.3
+critDMG_,7.0
+
+ShimenawasReminiscence,flower,5,hp,0,,True,645,Total Rolls:,1.3
+
+key,value
+atk_,4.7
+critDMG_,5.4
+hp_,5.3
+
+ShimenawasReminiscence,flower,5,hp,0,,True,646,Total Rolls:,1.6
+
+key,value
+atk_,5.3
+critRate_,3.5
+hp_,4.7
+
+ShimenawasReminiscence,flower,5,hp,0,,True,647,Total Rolls:,2.0
+
+key,value
+atk,18.0
+critDMG_,7.0
+enerRech_,5.2
+
+ShimenawasReminiscence,flower,5,hp,0,,True,648,Total Rolls:,2.3
+
+key,value
+critRate_,3.1
+atk_,5.8
+critDMG_,5.4
+
+ShimenawasReminiscence,flower,5,hp,0,,True,649,Total Rolls:,2.4
+
+key,value
+critDMG_,7.8
+critRate_,3.9
+hp_,5.3
+
+ShimenawasReminiscence,flower,5,hp,0,,True,650,Total Rolls:,1.6
+
+key,value
+atk_,5.3
+def,21.0
+critDMG_,7.0
+
+ShimenawasReminiscence,flower,5,hp,0,,True,651,Total Rolls:,0.9
+
+key,value
+critRate_,3.1
+def_,5.1
+eleMas,23.0
+
+ShimenawasReminiscence,flower,5,hp,0,,True,652,Total Rolls:,1.3
+
+key,value
+eleMas,23.0
+critDMG_,7.8
+atk,16.0
+
+ShimenawasReminiscence,flower,5,hp,0,,True,653,Total Rolls:,0.8
+
+key,value
+critDMG_,5.4
+hp_,5.3
+eleMas,16.0
+
+ShimenawasReminiscence,flower,5,hp,0,,True,654,Total Rolls:,2.2
+
+key,value
+def_,5.8
+critRate_,3.5
+critDMG_,7.8
+
+ShimenawasReminiscence,flower,5,hp,0,,True,655,Total Rolls:,2.1
+
+key,value
+critDMG_,7.8
+eleMas,21.0
+enerRech_,6.5
+
+ShimenawasReminiscence,plume,5,atk,0,,True,656,Total Rolls:,1.6
+
+key,value
+atk_,4.1
+def,21.0
+hp_,5.3
+critDMG_,7.8
+
+ShimenawasReminiscence,plume,5,atk,0,,True,657,Total Rolls:,1.8
+
+key,value
+hp_,5.8
+critDMG_,6.2
+critRate_,2.7
+def,23.0
+
+ShimenawasReminiscence,plume,5,atk,0,,True,658,Total Rolls:,3.0
+
+key,value
+enerRech_,4.5
+critRate_,3.9
+def,21.0
+critDMG_,7.8
+
+ShimenawasReminiscence,plume,5,atk,0,,True,659,Total Rolls:,1.5
+
+key,value
+atk_,5.8
+def,19.0
+critDMG_,6.2
+def_,6.6
+
+ShimenawasReminiscence,plume,5,atk,0,,True,660,Total Rolls:,1.3
+
+key,value
+eleMas,19.0
+atk_,4.7
+critRate_,2.7
+
+ShimenawasReminiscence,plume,5,atk,0,,True,661,Total Rolls:,2.9
+
+key,value
+critDMG_,7.8
+critRate_,2.7
+enerRech_,6.5
+
+ShimenawasReminiscence,plume,5,atk,0,,True,662,Total Rolls:,2.6
+
+key,value
+critRate_,3.9
+critDMG_,6.2
+atk_,4.7
+
+ShimenawasReminiscence,plume,5,atk,0,,True,663,Total Rolls:,1.6
+
+key,value
+hp,299.0
+atk_,4.7
+critDMG_,7.8
+
+ShimenawasReminiscence,plume,5,atk,0,,True,664,Total Rolls:,1.5
+
+key,value
+critDMG_,6.2
+def,16.0
+atk_,5.8
+
+ShimenawasReminiscence,plume,5,atk,0,,True,665,Total Rolls:,2.1
+
+key,value
+critRate_,3.9
+def,21.0
+critDMG_,6.2
+
+ShimenawasReminiscence,plume,5,atk,0,,True,666,Total Rolls:,1.5
+
+key,value
+atk_,4.7
+def_,5.8
+critRate_,3.5
+
+ShimenawasReminiscence,plume,5,atk,0,,True,667,Total Rolls:,1.8
+
+key,value
+critDMG_,5.4
+def_,5.8
+critRate_,3.1
+
+ShimenawasReminiscence,plume,5,atk,0,,True,668,Total Rolls:,0.9
+
+key,value
+critRate_,3.1
+hp,299.0
+eleMas,19.0
+
+ShimenawasReminiscence,plume,5,atk,0,,True,669,Total Rolls:,0.8
+
+key,value
+hp,299.0
+critDMG_,5.4
+eleMas,19.0
+
+ShimenawasReminiscence,plume,5,atk,0,,True,670,Total Rolls:,1.4
+
+key,value
+critDMG_,5.4
+atk_,5.8
+def_,5.1
+
+ShimenawasReminiscence,plume,5,atk,0,,True,671,Total Rolls:,1.3
+
+key,value
+def,23.0
+atk_,4.1
+critDMG_,6.2
+
+ShimenawasReminiscence,plume,5,atk,0,,True,672,Total Rolls:,1.6
+
+key,value
+critRate_,2.7
+enerRech_,5.8
+hp,239.0
+
+ShimenawasReminiscence,plume,5,atk,0,,True,673,Total Rolls:,2.0
+
+key,value
+enerRech_,5.8
+critDMG_,7.8
+eleMas,23.0
+
+ShimenawasReminiscence,plume,5,atk,0,,True,674,Total Rolls:,1.6
+
+key,value
+atk_,4.1
+def,21.0
+critDMG_,7.8
+
+ShimenawasReminiscence,plume,5,atk,0,,True,675,Total Rolls:,1.7
+
+key,value
+eleMas,16.0
+critDMG_,7.8
+atk_,5.8
+
+ShimenawasReminiscence,sands,5,eleMas,0,,True,676,Total Rolls:,1.7
+
+key,value
+def_,6.6
+critDMG_,7.8
+atk_,5.3
+hp,269.0
+
+ShimenawasReminiscence,sands,5,enerRech_,0,,True,677,Total Rolls:,2.0
+
+key,value
+def,19.0
+critDMG_,7.8
+def_,6.6
+critRate_,2.7
+
+ShimenawasReminiscence,sands,5,eleMas,0,,True,678,Total Rolls:,1.9
+
+key,value
+critDMG_,5.4
+enerRech_,6.5
+atk,19.0
+def,21.0
+
+ShimenawasReminiscence,sands,5,hp_,0,,True,679,Total Rolls:,1.9
+
+key,value
+critRate_,3.5
+eleMas,19.0
+critDMG_,5.4
+def,16.0
+
+ShimenawasReminiscence,sands,5,enerRech_,0,,True,680,Total Rolls:,1.4
+
+key,value
+atk_,5.8
+critDMG_,5.4
+def,23.0
+hp_,5.3
+
+ShimenawasReminiscence,sands,5,atk_,0,,True,681,Total Rolls:,1.2
+
+key,value
+atk,14.0
+critDMG_,7.0
+def,19.0
+
+ShimenawasReminiscence,sands,5,atk_,0,,True,682,Total Rolls:,0.8
+
+key,value
+hp_,4.7
+def_,6.6
+critRate_,2.7
+
+ShimenawasReminiscence,sands,5,enerRech_,0,,True,683,Total Rolls:,1.2
+
+key,value
+hp_,4.1
+critDMG_,7.8
+def,19.0
+
+ShimenawasReminiscence,sands,5,eleMas,0,,True,684,Total Rolls:,2.5
+
+key,value
+critDMG_,7.0
+atk_,5.8
+enerRech_,6.5
+
+ShimenawasReminiscence,sands,5,atk_,0,,True,685,Total Rolls:,1.2
+
+key,value
+critDMG_,7.8
+eleMas,16.0
+hp,269.0
+
+ShimenawasReminiscence,sands,5,atk_,0,,True,686,Total Rolls:,1.8
+
+key,value
+critRate_,3.1
+critDMG_,5.4
+def,19.0
+
+ShimenawasReminiscence,sands,5,enerRech_,0,,True,687,Total Rolls:,1.1
+
+key,value
+critRate_,3.1
+atk,16.0
+hp_,4.7
+
+ShimenawasReminiscence,sands,5,eleMas,0,,True,688,Total Rolls:,1.6
+
+key,value
+hp,299.0
+atk_,4.7
+critRate_,3.9
+
+ShimenawasReminiscence,sands,5,atk_,0,,True,689,Total Rolls:,1.1
+
+key,value
+def_,7.3
+def,21.0
+critDMG_,7.0
+
+ShimenawasReminiscence,sands,5,atk_,0,,True,690,Total Rolls:,0.8
+
+key,value
+def,19.0
+def_,6.6
+critDMG_,5.4
+
+ShimenawasReminiscence,sands,5,enerRech_,0,,True,691,Total Rolls:,1.1
+
+key,value
+eleMas,23.0
+critRate_,3.5
+hp,269.0
+
+ShimenawasReminiscence,sands,5,atk_,0,,True,692,Total Rolls:,1.2
+
+key,value
+atk,18.0
+critRate_,3.5
+eleMas,21.0
+
+ShimenawasReminiscence,sands,5,eleMas,0,,True,693,Total Rolls:,1.9
+
+key,value
+enerRech_,6.5
+atk,14.0
+critRate_,2.7
+
+ShimenawasReminiscence,sands,5,hp_,0,,True,694,Total Rolls:,0.9
+
+key,value
+def_,7.3
+critDMG_,6.2
+hp,299.0
+
+ShimenawasReminiscence,sands,5,atk_,0,,True,695,Total Rolls:,1.4
+
+key,value
+atk,18.0
+critDMG_,7.8
+def_,6.6
+
+ShimenawasReminiscence,sands,5,atk_,0,,True,696,Total Rolls:,1.7
+
+key,value
+hp_,4.7
+critDMG_,6.2
+enerRech_,5.8
+
+ShimenawasReminiscence,sands,5,enerRech_,0,,True,697,Total Rolls:,1.4
+
+key,value
+def,16.0
+atk_,5.8
+critRate_,2.7
+
+ShimenawasReminiscence,sands,5,atk_,0,,True,698,Total Rolls:,1.1
+
+key,value
+def_,5.1
+critRate_,3.5
+hp_,4.7
+
+ShimenawasReminiscence,sands,5,enerRech_,0,,True,699,Total Rolls:,1.3
+
+key,value
+eleMas,21.0
+atk,19.0
+critRate_,3.5
+
+ShimenawasReminiscence,goblet,5,cryo_dmg_,0,,True,700,Total Rolls:,1.5
+
+key,value
+atk_,4.7
+hp,269.0
+critRate_,3.5
+def,21.0
+
+ShimenawasReminiscence,goblet,5,cryo_dmg_,0,,True,701,Total Rolls:,1.4
+
+key,value
+atk_,5.3
+hp_,5.8
+critRate_,3.1
+hp,209.0
+
+ShimenawasReminiscence,goblet,5,physical_dmg_,0,,True,702,Total Rolls:,1.4
+
+key,value
+def_,6.6
+hp_,5.3
+atk_,5.3
+critDMG_,6.2
+
+ShimenawasReminiscence,goblet,5,hp_,0,,True,703,Total Rolls:,1.8
+
+key,value
+hp,299.0
+critRate_,3.1
+critDMG_,5.4
+
+ShimenawasReminiscence,goblet,5,anemo_dmg_,0,,True,704,Total Rolls:,1.6
+
+key,value
+enerRech_,4.5
+critDMG_,5.4
+atk,18.0
+
+ShimenawasReminiscence,goblet,5,eleMas,0,,True,705,Total Rolls:,2.2
+
+key,value
+critRate_,3.9
+atk_,4.1
+enerRech_,4.5
+
+ShimenawasReminiscence,goblet,5,electro_dmg_,0,,True,706,Total Rolls:,0.8
+
+key,value
+critRate_,2.7
+def_,5.1
+hp,239.0
+
+ShimenawasReminiscence,goblet,5,electro_dmg_,0,,True,707,Total Rolls:,1.8
+
+key,value
+enerRech_,6.5
+def,21.0
+critDMG_,6.2
+
+ShimenawasReminiscence,goblet,5,electro_dmg_,0,,True,708,Total Rolls:,2.0
+
+key,value
+enerRech_,4.5
+atk_,5.8
+critDMG_,5.4
+
+ShimenawasReminiscence,goblet,5,hydro_dmg_,0,,True,709,Total Rolls:,0.9
+
+key,value
+def_,5.8
+hp,239.0
+critRate_,3.1
+
+ShimenawasReminiscence,circlet,5,eleMas,0,,True,710,Total Rolls:,2.6
+
+key,value
+hp,299.0
+atk_,4.1
+critRate_,3.5
+critDMG_,7.8
+
+ShimenawasReminiscence,circlet,5,critDMG_,0,,True,711,Total Rolls:,0.9
+
+key,value
+hp,209.0
+critRate_,3.1
+def,19.0
+
+ShimenawasReminiscence,circlet,5,heal_,0,,True,712,Total Rolls:,3.0
+
+key,value
+critDMG_,7.0
+enerRech_,5.2
+critRate_,3.9
+
+ShimenawasReminiscence,circlet,5,hp_,0,,True,713,Total Rolls:,2.5
+
+key,value
+critRate_,2.7
+atk_,5.8
+critDMG_,7.8
+
+ShimenawasReminiscence,circlet,5,atk_,0,,True,714,Total Rolls:,2.1
+
+key,value
+critDMG_,7.8
+critRate_,3.1
+def_,6.6
+
+ShimenawasReminiscence,circlet,5,critDMG_,0,,True,715,Total Rolls:,0.6
+
+key,value
+def_,5.8
+hp_,5.8
+atk_,5.8
+
+PaleFlame,flower,5,hp,0,,True,716,Total Rolls:,1.8
+
+key,value
+critDMG_,5.4
+critRate_,3.1
+def,23.0
+
+PaleFlame,flower,5,hp,0,,True,717,Total Rolls:,1.8
+
+key,value
+critDMG_,5.4
+atk,19.0
+critRate_,2.7
+
+PaleFlame,flower,5,hp,0,,True,718,Total Rolls:,1.4
+
+key,value
+critDMG_,6.2
+def,19.0
+atk_,5.3
+
+PaleFlame,flower,5,hp,0,,True,719,Total Rolls:,1.5
+
+key,value
+atk_,5.8
+eleMas,21.0
+critDMG_,6.2
+
+PaleFlame,plume,5,atk,0,,True,720,Total Rolls:,1.5
+
+key,value
+critDMG_,6.2
+atk_,5.8
+hp,299.0
+
+PaleFlame,sands,5,atk_,0,,True,721,Total Rolls:,1.3
+
+key,value
+hp,299.0
+atk,16.0
+critDMG_,7.8
+
+PaleFlame,sands,5,def_,0,,True,722,Total Rolls:,1.7
+
+key,value
+atk_,4.1
+atk,14.0
+critRate_,3.9
+
+PaleFlame,sands,5,atk_,0,,True,723,Total Rolls:,1.2
+
+key,value
+critDMG_,7.8
+def,23.0
+hp,299.0
+
+PaleFlame,goblet,5,atk_,0,,True,724,Total Rolls:,2.0
+
+key,value
+critRate_,2.7
+hp,269.0
+critDMG_,7.0
+atk,14.0
+
+PaleFlame,goblet,5,physical_dmg_,0,,True,725,Total Rolls:,0.9
+
+key,value
+hp,209.0
+hp_,4.7
+critDMG_,6.2
+
+PaleFlame,goblet,5,physical_dmg_,0,,True,726,Total Rolls:,0.9
+
+key,value
+hp,269.0
+critDMG_,6.2
+def_,5.8
+
+TenacityOfTheMillelith,sands,5,hp_,0,,True,727,Total Rolls:,1.7
+
+key,value
+atk_,5.8
+critRate_,3.9
+eleMas,16.0
+def_,7.3
+
+TenacityOfTheMillelith,sands,5,eleMas,0,Jean,True,728,Total Rolls:,2.0
+
+key,value
+critRate_,3.9
+atk,14.0
+enerRech_,4.5
+hp,299.0
+
+TenacityOfTheMillelith,sands,5,atk_,0,,True,729,Total Rolls:,1.9
+
+key,value
+enerRech_,5.2
+atk,16.0
+critDMG_,7.0
+
+TenacityOfTheMillelith,sands,5,hp_,0,,True,730,Total Rolls:,0.2
+
+key,value
+atk,16.0
+def_,7.3
+eleMas,19.0
+
+TenacityOfTheMillelith,sands,5,atk_,0,,True,731,Total Rolls:,0.8
+
+key,value
+eleMas,16.0
+enerRech_,5.8
+def,19.0
+
+TenacityOfTheMillelith,sands,5,eleMas,0,,True,732,Total Rolls:,1.7
+
+key,value
+critDMG_,6.2
+def,19.0
+enerRech_,5.2
+
+TenacityOfTheMillelith,sands,5,atk_,0,,True,733,Total Rolls:,0.9
+
+key,value
+enerRech_,5.2
+def,23.0
+atk,14.0
+
+TenacityOfTheMillelith,circlet,5,hp_,0,,True,734,Total Rolls:,0.7
+
+key,value
+enerRech_,5.2
+def,19.0
+eleMas,19.0
+def_,6.6
+
+TenacityOfTheMillelith,circlet,5,atk_,0,,True,735,Total Rolls:,2.0
+
+key,value
+def_,6.6
+def,21.0
+critRate_,3.5
+critDMG_,6.2
+
+TenacityOfTheMillelith,circlet,5,heal_,0,,True,736,Total Rolls:,0.2
+
+key,value
+eleMas,16.0
+atk,18.0
+def_,6.6
+hp_,4.1
+
+TenacityOfTheMillelith,circlet,5,atk_,0,,True,737,Total Rolls:,0.9
+
+key,value
+def,16.0
+eleMas,19.0
+enerRech_,6.5
+
+HeartOfDepth,flower,5,hp,0,,True,738,Total Rolls:,2.2
+
+key,value
+def,23.0
+enerRech_,4.5
+atk_,5.8
+critRate_,3.5
+
+HeartOfDepth,flower,5,hp,0,,True,741,Total Rolls:,1.3
+
+key,value
+eleMas,16.0
+atk_,4.1
+critRate_,3.1
+
+HeartOfDepth,flower,5,hp,0,,True,739,Total Rolls:,1.7
+
+key,value
+critDMG_,5.4
+def,23.0
+enerRech_,6.5
+hp_,5.8
+
+HeartOfDepth,flower,5,hp,0,,True,740,Total Rolls:,1.7
+
+key,value
+hp_,4.7
+def,21.0
+critDMG_,6.2
+enerRech_,5.2
+
+HeartOfDepth,plume,5,atk,0,,True,743,Total Rolls:,1.3
+
+key,value
+atk_,4.7
+eleMas,19.0
+hp,269.0
+critRate_,2.7
+
+HeartOfDepth,plume,5,atk,0,,True,742,Total Rolls:,2.6
+
+key,value
+enerRech_,6.5
+critDMG_,7.8
+def,19.0
+atk_,5.3
+
+HeartOfDepth,plume,5,atk,0,,True,744,Total Rolls:,1.7
+
+key,value
+eleMas,23.0
+critRate_,3.1
+def_,7.3
+enerRech_,5.8
+
+HeartOfDepth,plume,5,atk,0,,True,746,Total Rolls:,2.1
+
+key,value
+enerRech_,5.2
+critDMG_,6.2
+atk_,4.7
+
+HeartOfDepth,plume,5,atk,0,,True,745,Total Rolls:,1.8
+
+key,value
+critDMG_,7.8
+enerRech_,4.5
+eleMas,16.0
+
+HeartOfDepth,plume,5,atk,0,,True,747,Total Rolls:,1.4
+
+key,value
+critDMG_,6.2
+atk_,4.7
+eleMas,16.0
+
+HeartOfDepth,sands,5,hp_,0,,True,748,Total Rolls:,1.6
+
+key,value
+atk_,4.1
+hp,239.0
+critRate_,3.9
+
+HeartOfDepth,sands,5,enerRech_,0,,True,749,Total Rolls:,1.2
+
+key,value
+critDMG_,7.0
+eleMas,16.0
+atk,18.0
+
+HeartOfDepth,circlet,5,critDMG_,0,,True,750,Total Rolls:,0.9
+
+key,value
+hp,209.0
+eleMas,19.0
+critRate_,3.1
+
+BloodstainedChivalry,plume,5,atk,0,,True,751,Total Rolls:,1.4
+
+key,value
+critDMG_,6.2
+eleMas,19.0
+atk_,5.3
+
+BloodstainedChivalry,plume,5,atk,0,,True,752,Total Rolls:,1.3
+
+key,value
+critRate_,3.1
+atk_,4.1
+def,23.0
+
+NoblesseOblige,flower,5,hp,0,,True,753,Total Rolls:,1.5
+
+key,value
+critRate_,2.7
+atk_,4.7
+hp_,5.3
+atk,19.0
+
+NoblesseOblige,flower,5,hp,0,,True,754,Total Rolls:,1.6
+
+key,value
+eleMas,16.0
+critRate_,3.9
+def,16.0
+atk_,4.1
+
+NoblesseOblige,flower,5,hp,0,,True,755,Total Rolls:,1.1
+
+key,value
+def,21.0
+atk,19.0
+critRate_,3.1
+
+NoblesseOblige,flower,5,hp,0,,True,756,Total Rolls:,1.2
+
+key,value
+critDMG_,5.4
+atk_,4.1
+def,19.0
+
+NoblesseOblige,flower,5,hp,0,,True,757,Total Rolls:,1.0
+
+key,value
+atk,19.0
+enerRech_,5.8
+def_,7.3
+
+NoblesseOblige,flower,5,hp,0,,True,758,Total Rolls:,1.4
+
+key,value
+atk_,5.8
+eleMas,21.0
+critRate_,2.7
+
+NoblesseOblige,flower,5,hp,0,,True,759,Total Rolls:,0.9
+
+key,value
+def_,5.1
+eleMas,21.0
+critDMG_,6.2
+
+NoblesseOblige,flower,5,hp,0,,True,760,Total Rolls:,1.5
+
+key,value
+atk_,5.3
+critRate_,2.7
+atk,18.0
+
+NoblesseOblige,flower,5,hp,0,,True,761,Total Rolls:,0.9
+
+key,value
+def_,5.8
+eleMas,21.0
+critDMG_,6.2
+
+NoblesseOblige,flower,5,hp,0,,True,762,Total Rolls:,1.6
+
+key,value
+atk,18.0
+critDMG_,7.0
+atk_,4.1
+
+NoblesseOblige,flower,5,hp,0,,True,763,Total Rolls:,0.9
+
+key,value
+def,19.0
+critDMG_,6.2
+eleMas,19.0
+
+NoblesseOblige,flower,5,hp,0,,True,764,Total Rolls:,0.9
+
+key,value
+def,19.0
+critDMG_,6.2
+eleMas,23.0
+
+NoblesseOblige,sands,5,hp_,0,,True,765,Total Rolls:,1.0
+
+key,value
+eleMas,19.0
+atk,16.0
+enerRech_,5.8
+def,19.0
+
+NoblesseOblige,sands,5,hp_,0,,True,766,Total Rolls:,1.9
+
+key,value
+critRate_,2.7
+def,21.0
+critDMG_,7.0
+eleMas,19.0
+
+NoblesseOblige,sands,5,eleMas,0,,True,767,Total Rolls:,2.0
+
+key,value
+critRate_,3.1
+hp,209.0
+critDMG_,7.0
+
+NoblesseOblige,sands,5,eleMas,0,,True,768,Total Rolls:,1.6
+
+key,value
+atk_,4.7
+critRate_,3.9
+hp,269.0
+
+NoblesseOblige,goblet,5,cryo_dmg_,0,,True,769,Total Rolls:,0.8
+
+key,value
+hp_,5.3
+critDMG_,5.4
+hp,299.0
+
+NoblesseOblige,goblet,5,dendro_dmg_,0,,True,770,Total Rolls:,0.1
+
+key,value
+hp_,5.3
+atk,14.0
+eleMas,19.0
+
+NoblesseOblige,goblet,5,cryo_dmg_,0,,True,771,Total Rolls:,0.9
+
+key,value
+hp,209.0
+def_,5.1
+critDMG_,6.2
+
+NoblesseOblige,goblet,5,cryo_dmg_,0,,True,772,Total Rolls:,0.8
+
+key,value
+eleMas,23.0
+critDMG_,5.4
+hp_,5.3
+
+NoblesseOblige,circlet,5,critDMG_,0,,True,773,Total Rolls:,1.4
+
+key,value
+hp_,4.7
+critRate_,3.1
+def_,6.6
+atk_,4.7
+
+NoblesseOblige,circlet,5,heal_,0,,True,774,Total Rolls:,1.0
+
+key,value
+hp_,4.7
+def_,5.1
+enerRech_,5.8
+atk,19.0
+
+NoblesseOblige,circlet,5,heal_,0,,True,775,Total Rolls:,0.8
+
+key,value
+atk,14.0
+eleMas,23.0
+enerRech_,4.5
+
+NoblesseOblige,circlet,5,critDMG_,0,,True,776,Total Rolls:,0.6
+
+key,value
+eleMas,23.0
+atk_,5.8
+def_,5.1
+
+NoblesseOblige,circlet,5,heal_,0,,True,777,Total Rolls:,0.8
+
+key,value
+eleMas,19.0
+def,19.0
+critRate_,2.7
+
+NoblesseOblige,circlet,5,heal_,0,,True,778,Total Rolls:,1.1
+
+key,value
+hp_,4.1
+def,16.0
+critRate_,3.5
+
+WanderersTroupe,flower,5,hp,0,,True,779,Total Rolls:,2.4
+
+key,value
+enerRech_,5.2
+critDMG_,7.8
+atk_,4.7
+
+WanderersTroupe,flower,5,hp,0,,True,780,Total Rolls:,1.3
+
+key,value
+critDMG_,5.4
+hp_,5.3
+atk_,5.3
+
+WanderersTroupe,flower,5,hp,0,,True,781,Total Rolls:,1.5
+
+key,value
+atk_,4.7
+atk,16.0
+critRate_,3.1
+
+WanderersTroupe,plume,5,atk,0,,True,782,Total Rolls:,1.7
+
+key,value
+atk_,5.8
+hp_,5.3
+critDMG_,7.8
+hp,299.0
+
+WanderersTroupe,plume,5,atk,0,,True,783,Total Rolls:,1.6
+
+key,value
+def_,7.3
+critDMG_,7.0
+atk_,5.8
+
+WanderersTroupe,plume,5,atk,0,,True,784,Total Rolls:,1.2
+
+key,value
+critRate_,3.9
+def,16.0
+hp_,4.7
+
+WanderersTroupe,plume,5,atk,0,,True,785,Total Rolls:,2.0
+
+key,value
+enerRech_,5.8
+hp,299.0
+critDMG_,7.8
+
+WanderersTroupe,plume,5,atk,0,,True,786,Total Rolls:,1.3
+
+key,value
+atk_,5.3
+enerRech_,5.8
+eleMas,21.0
+
+WanderersTroupe,plume,5,atk,0,,True,787,Total Rolls:,1.3
+
+key,value
+atk_,4.7
+critRate_,2.7
+def,19.0
+
+WanderersTroupe,plume,5,atk,0,,True,788,Total Rolls:,1.4
+
+key,value
+def_,5.8
+critRate_,3.1
+atk_,4.7
+
+WanderersTroupe,sands,5,def_,0,Noelle,False,789,Total Rolls:,3.3
+
+key,value
+enerRech_,6.5
+critRate_,2.7
+atk_,5.3
+critDMG_,7.0
+
+WanderersTroupe,sands,5,enerRech_,0,,False,790,Total Rolls:,2.5
+
+key,value
+atk_,5.3
+critDMG_,5.4
+critRate_,3.9
+
+WanderersTroupe,goblet,5,dendro_dmg_,0,Collei,True,791,Total Rolls:,2.1
+
+key,value
+critDMG_,5.4
+atk,19.0
+hp_,4.7
+critRate_,3.5
+
+WanderersTroupe,goblet,5,hydro_dmg_,0,,True,792,Total Rolls:,1.8
+
+key,value
+atk,19.0
+critRate_,2.7
+hp,209.0
+critDMG_,5.4
+
+WanderersTroupe,goblet,5,hydro_dmg_,0,,True,793,Total Rolls:,2.9
+
+key,value
+critRate_,3.5
+enerRech_,5.8
+critDMG_,7.0
+hp_,5.8
+
+WanderersTroupe,goblet,5,geo_dmg_,0,,True,794,Total Rolls:,2.7
+
+key,value
+critRate_,3.1
+critDMG_,5.4
+hp,239.0
+enerRech_,6.5
+
+WanderersTroupe,goblet,5,electro_dmg_,0,,True,795,Total Rolls:,1.0
+
+key,value
+critDMG_,5.4
+def,21.0
+atk,18.0
+
+WanderersTroupe,goblet,5,cryo_dmg_,0,,True,796,Total Rolls:,1.7
+
+key,value
+critDMG_,7.0
+atk,19.0
+atk_,4.7
+
+WanderersTroupe,circlet,5,critDMG_,0,,True,797,Total Rolls:,2.3
+
+key,value
+enerRech_,5.8
+def_,7.3
+atk_,4.7
+critRate_,3.5
+
+WanderersTroupe,circlet,5,critRate_,0,,True,798,Total Rolls:,0.4
+
+key,value
+def_,5.1
+atk_,4.7
+eleMas,23.0
+
+WanderersTroupe,circlet,5,critRate_,0,,True,799,Total Rolls:,1.1
+
+key,value
+critDMG_,7.0
+def_,7.3
+hp_,4.1
+
+WanderersTroupe,circlet,5,critRate_,0,,True,800,Total Rolls:,0.2
+
+key,value
+hp_,4.1
+eleMas,23.0
+atk,16.0
+
+WanderersTroupe,circlet,5,hp_,0,,True,801,Total Rolls:,2.2
+
+key,value
+def,21.0
+critDMG_,7.0
+critRate_,3.9
+
+ViridescentVenerer,sands,5,enerRech_,0,,True,802,Total Rolls:,0.8
+
+key,value
+critRate_,2.7
+eleMas,23.0
+def_,5.8
+hp_,4.1
+
+ViridescentVenerer,sands,5,atk_,0,,True,803,Total Rolls:,1.8
+
+key,value
+enerRech_,5.2
+eleMas,21.0
+critDMG_,7.0
+
+ViridescentVenerer,circlet,5,critDMG_,0,,True,804,Total Rolls:,0.9
+
+key,value
+hp,269.0
+eleMas,16.0
+critRate_,3.1
+
+ViridescentVenerer,circlet,5,heal_,0,Jean,True,805,Total Rolls:,0.6
+
+key,value
+enerRech_,4.5
+def_,6.6
+def,16.0
+
+GladiatorsFinale,flower,5,hp,0,,True,806,Total Rolls:,2.7
+
+key,value
+def,21.0
+enerRech_,5.8
+critDMG_,6.2
+critRate_,3.1
+
+GladiatorsFinale,flower,5,hp,0,,True,807,Total Rolls:,1.6
+
+key,value
+hp_,4.1
+atk_,5.8
+critDMG_,7.0
+
+GladiatorsFinale,plume,5,atk,0,,True,808,Total Rolls:,1.2
+
+key,value
+critDMG_,5.4
+eleMas,23.0
+hp_,5.8
+atk_,4.1
+
+GladiatorsFinale,plume,5,atk,0,,True,809,Total Rolls:,2.2
+
+key,value
+critDMG_,7.8
+enerRech_,4.5
+def,23.0
+atk_,4.1
+
+GladiatorsFinale,plume,5,atk,0,,True,810,Total Rolls:,1.6
+
+key,value
+hp_,5.3
+atk_,5.3
+critRate_,3.5
+
+GladiatorsFinale,plume,5,atk,0,,True,811,Total Rolls:,1.4
+
+key,value
+eleMas,19.0
+critRate_,3.5
+atk_,4.1
+
+GladiatorsFinale,plume,5,atk,0,,True,812,Total Rolls:,1.2
+
+key,value
+hp_,4.1
+critRate_,3.9
+hp,269.0
+
+GladiatorsFinale,plume,5,atk,0,,True,813,Total Rolls:,2.1
+
+key,value
+eleMas,16.0
+critRate_,3.9
+critDMG_,6.2
+
+GladiatorsFinale,plume,5,atk,0,,True,814,Total Rolls:,1.4
+
+key,value
+critRate_,2.7
+hp,239.0
+atk_,5.8
+
+GladiatorsFinale,goblet,5,dendro_dmg_,0,,True,815,Total Rolls:,0.8
+
+key,value
+critDMG_,5.4
+def_,5.1
+def,23.0
+hp_,4.7
+
+GladiatorsFinale,goblet,5,geo_dmg_,0,,True,816,Total Rolls:,1.7
+
+key,value
+critRate_,3.5
+hp_,4.1
+enerRech_,4.5
+
+GladiatorsFinale,circlet,5,atk_,0,,True,817,Total Rolls:,3.0
+
+key,value
+hp_,4.7
+critRate_,3.5
+enerRech_,5.2
+critDMG_,7.8
+
+GladiatorsFinale,circlet,5,eleMas,0,,True,818,Total Rolls:,1.9
+
+key,value
+hp_,4.7
+critDMG_,5.4
+critRate_,3.1
+atk,19.0
+
+MaidenBeloved,flower,5,hp,0,,True,819,Total Rolls:,0.8
+
+key,value
+hp_,4.7
+atk,18.0
+enerRech_,4.5
+
+MaidenBeloved,plume,5,atk,0,,True,820,Total Rolls:,2.6
+
+key,value
+atk_,5.3
+enerRech_,6.5
+critRate_,3.9
+hp_,5.3
+
+MaidenBeloved,plume,5,atk,0,,True,821,Total Rolls:,1.8
+
+key,value
+critRate_,3.1
+enerRech_,6.5
+hp_,4.7
+
+MaidenBeloved,sands,5,eleMas,0,,True,822,Total Rolls:,2.3
+
+key,value
+critRate_,3.1
+atk_,5.8
+enerRech_,5.8
+
+MaidenBeloved,goblet,5,eleMas,0,,True,823,Total Rolls:,0.9
+
+key,value
+def,21.0
+critRate_,3.1
+hp_,5.3
+
+BlizzardStrayer,circlet,5,atk_,0,,True,824,Total Rolls:,2.1
+
+key,value
+critRate_,3.1
+critDMG_,7.8
+hp_,4.7
+hp,299.0
+
+ObsidianCodex,flower,4,hp,0,,False,825,Total Rolls:,0.7
+
+key,value
+def,19.0
+critRate_,2.2
+
+ObsidianCodex,flower,4,hp,0,,False,826,Total Rolls:,0.4
+
+key,value
+def_,4.7
+atk_,4.7
+
+ObsidianCodex,flower,4,hp,0,,False,827,Total Rolls:,0.9
+
+key,value
+def,15.0
+critDMG_,6.2
+
+ObsidianCodex,flower,4,hp,0,,False,828,Total Rolls:,0.0
+
+key,value
+eleMas,17.0
+def_,4.7
+
+ObsidianCodex,flower,4,hp,0,,False,829,Total Rolls:,0.4
+
+key,value
+atk_,4.2
+eleMas,19.0
+
+ObsidianCodex,flower,4,hp,0,,False,830,Total Rolls:,0.4
+
+key,value
+atk_,4.2
+eleMas,19.0
+
+ObsidianCodex,flower,4,hp,0,,False,831,Total Rolls:,0.4
+
+key,value
+atk,11.0
+atk_,3.3
+
+ObsidianCodex,flower,4,hp,0,,False,832,Total Rolls:,0.0
+
+key,value
+def,13.0
+eleMas,15.0
+
+ObsidianCodex,plume,4,atk,0,,False,833,Total Rolls:,1.4
+
+key,value
+critRate_,2.2
+eleMas,13.0
+enerRech_,5.2
+
+ObsidianCodex,plume,4,atk,0,,False,834,Total Rolls:,0.3
+
+key,value
+atk_,3.3
+hp_,3.3
+def_,5.8
+
+ObsidianCodex,plume,4,atk,0,,False,835,Total Rolls:,0.3
+
+key,value
+atk_,3.3
+def_,5.3
+
+ObsidianCodex,plume,4,atk,0,,False,836,Total Rolls:,0.0
+
+key,value
+def_,5.8
+def,13.0
+
+ObsidianCodex,plume,4,atk,0,,False,837,Total Rolls:,0.9
+
+key,value
+critDMG_,6.2
+def_,5.3
+
+ObsidianCodex,plume,4,atk,0,,False,838,Total Rolls:,0.0
+
+key,value
+hp,239.0
+hp_,4.7
+
+ObsidianCodex,plume,4,atk,0,,False,839,Total Rolls:,0.9
+
+key,value
+hp,167.0
+critDMG_,6.2
+
+ObsidianCodex,sands,4,atk_,0,,False,840,Total Rolls:,0.9
+
+key,value
+critDMG_,6.2
+def_,4.1
+def,17.0
+
+ObsidianCodex,sands,4,atk_,0,,False,841,Total Rolls:,0.7
+
+key,value
+def,15.0
+eleMas,13.0
+enerRech_,4.7
+
+ObsidianCodex,sands,4,enerRech_,0,,False,842,Total Rolls:,0.1
+
+key,value
+hp,215.0
+atk,11.0
+
+ObsidianCodex,sands,4,def_,0,,False,843,Total Rolls:,0.4
+
+key,value
+atk_,3.7
+eleMas,17.0
+
+ObsidianCodex,sands,4,hp_,0,,False,844,Total Rolls:,0.4
+
+key,value
+hp,215.0
+atk_,4.2
+
+ObsidianCodex,sands,4,atk_,0,,False,845,Total Rolls:,1.4
+
+key,value
+enerRech_,4.7
+critDMG_,5.0
+
+ObsidianCodex,sands,4,def_,0,,False,846,Total Rolls:,0.1
+
+key,value
+eleMas,13.0
+atk,12.0
+
+ObsidianCodex,sands,4,def_,0,,False,847,Total Rolls:,0.0
+
+key,value
+hp_,3.3
+hp,215.0
+
+ObsidianCodex,sands,4,eleMas,0,,False,848,Total Rolls:,0.1
+
+key,value
+atk,12.0
+hp,191.0
+
+ObsidianCodex,sands,4,def_,0,,False,849,Total Rolls:,0.8
+
+key,value
+hp,239.0
+critDMG_,5.6
+
+ObsidianCodex,goblet,4,dendro_dmg_,0,,False,850,Total Rolls:,0.4
+
+key,value
+atk,11.0
+def,19.0
+atk_,3.3
+
+ObsidianCodex,goblet,4,def_,0,,False,851,Total Rolls:,0.4
+
+key,value
+atk_,4.2
+eleMas,15.0
+hp,239.0
+
+ObsidianCodex,goblet,4,hp_,0,,False,852,Total Rolls:,0.5
+
+key,value
+hp,191.0
+enerRech_,3.6
+
+ObsidianCodex,goblet,4,geo_dmg_,0,,False,853,Total Rolls:,0.4
+
+key,value
+atk_,4.7
+eleMas,17.0
+
+ObsidianCodex,goblet,4,atk_,0,,False,854,Total Rolls:,1.5
+
+key,value
+enerRech_,4.1
+critRate_,3.1
+
+ObsidianCodex,goblet,4,electro_dmg_,0,,False,855,Total Rolls:,0.2
+
+key,value
+def,17.0
+atk,16.0
+
+ObsidianCodex,goblet,4,def_,0,,False,856,Total Rolls:,0.9
+
+key,value
+critDMG_,6.2
+def,19.0
+
+ObsidianCodex,goblet,4,def_,0,,False,857,Total Rolls:,1.0
+
+key,value
+critDMG_,5.6
+atk,16.0
+
+ObsidianCodex,goblet,4,anemo_dmg_,0,,False,858,Total Rolls:,0.7
+
+key,value
+critRate_,2.2
+hp_,4.2
+
+ObsidianCodex,goblet,4,geo_dmg_,0,,False,859,Total Rolls:,0.0
+
+key,value
+def_,4.7
+def,17.0
+
+ObsidianCodex,circlet,4,hp_,0,,False,860,Total Rolls:,0.8
+
+key,value
+def,13.0
+critRate_,2.5
+eleMas,17.0
+
+ObsidianCodex,circlet,4,atk_,0,,False,861,Total Rolls:,0.0
+
+key,value
+eleMas,19.0
+def,19.0
+
+ObsidianCodex,circlet,4,def_,0,,False,862,Total Rolls:,0.4
+
+key,value
+hp_,3.3
+atk_,3.7
+
+ObsidianCodex,circlet,4,atk_,0,,False,863,Total Rolls:,0.0
+
+key,value
+eleMas,17.0
+def_,4.7
+
+ObsidianCodex,circlet,4,def_,0,,False,864,Total Rolls:,0.0
+
+key,value
+def,15.0
+eleMas,19.0
+
+ObsidianCodex,circlet,4,atk_,0,,False,865,Total Rolls:,0.5
+
+key,value
+def_,4.1
+enerRech_,3.6
+
+ObsidianCodex,circlet,4,def_,0,,False,866,Total Rolls:,0.0
+
+key,value
+def,13.0
+hp,215.0
+
+ObsidianCodex,circlet,4,def_,0,,False,867,Total Rolls:,0.4
+
+key,value
+hp,167.0
+atk_,4.2
+
+ObsidianCodex,circlet,4,critDMG_,0,,False,868,Total Rolls:,0.5
+
+key,value
+enerRech_,3.6
+def_,4.7
+
+ObsidianCodex,circlet,4,def_,0,,False,869,Total Rolls:,0.7
+
+key,value
+hp,167.0
+critDMG_,4.4
+
+ScrollOfTheHeroOfCinderCity,flower,4,hp,0,,False,870,Total Rolls:,0.9
+
+key,value
+def_,5.3
+critRate_,3.1
+def,13.0
+
+ScrollOfTheHeroOfCinderCity,flower,4,hp,0,,False,871,Total Rolls:,0.7
+
+key,value
+enerRech_,5.2
+def_,4.1
+hp_,4.7
+
+ScrollOfTheHeroOfCinderCity,flower,4,hp,0,,False,872,Total Rolls:,0.9
+
+key,value
+hp_,4.7
+critDMG_,6.2
+def,13.0
+
+ScrollOfTheHeroOfCinderCity,flower,4,hp,0,,False,873,Total Rolls:,0.5
+
+key,value
+enerRech_,3.6
+hp_,3.7
+
+ScrollOfTheHeroOfCinderCity,flower,4,hp,0,,False,874,Total Rolls:,0.0
+
+key,value
+def,13.0
+hp_,3.7
+
+ScrollOfTheHeroOfCinderCity,flower,4,hp,0,,False,876,Total Rolls:,0.0
+
+key,value
+hp_,3.3
+def,19.0
+
+ScrollOfTheHeroOfCinderCity,flower,4,hp,0,,False,875,Total Rolls:,1.6
+
+key,value
+critRate_,2.8
+enerRech_,5.2
+
+ScrollOfTheHeroOfCinderCity,flower,4,hp,0,,False,877,Total Rolls:,0.0
+
+key,value
+def,19.0
+hp_,3.3
+
+ScrollOfTheHeroOfCinderCity,flower,4,hp,0,,False,878,Total Rolls:,0.8
+
+key,value
+eleMas,13.0
+critRate_,2.5
+
+ScrollOfTheHeroOfCinderCity,flower,4,hp,0,,False,879,Total Rolls:,0.5
+
+key,value
+atk,14.0
+atk_,4.2
+
+ScrollOfTheHeroOfCinderCity,plume,4,atk,0,,False,880,Total Rolls:,1.3
+
+key,value
+enerRech_,3.6
+hp,215.0
+critRate_,2.5
+
+ScrollOfTheHeroOfCinderCity,plume,4,atk,0,,False,881,Total Rolls:,0.3
+
+key,value
+hp_,4.2
+atk_,3.3
+
+ScrollOfTheHeroOfCinderCity,plume,4,atk,0,,False,882,Total Rolls:,0.4
+
+key,value
+def,15.0
+atk_,4.2
+
+ScrollOfTheHeroOfCinderCity,plume,4,atk,0,,False,883,Total Rolls:,1.2
+
+key,value
+atk_,3.7
+critRate_,2.8
+
+ScrollOfTheHeroOfCinderCity,plume,4,atk,0,,False,884,Total Rolls:,1.3
+
+key,value
+enerRech_,3.6
+critRate_,2.5
+
+ScrollOfTheHeroOfCinderCity,plume,4,atk,0,,False,885,Total Rolls:,1.3
+
+key,value
+critDMG_,6.2
+atk_,3.3
+
+ScrollOfTheHeroOfCinderCity,plume,4,atk,0,,False,886,Total Rolls:,0.0
+
+key,value
+hp,239.0
+hp_,3.7
+
+ScrollOfTheHeroOfCinderCity,plume,4,atk,0,,False,887,Total Rolls:,0.0
+
+key,value
+def,15.0
+def_,4.1
+
+ScrollOfTheHeroOfCinderCity,plume,4,atk,0,,False,888,Total Rolls:,0.0
+
+key,value
+def_,5.8
+def,17.0
+
+ScrollOfTheHeroOfCinderCity,sands,4,def_,0,,False,889,Total Rolls:,0.8
+
+key,value
+hp_,3.3
+enerRech_,4.7
+atk,11.0
+
+ScrollOfTheHeroOfCinderCity,sands,4,hp_,0,,False,890,Total Rolls:,0.8
+
+key,value
+hp,191.0
+atk,16.0
+critRate_,2.2
+
+ScrollOfTheHeroOfCinderCity,sands,4,def_,0,,False,891,Total Rolls:,1.3
+
+key,value
+atk_,4.7
+hp_,4.2
+critRate_,2.8
+
+ScrollOfTheHeroOfCinderCity,sands,4,def_,0,,False,892,Total Rolls:,0.5
+
+key,value
+enerRech_,3.6
+def,19.0
+hp,191.0
+
+ScrollOfTheHeroOfCinderCity,sands,4,hp_,0,,False,893,Total Rolls:,0.1
+
+key,value
+def,19.0
+atk,12.0
+
+ScrollOfTheHeroOfCinderCity,sands,4,atk_,0,,False,894,Total Rolls:,0.9
+
+key,value
+def,13.0
+critDMG_,6.2
+
+ScrollOfTheHeroOfCinderCity,sands,4,atk_,0,,False,895,Total Rolls:,0.0
+
+key,value
+def_,4.1
+hp_,3.3
+
+ScrollOfTheHeroOfCinderCity,sands,4,enerRech_,0,,False,896,Total Rolls:,0.2
+
+key,value
+def,19.0
+atk,16.0
+
+ScrollOfTheHeroOfCinderCity,sands,4,hp_,0,,False,897,Total Rolls:,0.0
+
+key,value
+eleMas,15.0
+def_,5.8
+
+ScrollOfTheHeroOfCinderCity,sands,4,atk_,0,,False,898,Total Rolls:,0.0
+
+key,value
+hp_,3.3
+def_,4.7
+
+ScrollOfTheHeroOfCinderCity,sands,4,enerRech_,0,,False,899,Total Rolls:,0.0
+
+key,value
+def_,5.8
+def,19.0
+
+ScrollOfTheHeroOfCinderCity,sands,4,def_,0,,False,900,Total Rolls:,1.3
+
+key,value
+atk_,3.7
+critDMG_,6.2
+
+ScrollOfTheHeroOfCinderCity,goblet,4,atk_,0,,False,901,Total Rolls:,1.1
+
+key,value
+atk,14.0
+def_,4.7
+critRate_,3.1
+
+ScrollOfTheHeroOfCinderCity,goblet,4,hp_,0,,False,902,Total Rolls:,1.1
+
+key,value
+eleMas,17.0
+critDMG_,6.2
+atk,14.0
+
+ScrollOfTheHeroOfCinderCity,goblet,4,atk_,0,,False,903,Total Rolls:,0.2
+
+key,value
+hp,239.0
+atk,16.0
+def_,4.1
+
+ScrollOfTheHeroOfCinderCity,goblet,4,def_,0,,False,904,Total Rolls:,0.7
+
+key,value
+enerRech_,4.1
+def,17.0
+atk,11.0
+
+ScrollOfTheHeroOfCinderCity,goblet,4,hp_,0,,False,905,Total Rolls:,1.7
+
+key,value
+critDMG_,5.0
+def,13.0
+critRate_,3.1
+
+ScrollOfTheHeroOfCinderCity,goblet,4,geo_dmg_,0,,False,906,Total Rolls:,0.1
+
+key,value
+atk,12.0
+eleMas,19.0
+
+ScrollOfTheHeroOfCinderCity,goblet,4,def_,0,,False,907,Total Rolls:,0.0
+
+key,value
+def,15.0
+hp_,4.7
+
+ScrollOfTheHeroOfCinderCity,circlet,4,hp_,0,,False,908,Total Rolls:,0.6
+
+key,value
+atk,14.0
+atk_,4.7
+hp,167.0
+
+ScrollOfTheHeroOfCinderCity,circlet,4,critRate_,0,,False,909,Total Rolls:,0.0
+
+key,value
+hp,215.0
+eleMas,15.0
+hp_,4.7
+
+ScrollOfTheHeroOfCinderCity,circlet,4,def_,0,,False,910,Total Rolls:,0.0
+
+key,value
+def,15.0
+eleMas,17.0
+
+ScrollOfTheHeroOfCinderCity,circlet,4,atk_,0,,False,911,Total Rolls:,0.8
+
+key,value
+critRate_,2.5
+def_,4.1
+
+ScrollOfTheHeroOfCinderCity,circlet,4,hp_,0,,False,913,Total Rolls:,0.5
+
+key,value
+atk_,4.2
+atk,12.0
+
+ScrollOfTheHeroOfCinderCity,circlet,4,critRate_,0,,False,912,Total Rolls:,0.7
+
+key,value
+eleMas,15.0
+critDMG_,4.4
+
+ScrollOfTheHeroOfCinderCity,circlet,4,critRate_,0,,False,914,Total Rolls:,0.0
+
+key,value
+hp,191.0
+def,19.0
+
+ScrollOfTheHeroOfCinderCity,circlet,4,atk_,0,,False,915,Total Rolls:,0.1
+
+key,value
+def,15.0
+atk,11.0
+
+ScrollOfTheHeroOfCinderCity,circlet,4,hp_,0,,False,916,Total Rolls:,0.8
+
+key,value
+def,15.0
+critRate_,2.8
+
+Gambler,flower,4,hp,0,,False,918,Total Rolls:,0.4
+
+key,value
+atk,11.0
+atk_,3.3
+def_,4.1
+
+ScrollOfTheHeroOfCinderCity,circlet,4,eleMas,0,,False,917,Total Rolls:,0.5
+
+key,value
+def,13.0
+enerRech_,3.6
+
+Gambler,flower,4,hp,0,,False,919,Total Rolls:,0.0
+
+key,value
+hp_,3.7
+def,19.0
+
+Gambler,flower,4,hp,0,,False,920,Total Rolls:,0.8
+
+key,value
+atk,14.0
+enerRech_,4.7
+
+Gambler,flower,4,hp,0,,False,921,Total Rolls:,0.0
+
+key,value
+hp_,4.2
+def,15.0
+
+Gambler,flower,4,hp,0,,False,922,Total Rolls:,0.0
+
+key,value
+def,19.0
+def_,5.3
+
+Gambler,flower,4,hp,0,,False,923,Total Rolls:,1.1
+
+key,value
+atk,12.0
+critRate_,3.1
+
+Gambler,flower,4,hp,0,,False,924,Total Rolls:,0.9
+
+key,value
+atk,14.0
+critRate_,2.5
+
+Gambler,flower,4,hp,0,,False,925,Total Rolls:,0.6
+
+key,value
+eleMas,13.0
+enerRech_,4.1
+
+Gambler,flower,4,hp,0,,False,926,Total Rolls:,0.8
+
+key,value
+def_,4.1
+critDMG_,5.6
+
+Gambler,flower,4,hp,0,,False,927,Total Rolls:,0.1
+
+key,value
+atk,11.0
+def_,5.3
+
+Gambler,flower,4,hp,0,,False,928,Total Rolls:,0.7
+
+key,value
+enerRech_,5.2
+def,15.0
+
+Gambler,flower,4,hp,0,,False,929,Total Rolls:,0.4
+
+key,value
+def,15.0
+atk_,4.7
+
+Gambler,plume,4,atk,0,,False,930,Total Rolls:,0.7
+
+key,value
+hp_,4.7
+hp,215.0
+enerRech_,4.7
+
+Gambler,plume,4,atk,0,,False,931,Total Rolls:,0.9
+
+key,value
+hp_,4.2
+critRate_,3.1
+hp,215.0
+
+Gambler,plume,4,atk,0,,False,932,Total Rolls:,0.8
+
+key,value
+critRate_,2.8
+eleMas,13.0
+def_,5.8
+
+Gambler,plume,4,atk,0,,False,933,Total Rolls:,0.3
+
+key,value
+eleMas,13.0
+hp,191.0
+atk_,3.3
+
+Gambler,plume,4,atk,0,,False,934,Total Rolls:,0.4
+
+key,value
+atk_,4.2
+def_,4.1
+eleMas,13.0
+
+Gambler,plume,4,atk,0,,False,935,Total Rolls:,1.7
+
+key,value
+eleMas,19.0
+critDMG_,6.2
+enerRech_,5.2
+
+Gambler,plume,4,atk,0,,False,936,Total Rolls:,0.8
+
+key,value
+hp,215.0
+def_,5.3
+critRate_,2.5
+
+Gambler,plume,4,atk,0,,False,937,Total Rolls:,0.7
+
+key,value
+def,19.0
+eleMas,19.0
+enerRech_,4.7
+
+Gambler,plume,4,atk,0,,False,938,Total Rolls:,0.0
+
+key,value
+hp,191.0
+eleMas,15.0
+
+Gambler,plume,4,atk,0,,False,939,Total Rolls:,0.0
+
+key,value
+hp,215.0
+def,17.0
+
+Gambler,plume,4,atk,0,,False,940,Total Rolls:,0.8
+
+key,value
+eleMas,13.0
+critRate_,2.8
+
+Gambler,plume,4,atk,0,,False,941,Total Rolls:,0.0
+
+key,value
+hp,167.0
+def,17.0
+
+Gambler,plume,4,atk,0,,False,942,Total Rolls:,0.8
+
+key,value
+eleMas,13.0
+critRate_,2.8
+
+Gambler,plume,4,atk,0,,False,943,Total Rolls:,1.4
+
+key,value
+enerRech_,3.6
+critRate_,3.1
+
+Gambler,sands,4,hp_,0,,False,944,Total Rolls:,0.0
+
+key,value
+hp,215.0
+def,17.0
+
+Gambler,sands,4,atk_,0,,False,945,Total Rolls:,0.1
+
+key,value
+hp,239.0
+atk,12.0
+
+Gambler,sands,4,def_,0,,False,947,Total Rolls:,0.2
+
+key,value
+atk,16.0
+hp,167.0
+
+Gambler,sands,4,eleMas,0,,False,946,Total Rolls:,0.8
+
+key,value
+def_,4.1
+critRate_,2.8
+
+Gambler,sands,4,hp_,0,,False,948,Total Rolls:,0.7
+
+key,value
+def_,5.8
+enerRech_,4.7
+
+Gambler,sands,4,def_,0,,False,949,Total Rolls:,0.4
+
+key,value
+hp_,3.7
+atk_,4.2
+
+Gambler,sands,4,hp_,0,,False,950,Total Rolls:,0.0
+
+key,value
+hp,215.0
+def,17.0
+
+Gambler,sands,4,atk_,0,,False,951,Total Rolls:,0.2
+
+key,value
+atk,16.0
+def,19.0
+
+Gambler,goblet,4,pyro_dmg_,0,,False,952,Total Rolls:,0.8
+
+key,value
+hp,239.0
+critRate_,2.5
+def,13.0
+
+Gambler,goblet,4,def_,0,,False,953,Total Rolls:,1.0
+
+key,value
+atk,11.0
+def,13.0
+critDMG_,5.6
+
+Gambler,goblet,4,electro_dmg_,0,,False,954,Total Rolls:,0.2
+
+key,value
+atk,16.0
+hp_,4.2
+
+Gambler,goblet,4,atk_,0,,False,955,Total Rolls:,0.0
+
+key,value
+eleMas,19.0
+def_,5.8
+
+Gambler,goblet,4,electro_dmg_,0,,False,956,Total Rolls:,0.0
+
+key,value
+eleMas,13.0
+hp,191.0
+
+Gambler,goblet,4,atk_,0,,False,957,Total Rolls:,0.0
+
+key,value
+hp,215.0
+def,19.0
+
+Gambler,goblet,4,def_,0,,False,958,Total Rolls:,0.1
+
+key,value
+atk,14.0
+def,13.0
+
+Gambler,circlet,4,hp_,0,,False,959,Total Rolls:,0.4
+
+key,value
+eleMas,17.0
+atk_,4.2
+def_,5.3
+
+Gambler,circlet,4,critDMG_,0,,False,960,Total Rolls:,0.7
+
+key,value
+critRate_,2.2
+hp_,4.2
+
+Gambler,circlet,4,atk_,0,,False,961,Total Rolls:,0.0
+
+key,value
+eleMas,13.0
+def_,5.8
+
+Gambler,circlet,4,eleMas,0,,False,962,Total Rolls:,0.4
+
+key,value
+atk_,4.2
+hp,167.0
+
+Gambler,circlet,4,def_,0,,False,963,Total Rolls:,0.5
+
+key,value
+hp_,4.2
+enerRech_,3.6
+
+Gambler,circlet,4,hp_,0,,False,964,Total Rolls:,0.7
+
+key,value
+enerRech_,4.7
+def,17.0
+
+Gambler,circlet,4,atk_,0,,False,965,Total Rolls:,0.1
+
+key,value
+atk,14.0
+eleMas,13.0
+
+Gambler,circlet,4,def_,0,,False,966,Total Rolls:,0.1
+
+key,value
+eleMas,17.0
+atk,14.0
+
+Gambler,circlet,4,eleMas,0,,False,967,Total Rolls:,0.0
+
+key,value
+def,17.0
+hp,239.0
+
+Gambler,circlet,4,def_,0,,False,968,Total Rolls:,0.9
+
+key,value
+enerRech_,4.1
+atk_,3.3
+
+Gambler,circlet,4,hp_,0,,False,969,Total Rolls:,0.0
+
+key,value
+hp,167.0
+eleMas,13.0
+
+Instructor,flower,4,hp,0,,True,970,Total Rolls:,0.9
+
+key,value
+critRate_,3.1
+eleMas,19.0
+
+Instructor,flower,4,hp,0,,True,971,Total Rolls:,0.9
+
+key,value
+critRate_,3.1
+def_,5.3
+
+Instructor,plume,4,atk,0,,True,972,Total Rolls:,0.6
+
+key,value
+enerRech_,4.1
+hp_,4.2
+
+Instructor,plume,4,atk,0,,True,973,Total Rolls:,0.6
+
+key,value
+def,17.0
+enerRech_,4.1
+
+Instructor,plume,4,atk,0,,True,974,Total Rolls:,0.5
+
+key,value
+enerRech_,3.6
+hp,191.0
+
+Instructor,plume,4,atk,0,,True,975,Total Rolls:,0.7
+
+key,value
+eleMas,19.0
+critRate_,2.2
+
+Instructor,plume,4,atk,0,,True,976,Total Rolls:,0.0
+
+key,value
+def,15.0
+hp_,3.3
+
+Instructor,plume,4,atk,0,,True,977,Total Rolls:,1.3
+
+key,value
+critDMG_,6.2
+atk_,3.7
+
+Instructor,plume,4,atk,0,,True,978,Total Rolls:,0.4
+
+key,value
+atk_,4.2
+def,17.0
+
+Instructor,plume,4,atk,0,,True,979,Total Rolls:,0.4
+
+key,value
+atk_,4.7
+eleMas,15.0
+
+Instructor,sands,4,atk_,0,,True,980,Total Rolls:,1.6
+
+key,value
+critDMG_,5.6
+def,15.0
+enerRech_,5.2
+
+Instructor,sands,4,atk_,0,,True,981,Total Rolls:,1.5
+
+key,value
+atk,14.0
+enerRech_,4.7
+critRate_,2.2
+
+Instructor,sands,4,eleMas,0,Kaveh,True,982,Total Rolls:,0.6
+
+key,value
+def_,4.7
+atk,14.0
+atk_,4.7
+
+Instructor,sands,4,hp_,0,,True,983,Total Rolls:,0.9
+
+key,value
+def_,4.7
+critRate_,3.1
+eleMas,17.0
+
+Instructor,sands,4,hp_,0,,True,984,Total Rolls:,0.4
+
+key,value
+atk_,3.7
+def_,5.8
+
+Instructor,sands,4,eleMas,0,,True,985,Total Rolls:,0.2
+
+key,value
+def,17.0
+atk,16.0
+
+Instructor,sands,4,eleMas,0,Kirara,True,986,Total Rolls:,0.1
+
+key,value
+def_,4.7
+atk,11.0
+
+Instructor,sands,4,hp_,0,,True,987,Total Rolls:,0.7
+
+key,value
+enerRech_,4.7
+def,13.0
+
+Instructor,sands,4,hp_,0,,True,988,Total Rolls:,0.4
+
+key,value
+atk_,4.2
+def,17.0
+
+Instructor,sands,4,atk_,0,,True,989,Total Rolls:,0.0
+
+key,value
+def,15.0
+def_,4.7
+
+Instructor,sands,4,hp_,0,,True,990,Total Rolls:,0.7
+
+key,value
+enerRech_,4.7
+def,17.0
+
+Instructor,sands,4,hp_,0,,True,991,Total Rolls:,0.8
+
+key,value
+def_,5.3
+critDMG_,5.6
+
+Instructor,sands,4,def_,0,,True,992,Total Rolls:,0.4
+
+key,value
+atk_,4.2
+def,19.0
+
+Instructor,goblet,4,hp_,0,,True,993,Total Rolls:,0.3
+
+key,value
+hp,239.0
+atk_,3.3
+
+Instructor,goblet,4,hp_,0,,True,994,Total Rolls:,0.6
+
+key,value
+atk,14.0
+enerRech_,3.6
+
+Instructor,goblet,4,hp_,0,,True,995,Total Rolls:,0.6
+
+key,value
+def_,5.8
+enerRech_,4.1
+
+Instructor,goblet,4,cryo_dmg_,0,,True,996,Total Rolls:,0.7
+
+key,value
+enerRech_,5.2
+def,17.0
+
+Instructor,goblet,4,hydro_dmg_,0,,True,997,Total Rolls:,0.8
+
+key,value
+eleMas,15.0
+critRate_,2.5
+
+Instructor,circlet,4,critDMG_,0,,True,998,Total Rolls:,0.0
+
+key,value
+def_,4.1
+def,13.0
+hp,239.0
+
+Instructor,circlet,4,atk_,0,Amber,True,999,Total Rolls:,0.5
+
+key,value
+enerRech_,3.6
+def_,4.7
+def,17.0
+
+Instructor,circlet,4,critRate_,0,,True,1000,Total Rolls:,0.4
+
+key,value
+def,13.0
+atk_,3.7
+
+ResolutionOfSojourner,flower,4,hp,0,,False,1001,Total Rolls:,0.6
+
+key,value
+eleMas,19.0
+enerRech_,4.1
+
+ResolutionOfSojourner,flower,4,hp,0,,False,1002,Total Rolls:,0.8
+
+key,value
+enerRech_,5.2
+atk,12.0
+
+ResolutionOfSojourner,flower,4,hp,0,,False,1003,Total Rolls:,1.3
+
+key,value
+enerRech_,4.1
+critDMG_,5.0
+
+ResolutionOfSojourner,flower,4,hp,0,,False,1004,Total Rolls:,0.0
+
+key,value
+def_,5.8
+eleMas,19.0
+
+ResolutionOfSojourner,flower,4,hp,0,,False,1005,Total Rolls:,0.7
+
+key,value
+def,17.0
+critRate_,2.2
+
+ResolutionOfSojourner,flower,4,hp,0,,False,1006,Total Rolls:,0.8
+
+key,value
+critRate_,2.2
+atk,16.0
+
+ResolutionOfSojourner,flower,4,hp,0,,False,1007,Total Rolls:,0.0
+
+key,value
+def_,4.7
+hp_,4.7
+
+ResolutionOfSojourner,flower,4,hp,0,,False,1008,Total Rolls:,0.4
+
+key,value
+atk_,4.2
+def,13.0
+
+ResolutionOfSojourner,flower,4,hp,0,,False,1009,Total Rolls:,0.8
+
+key,value
+def,19.0
+critDMG_,5.0
+
+ResolutionOfSojourner,flower,4,hp,0,,False,1010,Total Rolls:,0.6
+
+key,value
+enerRech_,3.6
+atk,12.0
+
+ResolutionOfSojourner,flower,4,hp,0,,False,1011,Total Rolls:,0.0
+
+key,value
+def_,4.7
+hp_,3.3
+
+ResolutionOfSojourner,plume,4,atk,0,,False,1012,Total Rolls:,0.4
+
+key,value
+def,19.0
+eleMas,13.0
+atk_,3.7
+
+ResolutionOfSojourner,plume,4,atk,0,,False,1013,Total Rolls:,0.8
+
+key,value
+critDMG_,5.0
+hp,167.0
+
+ResolutionOfSojourner,plume,4,atk,0,,False,1014,Total Rolls:,0.8
+
+key,value
+critRate_,2.8
+hp,167.0
+
+ResolutionOfSojourner,plume,4,atk,0,,False,1015,Total Rolls:,0.9
+
+key,value
+eleMas,13.0
+critDMG_,6.2
+
+ResolutionOfSojourner,plume,4,atk,0,,False,1016,Total Rolls:,0.8
+
+key,value
+hp,167.0
+critRate_,2.8
+
+ResolutionOfSojourner,plume,4,atk,0,,False,1017,Total Rolls:,1.2
+
+key,value
+critRate_,2.8
+atk_,3.3
+
+ResolutionOfSojourner,plume,4,atk,0,,False,1018,Total Rolls:,0.8
+
+key,value
+def_,5.3
+critDMG_,5.0
+
+ResolutionOfSojourner,plume,4,atk,0,,False,1019,Total Rolls:,0.4
+
+key,value
+hp_,4.7
+atk_,4.7
+
+ResolutionOfSojourner,plume,4,atk,0,,False,1020,Total Rolls:,0.0
+
+key,value
+def,19.0
+def_,4.1
+
+ResolutionOfSojourner,plume,4,atk,0,,False,1021,Total Rolls:,0.5
+
+key,value
+hp_,3.7
+enerRech_,3.6
+
+ResolutionOfSojourner,sands,4,hp_,0,,False,1022,Total Rolls:,0.4
+
+key,value
+def_,5.8
+atk_,3.7
+def,13.0
+
+ResolutionOfSojourner,sands,4,hp_,0,,False,1023,Total Rolls:,1.7
+
+key,value
+enerRech_,4.7
+atk,14.0
+critRate_,3.1
+
+ResolutionOfSojourner,sands,4,def_,0,,False,1024,Total Rolls:,0.5
+
+key,value
+enerRech_,3.6
+hp_,3.7
+
+ResolutionOfSojourner,sands,4,eleMas,0,,False,1025,Total Rolls:,0.2
+
+key,value
+atk,16.0
+hp,191.0
+
+ResolutionOfSojourner,sands,4,def_,0,,False,1026,Total Rolls:,0.7
+
+key,value
+hp,167.0
+critDMG_,4.4
+
+ResolutionOfSojourner,sands,4,atk_,0,,False,1029,Total Rolls:,0.7
+
+key,value
+enerRech_,4.7
+def,19.0
+
+ResolutionOfSojourner,sands,4,atk_,0,,False,1028,Total Rolls:,0.8
+
+key,value
+critDMG_,5.6
+def,13.0
+
+ResolutionOfSojourner,sands,4,eleMas,0,,False,1027,Total Rolls:,0.1
+
+key,value
+atk,12.0
+hp,191.0
+
+ResolutionOfSojourner,sands,4,eleMas,0,,False,1030,Total Rolls:,0.0
+
+key,value
+def,17.0
+def_,4.7
+
+ResolutionOfSojourner,sands,4,eleMas,0,,False,1032,Total Rolls:,1.7
+
+key,value
+enerRech_,5.2
+critRate_,3.1
+
+ResolutionOfSojourner,sands,4,hp_,0,,False,1031,Total Rolls:,0.7
+
+key,value
+critRate_,2.2
+def,19.0
+
+ResolutionOfSojourner,sands,4,hp_,0,,False,1033,Total Rolls:,0.6
+
+key,value
+atk,16.0
+atk_,4.2
+
+ResolutionOfSojourner,goblet,4,physical_dmg_,0,,False,1034,Total Rolls:,0.0
+
+key,value
+eleMas,17.0
+hp,167.0
+hp_,4.7
+
+ResolutionOfSojourner,goblet,4,geo_dmg_,0,,False,1035,Total Rolls:,0.4
+
+key,value
+def_,4.1
+atk_,3.7
+def,17.0
+
+ResolutionOfSojourner,goblet,4,def_,0,,False,1036,Total Rolls:,0.3
+
+key,value
+atk_,3.3
+hp,239.0
+
+ResolutionOfSojourner,goblet,4,geo_dmg_,0,,False,1037,Total Rolls:,0.0
+
+key,value
+def,15.0
+eleMas,19.0
+
+ResolutionOfSojourner,goblet,4,atk_,0,,False,1038,Total Rolls:,0.1
+
+key,value
+hp_,4.7
+atk,11.0
+
+ResolutionOfSojourner,goblet,4,atk_,0,,False,1039,Total Rolls:,0.7
+
+key,value
+enerRech_,5.2
+hp_,4.2
+
+ResolutionOfSojourner,goblet,4,cryo_dmg_,0,,False,1040,Total Rolls:,0.7
+
+key,value
+critDMG_,4.4
+eleMas,13.0
+
+ResolutionOfSojourner,goblet,4,def_,0,,False,1041,Total Rolls:,0.0
+
+key,value
+hp_,4.7
+eleMas,15.0
+
+ResolutionOfSojourner,goblet,4,hp_,0,,False,1042,Total Rolls:,0.7
+
+key,value
+def_,5.3
+enerRech_,5.2
+
+ResolutionOfSojourner,circlet,4,atk_,0,,False,1043,Total Rolls:,1.0
+
+key,value
+atk,12.0
+eleMas,15.0
+critRate_,2.8
+
+ResolutionOfSojourner,circlet,4,hp_,0,,False,1044,Total Rolls:,0.1
+
+key,value
+def_,4.7
+eleMas,19.0
+atk,14.0
+
+ResolutionOfSojourner,circlet,4,def_,0,,False,1045,Total Rolls:,1.1
+
+key,value
+atk,12.0
+critRate_,3.1
+eleMas,17.0
+
+ResolutionOfSojourner,circlet,4,def_,0,,False,1046,Total Rolls:,0.7
+
+key,value
+hp_,4.2
+def,17.0
+enerRech_,4.7
+
+ResolutionOfSojourner,circlet,4,hp_,0,,False,1047,Total Rolls:,0.9
+
+key,value
+critDMG_,6.2
+def,19.0
+hp,191.0
+
+ResolutionOfSojourner,circlet,4,hp_,0,,False,1048,Total Rolls:,0.0
+
+key,value
+def_,5.3
+hp,191.0
+
+ResolutionOfSojourner,circlet,4,atk_,0,,False,1049,Total Rolls:,0.9
+
+key,value
+def_,4.1
+critDMG_,6.2
+
+ResolutionOfSojourner,circlet,4,hp_,0,,False,1050,Total Rolls:,0.7
+
+key,value
+def,15.0
+enerRech_,5.2
+
+ResolutionOfSojourner,circlet,4,def_,0,,False,1051,Total Rolls:,0.1
+
+key,value
+eleMas,15.0
+atk,14.0
+
+ResolutionOfSojourner,circlet,4,def_,0,,False,1052,Total Rolls:,0.6
+
+key,value
+hp,215.0
+enerRech_,4.1
+
+ResolutionOfSojourner,circlet,4,critRate_,0,,False,1053,Total Rolls:,0.2
+
+key,value
+hp_,3.3
+atk,16.0
+
+ResolutionOfSojourner,circlet,4,def_,0,,False,1054,Total Rolls:,0.1
+
+key,value
+atk,14.0
+hp_,3.3
+
+ResolutionOfSojourner,circlet,4,critDMG_,0,,False,1055,Total Rolls:,0.0
+
+key,value
+eleMas,17.0
+def,17.0
+
+ResolutionOfSojourner,circlet,4,eleMas,0,,False,1056,Total Rolls:,0.1
+
+key,value
+atk,11.0
+hp_,4.7
+
+ResolutionOfSojourner,circlet,4,def_,0,,False,1057,Total Rolls:,0.7
+
+key,value
+enerRech_,3.6
+atk,16.0
+
+ResolutionOfSojourner,circlet,4,critRate_,0,,False,1058,Total Rolls:,0.4
+
+key,value
+def,17.0
+atk_,4.2

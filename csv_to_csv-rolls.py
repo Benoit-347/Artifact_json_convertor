@@ -64,9 +64,7 @@ def calc_csv():
         total_rolls = 0   
         results = []    #the data storage that stores  for each artifact
         temp = []
-        j = 0
         for line in reader:
-            print(j := j+ 1)
             temp.append(line)   #re-store
             if len(line) != 0:  
                 if line[0] == "key":    #to start obatiing roll values
@@ -93,7 +91,7 @@ def calc_csv():
 
 #writes the updated data into a new csv file
 def write_calculated():
-    with open ("calcs/rolls_imported.csv", "w+", newline= "") as file1:
+    with open ("calcs\\rolls_imported.csv", "w+", newline= "") as file1:
         writer = csv.writer(file1)
         writer.writerows(calc_csv())
 

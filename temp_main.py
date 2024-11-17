@@ -51,12 +51,17 @@ def calc_csv():
                 if line[0] == "key":    #to start obatiing roll values
                     flag = 4        #only 4 subs per artifact
                     continue
-            if flag >0:     
-                total_rolls += check_stat(line[0])* float(line[1])  #adding roll values
-                flag -= 1
-                if flag == 0:
+            if flag >0:    
+                try: 
+                    total_rolls += check_stat(line[0])* float(line[1])  #adding roll values
+                    flag -= 1
+                    if flag == 0:
+                        results.append(["Total Rolls:", round(total_rolls, 1)]) #Add the line of total rolls
+                        total_rolls = 0
+                except:
                     results.append(["Total Rolls:", round(total_rolls, 1)]) #Add the line of total rolls
                     total_rolls = 0
+
     return results
 
 #writes the updated data into a new csv file

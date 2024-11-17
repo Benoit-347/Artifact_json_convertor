@@ -51,17 +51,28 @@ def calc_csv():
                 c = []
                 id = line[7]
                 c.append(id)
+                print(id)
             if len(line) != 0:
                 if line[0] == "key":
                     flag = 4
                     continue
                 if flag >0:
-                    a += check_stat(line[0])* float(line[1])
-                    flag -= 1
-                    if flag == 0:
+                    try:
+                        a += check_stat(line[0])* float(line[1])
+                        flag -= 1
+                        if flag == 0:
+                            c.append(round(a, 1))
+                            b.append(c)
+                            a = 0
+                    except:
                         c.append(round(a, 1))
                         b.append(c)
                         a = 0
+                        j = 8
+                        c = []
+                        id = line[7]
+                        c.append(id)
+                        print(id)
     return b
 
 #write the calculated data obtained into a file 

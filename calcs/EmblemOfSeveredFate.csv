@@ -15,6 +15,7 @@ EmblemOfSeveredFate,flower,5,hp,0,,True,593,1.57
 EmblemOfSeveredFate,flower,5,hp,0,,True,601,1.56
 EmblemOfSeveredFate,flower,5,hp,0,,True,600,1.55
 EmblemOfSeveredFate,flower,5,hp,0,,False,590,1.54
+EmblemOfSeveredFate,flower,5,hp,0,,True,592,1.5
 
 EmblemOfSeveredFate,flower,5,hp,20,Beidou,True,55,6.31
 EmblemOfSeveredFate,flower,5,hp,20,RaidenShogun,False,52,6.07
@@ -31,6 +32,7 @@ EmblemOfSeveredFate,plume,5,atk,0,,True,607,1.68
 EmblemOfSeveredFate,plume,5,atk,0,,False,604,1.63
 EmblemOfSeveredFate,plume,5,atk,4,,False,289,1.57
 EmblemOfSeveredFate,plume,5,atk,0,,True,610,1.57
+EmblemOfSeveredFate,plume,5,atk,0,,True,611,1.49
 
 EmblemOfSeveredFate,plume,5,atk,20,Xiangling,True,57,6.67
 EmblemOfSeveredFate,plume,5,atk,20,Xingqiu,True,58,6.33
@@ -55,12 +57,25 @@ EmblemOfSeveredFate,sands,5,enerRech_,20,ShikanoinHeizou,True,76,4.45
 EmblemOfSeveredFate,sands,5,atk_,20,Diluc,False,69,4.26
 
 
-EmblemOfSeveredFate,goblet,,,,,,,
+EmblemOfSeveredFate,goblet,5,electro_dmg_,4,,False,295,1.32
+EmblemOfSeveredFate,goblet,5,pyro_dmg_,4,,False,296,0.96
 
 EmblemOfSeveredFate,goblet,5,electro_dmg_,20,RaidenShogun,True,88,5.67
+EmblemOfSeveredFate,goblet,5,hydro_dmg_,20,Faruzan,True,82,4.6
+EmblemOfSeveredFate,goblet,5,hydro_dmg_,20,Xingqiu,True,79,4.38
+EmblemOfSeveredFate,goblet,5,pyro_dmg_,20,Diluc,True,83,4.26
+EmblemOfSeveredFate,goblet,5,electro_dmg_,20,Keqing,True,80,4.21
 
 
-EmblemOfSeveredFate,circlet,,,,,,,
+EmblemOfSeveredFate,circlet,5,critDMG_,4,,False,300,1.51
+EmblemOfSeveredFate,circlet,5,critRate_,4,,False,298,1.41
+EmblemOfSeveredFate,circlet,5,critRate_,6,,False,247,1.35
+EmblemOfSeveredFate,circlet,5,critDMG_,0,,True,624,1.33
+EmblemOfSeveredFate,circlet,5,critDMG_,0,,True,627,1.28
+EmblemOfSeveredFate,circlet,5,critRate_,4,,False,297,1.26
+EmblemOfSeveredFate,circlet,5,critRate_,0,,False,626,1.06
+EmblemOfSeveredFate,circlet,5,critRate_,4,,False,305,1.05
+EmblemOfSeveredFate,circlet,5,critDMG_,4,,False,304,0.95
 
 EmblemOfSeveredFate,circlet,5,critDMG_,20,Beidou,True,89,5.37
 EmblemOfSeveredFate,circlet,5,critRate_,20,Xiangling,True,91,4.07

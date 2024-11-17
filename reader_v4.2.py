@@ -178,31 +178,31 @@ def combine_write_to_csv(artifact_name, rolls_1, level_1, rolls_2, level_2, sans
         writer.writerow(get_keys())
         final = [[]]
         print(f"\n--*--Starting 1st data import--*--\n\n")
-        final.extend(change_to_list(filter_get_artifact(artifact_name, "flower", ['hp'], rolls_1, level_1)))
+        final.extend(change_to_list(filter_get_artifact(artifact_name, "flower", ['hp'], rolls_1 + 0.38, level_1)))
         final.append([])
         final.extend(change_to_list(filter_get_artifact(artifact_name, "flower", ['hp'] ,rolls_2, level_2)))
         final.extend([[],[]])
 
         print(f"\n--*--Starting 2st data import--*--\n\n")
-        final.extend(change_to_list(filter_get_artifact(artifact_name, "plume", ['atk'], rolls_1, level_1)))
+        final.extend(change_to_list(filter_get_artifact(artifact_name, "plume", ['atk'], rolls_1 + 0.38, level_1)))
         final.append([])
         final.extend(change_to_list(filter_get_artifact(artifact_name, "plume", ['atk'], rolls_2, level_2)))
         final.extend([[],[]])
         
         print(f"\n--*--Starting 3st data import--*--\n\n")
-        final.extend(change_to_list(filter_get_artifact(artifact_name, "sands", sans, rolls_1-0.72, level_1)))
+        final.extend(change_to_list(filter_get_artifact(artifact_name, "sands", sans, rolls_1-0.19, level_1)))
         final.append([])
         final.extend(change_to_list(filter_get_artifact(artifact_name, "sands", sans, 4, level_2)))
         final.extend([[],[]])
 
         print(f"\n--*--Starting 4st data import--*--\n\n")
-        final.extend(change_to_list(filter_get_artifact(artifact_name, "goblet", goblet, 4, level_1)))
+        final.extend(change_to_list(filter_get_artifact(artifact_name, "goblet", goblet, rolls_1-0.19, level_1)))
         final.append([])
-        final.extend(change_to_list(filter_get_artifact(artifact_name, "goblet", goblet, rolls_2-1, level_2)))
+        final.extend(change_to_list(filter_get_artifact(artifact_name, "goblet", goblet, 4, level_2)))
         final.extend([[],[]])
 
         print(f"\n--*--Starting 5st data import--*--\n\n")
-        final.extend(change_to_list(filter_get_artifact(artifact_name, "circlet", circlet, 4, level_1))) 
+        final.extend(change_to_list(filter_get_artifact(artifact_name, "circlet", circlet, rolls_1-0.19, level_1))) 
         final.append([])
         final.extend(change_to_list(filter_get_artifact(artifact_name, "circlet", circlet, 4, level_2)))
         final.extend([[],[]])
@@ -214,12 +214,12 @@ def combine_write_to_csv(artifact_name, rolls_1, level_1, rolls_2, level_2, sans
     os.startfile(file_name)
 
 def main():
-    artifact_name = 'EmblemOfSeveredFate'   #'EmblemOfSeveredFate'  "ScrollOfTheHeroOfCinderCity"   "ObsidianCodex"  "GoldenTroupe"
-    rolls_1 = 1.5
+    artifact_name = "ObsidianCodex"   #'EmblemOfSeveredFate'  "ScrollOfTheHeroOfCinderCity"   "ObsidianCodex"  "GoldenTroupe"
+    rolls_1 = 1
     level_1 = 7
     rolls_2 = 6
     level_2 = 20
-    EM = 0
+    EM = 1
 
     update_stat_values(artifact_name, EM)
     change_values()

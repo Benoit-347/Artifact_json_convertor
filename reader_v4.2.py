@@ -125,7 +125,7 @@ def get_roll(a):
     return round(result, 2)
 
 
-#the main program to get each artifact's details and put substats into newlines 
+#the part to get each artifact's details and put substats into newlines 
 def change_values():
     for dict1 in list_of_dicts:
         get_roll(dict1['substats'])
@@ -133,8 +133,8 @@ def change_values():
     else:
         print(f"\nDone analysis and change of substat values\n")
 
-
-def get_artifact(a, name, main_stat, c=0, d=20):
+#filtering:
+def filter_get_artifact(a, name, main_stat, c=0, d=20):
 
     # Names: "flower", "plume", "sands", "goblet", "circlet"
 
@@ -161,42 +161,6 @@ def change_to_list(a):
 
 
 #writing the formated data into a csv file
-def diff_write_to_csv():
-    artifact_name = 'EmblemOfSeveredFate'
-    EM = 0
-    if EM:
-        file_name = "calcs/" + artifact_name +  "_EM_roll_"
-    else:
-        file_name = "calcs/" + artifact_name +  "_roll_"
-
-    rolls = 6
-    level = 20
-    file_name1 = file_name + str(rolls) + "_flower" + ".csv"    #"flower", "plume", "sands", "goblet", "circlet"
-    file_name2 = file_name + str(rolls) + "_plume" + ".csv"
-    file_name3 = file_name + str(rolls) + "_sands" + ".csv"
-    file_name4 = file_name + str(rolls) + "_goblet" + ".csv"
-    file_name5 = file_name + str(rolls) + "_circlet" + ".csv"
-
-    with open(file_name1, "w", newline= "") as file1:
-        writer = csv.writer(file1)
-        writer.writerow(get_keys())
-        writer.writerows(change_to_list(get_artifact(artifact_name, "flower",  rolls, level))) 
-    with open(file_name2, "w", newline= "") as file1:
-        writer = csv.writer(file1)
-        writer.writerow(get_keys())
-        writer.writerows(change_to_list(get_artifact(artifact_name, "plume",  rolls, level))) 
-    with open(file_name3, "w", newline= "") as file1:
-        writer = csv.writer(file1)
-        writer.writerow(get_keys())
-        writer.writerows(change_to_list(get_artifact(artifact_name, "sands",  rolls, level))) 
-    with open(file_name4, "w", newline= "") as file1:
-        writer = csv.writer(file1)
-        writer.writerow(get_keys())
-        writer.writerows(change_to_list(get_artifact(artifact_name, "goblet",  rolls, level))) 
-    with open(file_name5, "w", newline= "") as file1:
-        writer = csv.writer(file1)
-        writer.writerow(get_keys())
-        writer.writerows(change_to_list(get_artifact(artifact_name, "circlet",  rolls, level))) 
 
 def combine_write_to_csv(artifact_name, rolls_1, level_1, rolls_2, level_2, sans, goblet, circlet, EM, nuance=0):
 
@@ -214,33 +178,33 @@ def combine_write_to_csv(artifact_name, rolls_1, level_1, rolls_2, level_2, sans
         writer.writerow(get_keys())
         final = [[]]
         print(f"\n--*--Starting 1st data import--*--\n\n")
-        final.extend(change_to_list(get_artifact(artifact_name, "flower", ['hp'], rolls_1, level_1)))
+        final.extend(change_to_list(filter_get_artifact(artifact_name, "flower", ['hp'], rolls_1, level_1)))
         final.append([])
-        final.extend(change_to_list(get_artifact(artifact_name, "flower", ['hp'] ,rolls_2, level_2)))
+        final.extend(change_to_list(filter_get_artifact(artifact_name, "flower", ['hp'] ,rolls_2, level_2)))
         final.extend([[],[]])
 
         print(f"\n--*--Starting 2st data import--*--\n\n")
-        final.extend(change_to_list(get_artifact(artifact_name, "plume", ['atk'], rolls_1, level_1)))
+        final.extend(change_to_list(filter_get_artifact(artifact_name, "plume", ['atk'], rolls_1, level_1)))
         final.append([])
-        final.extend(change_to_list(get_artifact(artifact_name, "plume", ['atk'], rolls_2, level_2)))
+        final.extend(change_to_list(filter_get_artifact(artifact_name, "plume", ['atk'], rolls_2, level_2)))
         final.extend([[],[]])
         
         print(f"\n--*--Starting 3st data import--*--\n\n")
-        final.extend(change_to_list(get_artifact(artifact_name, "sands", sans, rolls_1-0.72, level_1)))
+        final.extend(change_to_list(filter_get_artifact(artifact_name, "sands", sans, rolls_1-0.72, level_1)))
         final.append([])
-        final.extend(change_to_list(get_artifact(artifact_name, "sands", sans, 4, level_2)))
+        final.extend(change_to_list(filter_get_artifact(artifact_name, "sands", sans, 4, level_2)))
         final.extend([[],[]])
 
         print(f"\n--*--Starting 4st data import--*--\n\n")
-        final.extend(change_to_list(get_artifact(artifact_name, "goblet", goblet, 4, level_1)))
+        final.extend(change_to_list(filter_get_artifact(artifact_name, "goblet", goblet, 4, level_1)))
         final.append([])
-        final.extend(change_to_list(get_artifact(artifact_name, "goblet", goblet, rolls_2-1, level_2)))
+        final.extend(change_to_list(filter_get_artifact(artifact_name, "goblet", goblet, rolls_2-1, level_2)))
         final.extend([[],[]])
 
         print(f"\n--*--Starting 5st data import--*--\n\n")
-        final.extend(change_to_list(get_artifact(artifact_name, "circlet", circlet, 4, level_1))) 
+        final.extend(change_to_list(filter_get_artifact(artifact_name, "circlet", circlet, 4, level_1))) 
         final.append([])
-        final.extend(change_to_list(get_artifact(artifact_name, "circlet", circlet, 4, level_2)))
+        final.extend(change_to_list(filter_get_artifact(artifact_name, "circlet", circlet, 4, level_2)))
         final.extend([[],[]])
 
         print(f"\n--*--Starting write operation--*--\n")

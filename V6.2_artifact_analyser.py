@@ -5,6 +5,7 @@
 
 #added features:
     # 1. shows substats in a new coulumn for each row for easier artifact identification and manual apraisel
+    # 2. much higher accuracy with lower speed (42 artifacts returned with run time = 10950ms)
 
 import csv
 from copy import deepcopy

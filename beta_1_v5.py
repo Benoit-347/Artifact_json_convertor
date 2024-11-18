@@ -1,4 +1,6 @@
-#a = substat
+#the prediction only code
+
+
 b = {'setKey': 'ObsidianCodex', 'slotKey': 'flower', 'rarity': 5, 'mainStatKey': 'hp', 'level': 20, 'substats': [{'key': 'critRate_', 'value': 3.9}, {'key': 'hp_', 'value': 21.6}, {'key': 'critDMG_', 'value': 6.6}], 'location': '', 'lock': True, 'id': 0}
 
 def get_roll_substat_key(a):

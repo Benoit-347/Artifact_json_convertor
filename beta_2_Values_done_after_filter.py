@@ -1,7 +1,7 @@
 #This program reads the json file returned from inventory kamera app and creates a csv file such that it is formated with artifact headings and rows as substats
-
+# added values later to have stat
 import csv
-
+from copy import deepcopy
 #read the json file
 with open ("1_data.json", "r") as file1:
     import json
@@ -131,11 +131,11 @@ def get_roll(a):
 #the part to get each artifact's details and put substats into newlines 
 def change_values(the_list):
     for dict1 in the_list:
-        get_roll(dict1['substats'])
-        dict1['substats'] = get_roll(dict1['substats'])
+        a = get_roll(dict1['substats'])
+        dict1['substats'] = a
     else:
         print(f"\nDone analysis and change of substat values\n")
-
+        return the_list
 #filtering:
 def filter_get_artifact(a, slotkey, main_stat, c=0, d=20):
 
@@ -143,8 +143,9 @@ def filter_get_artifact(a, slotkey, main_stat, c=0, d=20):
 
     new_list_of_dicts = []
     for dict1 in list_of_dicts:
-        if dict1['setKey'] == a and dict1['slotKey'] == slotkey and dict1['substats'] > c and dict1['level'] <= d and dict1['mainStatKey'] in main_stat:
-            new_list_of_dicts.append(dict1)
+        if dict1['setKey'] == a and dict1['slotKey'] == slotkey and get_roll(dict1['substats']) > c and dict1['level'] <= d and dict1['mainStatKey'] in main_stat:
+            it = deepcopy(dict1)
+            new_list_of_dicts.append(it)
 
     print(f"Done Filtering artifacts from list of dicts\n")
     if new_list_of_dicts == []:
@@ -286,9 +287,6 @@ def new_predict(artifact, threshold, threshold_probability):
         individual_rolls.append(b)
         initial_roll_value += b
     
-    print(substat_list)
-    print(individual_rolls)
-
     if len(substat_list) ==4:
         #Q) there exists 4 values: a, b, c, d such that a = 1, b = 0.5, c = 0.1, d = 0.
         #If one among them is picked 5 times consequtively with repititions find:

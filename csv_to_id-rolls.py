@@ -78,5 +78,6 @@ def write_calculated():
     with open ("calcs\calculated.csv", "w+", newline= "") as file1:
         writer = csv.writer(file1)
         writer.writerows(calc_csv())
-
+    import os
+    os.startfile("calcs\calculated.csv")
 write_calculated()

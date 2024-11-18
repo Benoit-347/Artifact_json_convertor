@@ -320,12 +320,12 @@ def new_predict(artifact, threshold, threshold_probability):
                 for k in individual_rolls:
                     for l in individual_rolls:
                         for m in individual_rolls:
-                            for n1 in [1.176, 1.059, 0.94, 0.823]:
-                                for n2 in [1.176, 1.059, 0.94, 0.823]:
-                                    for n3 in [1.176, 1.059, 0.94, 0.823]:
-                                        for n4 in [1.176, 1.059, 0.94, 0.823]:
-                                            for n5 in [1.176, 1.059, 0.94, 0.823]:
-                                                n = n1*i+n2*j+n3*k+n4*l+n5*m+initial_roll_value
+                            for n1 in [1, 0.9, 0.8, 0.7]:
+                                for n2 in [1, 0.9, 0.8, 0.7]:
+                                    for n3 in [1, 0.9, 0.8, 0.7]:
+                                        for n4 in [1, 0.9, 0.8, 0.7]:
+                                            for n5 in [1, 0.9, 0.8, 0.7]:
+                                                n = (n1*i+n2*j+n3*k+n4*l+n5*m)*1.17647+initial_roll_value
                                                 new_possible_individual_rolls.append(n)
 
 

@@ -1,8 +1,8 @@
 setKey,slotKey,rarity,mainStatKey,level,location,lock,id,current rolls,The probablity of 6.5rolls is: ,The Median rolls achiveable is: ,The potential ceiling is: 
 
-ObsidianCodex,flower,5,hp,4,,False,259,2.95,19.2%,5.6 Rolls,8.1 Rolls with 0.0033,"['atk', 'critDMG_', 'hp_', 'eleMas']"
+ObsidianCodex,flower,5,hp,4,,False,259,2.95,19.3%,5.6 Rolls,8.1 Rolls with 0.0033,"['atk', 'critDMG_', 'hp_', 'eleMas']"
 ObsidianCodex,flower,5,hp,4,,False,254,2.7,13.4%,5.4 Rolls,7.8 Rolls with 0.0033,"['hp_', 'critRate_', 'def_', 'eleMas']"
-ObsidianCodex,flower,5,hp,4,,True,263,2.66,12.9%,5.3 Rolls,7.8 Rolls with 0.0033,"['def', 'critDMG_', 'eleMas', 'hp_']"
+ObsidianCodex,flower,5,hp,4,,True,263,2.66,13.0%,5.3 Rolls,7.8 Rolls with 0.0033,"['def', 'critDMG_', 'eleMas', 'hp_']"
 ObsidianCodex,flower,5,hp,6,,True,242,2.45,8.2%,5.1 Rolls,7.6 Rolls with 0.0033,"['critRate_', 'hp_', 'eleMas', 'def_']"
 ObsidianCodex,flower,5,hp,0,,True,326,2.35,7.2%,4.7 Rolls,7.7 Rolls with 0.0033,"['atk_', 'enerRech_', 'critRate_', 'critDMG_']"
 ObsidianCodex,flower,5,hp,4,,False,262,2.11,4.0%,4.5 Rolls,7.5 Rolls with 0.0033,"['critRate_', 'critDMG_', 'def', 'def_']"

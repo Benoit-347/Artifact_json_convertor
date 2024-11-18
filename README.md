@@ -1,4 +1,4 @@
-# Artifact_json_convertor
+# Artifact_Analyser
 A py program to analyse artifacts in genshin impact
 
 Analysis includes: 

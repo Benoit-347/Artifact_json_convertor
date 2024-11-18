@@ -45,6 +45,9 @@ def1 = 0
 
 def update_stat_values(a, b):  #'EmblemOfSeveredFate'  "ScrollOfTheHeroOfCinderCity"   "ObsidianCodex"  "GoldenTroupe"
     
+    global CD, CR, ER, ATK_, HP_, EM, Atk, Hp, DEF_, Def
+
+
     CD      =0
     CR      =0
     ER      =0
@@ -128,25 +131,26 @@ def get_roll(a):
 #the part to get each artifact's details and put substats into newlines 
 def change_values():
     for dict1 in list_of_dicts:
-        a = get_roll(dict1['substats'])
-        dict1['substats'] = a
+        get_roll(dict1['substats'])
+        dict1['substats'] = get_roll(dict1['substats'])
     else:
         print(f"\nDone analysis and change of substat values\n")
 
 #filtering:
-def filter_get_artifact(a, name, main_stat, c=0, d=20):
+def filter_get_artifact(a, slotkey, main_stat, c=0, d=20):
 
-    # Names: "flower", "plume", "sands", "goblet", "circlet"
+    # slotkey: "flower", "plume", "sands", "goblet", "circlet"
 
     new_list_of_dicts = []
     for dict1 in list_of_dicts:
-        if dict1['setKey'] == a and dict1['slotKey'] == name and dict1['substats'] > c and dict1['level'] <= d and dict1['mainStatKey'] in main_stat:
+        if dict1['setKey'] == a and dict1['slotKey'] == slotkey and dict1['substats'] > c and dict1['level'] <= d and dict1['mainStatKey'] in main_stat:
             new_list_of_dicts.append(dict1)
 
     print(f"Done Filtering artifacts from list of dicts\n")
     if new_list_of_dicts == []:
-        return [{'setKey': a, 'slotKey': name, 'rarity': '', 'mainStatKey': '', 'level': '', 'substats': '', 'location': '', 'lock': "", 'id': ''}]
+        return [{'setKey': a, 'slotKey': slotkey, 'rarity': '', 'mainStatKey': '', 'level': '', 'substats': '', 'location': '', 'lock': "", 'id': ''}]
     return new_list_of_dicts
+
 
 def change_to_list(a):
     result = []
@@ -157,21 +161,21 @@ def change_to_list(a):
     sorted_result = sorted(result, key=lambda x: x[8], reverse=True)
     print(f"Sorting of lists successfull\n")
     return sorted_result
-        
+
 
 
 #writing the formated data into a csv file
 
-def combine_write_to_csv(artifact_name, rolls_1, level_1, rolls_2, level_2, sans, goblet, circlet, EM, nuance=0):
+def combine_write_to_csv(artifact_name, rolls_1, level_1, rolls_2, level_2, sans, goblet, circlet, EM, threshold, nuance=0):
 
     if nuance:
         a = "_nuance"
     else:
         a = ""
     if EM:
-        file_name = "calcs\\" + artifact_name + a + "_EM" + ".csv"
+        file_name = "calcs\\" + artifact_name + a + "_EM" + "beta" + ".csv"
     else:
-        file_name = "calcs\\" + artifact_name + a + ".csv"
+        file_name = "calcs\\" + artifact_name + a + "beta" + ".csv"
 
     with open(file_name, "w", newline= "") as file1:
         writer = csv.writer(file1)
@@ -212,57 +216,6 @@ def combine_write_to_csv(artifact_name, rolls_1, level_1, rolls_2, level_2, sans
         print(f"\n-----*-----Program execution Successful-----*-----\n")
     import os
     os.startfile(file_name)
-
-def update_roll_values(a, b):
-    global CD, CR, ER, ATK_, HP_, EM, Atk, Hp, DEF_, Def
-    
-    CD      =0
-    CR      =0
-    ER      =0
-    ATK_    =0
-    HP_     =0
-    EM      =0
-    Atk     =0
-    Hp      =0
-    DEF_    =0
-    Def     =0
-    if a == 'EmblemOfSeveredFate':
-        if b:
-            em = 0.77
-        else:
-            em = 0
-        CD=1
-        CR=1
-        ER=0.77
-        ATK_=0.47
-        HP_=0
-        EM=em
-        Atk=0.1667
-        Hp=0
-        DEF_=0
-        Def=0
-
-    elif a == "ObsidianCodex":
-        if b:
-            em = 0.91
-        else:
-            em = 0
-        CD=1
-        CR=0.99
-        ER=0
-        ATK_=0
-        HP_=0.71
-        EM=em
-        Atk=0
-        Hp=0.24
-        DEF_=0
-        Def=0
-
-    elif a == "ScrollOfTheHeroOfCinderCity":
-        pass
-
-    elif a == "GoldenTroupe":
-        pass
 
 
 def get_roll_substat_key(a):
@@ -333,6 +286,8 @@ def new_predict(artifact, threshold, threshold_probability):
         individual_rolls.append(b)
         initial_roll_value += b
     
+    print(substat_list)
+    print(individual_rolls)
 
     if len(substat_list) ==4:
         #Q) there exists 4 values: a, b, c, d such that a = 1, b = 0.5, c = 0.1, d = 0.
@@ -382,7 +337,18 @@ def new_predict(artifact, threshold, threshold_probability):
 
     return result
 
-
+def get_main_stat_chance(a):
+        
+    if a == "flower":
+        return 0.20
+    elif a == "plume":
+        return 0.20
+    elif a == "sands":
+        return 0.05
+    elif a == "goblet":
+        return 0.01
+    elif a == "circlet":
+        return 0.04
 
 
 def main():
@@ -392,35 +358,15 @@ def main():
     rolls_2 = 6
     level_2 = 20
     EM = 1
-
+    threshold = rolls_2 + 0.5
     update_stat_values(artifact_name, EM)
     change_values()
-    combine_write_to_csv(artifact_name, rolls_1, level_1, rolls_2, level_2,['atk_',  'enerRech_', 'eleMas'], ['hydro_dmg_', 'electro_dmg_',  'pyro_dmg_'], ['critDMG_', 'critRate_'] , EM, 0)   #sans: hp_  atk_  enerRech_  eleMas
+
+
+
+    combine_write_to_csv(artifact_name, rolls_1, level_1, rolls_2, level_2,['atk_',  'enerRech_', 'eleMas'], ['hydro_dmg_', 'electro_dmg_',  'pyro_dmg_'], ['critDMG_', 'critRate_'] , EM, threshold , 0)   #sans: hp_  atk_  enerRech_  eleMas
                                                                 #obsidian:  ['hp_', 'eleMas'], ['hydro_dmg_', 'hp_'], ['critDMG_']         #gob: electro_dmg_  hydro_dmg_,  pyro_dmg_  
                                                                 #EmblemOfSeveredFate:   ['atk_',  'enerRech_', 'eleMas'], ['hydro_dmg_', 'electro_dmg_',  'pyro_dmg_'], ['critDMG_', 'critRate_']  #circlet: critDMG_  critRate_
 
 
-
-
-
-
-
-update_roll_values("ObsidianCodex", 1)
-ab = []
-j = 0
-for i in list_of_dicts:
-    print(j:= j + 1)
-    if i['slotKey'] == "flower":
-        main_stat_chance = 0.20
-    elif i['slotKey'] == "plume":
-        main_stat_chance = 0.20
-    elif i['slotKey'] == "sands":
-        main_stat_chance = 0.05
-    elif i['slotKey'] == "goblet":
-        main_stat_chance = 0.01
-    elif i['slotKey'] == "circlet":
-        main_stat_chance = 0.04
-    ab.append(new_predict(i, 2, 1/(5*300*main_stat_chance))) #Flower		Feather		Sans		Goblet		Circlet
-                                                            #0.20		0.20		0.05		0.01		0.04
-#    result = [probability,probable_value, plausible_ceiling]
-print(ab)
+main()

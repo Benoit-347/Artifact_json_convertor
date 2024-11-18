@@ -129,8 +129,8 @@ def get_roll(a):
 
 
 #the part to get each artifact's details and put substats into newlines 
-def change_values():
-    for dict1 in list_of_dicts:
+def change_values(the_list):
+    for dict1 in the_list:
         get_roll(dict1['substats'])
         dict1['substats'] = get_roll(dict1['substats'])
     else:
@@ -201,33 +201,33 @@ def combine_write_to_csv(artifact_name, rolls_1, level_1, rolls_2, level_2, sans
         writer.writerow(get_keys())
         final = [[]]
         print(f"\n--*--Starting 1st data import--*--\n\n")
-        final.extend(predict_and_change_to_list(filter_get_artifact(artifact_name, "flower", ['hp'], rolls_1 + 0.38, level_1), threshold)) 
+        final.extend(predict_and_change_to_list(change_values(filter_get_artifact(artifact_name, "flower", ['hp'], rolls_1 + 0.38, level_1), threshold)))
         final.append([])
-        final.extend(change_to_list(filter_get_artifact(artifact_name, "flower", ['hp'] ,rolls_2, level_2)))
+        final.extend(change_to_list(change_values(filter_get_artifact(artifact_name, "flower", ['hp'] ,rolls_2, level_2))))
         final.extend([[],[]])
 
         print(f"\n--*--Starting 2st data import--*--\n\n")
-        final.extend(predict_and_change_to_list(filter_get_artifact(artifact_name, "plume", ['atk'], rolls_1 + 0.38, level_1), threshold))
+        final.extend(predict_and_change_to_list(change_values(filter_get_artifact(artifact_name, "plume", ['atk'], rolls_1 + 0.38, level_1), threshold)))
         final.append([])
-        final.extend(change_to_list(filter_get_artifact(artifact_name, "plume", ['atk'], rolls_2, level_2)))
+        final.extend(change_to_list(change_values(filter_get_artifact(artifact_name, "plume", ['atk'], rolls_2, level_2))))
         final.extend([[],[]])
         
         print(f"\n--*--Starting 3st data import--*--\n\n")
-        final.extend(predict_and_change_to_list(filter_get_artifact(artifact_name, "sands", sans, rolls_1-0.19, level_1), threshold))
+        final.extend(predict_and_change_to_list(change_values(filter_get_artifact(artifact_name, "sands", sans, rolls_1-0.19, level_1), threshold)))
         final.append([])
-        final.extend(change_to_list(filter_get_artifact(artifact_name, "sands", sans, 4, level_2)))
+        final.extend(change_to_list(change_values(filter_get_artifact(artifact_name, "sands", sans, 4, level_2))))
         final.extend([[],[]])
 
         print(f"\n--*--Starting 4st data import--*--\n\n")
-        final.extend(predict_and_change_to_list(filter_get_artifact(artifact_name, "goblet", goblet, rolls_1-0.19, level_1), threshold))
+        final.extend(predict_and_change_to_list(change_values(filter_get_artifact(artifact_name, "goblet", goblet, rolls_1-0.19, level_1), threshold)))
         final.append([])
-        final.extend(change_to_list(filter_get_artifact(artifact_name, "goblet", goblet, 4, level_2)))
+        final.extend(change_to_list(change_values(filter_get_artifact(artifact_name, "goblet", goblet, 4, level_2))))
         final.extend([[],[]])
 
         print(f"\n--*--Starting 5st data import--*--\n\n")
-        final.extend(predict_and_change_to_list(filter_get_artifact(artifact_name, "circlet", circlet, rolls_1-0.19, level_1), threshold)) 
+        final.extend(predict_and_change_to_list(change_values(filter_get_artifact(artifact_name, "circlet", circlet, rolls_1-0.19, level_1), threshold)))
         final.append([])
-        final.extend(change_to_list(filter_get_artifact(artifact_name, "circlet", circlet, 4, level_2)))
+        final.extend(change_to_list(change_values(filter_get_artifact(artifact_name, "circlet", circlet, 4, level_2))))
         final.extend([[],[]])
 
         print(f"\n--*--Starting write operation--*--\n")
@@ -379,9 +379,6 @@ def main():
     EM = 1
     threshold = rolls_2 + 0.5
     update_stat_values(artifact_name, EM)
-    change_values()
-
-
 
     combine_write_to_csv(artifact_name, rolls_1, level_1, rolls_2, level_2,['atk_',  'enerRech_', 'eleMas'], ['hydro_dmg_', 'electro_dmg_',  'pyro_dmg_'], ['critDMG_', 'critRate_'] , EM, threshold , 0)   #sans: hp_  atk_  enerRech_  eleMas
                                                                 #obsidian:  ['hp_', 'eleMas'], ['hydro_dmg_', 'hp_'], ['critDMG_']         #gob: electro_dmg_  hydro_dmg_,  pyro_dmg_  

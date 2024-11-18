@@ -128,8 +128,8 @@ def get_roll(a):
 #the part to get each artifact's details and put substats into newlines 
 def change_values():
     for dict1 in list_of_dicts:
-        get_roll(dict1['substats'])
-        dict1['substats'] = get_roll(dict1['substats'])
+        a = get_roll(dict1['substats'])
+        dict1['substats'] = a
     else:
         print(f"\nDone analysis and change of substat values\n")
 

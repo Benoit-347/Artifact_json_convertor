@@ -167,7 +167,7 @@ def filter_get_artifact(a, slotkey, main_stat,threshold, c=0, d=20):
             dict1['probability'], dict1['probable_value'], dict1['plausible_ceiling'], dict1['substat_list'] = probability, probable_value, plausible_ceiling, sub_stats
             it = deepcopy(dict1)
             new_list_of_dicts.append(it)
-            print(n:= n+ 1)
+            print(n:= n + 1)
     print(f"Done Filtering artifacts from list of dicts\n")
     if new_list_of_dicts == []:
         return [{'setKey': a, 'slotKey': slotkey, 'rarity': '', 'mainStatKey': '', 'level': '', 'substats': '', 'location': '', 'lock': "", 'id': '', 'probability': '', 'probable_value': '','plausible_ceiling': '', 'substat_list': ''}]
@@ -320,8 +320,13 @@ def new_predict(artifact, threshold, threshold_probability):
                 for k in individual_rolls:
                     for l in individual_rolls:
                         for m in individual_rolls:
-                            n = i+j+k+l+m+initial_roll_value
-                            new_possible_individual_rolls.append(n)
+                            for n1 in [1.176, 1.059, 0.94, 0.823]:
+                                for n2 in [1.176, 1.059, 0.94, 0.823]:
+                                    for n3 in [1.176, 1.059, 0.94, 0.823]:
+                                        for n4 in [1.176, 1.059, 0.94, 0.823]:
+                                            for n5 in [1.176, 1.059, 0.94, 0.823]:
+                                                n = n1*i+n2*j+n3*k+n4*l+n5*m+initial_roll_value
+                                                new_possible_individual_rolls.append(n)
 
 
     elif len(substat_list) ==3:
@@ -352,7 +357,7 @@ def new_predict(artifact, threshold, threshold_probability):
     plausible_ceiling =  new_possible_individual_rolls[round(len(new_possible_individual_rolls)*threshold_probability)]
     result = [probability,probable_value, plausible_ceiling, substat_list]
 
-
+ 
     return result
 
 def get_main_stat_chance(a):

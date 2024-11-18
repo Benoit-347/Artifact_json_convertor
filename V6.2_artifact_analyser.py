@@ -168,7 +168,8 @@ def filter_get_artifact(a, slotkey, main_stat,threshold, c=0, d=20):
             dict1['probability'], dict1['probable_value'], dict1['plausible_ceiling'], dict1['substat_list'] = probability, probable_value, plausible_ceiling, sub_stats
             it = deepcopy(dict1)
             new_list_of_dicts.append(it)
-            print(n:= n + 1)
+            n += 1
+            print(f"Successfully returned {n} artifact in current import")
     print(f"Done Filtering artifacts from list of dicts\n")
     if new_list_of_dicts == []:
         return [{'setKey': a, 'slotKey': slotkey, 'rarity': '', 'mainStatKey': '', 'level': '', 'substats': '', 'location': '', 'lock': "", 'id': '', 'probability': '', 'probable_value': '','plausible_ceiling': '', 'substat_list': ''}]
@@ -328,9 +329,10 @@ def new_predict(artifact, threshold, threshold_probability):
                                             for n5 in [1, 0.9, 0.8, 0.7]:
                                                 n = (n1*i+n2*j+n3*k+n4*l+n5*m)*1.17647+initial_roll_value
                                                 new_possible_individual_rolls.append(n)
-
+        new_possible_individual_rolls = new_possible_individual_rolls*1 #for ceiling accuracy
 
     elif len(substat_list) ==3:
+        chance_list = []
         weighted = get_weighted(substat_list)
         for i in weighted:
             chance = get_4_stat_chance(substat_list, i)
@@ -341,13 +343,18 @@ def new_predict(artifact, threshold, threshold_probability):
                 for j in individual_rolls:
                     for k in individual_rolls:
                         for l in individual_rolls:
-                            n = i+j+k+l+initial_roll_value
-                            possible_individual_rolls.append(n)
-            unit = 100
+                            for n1 in [1, 0.9, 0.8, 0.7]:
+                                for n2 in [1, 0.9, 0.8, 0.7]:
+                                    for n3 in [1, 0.9, 0.8, 0.7]:
+                                        for n4 in [1, 0.9, 0.8, 0.7]:
+                                                n = (n1*i+n2*j+n3*k+n4*l)*1.17647+initial_roll_value
+                                                possible_individual_rolls.append(n)
+
+            unit = 150    # increase this no. to increase accuracy (min 100) at the cost of higher ram and chache use and computation
             chance = round(chance*unit)
+            chance_list.append(chance)
             buffer = possible_individual_rolls*chance
             new_possible_individual_rolls.extend(buffer)
-
 
     for i in new_possible_individual_rolls:
         if i>= threshold:
@@ -377,16 +384,16 @@ def get_main_stat_chance(a):
 
 def main():
     global threshold
-    artifact_name = "ObsidianCodex"   #'EmblemOfSeveredFate'  "ScrollOfTheHeroOfCinderCity"   "ObsidianCodex"  "GoldenTroupe"
+    artifact_name = 'EmblemOfSeveredFate'   #'EmblemOfSeveredFate'  "ScrollOfTheHeroOfCinderCity"   "ObsidianCodex"  "GoldenTroupe"
     rolls_1 = 1
     level_1 = 7
     rolls_2 = 6
     level_2 = 20
-    EM = 1
+    EM = 0
     threshold = rolls_2 + 0.5
     update_stat_values(artifact_name, EM)
 
-    combine_write_to_csv(artifact_name, rolls_1, level_1, rolls_2, level_2,['hp_', 'eleMas'], ['hydro_dmg_', 'hp_'], ['critDMG_'] , EM, threshold , 0)   #sans: hp_  atk_  enerRech_  eleMas
+    combine_write_to_csv(artifact_name, rolls_1, level_1, rolls_2, level_2,['atk_',  'enerRech_', 'eleMas'], ['hydro_dmg_', 'electro_dmg_',  'pyro_dmg_'], ['critDMG_', 'critRate_'] , EM, threshold , 0)   #sans: hp_  atk_  enerRech_  eleMas
                                                                 #obsidian:  ['hp_', 'eleMas'], ['hydro_dmg_', 'hp_'], ['critDMG_']         #gob: electro_dmg_  hydro_dmg_,  pyro_dmg_  
                                                                 #EmblemOfSeveredFate:   ['atk_',  'enerRech_', 'eleMas'], ['hydro_dmg_', 'electro_dmg_',  'pyro_dmg_'], ['critDMG_', 'critRate_']  #circlet: critDMG_  critRate_
 

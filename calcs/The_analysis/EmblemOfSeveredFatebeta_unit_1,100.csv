@@ -1,0 +1,68 @@
+setKey,slotKey,rarity,mainStatKey,level,location,lock,id,current rolls,The probablity of 6.5rolls is: ,The Median rolls achiveable is: ,The potential ceiling is: 
+
+EmblemOfSeveredFate,flower,5,hp,0,,True,587,2.29,5.1%,5.3 Rolls,7.2 Rolls with 0.0033,"['critRate_', 'atk', 'enerRech_', 'atk_']"
+EmblemOfSeveredFate,flower,5,hp,0,,True,588,2.19,0.0%,4.7 Rolls,5.5 Rolls with 0.0033,"['enerRech_', 'atk_', 'critRate_']"
+EmblemOfSeveredFate,flower,5,hp,0,,True,591,2.18,0.0%,4.8 Rolls,5.5 Rolls with 0.0033,"['atk', 'critDMG_', 'critRate_']"
+EmblemOfSeveredFate,flower,5,hp,0,,True,586,2.0,3.3%,4.4 Rolls,7.4 Rolls with 0.0033,"['critDMG_', 'critRate_', 'hp_', 'def']"
+EmblemOfSeveredFate,flower,5,hp,0,,True,598,1.99,0.0%,4.1 Rolls,5.3 Rolls with 0.0033,"['def', 'critRate_', 'enerRech_']"
+EmblemOfSeveredFate,flower,5,hp,6,,True,245,1.92,3.6%,4.6 Rolls,7.3 Rolls with 0.0033,"['atk', 'critRate_', 'critDMG_', 'eleMas']"
+EmblemOfSeveredFate,flower,5,hp,0,,True,595,1.91,0.0%,4.1 Rolls,5.2 Rolls with 0.0033,"['enerRech_', 'critRate_', 'atk']"
+EmblemOfSeveredFate,flower,5,hp,0,,True,596,1.79,0.0%,3.9 Rolls,5.1 Rolls with 0.0033,"['def', 'critRate_', 'enerRech_']"
+EmblemOfSeveredFate,flower,5,hp,0,,True,599,1.74,0.0%,4.0 Rolls,5.0 Rolls with 0.0033,"['enerRech_', 'critRate_', 'atk']"
+EmblemOfSeveredFate,flower,5,hp,0,,True,602,1.68,0.0%,3.3 Rolls,5.0 Rolls with 0.0033,"['critRate_', 'def', 'atk_']"
+EmblemOfSeveredFate,flower,5,hp,0,,True,603,1.67,0.0%,3.8 Rolls,5.0 Rolls with 0.0033,"['def', 'enerRech_', 'critRate_']"
+EmblemOfSeveredFate,flower,5,hp,0,,True,593,1.57,0.0%,3.7 Rolls,4.9 Rolls with 0.0033,"['critDMG_', 'def', 'enerRech_']"
+EmblemOfSeveredFate,flower,5,hp,0,,True,601,1.56,0.0%,3.2 Rolls,4.9 Rolls with 0.0033,"['def', 'critDMG_', 'atk_']"
+EmblemOfSeveredFate,flower,5,hp,0,,True,600,1.55,0.0%,3.3 Rolls,4.8 Rolls with 0.0033,"['atk_', 'atk', 'critDMG_']"
+EmblemOfSeveredFate,flower,5,hp,0,,False,590,1.54,0.0%,3.1 Rolls,4.1 Rolls with 0.0033,"['atk', 'atk_', 'enerRech_']"
+EmblemOfSeveredFate,flower,5,hp,0,,True,592,1.5,0.0%,3.1 Rolls,4.8 Rolls with 0.0033,"['def_', 'atk_', 'critRate_']"
+
+EmblemOfSeveredFate,flower,,,,,,,0,,,,
+
+
+EmblemOfSeveredFate,plume,5,atk,4,,False,290,2.32,5.1%,5.1 Rolls,7.2 Rolls with 0.0033,"['atk_', 'critRate_', 'enerRech_', 'def']"
+EmblemOfSeveredFate,plume,5,atk,0,,True,606,2.12,4.0%,4.5 Rolls,7.5 Rolls with 0.0033,"['critDMG_', 'hp', 'critRate_', 'def_']"
+EmblemOfSeveredFate,plume,5,atk,0,,True,616,2.09,0.0%,4.2 Rolls,5.4 Rolls with 0.0033,"['def', 'enerRech_', 'critRate_']"
+EmblemOfSeveredFate,plume,5,atk,0,,True,608,1.79,0.0%,3.9 Rolls,5.1 Rolls with 0.0033,"['critDMG_', 'enerRech_', 'def_']"
+EmblemOfSeveredFate,plume,5,atk,0,,True,609,1.79,0.0%,3.9 Rolls,5.1 Rolls with 0.0033,"['critDMG_', 'enerRech_', 'def']"
+EmblemOfSeveredFate,plume,5,atk,0,,True,612,1.79,0.0%,3.9 Rolls,5.1 Rolls with 0.0033,"['hp', 'enerRech_', 'critDMG_']"
+EmblemOfSeveredFate,plume,5,atk,0,,True,613,1.79,0.0%,3.9 Rolls,5.1 Rolls with 0.0033,"['hp_', 'enerRech_', 'critDMG_']"
+EmblemOfSeveredFate,plume,5,atk,0,,True,607,1.68,0.0%,3.3 Rolls,5.0 Rolls with 0.0033,"['critDMG_', 'hp', 'atk_']"
+EmblemOfSeveredFate,plume,5,atk,0,,False,604,1.63,0.1%,3.4 Rolls,6.1 Rolls with 0.0033,"['critRate_', 'atk_', 'hp', 'eleMas']"
+EmblemOfSeveredFate,plume,5,atk,4,,False,289,1.57,0.3%,3.8 Rolls,6.5 Rolls with 0.0033,"['enerRech_', 'critDMG_', 'eleMas', 'def']"
+EmblemOfSeveredFate,plume,5,atk,0,,True,610,1.57,0.0%,3.7 Rolls,4.9 Rolls with 0.0033,"['eleMas', 'critDMG_', 'enerRech_']"
+EmblemOfSeveredFate,plume,5,atk,0,,True,611,1.49,0.0%,3.1 Rolls,4.8 Rolls with 0.0033,"['atk_', 'def', 'critRate_']"
+
+EmblemOfSeveredFate,plume,,,,,,,0,,,,
+
+
+EmblemOfSeveredFate,sands,5,atk_,0,,True,619,2.0,3.3%,4.4 Rolls,7.1 Rolls with 0.0133,"['critRate_', 'eleMas', 'critDMG_', 'def_']"
+EmblemOfSeveredFate,sands,5,atk_,0,,True,622,1.99,0.0%,4.1 Rolls,5.1 Rolls with 0.0133,"['critRate_', 'enerRech_', 'hp']"
+EmblemOfSeveredFate,sands,5,atk_,0,,True,621,1.88,0.0%,4.4 Rolls,5.2 Rolls with 0.0133,"['def_', 'critDMG_', 'critRate_']"
+EmblemOfSeveredFate,sands,5,eleMas,6,,False,246,1.84,0.2%,3.8 Rolls,5.9 Rolls with 0.0133,"['critRate_', 'def_', 'atk_', 'atk']"
+EmblemOfSeveredFate,sands,5,eleMas,0,,True,617,1.63,0.1%,3.4 Rolls,5.7 Rolls with 0.0133,"['hp', 'def', 'critDMG_', 'atk_']"
+EmblemOfSeveredFate,sands,5,eleMas,0,,True,618,1.63,0.1%,3.4 Rolls,5.7 Rolls with 0.0133,"['hp_', 'atk_', 'hp', 'critRate_']"
+EmblemOfSeveredFate,sands,5,eleMas,4,,False,291,1.18,0.0%,2.2 Rolls,4.9 Rolls with 0.0133,"['critDMG_', 'def_', 'hp', 'hp_']"
+
+EmblemOfSeveredFate,sands,,,,,,,0,,,,
+
+
+EmblemOfSeveredFate,goblet,5,electro_dmg_,4,,False,295,1.32,0.0%,2.6 Rolls,4.4 Rolls with 0.0667,"['hp', 'critRate_', 'hp_', 'atk']"
+EmblemOfSeveredFate,goblet,5,pyro_dmg_,4,,False,296,0.96,0.0%,2.3 Rolls,4.0 Rolls with 0.0667,"['critDMG_', 'hp', 'def_', 'atk']"
+
+EmblemOfSeveredFate,goblet,,,,,,,0,,,,
+
+
+EmblemOfSeveredFate,circlet,5,critDMG_,4,,False,300,1.51,0.0%,3.2 Rolls,4.7 Rolls with 0.0167,"['def', 'atk_', 'enerRech_', 'atk']"
+EmblemOfSeveredFate,circlet,5,critRate_,4,,False,298,1.41,0.0%,2.9 Rolls,4.6 Rolls with 0.0167,"['enerRech_', 'def', 'def_', 'atk_']"
+EmblemOfSeveredFate,circlet,5,critRate_,6,,False,247,1.35,0.0%,2.9 Rolls,4.5 Rolls with 0.0167,"['enerRech_', 'hp_', 'def', 'atk_']"
+EmblemOfSeveredFate,circlet,5,critDMG_,0,,True,624,1.33,0.0%,3.1 Rolls,5.3 Rolls with 0.0167,"['hp', 'def_', 'critRate_', 'atk_']"
+EmblemOfSeveredFate,circlet,5,critDMG_,0,,True,627,1.28,0.0%,2.7 Rolls,3.6 Rolls with 0.0167,"['def', 'enerRech_', 'atk_']"
+EmblemOfSeveredFate,circlet,5,critRate_,4,,False,297,1.26,0.0%,2.8 Rolls,4.4 Rolls with 0.0167,"['hp', 'eleMas', 'enerRech_', 'atk_']"
+EmblemOfSeveredFate,circlet,5,critRate_,0,,False,626,1.06,0.0%,1.9 Rolls,3.5 Rolls with 0.0167,"['def_', 'hp_', 'critDMG_']"
+EmblemOfSeveredFate,circlet,5,critRate_,4,,False,305,1.05,0.0%,2.1 Rolls,3.9 Rolls with 0.0167,"['enerRech_', 'atk', 'hp_', 'def_']"
+EmblemOfSeveredFate,circlet,5,critDMG_,4,,False,304,0.95,0.0%,2.0 Rolls,3.8 Rolls with 0.0167,"['hp_', 'atk', 'enerRech_', 'eleMas']"
+
+EmblemOfSeveredFate,circlet,,,,,,,0,,,,
+
+

@@ -197,9 +197,9 @@ def combine_write_to_csv(artifact_name, rolls_1, level_1, rolls_2, level_2, sans
     else:
         a = ""
     if EM:
-        file_name = "calcs\\" + artifact_name + a + "_EM" + "beta" + ".csv"
+        file_name = "calcs\\" + artifact_name + a + "_V_6.3" + ".csv"
     else:
-        file_name = "calcs\\" + artifact_name + a + "beta" + ".csv"
+        file_name = "calcs\\" + artifact_name + a + "_V_6.3" + ".csv"
 
     with open(file_name, "w", newline= "") as file1:
         writer = csv.writer(file1)
@@ -211,25 +211,25 @@ def combine_write_to_csv(artifact_name, rolls_1, level_1, rolls_2, level_2, sans
         final.extend(change_to_list(change_values(filter_get_artifact(artifact_name, "flower", ['hp'] ,rolls_2, level_2))))
         final.extend([[],[]])
 
-        print(f"\n--*--Starting 2st data import--*--\n\n")
+        print(f"\n--*--Starting 2nt data import--*--\n\n")
         final.extend(change_to_list(change_values(filter_get_artifact(artifact_name, "plume", ['atk'], threshold, rolls_1 + 0.38, level_1))))
         final.append([])
         final.extend(change_to_list(change_values(filter_get_artifact(artifact_name, "plume", ['atk'], rolls_2, level_2))))
         final.extend([[],[]])
         
-        print(f"\n--*--Starting 3st data import--*--\n\n")
+        print(f"\n--*--Starting 3rt data import--*--\n\n")
         final.extend(change_to_list(change_values(filter_get_artifact(artifact_name, "sands", sans, threshold, rolls_1-0.19, level_1))))
         final.append([])
         final.extend(change_to_list(change_values(filter_get_artifact(artifact_name, "sands", sans, 4, level_2))))
         final.extend([[],[]])
 
-        print(f"\n--*--Starting 4st data import--*--\n\n")
+        print(f"\n--*--Starting 4th data import--*--\n\n")
         final.extend(change_to_list(change_values(filter_get_artifact(artifact_name, "goblet", goblet, threshold, rolls_1-0.19, level_1))))
         final.append([])
         final.extend(change_to_list(change_values(filter_get_artifact(artifact_name, "goblet", goblet, 4, level_2))))
         final.extend([[],[]])
 
-        print(f"\n--*--Starting 5st data import--*--\n\n")
+        print(f"\n--*--Starting 5th data import--*--\n\n")
         final.extend(change_to_list(change_values(filter_get_artifact(artifact_name, "circlet", circlet, threshold, rolls_1-0.19, level_1))))
         final.append([])
         final.extend(change_to_list(change_values(filter_get_artifact(artifact_name, "circlet", circlet, 4, level_2))))
@@ -266,16 +266,7 @@ def get_roll_substat_key(a):
 
 #gets the roll value of individual substats to predict possible total roll values
 
-
-
-def get_weighted(substat_list):
-    all_substats = ['critDMG_','critRate_',"atk_","hp_","def_",'enerRech_',"atk","def","hp", "eleMas"]
-    return list(set(all_substats) - set(substat_list))
-
-def get_4_stat_chance(substat_list, substat):
-
-    weighted = get_weighted(substat_list)
-
+def get_weight(substat):
     CD      =3
     CR      =3
     ER      =4
@@ -287,10 +278,40 @@ def get_4_stat_chance(substat_list, substat):
     DEF_    =4
     Def     =6
 
-    weight = get_roll_substat_key(substat)
+    if substat == "hp_":
+        return Hp
+    elif substat == 'critDMG_':
+        return CD
+    elif substat == 'critRate_':
+        return CR
+    elif substat == 'enerRech_':
+        return ER
+    elif substat == "hp":
+        return Hp
+    elif substat == "def_":
+        return DEF_
+    elif substat == "def":
+        return Def
+    elif substat == "atk":
+        return Atk
+    elif substat == "atk_":
+        return ATK_
+    elif substat == "eleMas":
+        return EM 
+
+
+def get_weighted(substat_list):
+    all_substats = ['critDMG_','critRate_',"atk_","hp_","def_",'enerRech_',"atk","def","hp", "eleMas"]
+    return list(set(all_substats) - set(substat_list))
+
+def get_4_stat_chance(substat_list, substat):
+
+    weighted = get_weighted(substat_list)
+
+    weight = get_weight(substat)
     total_weight = 0
     for i in weighted:
-        total_weight += get_roll_substat_key(i)
+        total_weight += get_weight(i)
     chance = weight/total_weight
     return chance
 
@@ -329,10 +350,8 @@ def new_predict(artifact, threshold, threshold_probability):
                                             for n5 in [1, 0.9, 0.8, 0.7]:
                                                 n = (n1*i+n2*j+n3*k+n4*l+n5*m)*1.17647+initial_roll_value
                                                 new_possible_individual_rolls.append(n)
-        new_possible_individual_rolls = new_possible_individual_rolls*1 #for ceiling accuracy
 
     elif len(substat_list) ==3:
-        chance_list = []
         weighted = get_weighted(substat_list)
         for i in weighted:
             chance = get_4_stat_chance(substat_list, i)
@@ -350,12 +369,11 @@ def new_predict(artifact, threshold, threshold_probability):
                                                 n = (n1*i+n2*j+n3*k+n4*l)*1.17647+initial_roll_value
                                                 possible_individual_rolls.append(n)
 
+
             unit = 150    # increase this no. to increase accuracy (min 100) at the cost of higher ram and chache use and computation
             chance = round(chance*unit)
-            chance_list.append(chance)
             buffer = possible_individual_rolls*chance
             new_possible_individual_rolls.extend(buffer)
-
     for i in new_possible_individual_rolls:
         if i>= threshold:
             threshold_list.append(i)
@@ -384,16 +402,16 @@ def get_main_stat_chance(a):
 
 def main():
     global threshold
-    artifact_name = 'EmblemOfSeveredFate'   #'EmblemOfSeveredFate'  "ScrollOfTheHeroOfCinderCity"   "ObsidianCodex"  "GoldenTroupe"
+    artifact_name = "ObsidianCodex"   #'EmblemOfSeveredFate'  "ScrollOfTheHeroOfCinderCity"   "ObsidianCodex"  "GoldenTroupe"
     rolls_1 = 1
     level_1 = 7
     rolls_2 = 6
     level_2 = 20
-    EM = 0
+    EM = 1
     threshold = rolls_2 + 0.5
     update_stat_values(artifact_name, EM)
 
-    combine_write_to_csv(artifact_name, rolls_1, level_1, rolls_2, level_2,['atk_',  'enerRech_', 'eleMas'], ['hydro_dmg_', 'electro_dmg_',  'pyro_dmg_'], ['critDMG_', 'critRate_'] , EM, threshold , 0)   #sans: hp_  atk_  enerRech_  eleMas
+    combine_write_to_csv(artifact_name, rolls_1, level_1, rolls_2, level_2,['hp_', 'eleMas'], ['hydro_dmg_', 'hp_'], ['critDMG_']  , EM, threshold , 0)   #sans: hp_  atk_  enerRech_  eleMas
                                                                 #obsidian:  ['hp_', 'eleMas'], ['hydro_dmg_', 'hp_'], ['critDMG_']         #gob: electro_dmg_  hydro_dmg_,  pyro_dmg_  
                                                                 #EmblemOfSeveredFate:   ['atk_',  'enerRech_', 'eleMas'], ['hydro_dmg_', 'electro_dmg_',  'pyro_dmg_'], ['critDMG_', 'critRate_']  #circlet: critDMG_  critRate_
 

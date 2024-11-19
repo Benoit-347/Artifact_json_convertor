@@ -24,21 +24,21 @@ ObsidianCodex,flower,,,,,,,0,,,,
 ObsidianCodex,plume,5,atk,4,,False,270,2.9,21.3%,5.7 Rolls,8.3 Rolls with 0.0033,"['critRate_', 'critDMG_', 'def_', 'hp_']"
 ObsidianCodex,plume,5,atk,4,,False,269,2.61,12.1%,5.3 Rolls,7.7 Rolls with 0.0033,"['hp_', 'critDMG_', 'eleMas', 'def']"
 ObsidianCodex,plume,5,atk,0,,True,332,2.27,5.3%,4.9 Rolls,7.4 Rolls with 0.0033,"['critRate_', 'hp_', 'eleMas', 'atk_']"
-ObsidianCodex,plume,5,atk,0,,True,343,2.22,0.0%,5.0 Rolls,6.2 Rolls with 0.0033,"['critRate_', 'enerRech_', 'eleMas']"
-ObsidianCodex,plume,5,atk,0,,True,337,2.13,0.0%,4.9 Rolls,6.1 Rolls with 0.0033,"['critRate_', 'atk_', 'eleMas']"
+ObsidianCodex,plume,5,atk,0,,True,343,2.22,0.6%,4.9 Rolls,6.6 Rolls with 0.0033,"['critRate_', 'enerRech_', 'eleMas']"
+ObsidianCodex,plume,5,atk,0,,True,337,2.13,0.2%,4.8 Rolls,6.5 Rolls with 0.0033,"['critRate_', 'atk_', 'eleMas']"
 ObsidianCodex,plume,5,atk,4,,False,272,2.06,5.0%,4.9 Rolls,7.4 Rolls with 0.0033,"['critRate_', 'enerRech_', 'critDMG_', 'hp']"
-ObsidianCodex,plume,5,atk,0,,True,340,2.06,0.0%,3.8 Rolls,6.0 Rolls with 0.0033,"['hp', 'critRate_', 'hp_']"
+ObsidianCodex,plume,5,atk,0,,True,340,2.06,0.0%,3.9 Rolls,6.1 Rolls with 0.0033,"['hp', 'critRate_', 'hp_']"
 ObsidianCodex,plume,5,atk,4,,False,266,2.02,2.7%,4.4 Rolls,7.2 Rolls with 0.0033,"['critDMG_', 'atk_', 'eleMas', 'def']"
 ObsidianCodex,plume,5,atk,4,,False,267,2.0,4.2%,4.8 Rolls,7.4 Rolls with 0.0033,"['critRate_', 'critDMG_', 'hp', 'atk_']"
-ObsidianCodex,plume,5,atk,0,,True,341,1.93,0.0%,4.8 Rolls,5.9 Rolls with 0.0033,"['eleMas', 'def_', 'critDMG_']"
-ObsidianCodex,plume,5,atk,0,,True,335,1.89,0.0%,4.7 Rolls,5.8 Rolls with 0.0033,"['critRate_', 'atk_', 'eleMas']"
-ObsidianCodex,plume,5,atk,0,,True,338,1.89,0.0%,3.3 Rolls,5.5 Rolls with 0.0033,"['eleMas', 'hp_', 'def']"
+ObsidianCodex,plume,5,atk,0,,True,341,1.93,0.0%,4.6 Rolls,6.3 Rolls with 0.0033,"['eleMas', 'def_', 'critDMG_']"
+ObsidianCodex,plume,5,atk,0,,True,335,1.89,0.0%,4.6 Rolls,6.2 Rolls with 0.0033,"['critRate_', 'atk_', 'eleMas']"
+ObsidianCodex,plume,5,atk,0,,True,338,1.89,0.0%,3.4 Rolls,5.6 Rolls with 0.0033,"['eleMas', 'hp_', 'def']"
 ObsidianCodex,plume,5,atk,4,,False,273,1.82,0.1%,3.3 Rolls,6.2 Rolls with 0.0033,"['enerRech_', 'hp_', 'critDMG_', 'atk_']"
 ObsidianCodex,plume,5,atk,0,,True,331,1.82,0.1%,3.3 Rolls,6.2 Rolls with 0.0033,"['atk_', 'enerRech_', 'critDMG_', 'hp_']"
 ObsidianCodex,plume,5,atk,4,,False,271,1.78,1.8%,4.5 Rolls,6.9 Rolls with 0.0033,"['hp', 'critDMG_', 'eleMas', 'def']"
 ObsidianCodex,plume,5,atk,4,,False,268,1.77,0.1%,3.2 Rolls,6.1 Rolls with 0.0033,"['hp_', 'critDMG_', 'def_', 'def']"
 ObsidianCodex,plume,5,atk,0,,True,334,1.69,0.1%,3.1 Rolls,6.0 Rolls with 0.0033,"['hp_', 'critRate_', 'atk_', 'def_']"
-ObsidianCodex,plume,5,atk,0,,True,342,1.66,0.0%,4.5 Rolls,5.6 Rolls with 0.0033,"['enerRech_', 'eleMas', 'critRate_']"
+ObsidianCodex,plume,5,atk,0,,True,342,1.66,0.0%,4.3 Rolls,6.0 Rolls with 0.0033,"['enerRech_', 'eleMas', 'critRate_']"
 ObsidianCodex,plume,5,atk,0,,True,333,1.57,0.0%,3.0 Rolls,5.9 Rolls with 0.0033,"['def', 'critRate_', 'hp_', 'enerRech_']"
 
 ObsidianCodex,plume,,,,,,,0,,,,
@@ -57,7 +57,7 @@ ObsidianCodex,goblet,5,hydro_dmg_,4,Chongyun,True,277,1.72,0.0%,3.4 Rolls,4.7 Ro
 ObsidianCodex,goblet,,,,,,,0,,,,
 
 
-ObsidianCodex,circlet,5,critDMG_,0,,True,363,1.17,0.0%,2.2 Rolls,4.1 Rolls with 0.0167,"['critRate_', 'atk_', 'atk']"
+ObsidianCodex,circlet,5,critDMG_,0,,True,363,1.17,0.0%,2.3 Rolls,4.5 Rolls with 0.0167,"['critRate_', 'atk_', 'atk']"
 
 ObsidianCodex,circlet,,,,,,,0,,,,
 

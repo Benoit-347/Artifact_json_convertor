@@ -7,6 +7,7 @@
     # 1. shows substats in a new coulumn for each row for easier artifact identification and manual apraisel
     # 2. much higher accuracy with lower speed (1 mil iterations per artifact returned, 42 artifacts returned with run time = 10950ms)
 
+#need to add list comprehention for speed
 import csv
 from copy import deepcopy
 #read the json file
@@ -329,7 +330,7 @@ def new_predict(artifact, threshold, threshold_probability):
         substat_list.append(substat)
         b = get_roll_substat_key(substat)
         individual_rolls.append(b)
-    
+    individual_rolls = set(individual_rolls)
     if len(substat_list) ==4:
         #Q) there exists 4 values: a, b, c, d such that a = 1, b = 0.5, c = 0.1, d = 0.
         #If one among them is picked 5 times consequtively with repititions find:
@@ -355,7 +356,7 @@ def new_predict(artifact, threshold, threshold_probability):
         weighted = get_weighted(substat_list)
         for i in weighted:
             chance = get_4_stat_chance(substat_list, i)
-            new_individual_rolls = individual_rolls.copy()
+            new_individual_rolls = list(individual_rolls).copy()
             possible_individual_rolls = []
             new_individual_rolls.append(get_roll_substat_key(i))
             for i in individual_rolls :
@@ -370,7 +371,7 @@ def new_predict(artifact, threshold, threshold_probability):
                                                 possible_individual_rolls.append(n)
 
 
-            unit = 150    # increase this no. to increase accuracy (min 100) at the cost of higher ram and chache use and computation
+            unit = 100    # increase this no. to increase accuracy (min 100) at the cost of higher ram and chache use and computation
             chance = round(chance*unit)
             buffer = possible_individual_rolls*chance
             new_possible_individual_rolls.extend(buffer)

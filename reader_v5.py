@@ -8,9 +8,9 @@
 
 import csv
 from copy import deepcopy
+import json
 #read the json file
 with open ("1_data.json", "r") as file1:
-    import json
     data = json.load(file1)
     list_of_dicts = data["artifacts"]
 
@@ -137,7 +137,7 @@ def change_values(the_list):
         a = get_roll(dict1['substats'])
         dict1['substats'] = a
     else:
-        print(f"\nDone analysis and change of substat values\n")
+        print(f"\nStage 2:  Analysis and change of substat values: SUCCESSFUL\n")
         return the_list
     
 
@@ -168,7 +168,7 @@ def filter_get_artifact(a, slotkey, main_stat,threshold, c=0, d=20):
             it = deepcopy(dict1)
             new_list_of_dicts.append(it)
             print(n:= n+ 1)
-    print(f"Done Filtering artifacts from list of dicts\n")
+    print(f"\nStage 1:  Filtering artifacts from list of dicts: SUCCESSFUL\n")
     if new_list_of_dicts == []:
         return [{'setKey': a, 'slotKey': slotkey, 'rarity': '', 'mainStatKey': '', 'level': '', 'substats': '', 'location': '', 'lock': "", 'id': '', 'probability': '', 'probable_value': '','plausible_ceiling': '', 'substat_list': ''}]
     return new_list_of_dicts
@@ -178,9 +178,9 @@ def change_to_list(a):
     for dict1 in a:
         values = [dict1['setKey'], dict1['slotKey'], dict1['rarity'], dict1['mainStatKey'], dict1['level'], dict1['location'], dict1['lock'], dict1['id'], dict1['substats'], dict1['probability'], dict1['probable_value'], dict1['plausible_ceiling'], dict1['substat_list']]
         result.append(values)
-    print(f"Done conversion of dicts to lists\n")
+    print(f"\nStage:3   Conversion of dicts to lists: SUCCESSFUL\n")
     sorted_result = sorted(result, key=lambda x: x[8], reverse=True)
-    print(f"Sorting of lists successfull\n")
+    print(f"\n*****Phase completed*****\n")
     return sorted_result
 
 
@@ -203,41 +203,42 @@ def combine_write_to_csv(artifact_name, rolls_1, level_1, rolls_2, level_2, sans
         writer = csv.writer(file1)
         writer.writerow(get_keys())
         final = [[]]
-        print(f"\n--*--Starting 1st data import--*--\n\n")
+        print(f"\n\n--*--Starting 1st data import--*--\n\n\n")
         final.extend(change_to_list(change_values(filter_get_artifact(artifact_name, "flower", ['hp'], threshold, rolls_1 + 0.38, level_1))))
         final.append([])
         final.extend(change_to_list(change_values(filter_get_artifact(artifact_name, "flower", ['hp'] ,rolls_2, level_2))))
         final.extend([[],[]])
 
-        print(f"\n--*--Starting 2st data import--*--\n\n")
+        print(f"\n\n--*--Starting 2st data import--*--\n\n\n")
         final.extend(change_to_list(change_values(filter_get_artifact(artifact_name, "plume", ['atk'], threshold, rolls_1 + 0.38, level_1))))
         final.append([])
         final.extend(change_to_list(change_values(filter_get_artifact(artifact_name, "plume", ['atk'], rolls_2, level_2))))
         final.extend([[],[]])
         
-        print(f"\n--*--Starting 3st data import--*--\n\n")
+        print(f"\n\n--*--Starting 3st data import--*--\n\n\n")
         final.extend(change_to_list(change_values(filter_get_artifact(artifact_name, "sands", sans, threshold, rolls_1-0.19, level_1))))
         final.append([])
         final.extend(change_to_list(change_values(filter_get_artifact(artifact_name, "sands", sans, 4, level_2))))
         final.extend([[],[]])
 
-        print(f"\n--*--Starting 4st data import--*--\n\n")
+        print(f"\n\n--*--Starting 4st data import--*--\n\n\n")
         final.extend(change_to_list(change_values(filter_get_artifact(artifact_name, "goblet", goblet, threshold, rolls_1-0.19, level_1))))
         final.append([])
         final.extend(change_to_list(change_values(filter_get_artifact(artifact_name, "goblet", goblet, 4, level_2))))
         final.extend([[],[]])
 
-        print(f"\n--*--Starting 5st data import--*--\n\n")
+        print(f"\n\n--*--Starting 5st data import--*--\n\n\n")
         final.extend(change_to_list(change_values(filter_get_artifact(artifact_name, "circlet", circlet, threshold, rolls_1-0.19, level_1))))
         final.append([])
         final.extend(change_to_list(change_values(filter_get_artifact(artifact_name, "circlet", circlet, 4, level_2))))
         final.extend([[],[]])
 
-        print(f"\n--*--Starting write operation--*--\n")
+        print(f"\n\n--*--Starting write operation--*--\n\n")
         writer.writerows(final) 
-        print(f"\n-----*-----Program execution Successful-----*-----\n")
+        print(f"\n-----*-----Program execution Successful-----*-----\n\n")
     import os
     os.startfile(file_name)
+    print("Note: Opening resultant file (can diable)\n")
 
 
 def get_roll_substat_key(a):

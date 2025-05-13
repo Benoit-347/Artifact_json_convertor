@@ -1,0 +1,10 @@
+setKey,slotKey,rarity,mainStatKey,level,location,lock,id
+
+ObsidianCodex,flower,5,hp,20,Chongyun,True,1,6.398208078454958
+ObsidianCodex,flower,5,hp,20,,True,0,6.2839768495172
+
+ObsidianCodex,plume,5,atk,20,Chongyun,True,3,7.138872620147865
+
+
+
+ObsidianCodex,circlet,5,critDMG_,20,Chongyun,True,5,6.196297369426652
